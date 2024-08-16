@@ -1,0 +1,3 @@
+'/static/home-background-two-min.webp',
+    '/static/home-background-three.png',
+    '/static/home-background-four.png'
