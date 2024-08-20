@@ -1,6 +1,6 @@
 <template>
-    <div v-if="!videosLoaded" class="h-[100dvh] w-full relative" @click="handleClick">
-        <video preload="" src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop
+    <div class="h-[100dvh] w-full relative" @click="handleClick">
+        <video preload="metadata" src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop
             class="h-full w-full object-cover" playsinline></video>
 
 
@@ -8,7 +8,7 @@
         <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlay">
             <div class="h-full w-full relative">
-                <video preload="" src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -16,7 +16,7 @@
         <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
             ref="overlayTwo">
             <div class="h-full w-full relative">
-                <video preload="" src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayThree">
             <div class="h-full w-full relative">
-                <video preload src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -43,10 +43,6 @@
         </div>
         <div class="h-full w-full absolute top-0 grainy left-0"></div>
     </div>
-
-    <div v-else class="h-screen w-full grid place-content-center">
-        <p>LOADING...</p>
-    </div>
 </template>
 
 
@@ -56,13 +52,6 @@ const overlayTwo = ref(null)
 const overlayThree = ref(null)
 const overlayState = ref(0)
 const moveAnimationEnabled = ref(true)
-const videosLoaded = ref(false)
-
-const preloadAllVideos = async () => {
-    const videoElements = document.querySelectorAll('video')
-    await Promise.all([...videoElements].map(video => preloadVideo(video)))
-    videosLoaded.value = true
-}
 
 const handleMouseEnter = (e) => {
     moveAnimationEnabled.value = false;
@@ -120,8 +109,6 @@ const handleTouchMove = (e) => {
 }
 
 onMounted(() => {
-
-    preloadAllVideos()
     window.addEventListener('touchmove', handleTouchMove)
     window.addEventListener('mousemove', handleMouseMove)
 })
