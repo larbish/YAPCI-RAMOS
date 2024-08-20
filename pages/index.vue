@@ -41,7 +41,7 @@
             </div>
 
         </div>
-
+        <div class="h-full w-full absolute top-0 grainy left-0"></div>
     </div>
 </template>
 
@@ -145,16 +145,26 @@ const handleClick = async (e) => {
 <style scoped>
 .overlay {
     clip-path: circle(100px at 50% 50%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
 
 }
 
 .overlayTwo {
     clip-path: circle(0%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
 
 }
 
 .overlayThree {
     clip-path: circle(0%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
 
+}
+
+.grainy {
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(200%) brightness(250%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
 }
 </style>
