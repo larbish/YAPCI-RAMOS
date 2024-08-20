@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="w-full mt-[240%] lg:col-span-3 lg:pl-32 lg:pt-24 xl:pt-24 2xl:pt-44">
+            <div class="w-full mt-[240%] lg:mt-0 lg:col-span-3 lg:pl-32 lg:pt-24 xl:pt-24 2xl:pt-44">
                 <h2 class="font-medium">TEXTS</h2>
 
                 <ul class="font-medium mt-1">

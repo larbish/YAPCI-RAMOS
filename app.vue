@@ -10,7 +10,7 @@
 import Lenis from '@studio-freight/lenis'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-const infoState = useState('infoState', () => true)
+const infoState = useState('infoState', () => false)
 
 if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
 
