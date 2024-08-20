@@ -1,31 +1,31 @@
 <template>
     <div class="h-[100dvh] w-full relative" @click="handleClick">
-        <!--  <video src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop class="h-full w-full object-cover"
-            playsinline></video> -->
+         <video preload="" src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop class="h-full w-full object-cover"
+            playsinline></video>
 
 
-        <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt="">
-        <div v-show="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <!-- <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt=""> -->
+        <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlay">
             <div class="h-full w-full relative">
-                <video src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
+                <video preload="" src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
 
-        <div v-show="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
+        <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
             ref="overlayTwo">
             <div class="h-full w-full relative">
-                <video src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
+                <video preload="" src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
 
 
-        <div v-show="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayThree">
             <div class="h-full w-full relative">
-                <video src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
+                <video preload src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -145,19 +145,19 @@ const handleClick = async (e) => {
 <style scoped>
 .overlay {
     clip-path: circle(100px at 50% 50%);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
+   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
 .overlayTwo {
     clip-path: circle(0%);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
+   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
 .overlayThree {
     clip-path: circle(0%);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
+   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
