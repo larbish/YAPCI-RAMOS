@@ -1,7 +1,7 @@
 <template>
-    <div class="h-[100dvh] w-full relative" @click="handleClick">
-         <video preload="" src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop class="h-full w-full object-cover"
-            playsinline></video>
+    <div v-if="!videosLoaded" class="h-[100dvh] w-full relative" @click="handleClick">
+        <video preload="" src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop
+            class="h-full w-full object-cover" playsinline></video>
 
 
         <!-- <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt=""> -->
@@ -43,6 +43,10 @@
         </div>
         <div class="h-full w-full absolute top-0 grainy left-0"></div>
     </div>
+
+    <div v-else class="h-screen w-full grid place-content-center">
+        <p>LOADING...</p>
+    </div>
 </template>
 
 
@@ -52,7 +56,13 @@ const overlayTwo = ref(null)
 const overlayThree = ref(null)
 const overlayState = ref(0)
 const moveAnimationEnabled = ref(true)
+const videosLoaded = ref(false)
 
+const preloadAllVideos = async () => {
+    const videoElements = document.querySelectorAll('video')
+    await Promise.all([...videoElements].map(video => preloadVideo(video)))
+    videosLoaded.value = true
+}
 
 const handleMouseEnter = (e) => {
     moveAnimationEnabled.value = false;
@@ -111,6 +121,7 @@ const handleTouchMove = (e) => {
 
 onMounted(() => {
 
+    preloadAllVideos()
     window.addEventListener('touchmove', handleTouchMove)
     window.addEventListener('mousemove', handleMouseMove)
 })
@@ -145,19 +156,19 @@ const handleClick = async (e) => {
 <style scoped>
 .overlay {
     clip-path: circle(100px at 50% 50%);
-   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
+    /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
 .overlayTwo {
     clip-path: circle(0%);
-   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
+    /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
 .overlayThree {
     clip-path: circle(0%);
-   /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
+    /*  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='6.29' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E"); */
 
 }
 
