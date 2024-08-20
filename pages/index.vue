@@ -5,7 +5,7 @@
 
 
         <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt="">
-        <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlay">
             <div class="h-full w-full relative">
                 <video src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
+        <div v-show="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
             ref="overlayTwo">
             <div class="h-full w-full relative">
                 <video src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
@@ -22,7 +22,7 @@
         </div>
 
 
-        <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayThree">
             <div class="h-full w-full relative">
                 <video src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
