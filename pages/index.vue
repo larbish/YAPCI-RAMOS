@@ -1,178 +1,160 @@
 <template>
-    <div class="h-screen w-full relative cursor-none" @click="handleClick">
-        <img v-if="initalImageVisibility" src="~/assets/static/home-background-min.webp"
-            class="h-full w-full object-cover" alt="">
-        <div class="w-full h-fit absolute bottom-10 text-center">
-            <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
-                PARTO DE MÍ. 2022. AUDIOVISUAL
-            </h3>
-        </div>
-        <div class="absolute top-0 w-full h-full bg-black/50 overlay" ref="overlay">
+    <div class="h-[100dvh] w-full relative" @click="handleClick">
+        <!--  <video src="@/assets/videos/01-Yapci-parto-de-mi.mp4" muted autoplay loop class="h-full w-full object-cover"
+            playsinline></video> -->
+
+
+        <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt="">
+        <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
+            ref="overlay">
             <div class="h-full w-full relative">
-                <img v-if="secondImageVisibility" src="~/assets/static/home-background-two-min.webp"
-                    class="h-full w-full object-cover" alt="">
-
-                <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
-                        MONUMENTA. 2022. INSTALLATION
-                    </h3>
-                </div>
-
-
+                <video src="@/assets/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
+                    class="h-full w-full object-cover"></video>
             </div>
         </div>
 
-        <div class="absolute top-0 w-full h-full bg-black/50 overlay-two" ref="overlay2">
+        <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
+            ref="overlayTwo">
             <div class="h-full w-full relative">
-                <img v-if="thirdImageVisibility" src="~/assets/static/home-background-three.png"
-                    class="h-full w-full object-cover" alt="">
-
-                <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
-                        MONUMENTA. 2022. INSTALLATION
-                    </h3>
-                </div>
-
-
+                <video src="@/assets/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
+                    class="h-full w-full object-cover"></video>
             </div>
         </div>
 
-        <div class="absolute top-0 w-full h-full bg-black/50 overlay-three" ref="overlay3">
-            <div class="h-full w-full relative">
-                <img v-if="fourthImageVisibility" src="~/assets/static/home-background-four.png"
-                    class="h-full w-full object-cover" alt="">
-                <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
-                        MONUMENTA. 2022. INSTALLATION
-                    </h3>
-                </div>
 
+        <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
+            ref="overlayThree">
+            <div class="h-full w-full relative">
+                <video src="@/assets/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
+                    class="h-full w-full object-cover"></video>
             </div>
         </div>
 
+        <div class="w-full h-fit absolute bottom-10 z-40 text-center mix-blend-difference"
+            @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+            <div class="w-fit h-fit mx-auto block" id="disable-hover">
+                <button @click="handleOpenProject"
+                    class="text-sm mix-blend-color-burn font-medium p-5 text-white brightness-75">
+                    <span></span>
+                    PARTO DE MÍ. 2022. AUDIOVISUAL
+                </button>
+            </div>
+
+        </div>
 
     </div>
 </template>
 
 
 <script setup>
-import gsap from 'gsap';
 const overlay = ref(null)
-const overlay2 = ref(null)
-const overlay3 = ref(null)
+const overlayTwo = ref(null)
+const overlayThree = ref(null)
+const overlayState = ref(0)
+const moveAnimationEnabled = ref(true)
 
-const initalImageVisibility = ref(true);
-const secondImageVisibility = ref(true);
-const thirdImageVisibility = ref(true);
-const fourthImageVisibility = ref(true);
-const animateState = ref(0)
 
-let countFlip = false
+const handleMouseEnter = (e) => {
+    moveAnimationEnabled.value = false;
+}
+
+const handleMouseLeave = () => {
+    moveAnimationEnabled.value = true
+    console.log('enable')
+}
+
+
+const handleMouseMove = (e) => {
+    const { clientX, clientY } = e
+    const x = Math.round(clientX / window.innerWidth * 100)
+    const y = Math.round(clientY / window.innerHeight * 100)
+    console.log(`move animation enabled: ${moveAnimationEnabled.value}`)
+    if (!moveAnimationEnabled.value) {
+        if (overlayState.value == 0) {
+            useUpdateClipPath(x, y, overlay, 'disable')
+        }
+        if (overlayState.value == 1) {
+            useUpdateClipPath(x, y, overlayTwo, 'disable')
+        }
+        if (overlayState.value == 2) {
+            useUpdateClipPath(x, y, overlayThree, 'disable')
+        }
+        return null;
+    }
+
+    if (overlayState.value == 0) {
+        useUpdateClipPath(x, y, overlay, 'move')
+    }
+    if (overlayState.value == 1) {
+        useUpdateClipPath(x, y, overlayTwo, 'move')
+    }
+    if (overlayState.value == 2) {
+        useUpdateClipPath(x, y, overlayThree, 'move')
+    }
+}
+
+const handleTouchMove = (e) => {
+    const touch = e.touches[0]
+    const x = Math.round(touch.clientX / window.innerWidth * 100)
+    const y = Math.round(touch.clientY / window.innerHeight * 100)
+
+    if (overlayState.value == 0) {
+        useUpdateClipPath(x, y, overlay, 'move')
+    }
+    if (overlayState.value == 1) {
+        useUpdateClipPath(x, y, overlayTwo, 'move')
+    }
+    if (overlayState.value == 2) {
+        useUpdateClipPath(x, y, overlayThree, 'move')
+    }
+}
+
 onMounted(() => {
-    animateState.value = 0
-    window.addEventListener('mousemove', (e) => {
-        const { clientX, clientY } = e
-        const x = Math.round(clientX / window.innerWidth * 100)
-        const y = Math.round(clientY / window.innerHeight * 100)
 
-        if (animateState.value == 0) {
-            console.log(x, y, animateState.value)
-            gsap.to(overlay.value, {
-                duration: 0.3,
-                css: {
-                    clipPath: `circle(100px at ${x}% ${y}%)`
-                },
-                ease: "sine.out"
-            })
-        }
-
-        if (animateState.value == 1) {
-            console.log(x, y, animateState.value)
-            gsap.to(overlay2.value, {
-                duration: 0.3,
-                css: {
-                    clipPath: `circle(100px at ${x}% ${y}%)`
-                },
-                ease: "sine.out"
-            })
-        }
-
-        if (animateState.value == 2) {
-            console.log(x, y, animateState.value)
-            gsap.to(overlay3.value, {
-                duration: 0.3,
-                css: {
-                    clipPath: `circle(100px at ${x}% ${y}%)`
-                },
-                ease: "sine.out"
-            })
-        }
-
-
-    })
+    window.addEventListener('touchmove', handleTouchMove)
+    window.addEventListener('mousemove', handleMouseMove)
 })
 
 
-const handleClick = async () => {
-    console.log('clicked')
-    if (animateState.value == 0) {
-        animateState.value = 1
-        await gsap.to(overlay.value, {
-            duration: 1,
-            css: {
-                clipPath: `circle(100% at 50% 50%)`
-            },
-            ease: "sine.out"
-        })
+const handleClick = async (e) => {
 
-        initalImageVisibility.value = !initalImageVisibility.value
+    if (!moveAnimationEnabled.value) return null
+
+    const { clientX, clientY } = e
+    const x = Math.round(clientX / window.innerWidth * 100)
+    const y = Math.round(clientY / window.innerHeight * 100)
+
+
+    overlayState.value = overlayState.value + 1
+
+    if (overlayState.value >= 4) {
+        overlayState.value = 0
     }
 
-    else if (animateState.value == 1) {
-        animateState.value = 2
-        await gsap.to(overlay2.value, {
-            duration: 1,
-            css: {
-                clipPath: `circle(100% at 50% 50%)`
-            },
-            ease: "sine.out"
-        })
+    if (overlayState.value == 1) useUpdateClipPath(x, y, overlay, 'click')
 
-        secondImageVisibility.value = !secondImageVisibility.value
-    }
+    if (overlayState.value == 2) useUpdateClipPath(x, y, overlayTwo, 'click')
 
-    else if (animateState.value == 2) {
-        animateState.value = 0
-        await gsap.to(overlay3.value, {
-            duration: 1,
-            css: {
-                clipPath: `circle(100% at 50% 50%)`
-            },
-            ease: "sine.out"
-        })
-
-        thirdImageVisibility.value = !thirdImageVisibility.value
-    }
-
+    if (overlayState.value == 3) useUpdateClipPath(x, y, overlayThree, 'click')
 }
+
 
 </script>
 
 
 <style scoped>
 .overlay {
-    transition: clip-path 100ms;
+    clip-path: circle(100px at 50% 50%);
+
 }
 
-.overlay-two {
-    transition: clip-path 100ms;
-    cursor: none;
+.overlayTwo {
     clip-path: circle(0%);
+
 }
 
-.overlay-three {
-    transition: clip-path 100ms;
-    cursor: none;
+.overlayThree {
     clip-path: circle(0%);
+
 }
 </style>
