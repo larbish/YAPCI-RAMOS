@@ -8,7 +8,7 @@
         <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlay">
             <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/02-Yapci-monumenta.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="/videos/02-Yapci-monumenta-compressed.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -16,7 +16,7 @@
         <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlayTwo"
             ref="overlayTwo">
             <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/03-Yapci-Lloro.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="/videos/03-Yapci-Lloro-compressed.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayThree">
             <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/04-Yapci-Red-Hot.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="/videos/04-Yapci-Red-Hot-compressed.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
