@@ -38,11 +38,10 @@
             </div>
         </div>
 
-        <div class="w-full h-fit absolute bottom-0 z-40 text-center mix-blend-difference" @mouseenter="handleMouseEnter"
+        <div class="w-full h-fit absolute bottom-0 z-20 text-center mix-blend-difference" @mouseenter="handleMouseEnter"
             @mouseleave="handleMouseLeave">
-            <div class="w-fit h-fit mx-auto block" id="disable-hover">
-                <button @click="handleOpenProject"
-                    class=" mix-blend-color-burn font-medium p-3 text-white brightness-75">
+            <div class="w-fit h-fit mx-auto block font-medium" id="disable-hover">
+                <button @click="handleOpenProject" class=" mix-blend-color-burn  p-3 text-white brightness-75">
                     <span></span>
                     PARTO DE MÍ. 2022. AUDIOVISUAL
                 </button>
@@ -151,6 +150,7 @@ const handleClick = async (e) => {
 .overlay {
     clip-path: circle(0px);
 }
+
 @media screen and (min-width: 768px) {
     .overlay {
         clip-path: circle(80px);
