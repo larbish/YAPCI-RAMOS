@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-xs 2xl:text-sm text-white">
     <NuxtPage></NuxtPage>
     <Header></Header>
     <AppInfo v-if="infoState"></AppInfo>
@@ -11,6 +11,7 @@ import Lenis from '@studio-freight/lenis'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 const infoState = useState('infoState', () => false)
+const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
 if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
 

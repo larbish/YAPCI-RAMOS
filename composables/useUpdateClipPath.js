@@ -12,11 +12,10 @@ export const useUpdateClipPath = (x, y, overlayElement, updateType) => {
     if (updateType == 'move') {
         applyWillChange(overlayElement.value)
         gsap.to(overlayElement.value, {
-            duration: 0.4,
+            duration: 0,
             css: {
-                clipPath: `circle(100px at ${x}% ${y}%)`
+                clipPath: `circle(80px at ${x}% ${y}%)`
             },
-            ease: "sine.out"
         })
 
         removeWillChange(overlayElement.value)
@@ -33,7 +32,7 @@ export const useUpdateClipPath = (x, y, overlayElement, updateType) => {
 
     if (updateType == 'disable') {
         gsap.to(overlayElement.value, {
-            duration: 0.1,
+            duration: 0.01,
             css: {
                 clipPath: `circle(0% at ${x}% ${y}%)`
             },

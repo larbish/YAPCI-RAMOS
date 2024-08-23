@@ -1,8 +1,8 @@
 <template>
     <div class="w-full h-full lg:min-h-screen bg-white bg-opacity-40 backdrop-blur-lg z-50 overflow-y-auto fixed top-0">
-        <div class="w-full h-full relative  lg:text-sm 2xl:text-base lg:grid grid-cols-8 px-8">
+        <div class="w-full h-full relative lg:grid grid-cols-8 px-8">
             <div class="h-full w-full col-span-5  flex flex-col lg:py-2 xl:py-6 2xl:py-20 ">
-                <img src="@/assets/logo.svg" class="invert lg:h-52 2xl:h-60" alt="">
+                <img src="@/assets/logo-black.svg" class="invert lg:h-52 2xl:h-60" alt="">
 
                 <div class="w-full flex flex-col gap-y-10">
                     <h3 class=" font-light uppercase">Yapci Ramos is a visual artist, video artist, and
@@ -142,7 +142,7 @@
                 <p>CODE: TEJA</p>
             </div>
         </div>
-        <Button @click="infoState = false" class="fixed top-5 right-5 text-xs font-medium">CLOSE</Button>
+        <Button @click="infoState = false" class="fixed top-5 right-5 font-medium">CLOSE</Button>
     </div>
 </template>
 

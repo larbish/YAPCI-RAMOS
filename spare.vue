@@ -3,7 +3,7 @@
         <img v-if="initalImageVisibility" src="~/assets/static/home-background-min.webp"
             class="h-full w-full object-cover" alt="">
         <div class="w-full h-fit absolute bottom-10 text-center">
-            <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
+            <h3 class="bg-blend-hard-light font-medium text-white brightness-75">
                 PARTO DE MÍ. 2022. AUDIOVISUAL
             </h3>
         </div>
@@ -13,7 +13,7 @@
                     class="h-full w-full object-cover" alt="">
 
                 <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
+                    <h3 class=" bg-blend-hard-light font-medium text-white brightness-75">
                         MONUMENTA. 2022. INSTALLATION
                     </h3>
                 </div>
@@ -28,7 +28,7 @@
                     class="h-full w-full object-cover" alt="">
 
                 <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
+                    <h3 class=" bg-blend-hard-light font-medium text-white brightness-75">
                         MONUMENTA. 2022. INSTALLATION
                     </h3>
                 </div>
@@ -42,7 +42,7 @@
                 <img v-if="fourthImageVisibility" src="~/assets/static/home-background-four.png"
                     class="h-full w-full object-cover" alt="">
                 <div class="w-full h-fit absolute bottom-10 text-center">
-                    <h3 class="text-sm bg-blend-hard-light font-medium text-white brightness-75">
+                    <h3 class=" bg-blend-hard-light font-medium text-white brightness-75">
                         MONUMENTA. 2022. INSTALLATION
                     </h3>
                 </div>
