@@ -1,19 +1,19 @@
 <template>
     <div class="h-[100dvh] w-full relative" @click="handleClick">
-        <video preload="metadata" src="/videos/IDontMind_30s.mp4" muted autoplay loop class="h-full w-full object-cover"
+        <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop class="h-full w-full object-cover"
             playsinline></video>
 
 
         <!-- <img src="~/assets/static/home-background-min.webp" class="h-full w-full object-cover" alt=""> -->
-        <div v-if="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 0 || overlayState == 1" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlay">
             <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="/videos/IDontMind_30s.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
 
-        <div v-if="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 1 || overlayState == 2" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayTwo">
             <div class="h-full w-full relative">
                 <video preload="metadata" src="/videos/Lloro_30s.mp4" muted autoplay loop playsinline
@@ -22,7 +22,7 @@
         </div>
 
 
-        <div v-if="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 2 || overlayState == 3" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayThree">
             <div class="h-full w-full relative">
                 <video preload="metadata" src="/videos/RedHot_30s.mp4" muted autoplay loop playsinline
@@ -30,10 +30,10 @@
             </div>
         </div>
 
-        <div v-if="overlayState == 3 || overlayState == 4" class="absolute top-0 w-full h-full bg-black/50 overlay"
+        <div v-show="overlayState == 3 || overlayState == 4" class="absolute top-0 w-full h-full bg-black/50 overlay"
             ref="overlayFour">
             <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/IDontMind_30s.mp4" muted autoplay loop playsinline
+                <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop playsinline
                     class="h-full w-full object-cover"></video>
             </div>
         </div>
