@@ -22,12 +22,18 @@ export const useUpdateClipPath = (x, y, overlayElement, updateType) => {
     }
 
     if (updateType == 'click') {
-        gsap.to(overlayElement.value, {
-            duration: 1,
-            css: {
-                clipPath: `circle(200% at ${x}% ${y}%)`
+        gsap.fromTo(overlayElement.value,
+            {
+                css: {
+                    clipPath: `circle(0% at ${x}% ${y}%)`
+                },
             },
-        })
+            {
+                duration: 1,
+                css: {
+                    clipPath: `circle(200% at ${x}% ${y}%)`
+                },
+            })
     }
 
     if (updateType == 'disable') {
