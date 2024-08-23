@@ -3,8 +3,8 @@
         class="w-full fixed top-0 min-h-screen backdrop-blur-2xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45">
         <div class="relative w-full lg:grid lg:grid-cols-8 ">
             <div class="lg:col-span-5 pr-[5vw]">
-                <section class="w-full flex items-center py-16  justify-center">
-                    <img src="@/assets/logo-black.svg" class="h-24 2xl:h-32" alt="">
+                <section class="w-full flex items-center pt-10 py-12 lg:py-16  justify-center">
+                    <img src="@/assets/logo-black.svg" class="h-28 2xl:h-32" alt="">
                 </section>
 
                 <section class="uppercase tracking-widest font-normal leading-normal">Yapci Ramos is a visual artist,
@@ -14,10 +14,10 @@
                     Barcelona, and New York. She trained in photography at Central Saint Martins College of Arts &
                     Design in London and in creative documentary at Universitat Pompeu Fabra in Barcelona.</section>
 
-                <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 mt-10">
+                <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 font-normal mt-10">
                     <article class="lg:col-span-3">
                         <h2 class="font-medium">ABOUT</h2>
-                        <p class="tracking-wider">
+                        <p class="tracking-wider mt-1 lg:mt-0">
                             She explores identity, sexuality, and territory by creating multimedia installation works.
                             Her work is emotional, physical, and introspective, frequently using her own body to channel
                             the taboos, rituals, and catharsis that constructs the experience of being. Ramos’s projects
@@ -26,9 +26,9 @@
                         </p>
                     </article>
 
-                    <article class="lg:col-span-6">
+                    <article class="lg:col-span-6 mt-6 lg:mt-0">
                         <h2 class="font-medium">SELECTED EXHIBITIONS</h2>
-                        <p class="tracking-wider">
+                        <p class="tracking-wider mt-1 lg:mt-0">
                             It is remarkable her admission at The Watermill Center, Nueva York; The Fountainhead
                             Residency, Miami; Art Omi, Nueva York; as well as the selection as resident artist in
                             Residency Unlimited 2024, New York. Ramos’s work has been exhibited in international
@@ -67,7 +67,7 @@
 
 
             <div
-                class="lg:col-span-3 uppercase h-full  flex flex-col tracking-wider justify-between w-full pt-24 lg:pt-32">
+                class="lg:col-span-3 uppercase h-full  flex flex-col tracking-wider justify-between w-full pt-10 lg:pt-32">
                 <div>
                     <h2 class="font-medium">UPCOMING</h2>
                     <div class="flex flex-col gap-y-6">
@@ -75,6 +75,26 @@
                             <h3 class="font-medium">The triad</h3>
                             <p>Instituto Cervantes, New York</p>
                             <p>3.10 – 01.12.2024</p>
+                        </section>
+                        <section>
+                            <h3 class="font-medium">The prephotographic</h3>
+                            <p>Aura Gallery, Düsseldorf</p>
+                            <p>16.05 – 02.06.2024</p>
+                        </section>
+
+                        <section>
+                            <h3 class="font-medium">El otro Lado</h3>
+                            <p>Arts Santa Mònica, Barcelona</p>
+                            <p>29.02 – 2.06.2024</p>
+                        </section>
+                    </div>
+
+                    <div class="mt-10">
+                        <section>
+                            <h3 class="font-medium">Credits</h3>
+                            <p>WEB DESIGN: VERO SANTANA</p>
+                            <p>DEVELOPERS: THE ROSE STUDIO</p>
+                            <p>CODE: TEJA</p>
                         </section>
                     </div>
 

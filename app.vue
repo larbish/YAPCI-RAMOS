@@ -45,7 +45,7 @@ if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
 html,
 body {
   width: 100%;
-  font-family: "Lay Grotesk - Trial", sans-serif;
+  font-family: "HelveticaNowText", sans-serif;
 }
 
 /* html.lenis,
