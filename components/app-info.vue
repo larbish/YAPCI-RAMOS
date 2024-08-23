@@ -89,9 +89,21 @@
                         </section>
                     </div>
 
-                    <div class="mt-10">
+                    <div class="flex flex-col gap-y-3 mt-8 lg:hidden uppercase font-medium">
+                        <a href="http://www.instagram.com/yapciramos" target="_blank"
+                            rel="noopener noreferrer">Instagram</a>
+                        <a href="http://www.instagram.com/yapciramos" target="_blank"
+                            rel="noopener noreferrer">Facebook</a>
+                        <a href="http://www.instagram.com/yapciramos" target="_blank"
+                            rel="noopener noreferrer">Youtube</a>
+                        <a href="http://www.instagram.com/yapciramos" target="_blank"
+                            rel="noopener noreferrer">LINKEDIN</a>
+
+                    </div>
+
+                    <div class="mt-8">
                         <section>
-                            <h3 class="font-medium">Credits</h3>
+                            <h3 class="font-medium mb-1">Credits</h3>
                             <p>WEB DESIGN: VERO SANTANA</p>
                             <p>DEVELOPERS: THE ROSE STUDIO</p>
                             <p>CODE: TEJA</p>
