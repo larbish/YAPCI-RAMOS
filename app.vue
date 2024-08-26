@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-/* import Lenis from '@studio-freight/lenis' */
+import Lenis from '@studio-freight/lenis'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 const infoState = useState('infoState', () => false)
@@ -15,7 +15,7 @@ const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
 if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
 
-/* onMounted(() => {
+onMounted(() => {
   const lenis = new Lenis()
 
   lenis.on('scroll', (e) => {
@@ -29,7 +29,7 @@ if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
   })
 
   gsap.ticker.lagSmoothing(0)
-}) */
+})
 
 
 
@@ -48,7 +48,7 @@ body {
   font-family: "HelveticaNowText", sans-serif;
 }
 
-/* html.lenis,
+html.lenis,
 html.lenis body {
   height: auto;
 }
@@ -67,5 +67,5 @@ html.lenis body {
 
 .lenis.lenis-smooth iframe {
   pointer-events: none;
-} */
+}
 </style>

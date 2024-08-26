@@ -8,7 +8,7 @@
                         <img src="@/assets/logo-black.svg" class="h-28 2xl:h-32" alt="">
                     </section>
 
-                    <section class="uppercase tracking-widest font-normal leading-normal">Yapci Ramos is a visual
+                    <section class="uppercase tracking-widest font-normal">Yapci Ramos is a visual
                         artist,
                         video
                         artist, and
@@ -76,7 +76,7 @@
 
 
                 <div
-                    class="lg:col-span-3 uppercase h-full  flex flex-col tracking-wider justify-end w-full pt-10 lg:pt-32">
+                    class="lg:col-span-3 uppercase h-full  flex flex-col tracking-wider justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw]">
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6">

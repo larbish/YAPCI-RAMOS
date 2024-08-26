@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[100dvh] w-full relative" @click="handleClick">
+    <div class="h-[100dvh] w-full relative cursor-none" @click="handleClick">
         <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop class="h-full w-full object-cover"
             playsinline></video>
 
