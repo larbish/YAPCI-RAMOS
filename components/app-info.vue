@@ -5,10 +5,10 @@
             <div class="relative w-full lg:grid lg:grid-cols-8 ">
                 <div class="lg:col-span-5 pr-[5vw]">
                     <section class="w-full flex items-center pt-10 py-12 lg:py-16  justify-center">
-                        <img src="@/assets/logo-black.svg" class="h-28 2xl:h-32" alt="">
+                        <img src="@/assets/logo-black.svg" class="h-28 lg:h-24 2xl:h-28" alt="">
                     </section>
 
-                    <section class="uppercase tracking-widest font-normal">Yapci Ramos is a visual
+                    <section class="uppercase tracking-wide font-normal">Yapci Ramos is a visual
                         artist,
                         video
                         artist, and
@@ -19,7 +19,7 @@
                     <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 font-normal mt-10">
                         <article class="lg:col-span-3">
                             <h2 class="font-medium">ABOUT</h2>
-                            <p class="tracking-wider mt-1 lg:mt-0">
+                            <p class=" mt-1 lg:mt-0">
                                 She explores identity, sexuality, and territory by creating multimedia installation
                                 works.
                                 Her work is emotional, physical, and introspective, frequently using her own body to
@@ -34,7 +34,7 @@
 
                         <article class="lg:col-span-6 mt-6 lg:mt-0">
                             <h2 class="font-medium">SELECTED EXHIBITIONS</h2>
-                            <p class="tracking-wider mt-1 lg:mt-0">
+                            <p class=" mt-1 lg:mt-0">
                                 It is remarkable her admission at The Watermill Center, Nueva York; The Fountainhead
                                 Residency, Miami; Art Omi, Nueva York; as well as the selection as resident artist in
                                 Residency Unlimited 2024, New York. Ramos’s work has been exhibited in international
@@ -124,8 +124,12 @@
                                 <h3 class="font-medium mb-1">NEWSLETTER</h3>
                                 <form @submit.prevent="handleSubmit"
                                     class="relative flex items-center w-full border-b border-black">
-                                    <input type="email" placeholder="EMAIL" v-model="email" class="bg-transparent placeholder:text-[#A8A8A8] pb-0.5 w-full outline-none">
-                                    <button v-show="email && !Submitted" class="uppercase">Confirm</button>
+                                    <input type="email" placeholder="EMAIL" v-model="email"
+                                        class="bg-transparent placeholder:text-[#A8A8A8] pb-0.5 w-full outline-none">
+                                    <FadeInComponent v-if="email && !Submitted">
+                                        <button
+                                            class="uppercase hover:opacity-50 transition-opacity duration-700">Confirm</button>
+                                    </FadeInComponent>
                                 </form>
                                 <p v-if="Submitted" class="uppercase tracking-widest">You have been successfully
                                     subscribed</p>
@@ -156,7 +160,8 @@
 
     </div>
 
-    <button @click="handleClose" class="fixed top-2 right-2 font-medium z-30 text-black">
+    <button @click="handleClose"
+        class="fixed top-2 right-2 font-medium z-30 hover:opacity-50 transition-opacity duration-700 text-black">
         CLOSE
     </button>
 </template>
