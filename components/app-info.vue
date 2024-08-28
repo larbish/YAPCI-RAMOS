@@ -58,7 +58,7 @@
 
                     <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 mt-10">
                         <div class="lg:col-span-3">
-                            <a href="mailto:info@yapciramos.com" class="font-medium uppercase">info@yapciramos.com</a>
+                            <a href="mailto:info@yapciramos.com" class="font-medium uppercase flex">info<span class="-mt-[1px] inline-block">@</span>yapciramos.com</a>
                         </div>
                         <div class="lg:col-span-6 hidden lg:flex items-center gap-x-10 uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
