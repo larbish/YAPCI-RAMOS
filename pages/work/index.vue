@@ -1,67 +1,67 @@
 <template>
-    <div class="text-black w-full pt-44 min-h-screen relative">
-        <div class="px-40 flex uppercase tracking-wide items-center gap-x-3 relative">
+    <div class="text-black px-2 w-full pt-44 min-h-screen relative">
+        <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 relative">
             <NuxtLink to="/work" class="border-b border-black ">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
 
-        <div class="w-full font-medium flex px-40 mt-14">
-            <h2 class=" w-64 flex items-center">YEAR <img src="@/assets/icons/chevron-down.svg" alt="chevron down"></h2>
-            <h2 class=" w-[30vw] flex items-center">PROJECT<img src="@/assets/icons/chevron-down.svg"
+        <div class="w-full font-medium flex lg:px-40 mt-14">
+            <h2 class=" w-14 min-w-14 lg:w-64 flex items-center">YEAR <img src="@/assets/icons/chevron-down.svg" alt="chevron down"></h2>
+            <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
             <h2 class=" w-[full] flex items-center">CATEGORY<img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
         </div>
-        <div class="px-40 flex font-normal w-full flex-col mt-4 z-10 mix-blend-hard-light">
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 mix-blend-hard-light">
             <div @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2024</h2>
-                <h2 class="w-[30vw]">MONUMENTA. NUEVE ENCARNACIONES GUANCHES</h2>
+                <h2 class="w-14 lg:w-64">2024</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
             <div @mouseenter="projectTwoHover = true" @mouseleave="projectTwoHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2023</h2>
-                <h2 class="w-[30vw]">FREEDOM</h2>
+                <h2 class="w-14 lg:w-64">2023</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
                 <h2 class="w-[full]">AUDIOVISUAL</h2>
             </div>
 
             <div @mouseenter="projectThreeHover = true" @mouseleave="projectThreeHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2022</h2>
-                <h2 class="w-[30vw]">PARTO</h2>
+                <h2 class="w-14 lg:w-64">2022</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
 
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2022</h2>
-                <h2 class="w-[30vw]">MONUMENTA</h2>
+                <h2 class="w-14 lg:w-64">2022</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA</h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
 
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2022</h2>
-                <h2 class="w-[30vw]">FREEDOM</h2>
+                <h2 class="w-14 lg:w-64">2022</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
                 <h2 class="w-[full]">AUDIOVISUAL</h2>
             </div>
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2022</h2>
-                <h2 class="w-[30vw]">PARTO</h2>
+                <h2 class="w-14 lg:w-64">2022</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2021</h2>
-                <h2 class="w-[30vw]">MONUMENTA</h2>
+                <h2 class="w-14 lg:w-64">2021</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA</h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2021</h2>
-                <h2 class="w-[30vw]">FREEDOM</h2>
+                <h2 class="w-14 lg:w-64">2021</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
                 <h2 class="w-[full]">AUDIOVISUAL</h2>
             </div>
             <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-64">2020</h2>
-                <h2 class="w-[30vw]">PARTO</h2>
+                <h2 class="w-14 lg:w-64">2020</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
         </div>
