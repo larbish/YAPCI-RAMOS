@@ -14,7 +14,7 @@
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/">
                 Downloads</NuxtLink>
             <button @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true"
-                class="uppercase"  @click=" router.push('/'); infoState = true">Info</button>
+                class="uppercase"  @click="infoState = true">Info</button>
         </div>
 
         <NuxtLink v-if="darkVariant" @mouseenter="moveAnimationEnabled = false"
@@ -31,7 +31,7 @@
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/">
                 Downloads</NuxtLink>
             <button @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true"
-                class="uppercase" @click=" router.push('/'); infoState = true">Info</button>
+                class="uppercase" @click="infoState = true">Info</button>
         </div>
     </div>
 </template>
@@ -41,7 +41,7 @@ const infoState = useState('infoState')
 const moveAnimationEnabled = useState('moveAnimationEnabled')
 const route = useRoute()
 const router = useRouter()
-const darkVariant = ref(false)
+const darkVariant = useState('darkVariant', () => false)
 
 onMounted(() => {
     if (route.path == '/') darkVariant.value = false

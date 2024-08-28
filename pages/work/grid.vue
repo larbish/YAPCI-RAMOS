@@ -5,10 +5,92 @@
             <NuxtLink to="/work/grid" class="border-b border-black">Grid</NuxtLink>
         </div>
 
-        <div class="w-full font-medium flex px-40 mt-14">
+        <div class="w-full">
+            <div class="w-full flex mt-14">
+                <section class="flex items-start w-full">
+                    <div
+                        class="flex flex-col cursor-pointer w-[40.31%] min-w-[40.31%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-one.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
 
+                    <div
+                        class="flex flex-col cursor-pointer w-[29.27%] min-w-[29.27%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-two.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">FREEDOM. 2022. AUDIOVISUAL</p>
+                    </div>
+
+                    <div
+                        class="flex flex-col cursor-pointer w-[30.26%] min-w-[30.26%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-three.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="w-full flex mt-10">
+                <section class="flex items-start w-full">
+                    <div
+                        class="flex flex-col cursor-pointer w-[24.6%] min-w-[24.6%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-four.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+                    <div
+                        class="flex flex-col cursor-pointer w-[75.2%] min-w-[75.2%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-five.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+
+                </section>
+            </div>
+            <div class="w-full flex mt-10">
+                <section class="flex items-start w-full">
+                    <div
+                        class="flex flex-col cursor-pointer w-[40.3%] min-w-[40.3%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-six.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+                    <div
+                        class="flex flex-col cursor-pointer w-[59.6%] min-w-[59.6%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-seven.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+
+                </section>
+            </div>
+            <div class="w-full flex mt-10">
+                <section class="flex items-start w-full">
+                    <div
+                        class="flex flex-col cursor-pointer w-[55.05%] min-w-[55.05%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-eight.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+                    <div
+                        class="flex flex-col cursor-pointer w-[44.79%] min-w-[44.79%] hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-nine.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
+
+                </section>
+            </div>
         </div>
 
+
+
+        <p class=" mt-64 pl-2 pb-1">
+
+            ©2024 YAPCI RAMOS <br>
+            ALL RIGHTS RESERVED
+        </p>
     </div>
 </template>
 

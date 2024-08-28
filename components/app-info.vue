@@ -1,6 +1,6 @@
 <template>
     <div ref="container"
-        class="w-full fixed top-0 min-h-screen backdrop-blur-2xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45">
+        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45" :class="{ '!bg-opacity-90': darkVariant }">
         <div class="w-full relative h-full xl:pb-20 overflow-y-auto">
             <div class="relative w-full lg:grid lg:grid-cols-8 ">
                 <div class="lg:col-span-5 pr-[5vw]">
@@ -8,7 +8,7 @@
                         <img src="@/assets/logo-black.svg" class="h-28 lg:h-24 2xl:h-28" alt="">
                     </section>
 
-                    <section class="uppercase tracking-wide font-normal">Yapci Ramos is a visual
+                    <section class="uppercase  font-normal">Yapci Ramos is a visual
                         artist,
                         video
                         artist, and
@@ -76,7 +76,7 @@
 
 
                 <div
-                    class="lg:col-span-3 uppercase h-full  flex flex-col tracking-wider justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw]">
+                    class="lg:col-span-3 uppercase h-full  flex flex-col justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw]">
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6">
@@ -169,7 +169,7 @@
 <script setup>
 import gsap from 'gsap';
 const infoState = useState('infoState')
-
+const darkVariant = useState('darkVariant')
 const container = ref(null)
 const email = ref(null);
 const Submitted = ref(false);
