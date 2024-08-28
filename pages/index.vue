@@ -123,9 +123,7 @@ onBeforeUnmount(() => {
 });
 
 const handleClick = async (e) => {
-
     if (!moveAnimationEnabled.value) return null
-
     const { clientX, clientY } = e
     const x = Math.round(clientX / window.innerWidth * 100)
     const y = Math.round(clientY / window.innerHeight * 100)

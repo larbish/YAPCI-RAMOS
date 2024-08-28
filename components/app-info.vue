@@ -79,7 +79,7 @@
                     class="lg:col-span-3 uppercase h-full  flex flex-col justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw] leading-[1.2]">
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
-                        <div class="flex flex-col gap-y-6">
+                        <div class="flex flex-col gap-y-6 mt-1">
                             <section>
                                 <h3 class="font-medium">The triad</h3>
                                 <p>Instituto Cervantes, New York</p>
