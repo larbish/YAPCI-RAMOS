@@ -1,6 +1,6 @@
 <template>
     <div ref="container"
-        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 -tracking-wider lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45" :class="{ '!bg-opacity-90': darkVariant }">
+        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45" :class="{ '!bg-opacity-90': darkVariant }">
         <div class="w-full relative h-full xl:pb-20 overflow-y-auto">
             <div class="relative w-full lg:grid lg:grid-cols-8 ">
                 <div class="lg:col-span-5 pr-[5vw]">
@@ -8,7 +8,7 @@
                         <img src="@/assets/logo-black.svg" class="h-28 lg:h-24 2xl:h-28" alt="">
                     </section>
 
-                    <section class="uppercase  font-normal">Yapci Ramos is a visual
+                    <section class="uppercase leading-[1.2] font-normal">Yapci Ramos is a visual
                         artist,
                         video
                         artist, and
@@ -19,7 +19,7 @@
                     <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 font-normal mt-10">
                         <article class="lg:col-span-3">
                             <h2 class="font-medium">ABOUT</h2>
-                            <p class=" mt-1 lg:mt-0">
+                            <p class=" mt-1 lg:mt-0 leading-[1.1]">
                                 She explores identity, sexuality, and territory by creating multimedia installation
                                 works.
                                 Her work is emotional, physical, and introspective, frequently using her own body to
@@ -32,9 +32,9 @@
                             </p>
                         </article>
 
-                        <article class="lg:col-span-6 mt-6 lg:mt-0">
+                        <article class="lg:col-span-6 mt-6 lg:mt-0 leading-[1.1]">
                             <h2 class="font-medium">SELECTED EXHIBITIONS</h2>
-                            <p class=" mt-1 lg:mt-0">
+                            <p class=" mt-1 lg:mt-0 ">
                                 It is remarkable her admission at The Watermill Center, Nueva York; The Fountainhead
                                 Residency, Miami; Art Omi, Nueva York; as well as the selection as resident artist in
                                 Residency Unlimited 2024, New York. Ramos’s work has been exhibited in international
