@@ -6,9 +6,10 @@
         </div>
 
         <div class="w-full font-medium flex lg:px-40 mt-14">
-            <h2 class=" w-14 min-w-14 lg:w-64 flex items-center">YEAR <img src="@/assets/icons/chevron-down.svg" alt="chevron down"></h2>
-            <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img src="@/assets/icons/chevron-down.svg"
+            <h2 class=" w-14 min-w-14 lg:w-64 flex items-center">YEAR <img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
+            <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img
+                    src="@/assets/icons/chevron-down.svg" alt="chevron down"></h2>
             <h2 class=" w-[full] flex items-center">CATEGORY<img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
         </div>
@@ -16,7 +17,8 @@
             <div @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
                 <h2 class="w-14 lg:w-64">2024</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span
+                        class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
             <div @mouseenter="projectTwoHover = true" @mouseleave="projectTwoHover = false"
@@ -65,8 +67,10 @@
                 <h2 class="w-[full]">INSTALLATION</h2>
             </div>
         </div>
-        <img v-if="projectOneHover" src="@/assets/images/Captura.png"
-            class="aspect-auto h-[60vh] fixed bottom-0 right-0 -z-10" alt="">
+        <video v-if="projectOneHover" src="@/assets/images/Guayec_WorkPage.mp4"
+            class="aspect-auto h-[60vh] fixed bottom-0 right-0 -z-10" alt="" autoplay playsinline muted loop />
+
+
         <img v-if="projectOneHover" src="@/assets/images/GROUP-50.png"
             class="aspect-auto min-w-fit fixed left-0 top-0 -z-10" alt="">
 
