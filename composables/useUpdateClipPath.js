@@ -29,7 +29,7 @@ export const useUpdateClipPath = (x, y, overlayElement, updateType) => {
                 },
             },
             {
-                duration: 1,
+                duration: 2,
                 css: {
                     clipPath: `circle(200% at ${x}% ${y}%)`
                 },

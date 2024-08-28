@@ -101,9 +101,16 @@ const handleTouchEnd = (e) => {
     }
 }
 
+const checkMobile = () => {
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        // Apply mobile-specific behavior
+        handleTouchEnd();
+    }
+}
+
 onMounted(() => {
     moveAnimationEnabled.value = true;
-    handleTouchEnd();
+    checkMobile();
     window.addEventListener('touchmove', handleTouchMove);
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('touchend', handleTouchEnd);
@@ -148,7 +155,7 @@ const handleClick = async (e) => {
 
 <style>
 .overlay {
-    clip-path: circle(0px);
+    clip-path: circle(100px at 50% 50%);
 }
 
 @media screen and (min-width: 768px) {
