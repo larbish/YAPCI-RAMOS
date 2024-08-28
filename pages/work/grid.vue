@@ -41,8 +41,9 @@
                     </div>
                     <div
                         class="flex flex-col cursor-pointer w-[75.2%] min-w-[75.2%] hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-five.png" class="w-full max-w-full min-w-full pr-[1px]"
-                            alt="">
+                   <!--      <img src="@/assets/images/grid-image-five.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt=""> -->
+                        <video src="@/assets/images/Video_IdontMind_WorkPage.mp4" muted loop autoplay playsinline></video>
                         <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
                     </div>
 
