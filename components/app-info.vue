@@ -76,7 +76,7 @@
 
 
                 <div
-                    class="lg:col-span-3 uppercase h-full  flex flex-col justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw]">
+                    class="lg:col-span-3 uppercase h-full  flex flex-col justify-end w-full pt-10 lg:pt-32 lg:pl-[10vw] leading-[1.2]">
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6">
@@ -151,7 +151,7 @@
 
             </div>
 
-            <p class=" mt-14 lg:mt-10 xl:mt-0 xl:absolute bottom-2 text-center w-full lg:text-left">
+            <p class=" mt-14 lg:mt-10 xl:mt-0 xl:absolute bottom-2 text-center w-full lg:text-left leading-[1.1]">
 
                 ©2024 YAPCI RAMOS <br>
                 ALL RIGHTS RESERVED
