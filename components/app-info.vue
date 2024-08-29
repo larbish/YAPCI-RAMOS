@@ -1,6 +1,6 @@
 <template>
     <div ref="container"
-        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-45" :class="{ '!bg-opacity-90': darkVariant }">
+        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-75" :class="{ '!bg-opacity-95': darkVariant }">
         <div class="w-full relative h-full xl:pb-20 overflow-y-auto">
             <div class="relative w-full lg:grid lg:grid-cols-8 ">
                 <div class="lg:col-span-5 pr-[5vw]">

@@ -1,7 +1,7 @@
 <template>
   <div class="text-xs  lg:text-[10px] 2xl:text-xs text-white w-full relative">
     <NuxtPage></NuxtPage>
-    <Header class="select-none"></Header>
+<!--     <Header class="select-none"></Header> -->
     <AppInfo v-if="infoState"></AppInfo>
   </div>
 </template>

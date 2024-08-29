@@ -5,7 +5,7 @@
             <NuxtLink to="/work/grid" class="border-b border-black">Grid</NuxtLink>
         </div>
 
-        <div class="w-full">
+        <div class="w-full hidden lg:block">
             <div class="w-full flex mt-14">
                 <section class="flex items-start w-full">
                     <div
@@ -41,9 +41,10 @@
                     </div>
                     <div
                         class="flex flex-col cursor-pointer w-[75.2%] min-w-[75.2%] hover:text-gray-400 transition-colors duration-300">
-                   <!--      <img src="@/assets/images/grid-image-five.png" class="w-full max-w-full min-w-full pr-[1px]"
+                        <!--      <img src="@/assets/images/grid-image-five.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt=""> -->
-                        <video src="@/assets/images/Video_IdontMind_WorkPage.mp4" muted loop autoplay playsinline></video>
+                        <video src="@/assets/images/Video_IdontMind_WorkPage.mp4" muted loop autoplay
+                            playsinline></video>
                         <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
                     </div>
 
@@ -86,8 +87,60 @@
         </div>
 
 
+        <div class="w-full  lg:hidden">
+            <div class="w-full flex mt-14">
+                <section class="grid grid-cols-2 items-start w-full gap-y-6">
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-one.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                    </div>
 
-        <p class=" mt-64 pl-2 pb-1 leading-[1.1]">
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-two.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
+                        <p class="pl-2.5">FREEDOM. 2022. AUDIOVISUAL</p>
+                    </div>
+
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-three.png"
+                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-four.png"
+                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+
+                    <div class="flex flex-col cursor-pointer w-full col-span-2 hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-five.png"
+                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-six.png"
+                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+
+
+                    <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-seven.png"
+                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+
+
+
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
