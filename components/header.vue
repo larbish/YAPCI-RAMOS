@@ -8,7 +8,7 @@
         <div class="w-fit flex items-center font-medium gap-x-6 mt-4 lg:mt-6 brightness-90  uppercase justify-center">
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/work">
                 Work</NuxtLink>
-            <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/">Press
+            <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/press">Press
             </NuxtLink>
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/">
                 Downloads</NuxtLink>
@@ -34,7 +34,7 @@
                 class="pointer-events-auto" to="/work">
                 Work</NuxtLink>
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true"
-                class="pointer-events-auto" to="/">Press
+                class="pointer-events-auto" to="/press">Press
             </NuxtLink>
             <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true"
                 class="pointer-events-auto" to="/">

@@ -1,9 +1,10 @@
 <template>
     <div class="w-full text-black">
         <div class="w-full h-[82.59vh] relative overflow-clip cursor-none">
-            <video src="@/assets/images/Guayec_WorkPage.mp4" class="h-full w-full object-cover" muted loop autoplay
-                playsinline></video>
-            <p v-show="moveAnimationEnabled" ref="cursor" class="absolute top-10 font-thin">WATCH VIDEO</p>
+            <video @click="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4"
+                class="h-full pointer-events-auto w-full object-cover" muted loop autoplay playsinline></video>
+            <p v-show="moveAnimationEnabled" ref="cursor" class="absolute top-10 z-10 font-medium pointer-events-none">
+                WATCH VIDEO</p>
         </div>
 
         <div class="w-full flex items-start">
@@ -172,6 +173,16 @@ const handleMouseMove = (e) => {
         y: e.clientY - 40,
     });
 };
+
+const toggleFullScreen = (event) => {
+    const videoElement = event.currentTarget;
+    if (!document.fullscreenElement) {
+        videoElement.requestFullscreen().catch(err => {
+            console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+    }
+};
+
 
 onMounted(() => {
     window.addEventListener('mousemove', handleMouseMove);
