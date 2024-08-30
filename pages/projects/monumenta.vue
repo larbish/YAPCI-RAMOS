@@ -174,6 +174,7 @@ watch(activeSection, () => {
         gsap.to(sectionOne.value, {
             minWidth: container.value.clientWidth - 0 + 'px',
             width: container.value.clientWidth - 0 + 'px',
+            height:sectionOneWrapper.value.scrollHeight + 'px',
             duration: 0.7,
         })
 

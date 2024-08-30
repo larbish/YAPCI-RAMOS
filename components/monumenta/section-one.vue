@@ -3,7 +3,8 @@
         <div class="w-full h-[82.59vh] relative overflow-clip cursor-none">
             <video @click="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4"
                 class="h-full pointer-events-auto w-full object-cover" muted loop autoplay playsinline></video>
-            <p v-show="moveAnimationEnabled" ref="cursor" class="absolute top-10  font-medium pointer-events-none mix-blend-difference text-white">
+            <p v-show="moveAnimationEnabled" ref="cursor"
+                class="absolute top-10  font-medium pointer-events-none mix-blend-difference text-white">
                 WATCH VIDEO</p>
         </div>
 
@@ -158,6 +159,12 @@
                 </div>
             </div>
         </div>
+
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+
+            ©2024 YAPCI RAMOS <br>
+            ALL RIGHTS RESERVED
+        </p>
     </div>
 </template>
 

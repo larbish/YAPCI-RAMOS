@@ -1,6 +1,6 @@
 <template>
     <div v-if="!darkVariant"
-        class="w-full flex flex-col gap-y-2 items-center justify-center absolute top-0 py-4 mix-blend-difference ">
+        class="w-full flex flex-col gap-y-2 items-center justify-center fixed top-0 py-4 mix-blend-difference ">
         <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true" to="/">
             <img src="@/assets/logo-white.svg" class=" w-36 xl:w-28 2xl:w-36 cursor-pointer" alt="">
         </NuxtLink>
