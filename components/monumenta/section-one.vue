@@ -3,7 +3,7 @@
         <div class="w-full h-[82.59vh] relative overflow-clip cursor-none">
             <video @click="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4"
                 class="h-full pointer-events-auto w-full object-cover" muted loop autoplay playsinline></video>
-            <p v-show="moveAnimationEnabled" ref="cursor" class="absolute top-10 z-10 font-medium pointer-events-none">
+            <p v-show="moveAnimationEnabled" ref="cursor" class="absolute top-10  font-medium pointer-events-none mix-blend-difference text-white">
                 WATCH VIDEO</p>
         </div>
 

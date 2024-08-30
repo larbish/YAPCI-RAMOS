@@ -13,14 +13,14 @@
             <h2 class=" w-[full] flex items-center">CATEGORY<img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
         </div>
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 mix-blend-hard-light">
-            <div @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 mix-blend-color text-neutral-900">
+            <NuxtLink to="/projects/monumenta" @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
                 <h2 class="w-14 lg:w-64">2024</h2>
                 <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span
                         class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>
                 <h2 class="w-[full]">INSTALLATION</h2>
-            </div>
+            </NuxtLink>
             <div @mouseenter="projectTwoHover = true" @mouseleave="projectTwoHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
                 <h2 class="w-14 lg:w-64">2023</h2>
