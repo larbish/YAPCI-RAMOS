@@ -1,11 +1,11 @@
 <template>
     <div class="w-full text-black pt-40">
-        <ul class="grid grid-cols-2 lg:grid-cols-10 px-2 gap-x-2 gap-y-4">
+        <ul class="grid grid-cols-2 lg:grid-cols-9 2xl:grid-cols-10 px-2 gap-x-2 2xl:gap-y-4">
             <li v-for="(item, index) in items" :key="index" @mouseenter="toggleImage(index)"
-                class="relative uppercase h-60 max-h-fit overflow-clip">
+                class="relative uppercase h-60 max-h-fit overflow-clip tracking-[1.1]">
                 <div v-show="!item.visible">
                     <h2 class="font-medium">{{ item.title }}</h2>
-                    <div class="mt-1">
+                    <div class="mt-0.5 leading-[1.1]">
                         <p>{{ item.description }}</p>
                         <p>{{ item.date }}</p>
                         <p>{{ item.text }}</p>
