@@ -2,7 +2,7 @@
     <div class="w-full text-black pt-40">
         <ul class="grid grid-cols-2 lg:grid-cols-10 px-2 gap-x-2 gap-y-4">
             <li v-for="(item, index) in items" :key="index" @mouseenter="toggleImage(index)"
-                class="relative uppercase h-60  max-h-fit overflow-clip">
+                class="relative uppercase h-60 max-h-fit overflow-clip">
                 <div v-show="!item.visible">
                     <h2 class="font-medium">{{ item.title }}</h2>
                     <div class="mt-1">
@@ -15,6 +15,12 @@
                 <img v-show="item.visible" :src="item.image" class="w-full absolute top-0 left-0" :alt="item.title">
             </li>
         </ul>
+
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+
+            ©2024 YAPCI RAMOS <br>
+            ALL RIGHTS RESERVED
+        </p>
     </div>
 </template>
 

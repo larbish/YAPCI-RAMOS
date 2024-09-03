@@ -1,7 +1,7 @@
 <template>
     <div class="w-full text-black">
-        <div class="w-full h-[82.59vh] relative overflow-clip cursor-none">
-            <video @click="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4"
+        <div class="w-full h-[82.59vh] relative overflow-clip cursor-none ">
+            <video @click="toggleFullScreen" @mouseenter="moveAnimationEnabled = true" @mouseleave="moveAnimationEnabled = false" src="@/assets/images/Guayec_WorkPage.mp4"
                 class="h-full pointer-events-auto w-full object-cover" muted loop autoplay playsinline></video>
             <p v-show="moveAnimationEnabled" ref="cursor"
                 class="absolute top-10  font-medium pointer-events-none mix-blend-difference text-white">
@@ -13,18 +13,18 @@
                 <img src="@/assets/images/image-four.png" class="w-full" alt="">
             </div>
 
-            <div class="w-[28.33%] p-3">
-                <h2 class="font-medium uppercase">
-                    MONUMENTA. nueve encarnaciones <br> guanches
+            <div class="w-[28.33%] p-3 leading-[1.1]">
+                <h2 class=" uppercase font-medium">
+                    MONUMENTA. nueve encarnaciones guanches
                 </h2>
 
-                <p class="font-light mt-3">In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the
+                <p class="mt-3 font-normal">In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the
                     forgotten Guanche woman and question the ways in which the pre-colonial past is represented from a
                     contemporary perspective. Through the observation of various monuments, I undertake a historical
                     analysis to resolve the enigmas underlying the underrepresentation of these subaltern identities.
                 </p>
 
-                <p class="font-light mt-3"> Guanche women held active roles in the communities of pre-Hispanic Tenerife.
+                <p class=" mt-3 font-normal"> Guanche women held active roles in the communities of pre-Hispanic Tenerife.
                     With colonialism, the
                     aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives
                     while obscuring others, leading to a collective amnesia of the otherness. Through an artistic,
@@ -58,10 +58,10 @@
 
         <div class="flex items-start">
             <div class="w-[40.57%] p-3">
-                <div class="w-[69.98%]">
-                    <h2 class="font-medium uppercase">MONUMENTA. nueve encarnaciones <br> guanches</h2>
+                <div class="w-[69.98%] leading-[1.1]">
+                    <h2 class="font-medium uppercase">MONUMENTA. nueve encarnaciones  guanches</h2>
 
-                    <p>
+                    <p class="mt-3">
                         In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the forgotten Guanche
                         woman and question the ways in which the pre-colonial past is represented from a contemporary
                         perspective. Through the observation of various monuments, I undertake a historical analysis to
@@ -96,7 +96,7 @@
         <div class="flex items-start mt-20">
             <div class="w-[55.0%] pl-4">
                 <h2 class="font-medium">CREDITS</h2>
-                <div class="grid grid-cols-2 uppercase mt-3">
+                <div class="grid grid-cols-2 gap-x-2 uppercase mt-3">
                     <div>
                         <p class="hover:text-gray-500 transition-colors duration-300"><span
                                 class="font-medium">Title.</span> Monumenta. Nine Guanche Incarnations</p>

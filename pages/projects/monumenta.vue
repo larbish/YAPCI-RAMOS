@@ -7,25 +7,25 @@
                 </div>
             </section>
             <section @click="activeSection = 1" ref="sectionTwo"
-                class="border-l-gray-500 border-l absolute left-[calc(100%-80px)] min-w-[calc(100%-80px)] bg-white bg-opacity-70  backdrop-blur-3xl z-10">
+                class="border-l-gray-500 border-l absolute left-[calc(100%-80px)] min-w-[calc(100%-80px)]   z-10" :class="{ 'backdrop-blur-3xl bg-white bg-opacity-70': activeSection === 1}">
                 <div @click="activeSection = 1" class="relative">
                     <div ref="sectionTwoWrapper" class="h-fit">
                         <SectionTwo></SectionTwo>
                     </div>
-                    <button class=" -left-3 top-10 rotate-90 absolute h-fit text-black ">
+                    <button class=" -left-3 top-10 rotate-90 absolute h-fit mix-blend-color-dodge text-white ">
                         <span class="block z-[1000]">PROCESS</span>
                     </button>
                 </div>
             </section>
 
             <section @click="activeSection = 2" ref="sectionThree"
-                class="border-l-gray-500 border-l absolute left-[calc(100%-40px)] min-w-[calc(100%-80px)] bg-white bg-opacity-70 backdrop-blur-2xl z-10">
+                class="border-l-gray-500 border-l absolute left-[calc(100%-40px)] min-w-[calc(100%-80px)] z-10" :class="{ 'backdrop-blur-3xl bg-white bg-opacity-70': activeSection === 2 }">
                 <div @click="activeSection = 2" class="relative">
                     <div ref="sectionThreeWrapper" class="h-fit">
                         <SectionThree></SectionThree>
                     </div>
                     <button
-                        class=" -left-5 top-12 rotate-90 absolute h-fit text-black z-[1000] hover:opacity-50">INSPIRATION</button>
+                        class=" -left-5 top-12 rotate-90 absolute h-fit text-white z-[1000] mix-blend-difference hover:opacity-50">INSPIRATION</button>
                 </div>
             </section>
 
