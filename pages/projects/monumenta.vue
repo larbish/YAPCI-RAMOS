@@ -1,210 +1,71 @@
 <template>
     <div class="w-full overflow-x-clip">
-        <div ref="container" class="w-full h-full relative flex overflow-clip">
-            <section @click="activeSection = 0" ref="sectionOne" class="w-full relative min-w-10 overflow-x-clip">
-                <div ref="sectionOneWrapper" class="min-w-[calc(100vw-40px)] h-fit">
-                    <SectionOne></SectionOne>
+        <div ref="container" class="w-full h-full relative overflow-clip" v>
+            <section class="w-full h-screen max-h-screen">
+                <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
+                    <SectionOne />
                 </div>
             </section>
-            <section @click="activeSection = 1" ref="sectionTwo"
-                class="border-l-gray-500 border-l absolute left-[calc(100%-80px)] min-w-[calc(100%-80px)]   z-10" :class="{ 'backdrop-blur-3xl bg-white bg-opacity-70': activeSection === 1}">
-                <div @click="activeSection = 1" class="relative">
-                    <div ref="sectionTwoWrapper" class="h-fit">
+
+            <section
+                class="w-full h-screen max-h-screen translate-x-[calc(9.11%)] bg-white bg-opacity-90 backdrop-blur-3xl border-l transition-all duration-700 border-black absolute top-0 left-0"
+                :class="{ '!translate-x-[calc(100%-3.12%)]': !secondSectionActive }">
+                <div class="h-full w-full relative">
+                    <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
                         <SectionTwo></SectionTwo>
                     </div>
-                    <button class=" -left-3 top-10 rotate-90 absolute h-fit mix-blend-color-dodge text-white ">
-                        <span class="block z-[1000]">PROCESS</span>
-                    </button>
                 </div>
+                <p @click="activateSecondSection"
+                    class="absolute top-7 -left-[1%] rotate-90 text-white uppercase mix-blend-difference">
+                    Process
+                </p>
             </section>
 
-            <section @click="activeSection = 2" ref="sectionThree"
-                class="border-l-gray-500 border-l absolute left-[calc(100%-40px)] min-w-[calc(100%-80px)] z-10" :class="{ 'backdrop-blur-3xl bg-white bg-opacity-70': activeSection === 2 }">
-                <div @click="activeSection = 2" class="relative">
-                    <div ref="sectionThreeWrapper" class="h-fit">
+            <section
+                class="w-full h-screen max-h-screen bg-white bg-opacity-90 translate-x-[calc(9.11%+1.56%)] border-l transition-all duration-700 border-black backdrop-blur-3xl absolute top-0 left-0"
+                :class="{ '!translate-x-[calc(100%-1.56%)]': !thirdSectionActive }">
+                <div class="h-full w-full relative">
+                    <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
                         <SectionThree></SectionThree>
                     </div>
-                    <button
-                        class=" -left-5 top-12 rotate-90 absolute h-fit text-white z-[1000] mix-blend-difference hover:opacity-50">INSPIRATION</button>
+
+                    <p @click="activateThirdSection"
+                        class="absolute top-9 -left-[1.5%] rotate-90 text-white uppercase mix-blend-difference">
+                        Inspiration
+                    </p>
                 </div>
             </section>
 
+            <img v-if="!firstSectionActive" @click="activateFirstSection" src="@/assets/icons/work-x.svg"
+                class="w-[1.56%] left-[3.5%] fixed top-[2%] mix-blend-difference cursor-pointer" alt="">
         </div>
     </div>
 </template>
 
 <script setup>
-import gsap from 'gsap';
 import SectionOne from '@/components/monumenta/section-one.vue';
-import SectionTwo from '@/components/monumenta/section-two.vue';
-import SectionThree from '@/components/monumenta/section-three.vue';
-const darkVariant = useState('darkVariant')
-const container = ref(null);
-const sectionOne = ref(null);
-const sectionTwo = ref(null);
-const sectionThree = ref(null);
-const sectionOneWrapper = ref(null);
-const sectionTwoWrapper = ref(null);
-const sectionThreeWrapper = ref(null);
-const activeSection = ref(0);
+import SectionTwo from '~/components/monumenta/section-two.vue';
+import SectionThree from '~/components/monumenta/section-three.vue';
 
-const expandedWidth = ref(null);
-const collapsedWidth = 40;
-/* 
-onMounted(() => {
-    expandedWidth.value = container.value.clientWidth - 80;
-    updateSections();
-    window.addEventListener('resize', updateSections);
-}); */
+const firstSectionActive = ref(true);
+const secondSectionActive = ref(false);
+const thirdSectionActive = ref(false); // Updated to false initially
 
-onMounted(() => {
-    /*   if (activeSection.value == 0) {
-          darkVariant.value = false
-          gsap.to(sectionOne.value, {
-              minWidth: container.value.clientWidth - 80 + 'px',
-              width: container.value.clientWidth - 80 + 'px',
-              duration: 0.7,
-          })
-  
-          gsap.to(sectionTwo.value, {
-              left: container.value.clientWidth - 80 + 'px',
-              duration: 0.7,
-          })
-  
-  
-          gsap.to(sectionThree.value, {
-              left: container.value.clientWidth - 40 + 'px',
-              duration: 0.7,
-          })
-      }
-  
-      if (activeSection.value == 1) {
-          darkVariant.value = true
-          gsap.to(sectionOne.value, {
-              minWidth: container.value.clientWidth - 40 + 'px',
-              width: container.value.clientWidth - 40 + 'px',
-              duration: 0.7,
-          })
-  
-          gsap.to(sectionTwo.value, {
-              left: 40 + 'px',
-              duration: 0.7,
-          })
-  
-  
-          gsap.to(sectionThree.value, {
-              left: container.value.clientWidth - 40 + 'px',
-              duration: 0.7,
-          })
-      }
-  
-      if (activeSection.value == 2) {
-          darkVariant.value = true
-          gsap.to(sectionOne.value, {
-              minWidth: container.value.clientWidth - 0 + 'px',
-              width: container.value.clientWidth - 0 + 'px',
-              duration: 0.7,
-          })
-  
-          gsap.to(sectionTwo.value, {
-              left: 40 + 'px',
-              duration: 0.7,
-          })
-  
-          gsap.to(sectionThree.value, {
-              left: 80 + 'px',
-              duration: 0.7,
-          })
-      } */
-})
-
-watch(activeSection, () => {
-
-    if (activeSection.value == 0) {
-        gsap.to(container.value, {
-            height: sectionOneWrapper.value.scrollHeight + 'px',
-        })
-        darkVariant.value = false
-        gsap.to(sectionOne.value, {
-            minWidth: container.value.clientWidth - 80 + 'px',
-            width: container.value.clientWidth - 80 + 'px',
-            duration: 0.7,
-        })
-
-        gsap.to(sectionTwo.value, {
-            left: container.value.clientWidth - 80 + 'px',
-            duration: 0.7,
-        })
-
-
-        gsap.to(sectionThree.value, {
-            left: container.value.clientWidth - 40 + 'px',
-            duration: 0.7,
-        })
-    }
-
-    if (activeSection.value == 1) {
-        darkVariant.value = true
-        gsap.to(container.value, {
-            height: sectionTwoWrapper.value.scrollHeight + 'px',
-        })
-        gsap.to(sectionOne.value, {
-            minWidth: container.value.clientWidth - 40 + 'px',
-            width: container.value.clientWidth - 40 + 'px',
-            duration: 0.7,
-        })
-
-        gsap.to(sectionTwo.value, {
-            left: 40 + 'px',
-            duration: 0.7,
-        })
-
-
-        gsap.to(sectionThree.value, {
-            left: container.value.clientWidth - 40 + 'px',
-            duration: 0.7,
-        })
-    }
-
-    if (activeSection.value == 2) {
-        darkVariant.value = true
-        gsap.to(container.value, {
-            height: sectionThreeWrapper.value.scrollHeight + 'px',
-        })
-        gsap.to(sectionOne.value, {
-            minWidth: container.value.clientWidth - 0 + 'px',
-            width: container.value.clientWidth - 0 + 'px',
-            height:sectionOneWrapper.value.scrollHeight + 'px',
-            duration: 0.7,
-        })
-
-        gsap.to(sectionTwo.value, {
-            left: 40 + 'px',
-            width: container.value.clientWidth - 40 + 'px',
-            duration: 0.7,
-        })
-
-        gsap.to(sectionThree.value, {
-            left: 80 + 'px',
-            duration: 0.7,
-        })
-    }
-})
-
-const updateSections = () => {
-    expandedWidth.value = container.value.clientWidth - 80;
-
-
-
-    /*     const sections = [sectionOne, sectionTwo, sectionThree];
-        sections.forEach((section, index) => {
-            gsap.to(section.value, {
-                minWidth: activeSection.value === index ? expandedWidth.value + 'px' : collapsedWidth + 'px',
-                width: activeSection.value === index ? expandedWidth.value + 'px' : collapsedWidth + 'px',
-                duration: 0.2,
-            });
-        }); */
+const activateFirstSection = () => {
+    firstSectionActive.value = true;
+    secondSectionActive.value = false;
+    thirdSectionActive.value = false;
 };
 
-watch(activeSection, updateSections);
+const activateSecondSection = () => {
+    firstSectionActive.value = false;
+    secondSectionActive.value = true;
+    thirdSectionActive.value = false;
+};
+
+const activateThirdSection = () => {
+    firstSectionActive.value = false;
+    secondSectionActive.value = true; // Ensure second section is inactive
+    thirdSectionActive.value = true;
+};
 </script>

@@ -4,7 +4,7 @@
             <video @click="toggleFullScreen" @mouseenter="moveAnimationEnabled = true" @mouseleave="moveAnimationEnabled = false" src="@/assets/images/Guayec_WorkPage.mp4"
                 class="h-full pointer-events-auto w-full object-cover" muted loop autoplay playsinline></video>
             <p v-show="moveAnimationEnabled" ref="cursor"
-                class="absolute top-10  font-medium pointer-events-none mix-blend-difference text-white">
+                class="absolute top-10 right-60  font-medium pointer-events-none mix-blend-difference text-white">
                 WATCH VIDEO</p>
         </div>
 

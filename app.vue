@@ -3,6 +3,7 @@
     <NuxtPage></NuxtPage>
     <Header class="select-none"></Header>
     <AppInfo v-if="infoState"></AppInfo>
+
   </div>
 </template>
 
@@ -44,7 +45,7 @@ onMounted(() => {
 
 html,
 body {
-overscroll-behavior: none;
+  overscroll-behavior: none;
   width: 100%;
   font-family: "HelveticaNowText", sans-serif;
 }
