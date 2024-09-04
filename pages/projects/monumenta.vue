@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <p @click="activateSecondSection"
-                    class="absolute top-7 -left-[1%] rotate-90 text-white uppercase mix-blend-difference">
+                    class="absolute top-7 -left-[1%] rotate-90 text-white uppercase mix-blend-difference cursor-pointer">
                     Process
                 </p>
             </section>
@@ -30,7 +30,7 @@
                     </div>
 
                     <p @click="activateThirdSection"
-                        class="absolute top-9 -left-[1.5%] rotate-90 text-white uppercase mix-blend-difference">
+                        class="absolute top-9 -left-[1.5%] rotate-90 text-white uppercase mix-blend-difference cursor-pointer">
                         Inspiration
                     </p>
                 </div>
