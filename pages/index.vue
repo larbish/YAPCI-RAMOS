@@ -1,127 +1,190 @@
 <template>
-    <div class="h-[100dvh] w-full relative cursor-none" @click="handleClick">
-        <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop class="h-full w-full object-cover" playsinline></video>
+    <div class="h-screen w-full">
+        <canvas class="w-full h-full" id="canvas"></canvas>
+        <div class="bottom-5 right-10 absolute mix-blend-difference w-full text-center">
+            <p v-if="currentVideoIndex === 0">
+                PARTO DE MÍ. 2022. AUDIOVISUAL
+            </p>
 
-        <div v-show="overlayState === 0 || overlayState === 1" class="absolute top-0 w-full h-full bg-black/50 overlay" ref="overlay">
-            <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/IDontMind_30s.mp4" muted autoplay loop playsinline class="h-full w-full object-cover"></video>
-            </div>
-        </div>
+            <p v-if="currentVideoIndex === 1">
+                MONUMENTA. 2022. INSTALLATION
+            </p>
 
-        <div v-show="overlayState === 1 || overlayState === 2" class="absolute top-0 w-full h-full bg-black/50 overlay" ref="overlayTwo">
-            <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/Lloro_30s.mp4" muted autoplay loop playsinline class="h-full w-full object-cover"></video>
-            </div>
-        </div>
+            <p v-if="currentVideoIndex === 2">
+                FREEDOM. 2022. AUDIOVISUAL
+            </p>
 
-        <div v-show="overlayState === 2 || overlayState === 3" class="absolute top-0 w-full h-full bg-black/50 overlay" ref="overlayThree">
-            <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/RedHot_30s.mp4" muted autoplay loop playsinline class="h-full w-full object-cover"></video>
-            </div>
-        </div>
+            <p v-if="currentVideoIndex === 3">
+                PARTO DE MÍ. 2022. INSTALLATION
+            </p>
 
-        <div v-show="overlayState === 3 || overlayState === 4" class="absolute top-0 w-full h-full bg-black/50 overlay" ref="overlayFour">
-            <div class="h-full w-full relative">
-                <video preload="metadata" src="/videos/Guayec_30s.mp4" muted autoplay loop playsinline class="h-full w-full object-cover"></video>
-            </div>
-        </div>
-
-        <div class="w-full h-fit absolute bottom-0 z-20 text-center mix-blend-difference" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-            <div class="w-fit h-fit mx-auto block font-medium" id="disable-hover">
-                <button @click="handleOpenProject" class="mix-blend-color-burn p-3 text-white brightness-75">
-                    PARTO DE MÍ. 2022. AUDIOVISUAL
-                </button>
-            </div>
         </div>
     </div>
 </template>
 
 <script setup>
-const overlay = ref(null);
-const overlayTwo = ref(null);
-const overlayThree = ref(null);
-const overlayFour = ref(null);
-const overlayState = ref(0);
-const moveAnimationEnabled = ref(true);
-
-const handleMouseEnter = () => {
-    moveAnimationEnabled.value = false;
-};
-
-const handleMouseLeave = () => {
-    moveAnimationEnabled.value = true;
-};
-
-const handleMove = (x, y) => {
-    const currentOverlay = [overlay, overlayTwo, overlayThree, overlayFour][overlayState.value];
-    const action = moveAnimationEnabled.value ? 'move' : 'disable';
-    useUpdateClipPath(x, y, currentOverlay, action);
-};
-
-const handleMouseMove = (e) => handleMove(Math.round(e.clientX / window.innerWidth * 100), Math.round(e.clientY / window.innerHeight * 100));
-const handleTouchMove = (e) => handleMove(Math.round(e.touches[0].clientX / window.innerWidth * 100), Math.round(e.touches[0].clientY / window.innerHeight * 100));
-
-const handleTouchEnd = () => {
-    const currentOverlay = [overlay, overlayTwo, overlayThree, overlayFour][overlayState.value];
-    useUpdateClipPath(50, 50, currentOverlay, 'disable');
-};
-
-const checkMobile = () => {
-    if (window.matchMedia("(max-width: 767px)").matches) {
-        handleTouchEnd();
-    }
-};
-
+const currentVideoIndex = ref(0);
 onMounted(() => {
-    checkMobile();
-    window.addEventListener('touchmove', handleTouchMove);
-    window.addEventListener('mousemove', handleMouseMove);
-    window.addEventListener('touchend', handleTouchEnd);
-});
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
-onBeforeUnmount(() => {
-    window.removeEventListener('touchmove', handleTouchMove);
-    window.removeEventListener('mousemove', handleMouseMove);
-    window.removeEventListener('touchend', handleTouchEnd);
-});
+    const videos = [
+        document.createElement('video'),
+        document.createElement('video'),
+        document.createElement('video'),
+        document.createElement('video')
+    ];
 
-const handleClick = async (e) => {
-    if (!moveAnimationEnabled.value) return;
+    videos[0].src = '/videos/Guayec_30s.mp4';
+    videos[1].src = '/videos/Lloro_30s.mp4';
+    videos[2].src = '/videos/IDontMind_30s.mp4';
+    videos[3].src = '/videos/RedHot_30s.mp4';
 
-    const { clientX, clientY } = e;
-    const x = Math.round(clientX / window.innerWidth * 100);
-    const y = Math.round(clientY / window.innerHeight * 100);
-
-    overlayState.value = (overlayState.value + 1) % 5;
-    const overlayRefs = [overlay, overlayTwo, overlayThree, overlayFour];
-    const isMobile = window.matchMedia("(max-width: 767px)").matches;
-
-    if (overlayState.value === 4) {
-        console.log('over 4');
-        overlayState.value = 0;
-        console.log(overlayState.value);
-    }
-
-    overlayRefs.forEach((ref, index) => {
-        if (index === overlayState.value - 1 || index === overlayState.value) {
-            useUpdateClipPath(x, y, ref, overlayState.value === index + 1 ? 'click' : 'move');
-        }
+    videos.forEach(video => {
+        video.muted = true;
+        video.loop = true;
+        video.play();
     });
 
-    if (!isMobile && overlayState.value >= 4) {
-        overlayRefs.forEach(ref => useUpdateClipPath(50, 50, ref, 'move'));
+    
+    let nextVideoIndex = 1;
+    let mouseX = canvas.width / 2;
+    let mouseY = canvas.height / 2;
+    let radius = 80;
+    let maxRadius = canvas.width;
+    let hideCircle = useState('moveAnimationEnabled');
+    console.log(currentVideoIndex.value)
+    /* 
+        const toggleButton = document.getElementById('toggleButton');
+        toggleButton.addEventListener('mouseenter', () => {
+            hideCircle.value = true;
+        });
+        toggleButton.addEventListener('mouseleave', () => {
+            hideCircle.value = false;
+        }); */
+
+
+    function drawBlurredCircle(ctx, x, y, radius, blurWidth) {
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.shadowBlur = blurWidth;
+        ctx.shadowColor = "rgba(256, 256, 256, 1)"; // Semi-transparent black blur
+        ctx.fillStyle = "rgba(0, 0, 0, 1)";
+        ctx.fill();
+        ctx.clip();
+        ctx.shadowBlur = 0; // Reset shadowBlur for further drawings
     }
-};
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw the background video
+        const backgroundVideo = videos[currentVideoIndex.value];
+        if (backgroundVideo.readyState >= backgroundVideo.HAVE_CURRENT_DATA) {
+            const scaleX = canvas.width / backgroundVideo.videoWidth;
+            const scaleY = canvas.height / backgroundVideo.videoHeight;
+            const scale = Math.max(scaleX, scaleY);
+            const x = (canvas.width / 2) - (backgroundVideo.videoWidth * scale / 2);
+            const y = (canvas.height / 2) - (backgroundVideo.videoHeight * scale / 2);
+            ctx.drawImage(backgroundVideo, x, y, backgroundVideo.videoWidth * scale, backgroundVideo.videoHeight * scale);
+        }
+
+        // Draw the video with a blurred circular clip or full screen
+        const clipVideo = videos[nextVideoIndex];
+        if (clipVideo.readyState >= clipVideo.HAVE_CURRENT_DATA && hideCircle.value) {
+            if (radius < maxRadius) {
+                ctx.save();
+                drawBlurredCircle(ctx, mouseX, mouseY, radius, 100); // Apply blur effect (adjust the value for blur width)
+
+                const scaleX = canvas.width / clipVideo.videoWidth;
+                const scaleY = canvas.height / clipVideo.videoHeight;
+                const scale = Math.max(scaleX, scaleY);
+                const x = (canvas.width / 2) - (clipVideo.videoWidth * scale / 2);
+                const y = (canvas.height / 2) - (clipVideo.videoHeight * scale / 2);
+
+                ctx.drawImage(clipVideo, x, y, clipVideo.videoWidth * scale, clipVideo.videoHeight * scale);
+                ctx.restore();
+            } else {
+                // Draw clipVideo full screen after radius reaches max width
+                const scaleX = canvas.width / clipVideo.videoWidth;
+                const scaleY = canvas.height / clipVideo.videoHeight;
+                const scale = Math.max(scaleX, scaleY);
+                const x = (canvas.width / 2) - (clipVideo.videoWidth * scale / 2);
+                const y = (canvas.height / 2) - (clipVideo.videoHeight * scale / 2);
+
+                ctx.drawImage(clipVideo, x, y, clipVideo.videoWidth * scale, clipVideo.videoHeight * scale);
+            }
+        }
+
+        requestAnimationFrame(draw);
+    }
+
+
+
+
+
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        // Apply mobile-specific behavior
+        hideCircle.value = false;
+        canvas.addEventListener('touchmove', (e) => {
+            hideCircle.value = true;
+            mouseX = e.touches[0].clientX;
+            mouseY = e.touches[0].clientY;
+        })
+
+        canvas.addEventListener('touchend', async (e) => {
+            //wait for the animation to finish
+            hideCircle.value = false;
+        })
+    } else {
+        canvas.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+    }
+
+    canvas.addEventListener('click', () => {
+        const animationDuration = 200; // 0.5 second
+        const startTime = performance.now();
+        if (window.matchMedia("(max-width: 767px)").matches) {
+            // Apply mobile-specific behavior
+            hideCircle.value = true;
+        }
+
+        function animate() {
+            const currentTime = performance.now();
+            const elapsedTime = currentTime - startTime;
+            const progress = Math.min(elapsedTime / animationDuration, 1);
+
+            radius = progress * maxRadius;
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                if (window.matchMedia("(max-width: 767px)").matches) {
+                    // Apply mobile-specific behavior
+                    hideCircle.value = false;
+                }
+                currentVideoIndex.value = nextVideoIndex;
+                nextVideoIndex = (nextVideoIndex + 1) % videos.length;
+                radius = 80; // Reset radius for the next video
+            }
+        }
+
+        animate();
+    });
+
+    draw();
+
+})
 </script>
 
-<style>
-.overlay {
-    clip-path: circle(100px at 50% 50%);
-}
 
-@media screen and (min-width: 768px) {
-    .overlay {
-        clip-path: circle(80px);
-    }
+<style>
+canvas {
+    display: block;
 }
 </style>

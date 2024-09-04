@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Video with Blur Effect</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+        button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggleButton">Hover to Hide Circle</button>
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const videos = [
+            document.createElement('video'),
+            document.createElement('video'),
+            document.createElement('video'),
+            document.createElement('video')
+        ];
+
+        videos[0].src = 'https://yapci-ramos.vercel.app/videos/IDontMind_30s.mp4';
+        videos[1].src = 'https://yapci-ramos.vercel.app/videos/Lloro_30s.mp4';
+        videos[2].src = 'https://yapci-ramos.vercel.app/videos/IDontMind_30s.mp4';
+        videos[3].src = 'https://yapci-ramos.vercel.app/videos/Lloro_30s.mp4';
+
+        videos.forEach(video => {
+            video.muted = true;
+            video.loop = true;
+            video.play();
+        });
+
+        let currentVideoIndex = 0;
+        let nextVideoIndex = 1;
+        let mouseX = canvas.width / 2;
+        let mouseY = canvas.height / 2;
+        let radius = 150;
+        let maxRadius = canvas.width;
+        let hideCircle = false;
+
+        const toggleButton = document.getElementById('toggleButton');
+        toggleButton.addEventListener('mouseenter', () => {
+            hideCircle = true;
+        });
+        toggleButton.addEventListener('mouseleave', () => {
+            hideCircle = false;
+        });
+
+        function drawBlurredCircle(ctx, x, y, radius, blurWidth) {
+            ctx.save();
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.shadowBlur = blurWidth;
+            ctx.shadowColor = "rgba(0, 0, 0, 0.8)"; // Semi-transparent black blur
+            ctx.fillStyle = "rgba(0, 0, 0, 1)";
+            ctx.fill();
+            ctx.clip();
+            ctx.shadowBlur = 0; // Reset shadowBlur for further drawings
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw the background video
+            const backgroundVideo = videos[currentVideoIndex];
+            if (backgroundVideo.readyState >= backgroundVideo.HAVE_CURRENT_DATA) {
+                const scaleX = canvas.width / backgroundVideo.videoWidth;
+                const scaleY = canvas.height / backgroundVideo.videoHeight;
+                const scale = Math.max(scaleX, scaleY);
+                const x = (canvas.width / 2) - (backgroundVideo.videoWidth * scale / 2);
+                const y = (canvas.height / 2) - (backgroundVideo.videoHeight * scale / 2);
+                ctx.drawImage(backgroundVideo, x, y, backgroundVideo.videoWidth * scale, backgroundVideo.videoHeight * scale);
+            }
+
+            // Draw the video with a circular clip and blur effect
+            const clipVideo = videos[nextVideoIndex];
+            if (clipVideo.readyState >= clipVideo.HAVE_CURRENT_DATA && !hideCircle) {
+                if (radius < maxRadius) {
+                    ctx.save();
+                    drawBlurredCircle(ctx, mouseX, mouseY, radius + 5, 100);
+
+                    const scaleX = canvas.width / clipVideo.videoWidth;
+                    const scaleY = canvas.height / clipVideo.videoHeight;
+                    const scale = Math.max(scaleX, scaleY);
+                    const x = (canvas.width / 2) - (clipVideo.videoWidth * scale / 2);
+                    const y = (canvas.height / 2) - (clipVideo.videoHeight * scale / 2);
+
+                    ctx.drawImage(clipVideo, x, y, clipVideo.videoWidth * scale, clipVideo.videoHeight * scale);
+                    ctx.restore();
+                } else {
+                    // Draw clipVideo full screen after radius reaches max width
+                    const scaleX = canvas.width / clipVideo.videoWidth;
+                    const scaleY = canvas.height / clipVideo.videoHeight;
+                    const scale = Math.max(scaleX, scaleY);
+                    const x = (canvas.width / 2) - (clipVideo.videoWidth * scale / 2);
+                    const y = (canvas.height / 2) - (clipVideo.videoHeight * scale / 2);
+
+                    ctx.drawImage(clipVideo, x, y, clipVideo.videoWidth * scale, clipVideo.videoHeight * scale);
+                }
+            }
+
+            requestAnimationFrame(draw);
+        }
+
+        canvas.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        canvas.addEventListener('click', () => {
+            const animationDuration = 500; // 0.5 second
+            const startTime = performance.now();
+
+            function animate() {
+                const currentTime = performance.now();
+                const elapsedTime = currentTime - startTime;
+                const progress = Math.min(elapsedTime / animationDuration, 1);
+
+                radius = progress * maxRadius;
+
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                } else {
+                    currentVideoIndex = nextVideoIndex;
+                    nextVideoIndex = (nextVideoIndex + 1) % videos.length;
+                    radius = 150; // Reset radius for the next video
+                }
+            }
+
+            animate();
+        });
+
+        draw();
+    </script>
+</body>
+</html>
