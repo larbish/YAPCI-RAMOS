@@ -24,7 +24,7 @@
         class="w-full flex flex-col gap-y-2 items-center justify-center absolute top-0 py-4 z-30 pointer-events-none">
 
         <NuxtLink @mouseenter="moveAnimationEnabled = false" @mouseleave="moveAnimationEnabled = true"
-            class="pointer-events-none" to="/">
+            class="pointer-events-auto" to="/">
             <img src="@/assets/logo-black.svg" class=" w-36 xl:w-28 2xl:w-36 cursor-pointer" alt="">
         </NuxtLink>
 

@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen w-full">
         <canvas class="w-full h-full" id="canvas"></canvas>
-        <div class="bottom-5 right-10 absolute mix-blend-difference w-full text-center">
+        <div class="bottom-5  absolute mix-blend-difference w-full flex justify-center text-center">
             <p v-if="currentVideoIndex === 0">
                 PARTO DE MÍ. 2022. AUDIOVISUAL
             </p>
@@ -71,7 +71,7 @@ onMounted(() => {
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
         ctx.shadowBlur = blurWidth;
-        ctx.shadowColor = "rgba(256, 256, 256, 1)"; // Semi-transparent black blur
+        ctx.shadowColor = "rgba(128, 128, 128, 1)"; // Semi-transparent black blur
         ctx.fillStyle = "rgba(0, 0, 0, 1)";
         ctx.fill();
         ctx.clip();
