@@ -52,7 +52,7 @@ const route = useRoute()
 const router = useRouter()
 const darkVariant = useState('darkVariant', () => false)
 
-onMounted(() => {
+/* onMounted(() => {
     if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta') darkVariant.value = false
     else darkVariant.value = true
 })
@@ -60,5 +60,5 @@ onMounted(() => {
 watchEffect(() => {
     if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta') darkVariant.value = false
     else darkVariant.value = true
-})
+}) */
 </script>

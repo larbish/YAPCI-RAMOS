@@ -11,10 +11,11 @@
 import Lenis from '@studio-freight/lenis'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
+import Draggable from 'gsap/Draggable';
 const infoState = useState('infoState', () => false)
 const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
-if (import.meta.client) gsap.registerPlugin(ScrollTrigger)
+if (import.meta.client) { gsap.registerPlugin(ScrollTrigger); gsap.registerPlugin(Draggable) }
 
 onMounted(() => {
   const lenis = new Lenis()

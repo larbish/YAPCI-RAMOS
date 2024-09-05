@@ -1,5 +1,5 @@
 <template>
-    <div class="text-black px-2 w-full pt-44 min-h-screen relative">
+    <div class="text-black px-2 w-full pt-44 min-h-screen relative bg-white">
         <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 relative">
             <NuxtLink to="/work" class="border-b border-black ">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
@@ -13,7 +13,7 @@
             <h2 class=" w-[full] flex items-center">CATEGORY<img src="@/assets/icons/chevron-down.svg"
                     alt="chevron down"></h2>
         </div>
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 mix-blend-color text-neutral-900">
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 !text-black">
             <NuxtLink to="/projects/monumenta" @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
                 class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
                 <h2 class="w-14 lg:w-64">2024</h2>
