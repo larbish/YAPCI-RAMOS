@@ -5,6 +5,12 @@
                 <img src="@/assets/images/press-image-one.png" class="w-full object-cover" alt="">
                 <img src="@/assets/images/press-image-two.png" class="w-full object-cover" alt="">
                 <img src="@/assets/images/press-image-three.png" class="w-full object-cover" alt="">
+
+                <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black">
+
+                    ©2024 YAPCI RAMOS <br>
+                    ALL RIGHTS RESERVED
+                </p>
             </div>
             <div class="w-[33.5%]">
                 <img src="@/assets/images/press-image-four.png" class="w-full object-cover" alt="">
@@ -13,8 +19,27 @@
         </div>
 
         <div class="fixed top-0 w-full flex justify-center">
-            <div class="w-[33.03%] h-screen bg-white text-black overflow-y-auto" data-lenis-prevent>
-                <div class="space-y-10 pt-96">
+            <div class="w-[33.03%] h-screen flex flex-col bg-white text-black overflow-y-auto no-scrollbar"
+                data-lenis-prevent>
+
+                <div class="w-full flex flex-col items-center pt-52">
+                    <h3 class="uppercase text-lg font-medium">La Provincia</h3>
+                    <div class="flex w-full px-1.5 justify-between items-center mt-1.5">
+                        <div class="min-w-fit">
+                            <img src="@/assets/icons/chevron-left.svg" class="h-10" alt="">
+                        </div>
+                        <div class="w-full">
+                            <h2 class="text-2xl font-serif font-light text-center uppercase leading-[1.1]">
+                                Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
+                            </h2>
+                            <p class="uppercase text-lg text-center">BY NORA NAVARRO. MARCH 2th, 2024</p>
+                        </div>
+                        <div class="min-w-fit">
+                            <img src="@/assets/icons/chevron-right.svg" class="h-10" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-4 px-1.5 mt-10">
                     <p>
                         Los procesos artísticos entrañan un viaje de germinación, imaginación y alumbramiento para
                         inaugurar un horizonte, igual que el cuerpo en proceso de gestación de ideas, de preguntas o de
@@ -92,6 +117,10 @@
                     </p>
 
 
+                </div>
+
+                <div class="font-medium uppercase px-1.5 mt-6 pb-10">
+                    <button>DOWNLOAD ARTICLE</button>
                 </div>
             </div>
         </div>
