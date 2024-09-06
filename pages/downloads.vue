@@ -57,7 +57,6 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import Draggable from "gsap/Draggable";
 const progressIndicator = ref(null);
-gsap.registerPlugin(ScrollTrigger, Draggable);
 
 const sections = ref([
     {
