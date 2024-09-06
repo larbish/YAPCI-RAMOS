@@ -131,7 +131,7 @@
                                             class="uppercase hover:opacity-50 transition-opacity duration-700">Confirm</button>
                                     </FadeInComponent>
                                 </form>
-                                <p v-if="Submitted" class="uppercase tracking-widest">You have been successfully
+                                <p v-if="Submitted" class="uppercase ">You have been successfully
                                     subscribed</p>
                             </section>
                         </div>
