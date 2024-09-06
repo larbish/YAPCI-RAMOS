@@ -1,92 +1,106 @@
 <template>
     <div class="text-black px-2 w-full pt-44 min-h-screen relative bg-white">
-        <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 relative leading-[1.1]">
-            <NuxtLink to="/work" class="border-b border-spacing-0  border-black ">List</NuxtLink>
+        <!-- Iterate over sorted projects to display media -->
+        <div v-for="(project, projectIndex) in sortedProjects" :key="projectIndex">
+            <div v-for="(mediaItem, mediaIndex) in project.media" :key="mediaIndex">
+                <!-- Render video -->
+                <video v-if="mediaItem.type === 'video' && hoverIndex === projectIndex" :src="mediaItem.src"
+                    :style="getMediaStyle(mediaItem.position, mediaItem.width, mediaItem.height)"
+                    class="aspect-auto hidden lg:block" autoplay playsinline muted loop />
+
+                <!-- Render image -->
+                <img v-if="mediaItem.type === 'img' && hoverIndex === projectIndex" :src="mediaItem.src"
+                    :style="getMediaStyle(mediaItem.position, mediaItem.width, mediaItem.height)"
+                    class="aspect-auto hidden lg:block" alt="" />
+            </div>
+        </div>
+
+        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.1] text-white mix-blend-difference">
+            <NuxtLink to="/work" class="border-b border-spacing-0  border-white">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
 
-        <div class="w-full font-medium flex lg:px-40 mt-14">
-            <h2 class=" w-14 min-w-14 lg:w-64 flex items-center">YEAR <img src="@/assets/icons/chevron-down.svg"
-                    alt="chevron down"></h2>
-            <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img
-                    src="@/assets/icons/chevron-down.svg" alt="chevron down"></h2>
-            <h2 class=" w-[full] flex items-center">CATEGORY<img src="@/assets/icons/chevron-down.svg"
-                    alt="chevron down"></h2>
+        <div class="w-full font-medium flex lg:px-40 mt-6 text-white mix-blend-difference">
+            <button @click="sortCriterion = 'year'" class="w-14 min-w-14 lg:w-64 flex items-center">YEAR <img
+                    src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down" :class="sortCriterion === 'year' ? 'rotate-180' : ''" ></button>
+            <button @click="sortCriterion = 'title'"
+                class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img
+                    src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down" :class="sortCriterion === 'title' ? 'rotate-180' : ''"></button>
+            <button @click="sortCriterion = 'category'" class="w-[full] flex items-center">CATEGORY<img
+                    src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down" :class="sortCriterion === 'category' ? 'rotate-180' : ''"></button>
         </div>
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 !text-black">
-            <NuxtLink to="/projects/monumenta" @mouseenter="projectOneHover = true"
-                @mouseleave="projectOneHover = false" class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2024</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span
-                        class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
-            </NuxtLink>
-            <div @mouseenter="projectTwoHover = true" @mouseleave="projectTwoHover = false"
-                class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2023</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
-                <h2 class="w-[full]">AUDIOVISUAL</h2>
-            </div>
 
-            <div @mouseenter="projectThreeHover = true" @mouseleave="projectThreeHover = false"
-                class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2022</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
-            </div>
-
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2022</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA</h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
-            </div>
-
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2022</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
-                <h2 class="w-[full]">AUDIOVISUAL</h2>
-            </div>
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2022</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
-            </div>
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2021</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA</h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
-            </div>
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2021</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">FREEDOM</h2>
-                <h2 class="w-[full]">AUDIOVISUAL</h2>
-            </div>
-            <div class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
-                <h2 class="w-14 lg:w-64">2020</h2>
-                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">PARTO</h2>
-                <h2 class="w-[full]">INSTALLATION</h2>
+        <!-- Project list -->
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-2 z-10 text-white mix-blend-difference">
+            <div v-for="(project, index) in sortedProjects" :key="index" @mouseenter="hoverIndex = index"
+                @mouseleave="hoverIndex = null" :class="['w-full flex hover:text-[#D9D9D9] hover:cursor-pointer']">
+                <h2 class="w-14 lg:w-64">{{ project.year }}</h2>
+                <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">{{ project.title }}</h2>
+                <h2 class="w-[full]">{{ project.category }}</h2>
             </div>
         </div>
-        <video v-if="projectOneHover" src="@/assets/images/Guayec_WorkPage.mp4"
-            class="aspect-auto h-[60vh] fixed bottom-0 right-0 -z-10" alt="" autoplay playsinline muted loop />
-
-
-        <img v-if="projectOneHover" src="@/assets/images/GROUP-50.png"
-            class="aspect-auto min-w-fit fixed left-0 top-0 -z-10" alt="">
-
-        <img v-if="projectTwoHover" src="@/assets/images/image7.png"
-            class="aspect-auto h-[60vh] fixed bottom-10 left-[20vw] -z-10" alt="">
-
-        <img v-if="projectThreeHover" src="@/assets/images/project-3.png"
-            class="aspect-auto h-[60vh] fixed top-0 left-0 -z-10" alt="">
-
-        <img v-if="projectThreeHover" src="@/assets/images/project-3-2.png"
-            class="aspect-auto min-w-fit fixed right-[10vw] bottom-10 -z-10">
     </div>
 </template>
 
+
 <script setup lang="ts">
-const projectOneHover = ref(false)
-const projectTwoHover = ref(false)
-const projectThreeHover = ref(false)
+// Combined projects with media and patterns
+const projects = ref([
+    {
+        year: '2024',
+        title: 'MONUMENTA. NUEVE ENCARNACIONES GUANCHES',
+        category: 'INSTALLATION',
+        media: [
+            { type: 'video', src: '/images/Guayec_WorkPage.mp4', autoplay: true, playsinline: true, muted: true, loop: true, width: '60vw', height: '60vh', position: { right: '0vw', bottom: '0vh' } },
+            { type: 'img', src: '/images/GROUP-50.png', position: { left: '0px', top: '0px' } }
+        ]
+    },
+    {
+        year: '2023',
+        title: 'FREEDOM',
+        category: 'AUDIOVISUAL',
+        media: [
+            { type: 'img', src: '/images/image7.png', position: { left: '10vw', bottom: '10vh' } }
+        ]
+    },
+    {
+        year: '2022',
+        title: 'PARTO',
+        category: 'INSTALLATION',
+        media: [
+            { type: 'img', src: '/images/project-3.png', position: { left: '0vw', top: '0vh' } },
+            { type: 'img', src: '/images/project-3-2.png', position: { right: '10vw', bottom: '20vh' } }
+        ]
+    },
+    // Add more projects with media as needed
+])
+
+// State for sorting
+const sortCriterion = ref<string>('year')
+
+// Function to sort projects
+const sortedProjects = computed(() => {
+    return [...projects.value].sort((a, b) => {
+        if (sortCriterion.value === 'year') {
+            return parseInt(b.year) - parseInt(a.year);
+        } else if (sortCriterion.value === 'title') {
+            return a.title.localeCompare(b.title);
+        } else if (sortCriterion.value === 'category') {
+            return a.category.localeCompare(b.category);
+        }
+        return 0;
+    });
+})
+
+function getMediaStyle(position: any, width: string, height: string) {
+    return {
+        ...position,
+        width,
+        height,
+        position: 'absolute'
+    };
+}
+
+// Hover index tracking
+const hoverIndex = ref<number | null>(null)
 </script>
