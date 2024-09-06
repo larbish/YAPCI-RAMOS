@@ -15,13 +15,13 @@ import Draggable from 'gsap/Draggable';
 const infoState = useState('infoState', () => false)
 const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
-if (import.meta.client) { gsap.registerPlugin(ScrollTrigger); gsap.registerPlugin(Draggable) }
+if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
 
 onMounted(() => {
   const lenis = new Lenis()
 
   lenis.on('scroll', (e) => {
-/*     console.log(e) */
+    /*     console.log(e) */
   })
 
   lenis.on('scroll', ScrollTrigger.update)
