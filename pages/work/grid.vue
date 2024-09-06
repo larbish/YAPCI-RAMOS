@@ -89,7 +89,7 @@
 
         <div class="w-full  lg:hidden">
             <div class="w-full flex mt-14">
-                <section class="grid grid-cols-2 items-start w-full gap-y-6 leading-[1.1]">
+                <section class="grid grid-cols-2 items-start w-full gap-y-10 leading-[1.1]">
                     <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-one.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">

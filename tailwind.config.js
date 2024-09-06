@@ -9,7 +9,15 @@ module.exports = {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-white': '#FFFFFF',
+        'custom-transparent': 'rgba(255, 255, 255, 0)',
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #FFFFFF 77%, rgba(255, 255, 255, 0) 100%)',
+      },
+    },
   },
   plugins: [],
 }

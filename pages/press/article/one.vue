@@ -23,7 +23,7 @@
                 <div class="w-[33.03%] h-screen flex flex-col bg-white text-black overflow-y-auto no-scrollbar"
                     data-lenis-prevent>
 
-                    <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 top-0 from-white to-[#fffffff2]  bg-gradient-to-b">
+                    <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 top-0 bg-custom-gradient">
                         <h3 class="uppercase text-lg font-medium">La Provincia</h3>
                         <div class="flex w-full px-1.5 justify-between items-center mt-1.5">
                             <div class="min-w-fit">
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="space-y-4 px-1.5 lg:mt-6 2xl:mt-10">
+                    <div class="space-y-4 px-1.5 lg:mt-6 2xl:mt-10 leading-[1.1]">
                         <p>
                             Los procesos artísticos entrañan un viaje de germinación, imaginación y alumbramiento
                             para
@@ -143,7 +143,7 @@
 
         <article class="lg:hidden text-black">
             <div
-                class="w-full flex flex-col items-center sticky pt-36 pb-3 top-0 from-white to-[#fffffff2]  bg-gradient-to-b ">
+                class="w-full flex flex-col items-center sticky pt-36 pb-3 top-0 bg-custom-gradient ">
                 <h3 class="uppercase font-medium">La Provincia</h3>
                 <div class="flex w-full px-1.5 justify-between items-center mt-1.5">
                     <div class="min-w-fit">
@@ -162,7 +162,7 @@
                 </div>
             </div>
 
-            <div class="space-y-3 px-1.5 mt-10">
+            <div class="space-y-3 px-1.5 mt-10 leading-[1.1]">
                 <p>
                     Los procesos artísticos entrañan un viaje de germinación, imaginación y alumbramiento
                     para
@@ -271,3 +271,8 @@
 <script setup>
 
 </script>
+
+
+<style>
+
+</style>
