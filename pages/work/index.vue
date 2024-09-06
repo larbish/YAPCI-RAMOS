@@ -21,7 +21,7 @@
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
 
-        <div class="w-full font-medium flex lg:px-40 mt-6 text-white mix-blend-difference">
+        <div class="w-full font-medium flex lg:px-40 mt-7 text-white mix-blend-difference">
             <button @click="sortCriterion = 'year'" class="w-14 min-w-14 lg:w-64 flex items-center">YEAR <img
                     src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down"
                     :class="sortCriterion === 'year' ? 'rotate-180' : ''"></button>
@@ -35,7 +35,7 @@
         </div>
 
         <!-- Project list -->
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-2 z-10 text-white mix-blend-difference" v-auto-animate>
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-2 z-10 text-white mix-blend-difference" v-auto-animate>
             <NuxtLink v-for="(project, index) in sortedProjects" :key="index" @mouseenter="hoverIndex = index"
                 :to="project.link" @mouseleave="hoverIndex = null"
                 :class="['w-full flex hover:text-[#D9D9D9] hover:cursor-pointer']" v-auto-animate>
