@@ -1,6 +1,6 @@
 <template>
     <div class="w-full overflow-x-clip bg-white">
-        <div ref="container" class="w-full h-full relative overflow-clip" v>
+        <div ref="container" class="w-full h-full relative overflow-clip leading-[1.1]">
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
                     <SectionOne />
