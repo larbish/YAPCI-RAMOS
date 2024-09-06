@@ -53,12 +53,12 @@ const router = useRouter()
 const darkVariant = useState('darkVariant', () => false)
 
 /* onMounted(() => {
-    if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta') darkVariant.value = false
+    if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta' || route.path.toLocaleLowerCase() == '/downloads') darkVariant.value = false
     else darkVariant.value = true
 })
 
 watchEffect(() => {
-    if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta') darkVariant.value = false
+    if (route.path == '/' || route.path.toLocaleLowerCase() == '/projects/monumenta' || route.path.toLocaleLowerCase() == '/downloads') darkVariant.value = false
     else darkVariant.value = true
 }) */
 </script>
