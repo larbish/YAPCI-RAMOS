@@ -1,8 +1,8 @@
 <template>
     <div class="h-screen w-full overflow-x-clip bg-white relative text-black">
-        <div class="wrapper flex h-full flex-nowrap bg-white">
+        <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white">
             <section v-for="(section, index) in sections" :key="index"
-                class="section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
+                class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
                     <p class="font-medium">{{ section.title }}</p>
                     <div class=" min-w-96 lg:min-w-fit mt-0.5 grid grid-rows-10 grid-flow-col">
@@ -14,7 +14,7 @@
                 </div>
             </section>
 
-            <section class="section lg:w-[calc(100vw-35vw)] flex-shrink-0 d-flex line-right"></section>
+            <section class="download-scroll-section lg:w-[calc(100vw-35vw)] flex-shrink-0 d-flex line-right"></section>
         </div>
 
         <div
@@ -48,12 +48,11 @@
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
         </p>
-        <div class="hidden absolute drag-proxy"></div>
+        <div ref="dragProxy" class="hidden absolute drag-proxy"></div>
     </div>
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import Draggable from "gsap/Draggable";
@@ -136,9 +135,10 @@ const sections = ref([
 ]);
 
 const navLinks = ["ALL", "READS", "PRESS", "PUBLICATIONS", "CATALOGUES", "PRESS KITS", "DOSSIERS"];
-
-onMounted(() => {
-    const sectionsArray = gsap.utils.toArray("section");
+const wrapper = ref(null);
+const dragProxy = ref(null);
+onMounted(async () => {
+    const sectionsArray = await gsap.utils.toArray(".download-scroll-section");
     let maxWidth = 0;
 
     const getMaxWidth = () => {
@@ -157,7 +157,7 @@ onMounted(() => {
 
     let horizontalScroll = ScrollTrigger.create({
         animation: scrollTween,
-        trigger: ".wrapper",
+        trigger: wrapper.value,
         pin: true,
         scrub: true,
         end: () => `+=${maxWidth}`,
@@ -170,30 +170,11 @@ onMounted(() => {
         },
     });
 
-    const setSectionColor = (section, color) => {
-        gsap.to(section, {
-            backgroundColor: color,
-            duration: 0.3,
-            overwrite: "auto",
-        });
-    };
-
-    sectionsArray.forEach((section) => {
-        ScrollTrigger.create({
-            trigger: section,
-            start: "right center",
-            end: "right center",
-            onEnter: () => setSectionColor(section, "red"),
-            onLeave: () => setSectionColor(section, ""),
-            onEnterBack: () => setSectionColor(section, "red"),
-            onLeaveBack: () => setSectionColor(section, ""),
-        });
-    });
 
     let dragRatio = maxWidth / (maxWidth - window.innerWidth);
 
-    var drag = Draggable.create(".drag-proxy", {
-        trigger: ".wrapper",
+    Draggable.create(dragProxy.value, {
+        trigger: wrapper.value,
         type: "x",
         allowContextMenu: true,
         onPress() {
@@ -210,6 +191,7 @@ onMounted(() => {
             );
         },
     })[0];
+
 });
 
 </script>

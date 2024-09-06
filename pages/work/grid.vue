@@ -1,8 +1,8 @@
 <template>
     <div class="text-black w-full pt-44 bg-white">
-        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.1]">
+        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 sticky top-44 text-white mix-blend-difference leading-[1.1]">
             <NuxtLink to="/work">List</NuxtLink>
-            <NuxtLink to="/work/grid" class="border-b border-spacing-0  border-black">Grid</NuxtLink>
+            <NuxtLink to="/work/grid" class="border-b border-spacing-0  border-white">Grid</NuxtLink>
         </div>
 
         <div class="w-full hidden lg:block">
