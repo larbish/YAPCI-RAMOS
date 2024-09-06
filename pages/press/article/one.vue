@@ -23,22 +23,22 @@
                 <div class="w-[33.03%] h-screen flex flex-col bg-white text-black overflow-y-auto no-scrollbar"
                     data-lenis-prevent>
 
-                    <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 top-0 bg-custom-gradient">
-                        <h3 class="uppercase text-lg font-medium">La Provincia</h3>
+                    <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 top-0 bg-custom-gradient ">
+                        <h3 class="uppercase font-medium">La Provincia</h3>
                         <div class="flex w-full px-1.5 justify-between items-center mt-1.5">
                             <div class="min-w-fit">
-                                <img src="@/assets/icons/chevron-left.svg" class="h-10" alt="">
+                                <img src="@/assets/icons/chevron-left.svg" class="h-6" alt="">
                             </div>
                             <div class="w-full">
                                 <h2
                                     class=" lg:text-xl 2xl:text-2xl font-serif font-light text-center uppercase leading-[1.1]">
                                     Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
                                 </h2>
-                                <p class="uppercase lg:text-base 2xl:text-lg text-center">BY NORA NAVARRO. MARCH 2th,
+                                <p class="uppercase text-center">BY NORA NAVARRO. MARCH 2th,
                                     2024</p>
                             </div>
                             <div class="min-w-fit">
-                                <img src="@/assets/icons/chevron-right.svg" class="h-10" alt="">
+                                <img src="@/assets/icons/chevron-right.svg" class="h-6" alt="">
                             </div>
                         </div>
                     </div>
