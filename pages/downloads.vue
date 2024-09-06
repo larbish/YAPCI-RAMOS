@@ -5,7 +5,7 @@
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
                     <p class="font-medium">{{ section.title }}</p>
-                    <div class=" min-w-96 lg:min-w-fit mt-0.5 grid grid-rows-10 grid-flow-col">
+                    <div class=" min-w-96 lg:min-w-fit mt-0.5 grid gap-x-10 lg:grid-rows-10 lg:grid-flow-col">
                         <div v-for="(item, idx) in section.items" :key="idx" class="grid grid-cols-3 uppercase gap-x-4">
                             <p class="col-span-2">{{ item.title }}</p>
                             <p>{{ item.author }}</p>
