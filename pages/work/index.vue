@@ -1,7 +1,7 @@
 <template>
     <div class="text-black px-2 w-full pt-44 min-h-screen relative bg-white">
-        <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 relative">
-            <NuxtLink to="/work" class="border-b border-black ">List</NuxtLink>
+        <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 relative leading-[1.1]">
+            <NuxtLink to="/work" class="border-b border-spacing-0  border-black ">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
 
@@ -14,8 +14,8 @@
                     alt="chevron down"></h2>
         </div>
         <div class="lg:px-40 flex font-normal w-full flex-col mt-4 z-10 !text-black">
-            <NuxtLink to="/projects/monumenta" @mouseenter="projectOneHover = true" @mouseleave="projectOneHover = false"
-                class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
+            <NuxtLink to="/projects/monumenta" @mouseenter="projectOneHover = true"
+                @mouseleave="projectOneHover = false" class="w-full flex hover:text-[#D9D9D9] hover:cursor-pointer">
                 <h2 class="w-14 lg:w-64">2024</h2>
                 <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">MONUMENTA. <span
                         class="hidden lg:inline">NUEVE ENCARNACIONES GUANCHES</span> </h2>

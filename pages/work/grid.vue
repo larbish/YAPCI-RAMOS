@@ -1,8 +1,8 @@
 <template>
     <div class="text-black w-full pt-44 bg-white">
-        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3">
+        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.1]">
             <NuxtLink to="/work">List</NuxtLink>
-            <NuxtLink to="/work/grid" class="border-b border-black">Grid</NuxtLink>
+            <NuxtLink to="/work/grid" class="border-b border-spacing-0  border-black">Grid</NuxtLink>
         </div>
 
         <div class="w-full hidden lg:block">
@@ -109,20 +109,21 @@
                     </div>
 
                     <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-res-four.png"
-                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <img src="@/assets/images/grid-image-res-four.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
                         <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
                     </div>
 
-                    <div class="flex flex-col cursor-pointer w-full col-span-2 hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-res-five.png"
-                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                    <div
+                        class="flex flex-col cursor-pointer w-full col-span-2 hover:text-gray-400 transition-colors duration-300">
+                        <img src="@/assets/images/grid-image-res-five.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
                         <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
                     </div>
 
                     <div class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-res-six.png"
-                            class="w-full max-w-full min-w-full pr-[1px]" alt="">
+                        <img src="@/assets/images/grid-image-res-six.png" class="w-full max-w-full min-w-full pr-[1px]"
+                            alt="">
                         <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
                     </div>
 
