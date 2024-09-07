@@ -218,7 +218,7 @@ onMounted(async () => {
 
 <style>
 ::selection {
-    color: black;
+    color: white;
     background-color: red;
 }
 </style>
