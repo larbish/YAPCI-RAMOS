@@ -22,7 +22,7 @@
 
         <div
             class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64">
-            <NuxtLink v-for="link in navLinks" :key="link"
+            <NuxtLink v-for="link in navLinks" :key="link"  :class="{ 'border-b-[0.5px] border-black': link.toLowerCase().replace(' ', '-') === 'all' }"
                 :to="link === 'ALL' ? '/downloads' : `/downloads/${link.toLowerCase().replace(' ', '-')}`"
                 class="cursor-pointer">
                 {{ link }}
@@ -64,8 +64,10 @@ import Lenis from '@studio-freight/lenis'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import gsap from "gsap";
 import Draggable from "gsap/Draggable";
-const progressIndicator = ref(null);
 
+const route = useRoute();
+const progressIndicator = ref(null);
+console.log( route.path.split('/')[2])
 const sections = ref([
     {
         title: "READS",
