@@ -96,7 +96,7 @@
         <div class="flex items-start mt-20">
             <div class="w-[55.0%] pl-4">
                 <h2 class="font-medium">CREDITS</h2>
-                <div class="grid grid-cols-2 gap-x-2 uppercase mt-3">
+                <div class="grid grid-cols-2 gap-x-2 uppercase mt-3 leading-[1.3]">
                     <div>
                         <p class="hover:text-gray-500 transition-colors duration-300"><span
                                 class="font-medium">Title.</span> Monumenta. Nine Guanche Incarnations</p>
