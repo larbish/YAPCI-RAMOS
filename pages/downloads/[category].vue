@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen w-full overflow-x-clip bg-white relative text-black">
         <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.2]">
-            <section v-for="(section, index) in sections" :key="index"
+            <section v-for="(section, index) in filteredSections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
                     <p class="font-medium">{{ section.title }}</p>
@@ -22,10 +22,12 @@
 
         <div
             class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64">
-            <NuxtLink v-for="link in navLinks" :key="link"
+            <NuxtLink v-for="link in navLinks" :key="link" @click="toggleCategory(link)"
                 :to="link === 'ALL' ? '/downloads' : `/downloads/${link.toLowerCase().replace(' ', '-')}`"
-                class="cursor-pointer" :class="{ 'border-b-[0.5px] border-black': link === 'ALL' }">
-                {{ link }}
+                class="cursor-pointer">
+                <div v-if="isSelected(link)" class="flex items-start border-b-[0.5px] border-black border-spacing-0">{{
+                    link }} <img src="@/assets/icons/tiny-x.svg" :alt="link"></div>
+                <div v-else>{{ link }}</div>
             </NuxtLink>
         </div>
 
@@ -34,7 +36,7 @@
                 <!-- <img src="@/assets/progress-indicator.svg" class="h-14" alt="progress indicator"> -->
                 <div
                     class="flex items-center text-[0.15rem] leading-[1.1] sm:leading-[1.1] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1]">
-                    <ul v-for="(section, index) in sections" :key="index">
+                    <ul v-for="(section, index) in filteredSections" :key="index">
                         <div class="flex flex-col">
                             <p class="font-medium">{{ section.title }}</p>
                             <div class=" min-w-fit lg:min-w-fit max-w-[fit] mt-[0.1rem]">
@@ -64,6 +66,8 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import gsap from "gsap";
 import Draggable from "gsap/Draggable";
 const progressIndicator = ref(null);
+const router = useRouter()
+const route = useRoute()
 
 const sections = ref([
     {
@@ -143,6 +147,61 @@ const sections = ref([
 const navLinks = ["ALL", "READS", "PRESS", "PUBLICATIONS", "CATALOGUES", "PRESS KITS", "DOSSIERS"];
 const wrapper = ref(null);
 const dragProxy = ref(null);
+
+const filteredSections = computed(() => {
+    if (!route.params.category || route.params.category.toUpperCase() === 'ALL') {
+        router.push('/downloads');
+    }
+
+    const selectedCategories = route.params.category
+        .split('_')
+        .map(category => category.toLowerCase()); // Convert route categories to lowercase
+
+    return sections.value.filter(section =>
+        selectedCategories.includes(section.title.toLowerCase()) // Convert section titles to lowercase for comparison
+    );
+});
+
+
+const isSelected = (category) => {
+    const categories = route.params.category
+        ?.split('_')
+        .map(cat => cat.toLowerCase()) || []; // Convert route categories to lowercase
+    return categories.includes(category.toLowerCase()); // Convert the category argument to lowercase
+};
+
+
+const toggleCategory = (category) => {
+    // Get current categories from route parameters, convert to lowercase
+    const currentCategories = route.params.category
+        ?.split('_')
+        .map(cat => cat.toLowerCase()) || [];
+
+    // Convert the passed category to lowercase
+    const categoryLowerCase = category.toLowerCase();
+    if (categoryLowerCase === 'all') {
+        // Reset to "ALL" if "ALL" is selected
+        router.push({ path: '/downloads' });
+    } else {
+        // Check if the category is currently selected
+        const categoryExists = currentCategories.includes(categoryLowerCase);
+
+        // Determine the updated list of categories
+        const updatedCategories = categoryExists
+            ? currentCategories.filter(cat => cat !== categoryLowerCase) // Remove if already selected
+            : [...currentCategories, categoryLowerCase]; // Add if not selected
+
+        // If no categories are selected, reset to "ALL"
+        console.log(updatedCategories)
+        if (updatedCategories.length === 0) {
+            router.push({ path: '/downloads' });
+        } else {
+            // Update route with selected categories using underscores
+            router.push({ path: `/downloads/${updatedCategories.join('_')}` });
+        }
+    }
+};
+
 
 
 if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
