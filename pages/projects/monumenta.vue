@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full overflow-x-clip bg-white">
+    <div class="hidden lg:block w-full overflow-x-clip bg-white">
         <div ref="container" class="w-full h-full relative overflow-clip leading-[1.1]">
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
@@ -39,6 +39,10 @@
             <img v-if="!firstSectionActive" @click="activateFirstSection" src="@/assets/icons/work-x.svg"
                 class="w-[1.56%] left-[3.5%] fixed top-[2%] mix-blend-difference cursor-pointer" alt="">
         </div>
+    </div>
+
+    <div class="lg:hidden bg-white min-h-screen">
+        
     </div>
 </template>
 

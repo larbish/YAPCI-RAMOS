@@ -5,9 +5,9 @@
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
                     <p class="font-medium">{{ section.title }}</p>
-                    <div
-                        class=" min-w-96 lg:min-w-fit mt-0.5 grid gap-x-10 lg:grid-rows-10 lg:grid-flow-col ">
-                        <div v-for="(item, idx) in section.items" :key="idx" class="grid grid-cols-3 uppercase hover:text-neutral-400 gap-x-4 cursor-pointer" >
+                    <div class=" min-w-96 lg:min-w-fit mt-0.5 grid gap-x-10 lg:grid-rows-10 lg:grid-flow-col ">
+                        <div v-for="(item, idx) in section.items" :key="idx"
+                            class="grid grid-cols-3 uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
                             <p class="col-span-2">{{ item.title }}</p>
                             <p>{{ item.author }}</p>
                         </div>
@@ -20,7 +20,7 @@
 
         <div
             class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64">
-            <p v-for="link in navLinks" :key="link" class="cursor-pointer">{{ link }}</p>
+            <p v-for="link in navLinks" :key="link" class="cursor-pointer" @click="setActiveFilter(link)">{{ link }}</p>
         </div>
 
         <div class="fixed bottom-[20vh] w-full flex items-center justify-center">
@@ -59,6 +59,18 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import gsap from "gsap";
 import Draggable from "gsap/Draggable";
 const progressIndicator = ref(null);
+
+
+const setActiveFilter = (link) => {
+    activeFilter.value = link;
+};
+
+const filteredSections = computed(() => {
+    if (activeFilter.value === "ALL") {
+        return sections.value;
+    }
+    return sections.value.filter(section => section.title === activeFilter.value);
+});
 
 const sections = ref([
     {

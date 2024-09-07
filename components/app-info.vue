@@ -32,9 +32,9 @@
                             </p>
                         </article>
 
-                        <article class="lg:col-span-6 mt-6 lg:mt-0 leading-[1.1]">
+                        <article class="lg:col-span-6 mt-6 lg:mt-0">
                             <h2 class="font-medium">SELECTED EXHIBITIONS</h2>
-                            <p class=" mt-1 lg:mt-0 ">
+                            <p class=" mt-1 lg:mt-0 leading-[1.1] ">
                                 It is remarkable her admission at The Watermill Center, Nueva York; The Fountainhead
                                 Residency, Miami; Art Omi, Nueva York; as well as the selection as resident artist in
                                 Residency Unlimited 2024, New York. Ramos’s work has been exhibited in international
