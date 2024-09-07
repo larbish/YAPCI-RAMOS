@@ -149,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-[44.95%]">
+            <div class="w-[44.95%] leading-[1.3]">
                 <h2 class="font-medium">DOWNLOADS</h2>
 
                 <div class="mt-3">
