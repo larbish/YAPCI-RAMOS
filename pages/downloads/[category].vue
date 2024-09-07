@@ -1,6 +1,6 @@
 <template>
     <div class="h-screen w-full overflow-x-clip bg-white relative text-black">
-        <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.2]">
+        <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.4]">
             <section v-for="(section, index) in filteredSections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
@@ -149,16 +149,20 @@ const wrapper = ref(null);
 const dragProxy = ref(null);
 
 const filteredSections = computed(() => {
+    // Redirect to '/downloads' if no category is specified or if the category is 'ALL'
     if (!route.params.category || route.params.category.toUpperCase() === 'ALL') {
         router.push('/downloads');
+        return []; // Return an empty array to avoid further processing
     }
 
+    // Normalize route categories: replace dashes with spaces and convert to uppercase
     const selectedCategories = route.params.category
         .split('_')
-        .map(category => category.toLowerCase()); // Convert route categories to lowercase
+        .map(category => category.replace('-', ' ').toUpperCase()); // Convert dashes to spaces and to uppercase
 
+    // Normalize section titles: replace dashes with spaces and convert to uppercase
     return sections.value.filter(section =>
-        selectedCategories.includes(section.title.toLowerCase()) // Convert section titles to lowercase for comparison
+        selectedCategories.includes(section.title.replace('-', ' ').toUpperCase()) // Convert dashes to spaces and to uppercase
     );
 });
 
