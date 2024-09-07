@@ -142,19 +142,7 @@ const dragProxy = ref(null);
 if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
 
 onMounted(() => {
-    const lenis = new Lenis()
 
-    lenis.on('scroll', (e) => {
-     /*    console.log(e) */
-    })
-
-    lenis.on('scroll', ScrollTrigger.update)
-
-    gsap.ticker.add((time) => {
-        lenis.raf(time * 1000)
-    })
-
-    gsap.ticker.lagSmoothing(0)
 })
 onMounted(async () => {
     const sectionsArray = await gsap.utils.toArray(".download-scroll-section");
@@ -181,14 +169,26 @@ onMounted(async () => {
         scrub: true,
         end: () => `+=${maxWidth}`,
         invalidateOnRefresh: true,
-        onUpdate: (self) => {
-            const scrollPercent = (self.progress * 100).toFixed(2); // Scroll percentage
-            gsap.to(progressIndicator.value, {
-                left: `${scrollPercent}%`,
-            })
-        },
     });
 
+
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+        console.log(horizontalScroll.progress * 100)
+
+        gsap.to(progressIndicator.value, {
+            left: `${(horizontalScroll.progress * 100).toFixed(2)}%`
+        })
+    })
+
+    lenis.on('scroll', ScrollTrigger.update)
+
+    gsap.ticker.add((time) => {
+        lenis.raf(time * 1000)
+    })
+
+    gsap.ticker.lagSmoothing(0)
 
     let dragRatio = maxWidth / (maxWidth - window.innerWidth);
 
