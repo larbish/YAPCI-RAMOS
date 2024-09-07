@@ -15,7 +15,7 @@
                 </div>
             </section>
 
-            <section class="download-scroll-section lg:w-[calc(100vw-35vw)] flex-shrink-0 d-flex line-right"></section>
+            
         </div>
 
         <div
