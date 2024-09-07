@@ -17,11 +17,11 @@ const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
 if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
 
-onMounted(() => {
+/* onMounted(() => {
   const lenis = new Lenis()
 
   lenis.on('scroll', (e) => {
-  /*       console.log(e) */
+        console.log(e)
   })
 
   lenis.on('scroll', ScrollTrigger.update)
@@ -31,7 +31,7 @@ onMounted(() => {
   })
 
   gsap.ticker.lagSmoothing(0)
-})
+}) */
 
 
 
