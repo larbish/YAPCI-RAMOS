@@ -53,8 +53,9 @@
 </template>
 
 <script setup>
+import Lenis from '@studio-freight/lenis'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
 import Draggable from "gsap/Draggable";
 const progressIndicator = ref(null);
 
@@ -136,6 +137,25 @@ const sections = ref([
 const navLinks = ["ALL", "READS", "PRESS", "PUBLICATIONS", "CATALOGUES", "PRESS KITS", "DOSSIERS"];
 const wrapper = ref(null);
 const dragProxy = ref(null);
+
+
+if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
+
+onMounted(() => {
+    const lenis = new Lenis()
+
+    lenis.on('scroll', (e) => {
+     /*    console.log(e) */
+    })
+
+    lenis.on('scroll', ScrollTrigger.update)
+
+    gsap.ticker.add((time) => {
+        lenis.raf(time * 1000)
+    })
+
+    gsap.ticker.lagSmoothing(0)
+})
 onMounted(async () => {
     const sectionsArray = await gsap.utils.toArray(".download-scroll-section");
     let maxWidth = 0;

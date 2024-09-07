@@ -185,7 +185,7 @@ const toggleFullScreen = (event) => {
     const videoElement = event.currentTarget;
     if (!document.fullscreenElement) {
         videoElement.requestFullscreen().catch(err => {
-            console.log(`Error attempting to enable full-screen mode: ${err.message}`);
+  /*           console.log(`Error attempting to enable full-screen mode: ${err.message}`); */
         });
     }
 };

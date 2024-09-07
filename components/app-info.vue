@@ -176,7 +176,7 @@ const Submitted = ref(false);
 
 const handleSubmit = () => {
     Submitted.value = true;
-    console.log(email.value);
+  /*   console.log(email.value); */
     email.value = '';
 }
 onMounted(() => {

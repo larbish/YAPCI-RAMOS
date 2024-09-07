@@ -56,7 +56,7 @@ onMounted(() => {
     let radius = 80;
     let maxRadius = canvas.width;
   
-    console.log(currentVideoIndex.value)
+/*     console.log(currentVideoIndex.value) */
     /* 
         const toggleButton = document.getElementById('toggleButton');
         toggleButton.addEventListener('mouseenter', () => {
