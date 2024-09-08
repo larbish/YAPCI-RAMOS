@@ -142,3 +142,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'ABC Arizona Serif';
+    src: url('ABCArizonaSerif-Light.woff2') format('woff2'),
+        url('ABCArizonaSerif-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
