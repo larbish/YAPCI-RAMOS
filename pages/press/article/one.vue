@@ -55,7 +55,7 @@
         <article class="lg:hidden text-black">
             <div class="w-full flex flex-col items-center sticky pt-36 pb-3 top-0 bg-custom-gradient ">
                 <h3 class="uppercase font-medium">La Provincia</h3>
-                <div class="flex w-full px-2 justify-between items-center mt-1.5">
+                <div class="flex w-full px-3 justify-between items-center mt-1.5">
                     <div class="min-w-fit">
                         <img src="@/assets/icons/chevron-left.svg" class="h-6 sm:h-10" alt="">
                     </div>
