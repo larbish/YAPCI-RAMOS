@@ -50,7 +50,7 @@
 
         <section @click="activateSecondSection"
             class="w-full h-[80vh] bg-white bg-opacity-90 fixed bottom-0 pt-7 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
-            :class="{ 'top-[calc(100vh-60px)] transition-all duration-700 backdrop-blur-none bg-transparent': !secondSectionActive }">
+            :class="{ 'top-[calc(100dvh-60px)] transition-all duration-700 backdrop-blur-none bg-transparent': !secondSectionActive }">
             <div class="relative h-full w-full">
                 <p @click="activateSecondSection"
                     class="absolute font-medium -top-6 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
@@ -72,7 +72,7 @@
 
         <section @click="activateThirdSection"
             class="w-full h-[calc(80vh-30px)] bg-white bg-opacity-90 pt-7 fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
-            :class="{ 'top-[calc(100vh-30px)] transition-all duration-700 backdrop-blur-none bg-transparent': !thirdSectionActive }">
+            :class="{ 'top-[calc(100dvh-30px)] transition-all duration-700 backdrop-blur-none bg-transparent': !thirdSectionActive }">
 
             <div class="relative h-full w-full">
                 <p @click="activateThirdSection"
