@@ -23,19 +23,19 @@
                     data-lenis-prevent>
                     <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 top-0 bg-custom-gradient">
                         <h3 class="uppercase font-medium">La Provincia</h3>
-                        <div class="flex w-full px-1.5 justify-between items-center mt-1">
+                        <div class="flex w-full px-2 justify-between items-center mt-1">
                             <div class="min-w-fit">
-                                <img src="@/assets/icons/chevron-left.svg" class="h-6" alt="">
+                                <img src="@/assets/icons/chevron-left.svg" class="h-5" alt="">
                             </div>
                             <div class="w-full">
                                 <h2
-                                    class="lg:text-xl 2xl:text-2xl font-serif font-light text-center uppercase !leading-none arizona-font">
+                                    class="lg:text-xl 2xl:text-2xl font-serif font-light text-center uppercase !leading-none px-10 arizona-font">
                                     Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
                                 </h2>
                                 <p class="uppercase text-center">BY NORA NAVARRO. MARCH 2th, 2024</p>
                             </div>
                             <div class="min-w-fit">
-                                <img src="@/assets/icons/chevron-right.svg" class="h-6" alt="">
+                                <img src="@/assets/icons/chevron-right.svg" class="h-5" alt="">
                             </div>
                         </div>
                     </div>
@@ -55,13 +55,13 @@
         <article class="lg:hidden text-black">
             <div class="w-full flex flex-col items-center sticky pt-36 pb-3 top-0 bg-custom-gradient ">
                 <h3 class="uppercase font-medium">La Provincia</h3>
-                <div class="flex w-full px-1.5 justify-between items-center mt-1.5">
+                <div class="flex w-full px-2 justify-between items-center mt-1.5">
                     <div class="min-w-fit">
                         <img src="@/assets/icons/chevron-left.svg" class="h-6 sm:h-10" alt="">
                     </div>
-                    <div class="w-full px-1.5 mt-1">
+                    <div class="w-full px-2.5 mt-1">
                         <h2
-                            class="text-2xl sm:text-3xl font-serif font-light text-center uppercase leading-[1] arizona-font">
+                            class="text-2xl sm:text-3xl px-4 font-serif font-light text-center uppercase leading-[1] arizona-font">
                             Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
                         </h2>
                         <p class="uppercase lg:text-base 2xl:text-lg text-center mt-4">BY NORA NAVARRO. MARCH 2th, 2024
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="space-y-3 px-1.5 mt-10 leading-[1.1]">
+            <div class="space-y-3 px-2.5 mt-10 leading-[1.1]">
                 <p v-for="(paragraph, index) in textContent" :key="index">
                     {{ paragraph }}
                 </p>
