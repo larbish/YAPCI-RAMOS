@@ -22,20 +22,21 @@
         </div>
 
         <div class="w-full font-medium flex lg:px-40 mt-7 text-white mix-blend-difference">
-            <button @click="sortCriterion = 'year'" class="w-14 min-w-14 lg:w-64 flex items-center">YEAR <img
+            <button @click="toggleSort('year')" class="w-14 min-w-14 lg:w-64 flex items-center">YEAR <img
                     src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down"
-                    :class="sortCriterion === 'year' ? 'rotate-180' : ''"></button>
-            <button @click="sortCriterion = 'title'"
+                    :class="getSortIconClass('year')"></button>
+            <button @click="toggleSort('title')"
                 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw] flex items-center">PROJECT<img
                     src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down"
-                    :class="sortCriterion === 'title' ? 'rotate-180' : ''"></button>
-            <button @click="sortCriterion = 'category'" class="w-[full] flex items-center">CATEGORY<img
+                    :class="getSortIconClass('title')"></button>
+            <button @click="toggleSort('category')" class="w-[full] flex items-center">CATEGORY<img
                     src="@/assets/icons/chevron-down.svg" class="invert" alt="chevron down"
-                    :class="sortCriterion === 'category' ? 'rotate-180' : ''"></button>
+                    :class="getSortIconClass('category')"></button>
         </div>
 
         <!-- Project list -->
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-2 z-10 text-white mix-blend-difference" v-auto-animate>
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-2 z-10 text-white mix-blend-difference"
+            v-auto-animate>
             <NuxtLink v-for="(project, index) in sortedProjects" :key="index" @mouseenter="hoverIndex = index"
                 :to="project.link" @mouseleave="hoverIndex = null"
                 :class="['w-full flex hover:text-[#D9D9D9] hover:cursor-pointer']" v-auto-animate>
@@ -89,21 +90,37 @@ const projects = ref([
 ])
 
 // State for sorting
-const sortCriterion = ref<string>('year')
+// State for sorting criterion and order
+const sortCriterion = ref<string>('year');
+const sortOrder = ref<string>('desc'); // 'asc' for ascending, 'desc' for descending
 
 // Function to sort projects
 const sortedProjects = computed(() => {
     return [...projects.value].sort((a, b) => {
+        let comparison = 0;
         if (sortCriterion.value === 'year') {
-            return parseInt(b.year) - parseInt(a.year);
+            comparison = parseInt(b.year) - parseInt(a.year);
         } else if (sortCriterion.value === 'title') {
-            return a.title.localeCompare(b.title);
+            comparison = a.title.localeCompare(b.title);
         } else if (sortCriterion.value === 'category') {
-            return a.category.localeCompare(b.category);
+            comparison = a.category.localeCompare(b.category);
         }
-        return 0;
+        return sortOrder.value === 'asc' ? comparison : -comparison;
     });
-})
+});
+
+function toggleSort(criterion: string) {
+    if (sortCriterion.value === criterion) {
+        sortOrder.value = sortOrder.value === 'asc' ? 'desc' : 'asc';
+    } else {
+        sortCriterion.value = criterion;
+        sortOrder.value = 'desc'; // Default to descending order when switching criterion
+    }
+}
+
+function getSortIconClass(criterion: string) {
+    return sortCriterion.value === criterion ? (sortOrder.value === 'asc' ? 'rotate-180' : '') : '';
+}
 
 function getMediaStyle(position: any, width: string, height: string) {
     return {
