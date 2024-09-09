@@ -61,11 +61,11 @@
 
                     <img src="@/assets/images/section-two-image-two.png" class="h-full  w-fit " alt="">
 
-                    <img src="@/assets/images/section-two-image-three.png" class="w-fit" alt="">
+                    <img src="@/assets/images/section-two-image-three.png" class="max-w-fit" alt="">
 
-                    <img src="@/assets/images/section-two-image-four.png" class="h-fit" alt="">
+                    <img src="@/assets/images/section-two-image-four.png" class="max-w-fit h-[40%]" alt="">
 
-                    <img src="@/assets/images/section-two-image-five.png" class=" h-fit" alt="">
+                    <img src="@/assets/images/section-two-image-five.png" class="max-w-fit h-[60%]" alt="">
                 </div>
             </div>
         </section>
