@@ -139,7 +139,7 @@ function triggerFunction() {
     displayFlash.value = true;
     setTimeout(() => {
         displayFlash.value = false;
-    }, 400);
+    }, 100);
 }
 
 </script>

@@ -24,10 +24,12 @@
             class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64">
             <NuxtLink v-for="link in navLinks" :key="link" @click="toggleCategory(link)"
                 :to="link === 'ALL' ? '/downloads' : `/downloads/${link.toLowerCase().replace(' ', '-')}`"
-                class="cursor-pointer">
+                class="cursor-pointer relative leading-none">
                 <div v-if="isSelected(link)" class="flex items-start border-b-[0.5px] border-black border-spacing-0">{{
-                    link }} <img src="@/assets/icons/tiny-x.svg" :alt="link"></div>
+                    link }} </div>
                 <div v-else>{{ link }}</div>
+
+                <img v-show="isSelected(link)" src="@/assets/icons/tiny-x.svg" class="absolute -right-2 top-0 border-spacing-0 border-b-[0.5px] border-transparent" :alt="link">
             </NuxtLink>
         </div>
 

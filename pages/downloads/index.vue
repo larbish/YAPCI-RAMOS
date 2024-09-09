@@ -21,7 +21,7 @@
         </div>
 
         <div
-            class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64">
+            class="w-full flex flex-wrap items-center gap-x-4 text-black text-center top-40 lg:top-48 fixed pl-4 lg:pl-64 leading-none">
             <NuxtLink v-for="link in navLinks" :key="link"
                 :to="link === 'ALL' ? '/downloads' : `/downloads/${link.toLowerCase().replace(' ', '-')}`"
                 class="cursor-pointer" :class="{ 'border-b-[0.5px] border-black': link === 'ALL' }">

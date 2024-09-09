@@ -10,12 +10,12 @@ const flash = ref(null);
 
 onMounted(() => {
     gsap.to(flash.value, {
-        duration: 0.2,
+        duration: 0.05,
         opacity: 1
     }).then(() => {
 
         gsap.to(flash.value, {
-            duration: 0.2,
+            duration: 0.05,
             opacity: 0
         })
     })
