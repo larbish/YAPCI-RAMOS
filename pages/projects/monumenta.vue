@@ -57,15 +57,15 @@
                     Process
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
-                    <img src="@/assets/images/section-two-image-one.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-two-image-one.png" class="h-full min-w-fit w-fit max-w-fit" alt="">
 
-                    <img src="@/assets/images/section-two-image-two.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-two-image-two.png" class="h-full  w-fit " alt="">
 
-                    <img src="@/assets/images/section-two-image-three.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-two-image-three.png" class="w-fit" alt="">
 
-                    <img src="@/assets/images/section-two-image-four.png" class="w-full h-fit" alt="">
+                    <img src="@/assets/images/section-two-image-four.png" class="w-fit h-full" alt="">
 
-                    <img src="@/assets/images/section-two-image-five.png" class="w-full h-fit" alt="">
+                    <img src="@/assets/images/section-two-image-five.png" class=" h-fit" alt="">
                 </div>
             </div>
         </section>
