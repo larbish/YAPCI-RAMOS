@@ -15,7 +15,7 @@ module.exports = {
         'custom-transparent': 'rgba(255, 255, 255, 0)',
       },
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(180deg, #FFFFFF 95%, rgba(255, 255, 255, 0) 100%)',
+        'custom-gradient': 'linear-gradient(180deg, #FFFFFF 20%, #FFFFFF 75%, rgba(255, 255, 255, 0.5) 95%, rgba(255, 255, 255, 0) 100%)',
       },
     },
   },
