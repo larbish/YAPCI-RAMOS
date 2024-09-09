@@ -53,7 +53,7 @@
             :class="{ 'top-[calc(100vh-60px)] transition-all duration-700': !secondSectionActive }">
             <div class="relative h-full w-full">
                 <p @click="activateSecondSection"
-                    class="absolute font-medium top-1 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
+                    class="absolute font-medium -top-6 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                     Process
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
@@ -76,7 +76,7 @@
 
             <div class="relative h-full w-full">
                 <p @click="activateThirdSection"
-                    class="absolute font-medium top-1 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
+                    class="absolute font-medium -top-6 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                     Inspiration
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
