@@ -44,7 +44,7 @@
     </div>
 
     <div class="lg:hidden bg-white min-h-[100dvh] h-[100dvh] overflow-y-auto relative">
-        <section class="w-full h-screen max-h-screen" @click="activateFirstSection">
+        <section class="w-full h-screen max-h-screen bg-white" @click="activateFirstSection">
             <SectionOneMobile></SectionOneMobile>
         </section>
 
