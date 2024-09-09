@@ -49,7 +49,7 @@
         </section>
 
         <section @click="activateSecondSection"
-            class="w-full h-[70dvh] bg-white bg-opacity-90 fixed bottom-0 pt-7 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
+            class="w-full h-[70dvh] bg-white bg-opacity-90 fixed bottom-0 pt-[30px] border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
             :class="{ 'top-[calc(100dvh-60px)] transition-all duration-700 backdrop-blur-none bg-transparent': !secondSectionActive }">
             <div class="relative h-full w-full">
                 <p @click="activateSecondSection"
@@ -63,7 +63,7 @@
 
                     <img src="@/assets/images/section-two-image-three.png" class="w-fit" alt="">
 
-                    <img src="@/assets/images/section-two-image-four.png" class="w-fit h-full" alt="">
+                    <img src="@/assets/images/section-two-image-four.png" class="h-fit" alt="">
 
                     <img src="@/assets/images/section-two-image-five.png" class=" h-fit" alt="">
                 </div>
@@ -71,7 +71,7 @@
         </section>
 
         <section @click="activateThirdSection"
-            class="w-full h-[calc(70dvh-30px)] bg-white bg-opacity-90 pt-7 fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
+            class="w-full h-[calc(70dvh-30px)] bg-white bg-opacity-90 pt-[30px] fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
             :class="{ 'top-[calc(100dvh-30px)] transition-all duration-700 backdrop-blur-none bg-transparent': !thirdSectionActive }">
 
             <div class="relative h-full w-full">
