@@ -98,53 +98,53 @@
                 <h2 class="font-medium">CREDITS</h2>
                 <div class="grid grid-cols-2 gap-x-2 uppercase mt-3 leading-[1.3]">
                     <div>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Title.</span> Monumenta. Nine Guanche Incarnations</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Artist.</span> Yapci Ramos</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Assistance.</span> Marina Ribot, María Vila, and Iris Verge</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Craftsmanship.</span> Taller Afoche (Pedro Benítez Reyes and Isabel
                             Padrón Herrera) David Guijarro</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Design
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Design
                                 and Sewing.</span> Gina Berenguer Barnils</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Makeup
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Makeup
                                 and Hairstyling.</span> Bárbara Mattel</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Studio
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Studio
                                 Photography.</span> Enric Badrinas</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Technical Support.</span> Simone Orso</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Transportation.</span> Loyter</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Exhibition Setup.</span> Alfonso Delgado and the MUNA</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Texts.</span> Nora Navarro</p>
                     </div>
 
                     <div>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">3D
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">3D
                                 Scanning.</span> LABS3D</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">3D
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">3D
                                 Digital Craftsmanship.</span> Daniela Bazzi and Maria Vilaseca</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">3D
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">3D
                                 Digital Printing.</span> Manuel Román Camacho</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Voice
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Voice
                                 Accompaniment.</span> LAVOZDETARA</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Voice
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Voice
                                 and Sound.</span> Yapci Ramos</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">Sound
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">Sound
                                 Editing and Mastering.</span> Picnic Sound Studio</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span class="font-medium">3D
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span class="font-medium">3D
                                 Simulation.</span> Adolf Alcañiz</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Technical Support.</span> Simone Orso</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Transportation.</span> Loyter</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Exhibition Setup.</span> Alfonso Delgado and the MUNA</p>
-                        <p class="hover:text-gray-500 transition-colors duration-300"><span
+                        <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer"><span
                                 class="font-medium">Texts.</span> Nora Navarro</p>
                     </div>
                 </div>
@@ -153,9 +153,9 @@
                 <h2 class="font-medium">DOWNLOADS</h2>
 
                 <div class="mt-3 leading-[1.3]">
-                    <p class="hover:text-gray-500 transition-colors duration-300">CATALOGUE</p>
-                    <p class="hover:text-gray-500 transition-colors duration-300">3D VIDEOS</p>
-                    <p class="hover:text-gray-500 transition-colors duration-300">BROCHURE</p>
+                    <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer">CATALOGUE</p>
+                    <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer">3D VIDEOS</p>
+                    <p class="hover:text-gray-500 transition-colors duration-300 cursor-pointer">BROCHURE</p>
                 </div>
             </div>
         </div>

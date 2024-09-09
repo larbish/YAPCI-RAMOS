@@ -60,7 +60,8 @@
                         <img src="@/assets/icons/chevron-left.svg" class="h-6 sm:h-10" alt="">
                     </div>
                     <div class="w-full px-1.5 mt-1">
-                        <h2 class="text-2xl sm:text-3xl font-serif font-light text-center uppercase leading-[1] arizona-font">
+                        <h2
+                            class="text-2xl sm:text-3xl font-serif font-light text-center uppercase leading-[1] arizona-font">
                             Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
                         </h2>
                         <p class="uppercase lg:text-base 2xl:text-lg text-center mt-4">BY NORA NAVARRO. MARCH 2th, 2024
@@ -93,7 +94,7 @@
         <div ref="triggerElement" class="h-0.5 absolute bottom-0 w-full"></div> <!-- Trigger element at the bottom -->
     </div>
 
-    <div class="fixed top-0 left-0 h-screen bg-red-700 w-full z-50" v-if="displayFlash"></div>
+    <Flash v-if="displayFlash" />
 </template>
 
 <script setup>
@@ -138,7 +139,7 @@ function triggerFunction() {
     displayFlash.value = true;
     setTimeout(() => {
         displayFlash.value = false;
-    }, 100);
+    }, 400);
 }
 
 </script>
@@ -146,8 +147,7 @@ function triggerFunction() {
 
 
 <style scoped>
-
-.arizona-font{
+.arizona-font {
     font-family: 'ABC Arizona Serif';
 }
 </style>

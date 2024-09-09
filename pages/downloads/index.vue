@@ -2,7 +2,7 @@
     <div class="h-screen w-full overflow-x-clip bg-white relative text-black">
         <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.2]">
             <section v-for="(section, index) in sections" :key="index"
-                class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
+                class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right cursor-default">
                 <div class="flex flex-col">
                     <p class="font-medium">{{ section.title }}</p>
                     <div class=" min-w-96 lg:min-w-fit mt-0.5 grid gap-x-10 lg:grid-rows-10 lg:grid-flow-col ">
