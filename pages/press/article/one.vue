@@ -53,7 +53,7 @@
         </article>
 
         <article class="lg:hidden text-black">
-            <div class="w-full flex flex-col items-center sticky pt-36 top-0 pb-6 bg-custom-gradient ">
+            <div class="w-full flex flex-col items-center sticky pt-36 top-0 pb-10 bg-custom-gradient ">
                 <h3 class="uppercase font-medium">La Provincia</h3>
                 <div class="flex w-full px-3 justify-between items-center mt-1.5">
                     <div class="min-w-fit">

@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-full overflow-x-clip bg-white relative text-black">
+    <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black">
         <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.2]">
             <section v-for="(section, index) in sections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right cursor-default">
