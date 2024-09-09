@@ -1,5 +1,5 @@
 <template>
-    <div class="text-black px-2 w-full pt-44 min-h-screen relative bg-white pb-44">
+    <div class="text-black px-2 w-full pt-44 min-h-screen relative overflow-x-clip bg-white pb-44">
         <!-- Iterate over sorted projects to display media -->
         <div v-for="(project, projectIndex) in sortedProjects" :key="projectIndex">
             <div v-for="(mediaItem, mediaIndex) in project.media" :key="mediaIndex">
