@@ -80,11 +80,11 @@
                     Inspiration
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
-                    <img src="@/assets/images/section-three-image-one.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-three-image-one.png" class="h-full w-fit" alt="">
 
-                    <img src="@/assets/images/section-three-image-three.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-three-image-three.png" class="h-full w-fit" alt="">
 
-                    <img src="@/assets/images/section-three-image-two.png" class="h-full min-w-fit" alt="">
+                    <img src="@/assets/images/section-three-image-two.png" class="h-full w-fit" alt="">
 
                     <img src="@/assets/images/section-three-image-five.png" class="w-full h-fit" alt="">
                 </div>
