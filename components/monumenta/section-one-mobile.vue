@@ -1,7 +1,7 @@
 <template>
     <div class="w-full bg-white text-black">
         <div class="h-[60vh]">
-            <video src="@/assets/images/Guayec_WorkPage.mp4" class="h-full pointer-events-auto w-full object-cover"
+            <video @click="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4" class="h-full pointer-events-auto w-full object-cover"
                 muted loop autoplay playsinline></video>
         </div>
         <div class="p-2 flex gap-x-2 leading-[1.1]">
@@ -151,5 +151,13 @@
 </template>
 
 <script setup>
+const toggleFullScreen = (event) => {
+    const videoElement = event.currentTarget;
+    if (!document.fullscreenElement) {
+        videoElement.requestFullscreen().catch(err => {
+  /*           console.log(`Error attempting to enable full-screen mode: ${err.message}`); */
+        });
+    }
+};
 
 </script>
