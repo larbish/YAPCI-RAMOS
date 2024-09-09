@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-white text-black">
-        <div class="h-[90vh]">
+        <div class="h-[60vh]">
             <video src="@/assets/images/Guayec_WorkPage.mp4" class="h-full pointer-events-auto w-full object-cover"
                 muted loop autoplay playsinline></video>
         </div>
