@@ -49,12 +49,12 @@
         </section>
 
         <section @click="activateSecondSection"
-            class="w-full h-[80vh] bg-white bg-opacity-90 fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
+            class="w-full h-[80vh] bg-white bg-opacity-90 fixed bottom-0 pt-7 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
             :class="{ 'top-[calc(100vh-60px)] transition-all duration-700': !secondSectionActive }">
             <div class="relative h-full w-full">
                 <p @click="activateSecondSection"
                     class="absolute font-medium top-1 pl-2 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
-                    Inspiration
+                    Process
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
                     <img src="@/assets/images/section-two-image-one.png" class="h-full min-w-fit" alt="">
@@ -71,7 +71,7 @@
         </section>
 
         <section @click="activateThirdSection"
-            class="w-full h-[calc(80vh-30px)] bg-white bg-opacity-90 fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
+            class="w-full h-[calc(80vh-30px)] bg-white bg-opacity-90 pt-7 fixed bottom-0 border-t-[0.8px] border-black transition-all duration-700 backdrop-blur-3xl"
             :class="{ 'top-[calc(100vh-30px)] transition-all duration-700': !thirdSectionActive }">
 
             <div class="relative h-full w-full">
