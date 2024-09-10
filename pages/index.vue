@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-full">
+    <div class="h-[100dvh] lg:h-screen w-full">
         <canvas class="w-full h-full" id="canvas"></canvas>
         <div class="bottom-5  absolute mix-blend-difference w-full flex justify-center text-center pointer-events-auto cursor-pointer" @mouseenter="hideCircle = false" @mouseleave="hideCircle = true" >
             <p v-if="currentVideoIndex === 0" >
