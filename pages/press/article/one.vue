@@ -21,7 +21,8 @@
             <div class="fixed top-0 w-full flex justify-center">
                 <div class="w-[33.03%] h-screen flex flex-col bg-white text-black overflow-y-auto no-scrollbar"
                     data-lenis-prevent>
-                    <div class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 pb-8 top-0 bg-custom-gradient">
+                    <div
+                        class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 pb-8 top-0 bg-custom-gradient">
                         <h3 class="uppercase font-medium">La Provincia</h3>
                         <div class="flex w-full px-2 justify-between items-center mt-1">
                             <div class="min-w-fit">
@@ -79,6 +80,9 @@
                 </p>
             </div>
 
+            <div class="font-medium uppercase px-1.5 mt-6 pb-10">
+                <button>DOWNLOAD ARTICLE PDF</button>
+            </div>
             <div class="flex flex-col w-full mt-1">
                 <img src="@/assets/images/press-image-one.png" class="w-full object-cover" alt="">
                 <img src="@/assets/images/press-image-two.png" class="w-full object-cover" alt="">
