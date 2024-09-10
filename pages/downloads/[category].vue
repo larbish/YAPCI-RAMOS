@@ -1,6 +1,6 @@
 <template>
     <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black">
-        <div ref="wrapper" class="wrapper flex h-full flex-nowrap bg-white leading-[1.4]">
+        <div ref="wrapper" class="wrapper flex overflow-x-scroll lg:overflow-x-auto h-full flex-nowrap bg-white leading-[1.4]">
             <section v-for="(section, index) in filteredSections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right">
                 <div class="flex flex-col">
@@ -29,7 +29,8 @@
                     link }} </div>
                 <div v-else>{{ link }}</div>
 
-                <img v-show="isSelected(link)" src="@/assets/icons/tiny-x.svg" class="absolute -right-2 top-0 border-spacing-0 border-b-[0.5px] border-transparent" :alt="link">
+                <img v-show="isSelected(link)" src="@/assets/icons/tiny-x.svg"
+                    class="absolute -right-2 top-0 border-spacing-0 border-b-[0.5px] border-transparent" :alt="link">
             </NuxtLink>
         </div>
 
@@ -212,59 +213,83 @@ const toggleCategory = (category) => {
 
 if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
 
-onMounted(() => {
+onMounted(async () => {
+    if (window.matchMedia("(min-width: 1024px)").matches) {
 
+        const sectionsArray = await gsap.utils.toArray(".download-scroll-section");
+        let maxWidth = 0;
+
+        const getMaxWidth = () => {
+            maxWidth = 0;
+            sectionsArray.forEach((section) => {
+                maxWidth += section.offsetWidth;
+            });
+        };
+        getMaxWidth();
+        ScrollTrigger.addEventListener("refreshInit", getMaxWidth);
+
+        let scrollTween = gsap.to(sectionsArray, {
+            x: () => `-${maxWidth - window.innerWidth}`,
+            ease: "none",
+        });
+
+        let horizontalScroll = ScrollTrigger.create({
+            animation: scrollTween,
+            trigger: wrapper.value,
+            pin: true,
+            scrub: true,
+            end: () => `+=${maxWidth}`,
+            invalidateOnRefresh: true,
+            onUpdate: (Self) => {
+                if (progressIndicator.value) progressIndicator.value.style.left = Self.progress * 100 + "%";
+            }
+        });
+
+        let dragRatio = maxWidth / (maxWidth - window.innerWidth);
+
+        Draggable.create(dragProxy.value, {
+            trigger: wrapper.value,
+            type: "x",
+            allowContextMenu: true,
+            onPress() {
+                this.startScroll = horizontalScroll.scroll();
+            },
+            onDrag() {
+                horizontalScroll.scroll(
+                    this.startScroll - (this.x - this.startX) * dragRatio
+                );
+            },
+            onThrowUpdate() {
+                horizontalScroll.scroll(
+                    this.startScroll - (this.x - this.startX) * dragRatio
+                );
+            },
+        })[0];
+    } else {
+
+        const updateScrollPercentage = () => {
+            if (wrapper.value && progressIndicator.value) {
+                const scrollWidth = wrapper.value.scrollWidth;
+                const clientWidth = wrapper.value.clientWidth;
+                const scrollLeft = wrapper.value.scrollLeft;
+
+                // Calculate the scroll percentage
+                const scrollPercent = (scrollLeft / (scrollWidth - clientWidth)) * 100;
+
+                // Update progress indicator
+                progressIndicator.value.style.left = `${scrollPercent}%`;
+            }
+        };
+
+        // Update scroll percentage on scroll
+        wrapper.value.addEventListener('scroll', updateScrollPercentage);
+
+        // Initial update
+        updateScrollPercentage();
+    }
 })
 onMounted(async () => {
-    const sectionsArray = await gsap.utils.toArray(".download-scroll-section");
-    let maxWidth = 0;
 
-    const getMaxWidth = () => {
-        maxWidth = 0;
-        sectionsArray.forEach((section) => {
-            maxWidth += section.offsetWidth;
-        });
-    };
-    getMaxWidth();
-    ScrollTrigger.addEventListener("refreshInit", getMaxWidth);
-
-    let scrollTween = gsap.to(sectionsArray, {
-        x: () => `-${maxWidth - window.innerWidth}`,
-        ease: "none",
-    });
-
-    let horizontalScroll = ScrollTrigger.create({
-        animation: scrollTween,
-        trigger: wrapper.value,
-        pin: true,
-        scrub: true,
-        end: () => `+=${maxWidth}`,
-        invalidateOnRefresh: true,
-        onUpdate: (Self) => {
-            if (progressIndicator.value) progressIndicator.value.style.left = Self.progress * 100 + "%";
-        }
-    });
-
-    let dragRatio = maxWidth / (maxWidth - window.innerWidth);
-
-    Draggable.create(dragProxy.value, {
-        trigger: wrapper.value,
-        type: "x",
-        allowContextMenu: true,
-        onPress() {
-            this.startScroll = horizontalScroll.scroll();
-        },
-        onDrag() {
-            horizontalScroll.scroll(
-                this.startScroll - (this.x - this.startX) * dragRatio
-            );
-        },
-        onThrowUpdate() {
-            horizontalScroll.scroll(
-                this.startScroll - (this.x - this.startX) * dragRatio
-            );
-        },
-    })[0];
 
 });
 
