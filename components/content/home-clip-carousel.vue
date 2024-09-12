@@ -24,7 +24,6 @@
 </template>
 
 <script setup>
-import { NuxtLink } from '#build/components';
 
 const props = defineProps({
     projectOneTitle: String,
