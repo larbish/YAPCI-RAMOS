@@ -48,10 +48,10 @@
                                 Tegucigalpa; Rencontres Africaines de la Photographie, Bamako; Triennal de Angola,
                                 Luanda y
                                 Bienal de Honduras, Tegucigalpa, among others.
-                            <div class="mt-4">
+                            <span class="mt-4 block">
                                 Reviews of her work have appeared in El País, Forbes, Paper Magazine, Wall Street
                                 International Magazine, Cools, La Vanguardia, and Observer.
-                            </div>
+                            </span>
                             </p>
                         </article>
                     </section>

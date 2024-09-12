@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxt/content'
   ],
+  components: {
+    global: true,
+    dirs: ['~/components', '~/components/content']
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
