@@ -17,6 +17,7 @@ const moveAnimationEnabled = useState('moveAnimationEnabled', () => true)
 
 if (import.meta.client) { gsap.registerPlugin(ScrollTrigger, Draggable); }
 
+
 /* onMounted(() => {
   const lenis = new Lenis()
 
