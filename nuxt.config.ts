@@ -18,6 +18,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  routeRules: {
+    '/': { prerender: true }
+  },
   experimental: {
     typedPages: true
   }

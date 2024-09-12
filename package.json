@@ -15,7 +15,7 @@
     "@nuxthq/studio": "^2.1.0",
     "@studio-freight/lenis": "^1.0.42",
     "gsap": "^3.12.5",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.13.0",
     "vue": "latest"
   },
   "devDependencies": {
