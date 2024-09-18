@@ -8,8 +8,9 @@
             <h2 class=" uppercase font-medium">
                 {{ props.title }}
             </h2>
-
-            <ContentSlot />
+            <div class="w-full flex flex-col gap-y-3 mt-3">
+                <ContentSlot />
+            </div>
         </div>
     </div>
 </template>

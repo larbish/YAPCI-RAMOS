@@ -1,5 +1,5 @@
 <template>
-    <p class="mt-3 font-normal">
+    <p class=" font-normal">
        <slot></slot>
     </p>
 </template>
