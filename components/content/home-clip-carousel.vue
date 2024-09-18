@@ -62,6 +62,7 @@ onMounted(() => {
     videos.forEach(video => {
         video.muted = true;
         video.loop = true;
+        video.playsInline = true;
         video.play();
     });
 

@@ -2,7 +2,7 @@
     <div class="hidden lg:block w-full overflow-x-clip bg-white">
         <div class="w-full h-full relative overflow-clip leading-[1.1]">
             <section class="w-full h-screen max-h-screen">
-                <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
+                <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
                     <slot name="section-one"></slot>
                 </div>
             </section>
@@ -12,7 +12,7 @@
                 :class="{ '!translate-x-[calc(100%-3.12%)] cursor-pointer': !secondSectionActive }"
                 @click="activateSecondSection">
                 <div class="h-full w-full relative">
-                    <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
+                    <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
                         <slot name="section-two"></slot>
                     </div>
                 </div>
