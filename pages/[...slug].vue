@@ -1,6 +1,3 @@
 <template>
-    <main>
-      <ContentDoc />
-    </main>
-  </template>
-  
+  <ContentDoc />
+</template>
