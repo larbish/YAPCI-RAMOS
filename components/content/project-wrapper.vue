@@ -12,7 +12,7 @@
                 :class="{ '!translate-x-[calc(100%-3.12%)] cursor-pointer': !secondSectionActive }"
                 @click="activateSecondSection">
                 <div class="h-full w-full relative">
-                    <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
+                    <div class=" h-full w-full overflow-y-auto text-black pt-40" data-lenis-prevent>
                         <slot name="section-two"></slot>
                     </div>
                 </div>
