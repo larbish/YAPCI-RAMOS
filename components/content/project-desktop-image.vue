@@ -4,7 +4,7 @@
         <p class="uppercase">{{ props.textContent }}</p>
     </div>
 
-    <div v-else class="w-full" :style="noTextStyle" >
+    <div v-else :style="noTextStyle" >
         <img class="w-full" :src="props.imagePath" :alt="props.imageAlt">
     </div>
 </template>
@@ -17,6 +17,10 @@ const props = defineProps({
     textContent: String,
     marginLeft: String,
     flexDirection: String,
+    width:{
+        type: String,
+        default: '100%'
+    },
     justifyContent: {
         type: String,
         default: 'flex-start', // Default value if none provided
