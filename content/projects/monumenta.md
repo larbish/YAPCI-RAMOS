@@ -544,4 +544,8 @@
   image-path: /images/section-two-image-five.png
   ---
   :::
+
+#section-three-mobile
+  :::project-mobile-custom-image{image-path="/images/section-three-image-one.png"}
+  :::
 ::
