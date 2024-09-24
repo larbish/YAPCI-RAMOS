@@ -126,4 +126,15 @@
     ::::project-desktop-image{image-path="/work/monumenta/image-eleven.png"}
     ::::
   :::
+
+#section-two
+  :::project-desktop-variant
+  ---
+  left-width-percent: 25.75%
+  right-width-percent: 65.71%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ::::
+  :::
 ::
