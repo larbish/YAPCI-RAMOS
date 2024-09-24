@@ -135,6 +135,16 @@
   ---
   #content-one
     ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-one.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-two.png
+    ---
     ::::
   :::
 ::
