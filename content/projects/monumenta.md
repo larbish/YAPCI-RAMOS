@@ -268,7 +268,7 @@
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-eleven.png
+    image-path: /work/monumenta/section-two-image-eleven.png
     ---
     ::::
   :::
