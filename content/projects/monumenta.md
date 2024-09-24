@@ -528,6 +528,20 @@
   :::project-mobile-custom-image{image-path="/images/section-two-image-two.png"}
   :::
 
-  :::project-mobile-custom-image{image-path="/images/section-two-image-three.png"}
+  :::project-mobile-custom-image{image-path="/images/section-two-image-two.png"}
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  height: 40%
+  image-path: /images/section-two-image-four.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  height: 60%
+  image-path: /images/section-two-image-five.png
+  ---
   :::
 ::
