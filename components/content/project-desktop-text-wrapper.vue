@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div v-else class="w-full">
+    <div v-else class="w-full p-1 lg:pl-2">
         <div :style="`width: ${props.width}`">
             <ContentSlot />
         </div>
