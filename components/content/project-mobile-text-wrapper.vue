@@ -11,7 +11,7 @@
     </div>
 
     <div v-else class="w-full p-1 lg:pl-2">
-        <div :style="`width: ${props.width}`">
+        <div :style="`width: ${props.width}`" class="flex flex-col gap-y-3">
             <ContentSlot />
         </div>
     </div>
