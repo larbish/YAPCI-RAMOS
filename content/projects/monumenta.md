@@ -211,4 +211,17 @@
     ---
     ::::
   :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 49.59%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-five.png
+    ---
+    ::::
+  :::
 ::
