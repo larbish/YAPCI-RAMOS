@@ -1,10 +1,10 @@
 <template>
     <div :style="containerStyle" class="w-full flex">
-        <div :style="{ width: `${props.leftWidthPercent}%` }">
+        <div :style="{ width: `${props.leftWidthPercent}` }">
             <slot name="content-one"></slot>
         </div>
 
-        <div :style="{ width: `${props.rightWidthPercent}%` }">
+        <div :style="{ width: `${props.rightWidthPercent}` }">
             <slot name="content-two"></slot>
         </div>
     </div>
