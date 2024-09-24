@@ -187,4 +187,28 @@
     ---
     ::::
   :::
+
+  :::project-desktop-variant
+  ---
+  left-width-percent: 49.31%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-five.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  left-width-percent: 66.67%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-five.png
+    ---
+    ::::
+  :::
 ::
