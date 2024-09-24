@@ -456,4 +456,13 @@
     ---
     ::::
   :::
+
+#section-one-mobile
+  :::project-mobile-video{video-path="/work/monumenta/Guayec_WorkPage.mp4"}
+  :::
+
+  :::project-mobile-gapped-container
+  :::
+
+#section-two-mobile
 ::
