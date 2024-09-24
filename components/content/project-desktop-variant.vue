@@ -1,39 +1,32 @@
 <template>
-    <div class="w-full flex items-start">
-        <div :style="{
-            width: `${props.leftWidthPercent}%`,
-        }">
+    <div :style="containerStyle" class="w-full flex">
+        <div :style="{ width: `${props.leftWidthPercent}%` }">
+            <slot name="content-one"></slot>
         </div>
 
-        <div :class="`w-[${props.rightWidthPercent}%]`">
-
+        <div :style="{ width: `${props.rightWidthPercent}%` }">
+            <slot name="content-two"></slot>
         </div>
     </div>
 </template>
 
 <script setup>
 const props = defineProps({
-    leftWidthPercent: Number,
-    rightWidthPercent: Number,
-    flexStart: String,
-    flexEnd: String,
+    leftWidthPercent: String,
+    rightWidthPercent: String,
+    justifyContent: {
+        type: String,
+        default: 'flex-start', // Default value if none provided
+    },
+    alignItems: {
+        type: String,
+        default: 'flex-start', // Optional: You can set a default alignment
+    },
 })
 
-const containerStyle = computed(() => {
-    if (props.flexStart === 'true') {
-        return {
-            display: 'flex',
-            justifyContent: 'flex-start',
-        }
-    }
-
-    if (props.flexEnd === 'true') {
-        return {
-            display: 'flex',
-            justifyContent: 'flex-end',
-        }
-    }
-    
-
-})
+const containerStyle = computed(() => ({
+    display: 'flex',
+    justifyContent: props.justifyContent,
+    alignItems: props.alignItems,
+}))
 </script>
