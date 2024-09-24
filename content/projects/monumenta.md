@@ -5,14 +5,19 @@
 
   :::project-desktop-variant
   ---
-  flexBetween: true
   leftWidthPercent: 40.31%
   rightWidthPercent: 28.33%
   ---
   #content-one
-    ::::project-desktop-image{imagePath="/work/parto/Parto_008.jpg"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_008.jpg"}
     ::::
   
   #content-two
+    ::::project-desktop-text-wrapper
+    ---
+    has-title: 'true'
+    title: MONUMENTA. nueve encarnaciones guanches
+    ---
+    ::::
   :::
 ::
