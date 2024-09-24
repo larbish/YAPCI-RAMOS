@@ -4,7 +4,7 @@
             <h2 class=" uppercase font-medium">
                 {{ props.title }}
             </h2>
-            <div class="flex flex-col ml-auto w-[63.2%] min-w-[63.2%] max-w-[63.2%] gap-y-3">
+            <div class="flex flex-col ml-auto w-[63.2%] min-w-[63.2%] max-w-[63.2%] gap-y-3 mt-3">
                 <ContentSlot />
             </div>
         </div>
