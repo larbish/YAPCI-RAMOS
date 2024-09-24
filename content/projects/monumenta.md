@@ -548,4 +548,25 @@
 #section-three-mobile
   :::project-mobile-custom-image{image-path="/images/section-three-image-one.png"}
   :::
+
+  :::project-mobile-custom-image{image-path="/images/section-three-image-two.png"}
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /images/section-three-image-three.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /images/section-three-image-four.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /images/section-three-image-five.png
+  ---
+  :::
 ::
