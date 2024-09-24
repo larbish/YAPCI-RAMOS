@@ -23,7 +23,7 @@ const props = defineProps({
     title: String,
     width: {
         type: String,
-        default: '80.31%'
+        default: '100%'
     }
 })
 </script>
