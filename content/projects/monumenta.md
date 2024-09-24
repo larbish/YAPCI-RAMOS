@@ -229,7 +229,7 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 49.59%
+  left-width-percent: 34.62%
   ---
   #content-one
     ::::project-desktop-image
@@ -242,7 +242,7 @@
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 49.59%
+  left-width-percent: 65.32%
   ---
   #content-one
     ::::project-desktop-image
@@ -255,12 +255,20 @@
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 49.59%
+  left-width-percent: 34.62%
+  right-width-percent: 65.32%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-nine.png
+    image-path: /work/monumenta/section-two-image-ten.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-eleven.png
     ---
     ::::
   :::
