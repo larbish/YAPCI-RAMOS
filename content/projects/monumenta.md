@@ -208,7 +208,7 @@
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-five.png
+    image-path: /work/monumenta/section-two-image-six.png
     ---
     ::::
   :::
@@ -221,7 +221,46 @@
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-five.png
+    image-path: /work/monumenta/section-two-image-seven.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-start
+  left-width-percent: 49.59%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-eight.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 49.59%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-nine.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 49.59%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-nine.png
     ---
     ::::
   :::
