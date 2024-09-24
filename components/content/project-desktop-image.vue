@@ -5,7 +5,7 @@
     </div>
 
     <div v-else :style="noTextStyle" >
-        <img class="w-full" :src="props.imagePath" :alt="props.imageAlt">
+        <img :style="`width: ${props.childWidth}`" :src="props.imagePath" :alt="props.imageAlt">
     </div>
 </template>
 
@@ -17,6 +17,10 @@ const props = defineProps({
     textContent: String,
     marginLeft: String,
     flexDirection: String,
+    childWidth: {
+        type: String,
+        default: '100%'
+    },
     width:{
         type: String,
         default: '100%'
