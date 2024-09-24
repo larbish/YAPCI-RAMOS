@@ -1,5 +1,5 @@
 <template>
-    <div v-if="props.hasTitle == 'true" class="w-full flex items-start">
+    <div v-if="props.hasTitle == 'true'" class="w-full flex items-start">
         <div :style="`width: ${props.width}`" class="p-3 leading-[1.1]">
             <h2 class=" uppercase font-medium">
                 {{ props.title }}
