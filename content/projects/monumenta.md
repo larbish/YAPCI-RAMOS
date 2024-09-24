@@ -9,7 +9,7 @@
   rightWidthPercent: 28.33%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/Parto_008.jpg"}
+    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
     ::::
   
   #content-two
@@ -29,6 +29,15 @@
       content: Guanche women held active roles in the communities of pre-Hispanic Tenerife.                     With colonialism, the                     aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives                     while obscuring others, leading to a collective amnesia of the otherness. Through an artistic,                     historical, and social investigation, I developed nine identities inspired by the landscapes of each of the ancient demarcations.
       ---
       :::::
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  leftWidthPercent: 84.38%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
     ::::
   :::
 ::
