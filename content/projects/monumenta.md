@@ -40,4 +40,45 @@
     ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
     ::::
   :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: space-between
+  leftWidthPercent: 23.54%
+  rightWidthPercent: 59.53%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/image-seven.png
+    margin-left: 8px
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image{image-path="/work/monumenta/image-six.png"}
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  leftWidthPercent: 40.57%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/image-seven.png
+    margin-left: 8px
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-text-wrapper
+      :::::project-desktop-paragraph
+      ---
+      content: MUSEO DE LA NATURALEZA Y ARQUEOLOGÍA, 2022. TENERIFE. NINE 3D PRINTED SCULPTURES ANDSOUND
+      ---
+      :::::
+    ::::
+  :::
 ::
