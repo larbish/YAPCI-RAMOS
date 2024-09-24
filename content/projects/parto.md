@@ -63,9 +63,6 @@
       ---
       :::::
     
-      :::::project-desktop-paragraph
-      :::::
-    
       :::::project-desktop-paragraph{content="Nora Navarro / Cultural Writer"}
       :::::
     ::::
@@ -78,19 +75,33 @@
   :::project-desktop-variant
   ---
   align-items: flex-end
-  leftWidthPercent: 55.0%
-  right-width-percent: 44.95%
+  leftWidthPercent: 100%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/image-nine.png
+    image-path: /work/parto/Parto_026.jpg
+    margin-left: 0px
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  align-items: flex-start
+  leftWidthPercent: 60.59%
+  right-width-percent: 39.41%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/parto/Parto_026.jpg
     margin-left: 0px
     ---
     ::::
   
   #content-two
-    ::::project-desktop-image{image-path="/work/monumenta/image-eleven.png"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
     ::::
   :::
 
