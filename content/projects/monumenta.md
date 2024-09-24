@@ -261,7 +261,9 @@
   #content-one
     ::::project-desktop-image
     ---
+    childWidth: 75.0%
     image-path: /work/monumenta/section-two-image-ten.png
+    justify-content: flex-end
     ---
     ::::
   
@@ -269,6 +271,188 @@
     ::::project-desktop-image
     ---
     image-path: /work/monumenta/section-two-image-eleven.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 34.3%
+  right-width-percent: 65.6%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-twelve.png
+    justify-content: flex-end
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-two-image-thirteen.png
+    ---
+    ::::
+  :::
+
+#section-three
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 75.9%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-one.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 49.6%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-two.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 43.2%
+  right-width-percent: 49.6%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-three.png
+    ---
+    ::::
+  
+  #content-two
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 24.8%
+  right-width-percent: 76.2%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-four.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-five.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 50.1%
+  right-width-percent: 49.9%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-six.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-seven.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 34.1%
+  right-width-percent: 49.9%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-eight.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 34.1%
+  right-width-percent: 49.9%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-nine.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-ten.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 100%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-eleven.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 50.7%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-twelve.png
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 49.1%
+  right-width-percent: 50.7%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/section-three-image-thirteen.png
     ---
     ::::
   :::
