@@ -190,6 +190,7 @@
 
   :::project-desktop-variant
   ---
+  justify-content: flex-end
   left-width-percent: 49.31%
   ---
   #content-one
