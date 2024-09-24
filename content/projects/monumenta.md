@@ -462,10 +462,72 @@
   :::
 
   :::project-mobile-text-wrapper{has-title="true" title="MONUMENTA"}
+    ::::project-desktop-paragraph
+    ---
+    content: In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the                     forgotten Guanche woman and question the ways in which the pre-colonial past is represented from a                     contemporary perspective. Through the observation of various monuments, I undertake a historical                     analysis to resolve the enigmas underlying the underrepresentation of these subaltern identities.
+    ---
+    ::::
+  
+    ::::project-desktop-paragraph
+    ---
+    content: Guanche women held active roles in the communities of pre-Hispanic Tenerife. With colonialism, the aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives while obscuring others, leading to a collective amnesia of the otherness. Through an artistic, historical, and social investigation, I developed nine identities inspired by the landscapes of each of the ancient demarcations.
+    ---
+    ::::
   :::
 
   :::project-mobile-gapped-container
+    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/monumenta/image-five.png"}
+    ::::
+  
+    ::::project-desktop-image
+    ---
+    child-width: 50.1%
+    image-path: /work/monumenta/image-six.png
+    ---
+    ::::
+  :::
+
+  :::project-mobile-text-wrapper{has-title="true" title="MONUMENTA"}
+    ::::project-desktop-paragraph
+    ---
+    content: In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the                     forgotten Guanche woman and question the ways in which the pre-colonial past is represented from a                     contemporary perspective. Through the observation of various monuments, I undertake a historical                     analysis to resolve the enigmas underlying the underrepresentation of these subaltern identities.
+    ---
+    ::::
+  
+    ::::project-desktop-paragraph
+    ---
+    content: Guanche women held active roles in the communities of pre-Hispanic Tenerife. With colonialism, the aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives while obscuring others, leading to a collective amnesia of the otherness. Through an artistic, historical, and social investigation, I developed nine identities inspired by the landscapes of each of the ancient demarcations.
+    ---
+    ::::
+  :::
+
+  :::project-mobile-gapped-container
+    ::::project-desktop-image{image-path="/work/monumenta/image-seven.png"}
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/monumenta/image-eight.png"}
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/monumenta/image-ten.png"}
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/monumenta/image-nine.png"}
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/monumenta/image-eleven.png"}
+    ::::
   :::
 
 #section-two-mobile
+  :::project-desktop-image{image-path="/images/section-two-image-one.png"}
+  :::
+
+  :::project-desktop-image{image-path="/images/section-two-image-two.png"}
+  :::
+
+  :::project-desktop-image{image-path="/images/section-two-image-three.png"}
+  :::
 ::
