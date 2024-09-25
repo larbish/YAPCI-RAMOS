@@ -196,22 +196,19 @@
   ---
   justify-content: flex-start
   left-width-percent: 64.6%
+  paddingLeft: 10%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/YAPCI_24.jpg
-    margin-left: 10%
-    ---
+    ::::project-desktop-image{image-path="/work/parto/YAPCI_24.jpg"}
     ::::
   :::
 
-  :::project-desktop-image
+  :::project-desktop-variant
   ---
   childWidth: 100%
   image-path: /work/parto/1.png
   justify-content: flex-end
-  padding-left: 10%
+  paddingLeft: 10%
   ---
   #content-one
     ::::project-desktop-image
@@ -219,7 +216,6 @@
     childWidth: 100%
     image-path: /work/parto/1.png
     justify-content: flex-end
-    margin-left: 10%
     ---
     ::::
   :::
