@@ -22,11 +22,16 @@ const props = defineProps({
         type: String,
         default: 'flex-start', // Optional: You can set a default alignment
     },
+    paddingLeft: {
+        type: String,
+        default: '0'
+    },
 })
 
 const containerStyle = computed(() => ({
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
+    paddingLeft: props.paddingLeft
 }))
 </script>
