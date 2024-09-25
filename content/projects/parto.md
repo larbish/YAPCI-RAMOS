@@ -211,7 +211,7 @@
   childWidth: 100%
   image-path: /work/parto/1.png
   justify-content: flex-end
-  paddingLeft: 10%
+  padding-left: 10%
   ---
   #content-one
     ::::project-desktop-image
@@ -277,8 +277,6 @@
     image-path: /work/monumenta/section-three-image-three.png
     ---
     ::::
-  
-  #content-two
   :::
 
   :::project-desktop-variant
