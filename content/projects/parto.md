@@ -93,9 +93,9 @@
   right-width-percent: 39.41%
   ---
   #content-one
-    ::::project-desktop-image
+    ::::project-desktop-video
     ---
-    image-path: /work/parto/Parto_026.jpg
+    video-path: /work/parto/Parto_026.jpg
     margin-left: 0px
     ---
     ::::
