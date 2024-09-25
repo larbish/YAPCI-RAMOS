@@ -206,10 +206,12 @@
     ::::
   :::
 
-  :::project-desktop-variant
+  :::project-desktop-image
   ---
+  childWidth: 100%
+  image-path: /work/parto/1.png
   justify-content: flex-end
-  left-width-percent: 100%
+  paddingLeft: 10%
   ---
   #content-one
     ::::project-desktop-image
