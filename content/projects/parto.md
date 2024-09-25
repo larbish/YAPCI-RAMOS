@@ -95,8 +95,8 @@
   #content-one
     ::::project-desktop-video
     ---
-    video-path: /work/parto/Parto_026.jpg
     margin-left: 0px
+    video-path: /work/parto/Parto_026.jpg
     ---
     ::::
   
