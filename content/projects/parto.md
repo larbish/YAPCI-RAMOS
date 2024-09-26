@@ -277,42 +277,38 @@
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 24.8%
-  right-width-percent: 76.2%
+  justify-content: flex-start
+  left-width-percent: 50.4%
+  right-width-percent: 26.0%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-four.png
+    image-path: /work/parto/IMG_9242 1.png
     ---
     ::::
   
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-five.png
+    image-path: /work/parto/386f5170-8871-4f72-934c-5d0c12b2fda4 1.png
     ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 50.1%
-  right-width-percent: 49.9%
+  justify-content: flex-start
+  left-width-percent: 50.4%
+  right-width-percent: 32.7%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-six.png
-    ---
-    ::::
+  
   
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-seven.png
+    image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
     ---
     ::::
   :::
@@ -321,76 +317,29 @@
   ---
   justify-content: flex-end
   left-width-percent: 34.1%
-  right-width-percent: 49.9%
+  right-width-percent: 49.5%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-eight.png
+    image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
     ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 34.1%
-  right-width-percent: 49.9%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-nine.png
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-ten.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
+  justify-content: flex-start
   left-width-percent: 100%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-eleven.png
+    image-path: /work/parto/Codices_Paturientas 1.png
     ---
     ::::
   :::
 
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 50.7%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-twelve.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 49.1%
-  right-width-percent: 50.7%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-thirteen.png
-    ---
-    ::::
-  :::
 
 #section-one-mobile
   :::project-mobile-video{video-path="/work/monumenta/Guayec_WorkPage.mp4"}
