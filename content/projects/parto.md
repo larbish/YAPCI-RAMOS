@@ -342,20 +342,6 @@
     ::::
   :::
 
-  :::project-mobile-gapped-container
-    ::::project-desktop-image{image-path="/work/parto/Parto_008.jpg"}
-    ::::
-  
-    ::::project-desktop-image{image-path="/work/parto/1MDeulofeu_YRamos-mi jueves 2.jpg"}
-    ::::
-  
-    ::::project-desktop-image
-    ---
-    child-width: 50.1%
-    image-path: /work/parto/2243fs.png
-    ---
-    ::::
-  :::
 
   :::project-mobile-text-wrapper{has-title="true" title="PARTO"}
     ::::project-desktop-paragraph
