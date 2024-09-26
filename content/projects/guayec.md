@@ -3,15 +3,56 @@
   :::project-section-one-video{video-src="/work/guayec/guayec_-_excerpt.mp4"}
   :::
 
-  :::project-desktop-text-wrapper
+  :::project-desktop-variant
   ---
-  has-title: 'true'
-  title: IDENTITY. PHOTOGRAPHY
-  width: 80%
+  justify-content: start
+  leftWidthPercent: 41.62%
+  rightWidthPercent: 58.38%
   ---
-    ::::project-desktop-paragraph
+  #content-one
+    ::::project-desktop-text-wrapper
     ---
-    content: The curiosity aroused by one’s own origins there is an exercise of performative expression materializing shared transcendental concerns. Through mimesis, in ‘Identity’ an ancestral cosmology is represented that reminds us that we are those who were others. The lenticular photography makes the gaze get lost in the duality of these subjects, to become one. Different genders and ages are transited to carry out a performative transmutation. And in this return, we find that the experiences of the former relatives appear to be fully traversed by the social and political circumstances of an era. In this way, not only an individualized past is shown, but also capsules of history silenced in each face are spoken of. The past takes on importance to the extent that it still remains inscribed in the memory of our body. A whole and a nothing, a we defined by the eyes of others that are no longer external but our own. Identity is a path of return looking for answers that have their own name. Those people deserve to be mentioned since they define us, determine us, shape us.
+    has-title: 'true'
+    title: GUAYEC. AUDIOVISUAL
+    width: 80%
+    ---
+      :::::project-desktop-paragraph
+      ---
+      content: 'In Guayec, I become a body: I seize it, I take it, I use it, I let it go. My emotions sprout, stripped of prejudices and reasoning: I am the one who decides, who proposes, who offers. The perception of the external gaze does not exist in me. It gives way to an experience that, without intending to, becomes immersive and sensory.'
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: 'In this work, I immerse myself in my identity to drink from an ancestral past that I carry with me, while confronting me with the complexities of our contemporary society. Guayec or wa-yec is the term with which the Guanche dialect of the island of Tenerife designates the act of “being” oneself. Wa is a panberber relative pronoun = «this» and yeg is the 1st person singular of the verb eg = eh = 1l · (to be): this is me, a phrase that, without being pronounced, is read in each movement.'
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: 'In Guayec, all the fragments that make up the identity dialogue: they seek their place of return. And in this cluster of ideas that converge, two polarities are inserted: destruction-creation form a single concept in itself. They are cause and consequence, they are an eternal cycle that generates energy and power.'
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: 'The eyes look defiant. Veiled, by that very Canarian mist that fills the environment. The calm ends and everything begins: the body becomes a place of enunciation from which I shout everything I yearn for while I get rid of everything I purge.'
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: The battles that change everything, are lived inside.
+      ---
+      :::::
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    has-text: 'true'
+    image-path: /work/identity/YapciRamos_KnowUs_2.jpg
+    text-content: CENTRO ATLÁNTICO DE ARTE MODERNO
     ---
     ::::
   :::
