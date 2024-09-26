@@ -15,7 +15,14 @@ const props = defineProps({
     imageAlt: String,
     hasText: String,
     textContent: String,
-    marginLeft: String,
+    marginLeft: {
+        type: String,
+        default: '0'
+    },
+    marginRight: {
+        type: String,
+        default: '0'
+    },
     flexDirection: String,
     childWidth: {
         type: String,
@@ -41,6 +48,7 @@ const style = computed(() => ({
 
 const noTextStyle = computed(() => ({
     marginLeft: props.marginLeft,
+    marginRight: props.marginRight,
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
