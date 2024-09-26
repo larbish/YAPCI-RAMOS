@@ -14,11 +14,8 @@
     content: ‘I don’t mind’ is an artwork to visit stripped down form prejudices–those sounds are talking to us about sex, self-pleasure. And, in that context, our relationship with sexuality is settled. After having put in crisis all the inherited constructs and apprehended symbologies, it is worth asking oneself about the immanence of the very own act of masturbating. In the capacity of one’s own production of pleasure lies the question of self-sufficiency and in it, the possibility, but also the condition, of solitude.
     ---
     ::::
-
-    ::::project-desktop-paragraph
-    ---
-    content: There is a confrontation.
-    ---
+  
+    ::::project-desktop-paragraph{content="There is a confrontation."}
     ::::
   :::
 
