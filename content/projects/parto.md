@@ -244,7 +244,7 @@
     ::::project-desktop-image
     ---
     image-path: /work/parto/acting.png
-    marginRight: 10%
+    margin-right: 10%
     ---
     ::::
   :::
@@ -255,10 +255,7 @@
   left-width-percent: 83.4%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Acting.jpg
-    ---
+    ::::project-desktop-image{image-path="/work/parto/Acting.jpg"}
     ::::
   :::
 
@@ -282,10 +279,7 @@
   right-width-percent: 26.0%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/IMG_9242 1.png
-    ---
+    ::::project-desktop-image{image-path="/work/parto/IMG_9242 1.png"}
     ::::
   
   #content-two
@@ -303,7 +297,6 @@
   right-width-percent: 32.7%
   ---
   #content-one
-  
   
   #content-two
     ::::project-desktop-image
@@ -333,13 +326,9 @@
   left-width-percent: 100%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Codices_Paturientas 1.png
-    ---
+    ::::project-desktop-image{image-path="/work/parto/Codices_Paturientas 1.png"}
     ::::
   :::
-
 
 #section-one-mobile
   :::project-mobile-video{video-path="/work/parto/cover-video.mp4"}
@@ -351,106 +340,130 @@
     content: In Parto, I create an allegory that explores the process of questioning,  shedding, and liberating oneself from the societal ideologies surrounding motherhood to pave the way for alternative perspectives. This concept is materialized through the construction of a symbolic and immersive corridor that gradually narrows, leading to “the other side.” It reflects three stages marked by sexual desire, the yearning for motherhood, and the pursuit of freedom, covering the age range of 35 to 46. This installation delves into topics that are increasingly prominent in social  and feminist discourse, resonating with many women of my generation. These issues are recontextualized within a historical moment undergoing a paradigm shift regarding perceptions of  motherhood and fertility. The work acknowledges the widespread decline in the willingness to commit, influenced by growing individualism, coupled with the challenges posed by neoliberalism and the  absence of supportive policies for work-life balance.
     ---
     ::::
-  
-    ::::project-desktop-paragraph
-    ---
-    content: Guanche women held active roles in the communities of pre-Hispanic Tenerife. With colonialism, the aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives while obscuring others, leading to a collective amnesia of the otherness. Through an artistic, historical, and social investigation, I developed nine identities inspired by the landscapes of each of the ancient demarcations.
-    ---
-    ::::
   :::
 
   :::project-mobile-gapped-container
-    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_008.jpg"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/monumenta/image-five.png"}
+    ::::project-desktop-image{image-path="/work/parto/1MDeulofeu_YRamos-mi jueves 2.jpg"}
     ::::
   
     ::::project-desktop-image
     ---
     child-width: 50.1%
-    image-path: /work/monumenta/image-six.png
+    image-path: /work/parto/2243fs.png
     ---
     ::::
   :::
 
-  :::project-mobile-text-wrapper{has-title="true" title="MONUMENTA"}
+  :::project-mobile-text-wrapper{has-title="true" title="PARTO"}
     ::::project-desktop-paragraph
     ---
-    content: In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the                     forgotten Guanche woman and question the ways in which the pre-colonial past is represented from a                     contemporary perspective. Through the observation of various monuments, I undertake a historical                     analysis to resolve the enigmas underlying the underrepresentation of these subaltern identities.
-    ---
-    ::::
-  
-    ::::project-desktop-paragraph
-    ---
-    content: Guanche women held active roles in the communities of pre-Hispanic Tenerife. With colonialism, the aboriginal society came to be regulated by patriarchal premises that perpetuated certain narratives while obscuring others, leading to a collective amnesia of the otherness. Through an artistic, historical, and social investigation, I developed nine identities inspired by the landscapes of each of the ancient demarcations.
+    content: In Parto, I create an allegory that explores the process of questioning,  shedding, and liberating oneself from the societal ideologies surrounding motherhood to pave the way                     for alternative perspectives. This concept is materialized through the construction of a symbolic                     and immersive corridor that gradually narrows, leading to “the other side.” It reflects three stages                     marked by sexual desire, the yearning for motherhood, and the pursuit of freedom, covering the age                     range of 35 to 46. This installation delves into topics that are increasingly prominent in social                     and feminist discourse, resonating with many women of my generation. These issues are                     recontextualized within a historical moment undergoing a paradigm shift regarding perceptions of                     motherhood and fertility. The work acknowledges the widespread decline in the willingness to commit,                     influenced by growing individualism, coupled with the challenges posed by neoliberalism and the                     absence of supportive policies for work-life balance.
     ---
     ::::
   :::
 
   :::project-mobile-gapped-container
-    ::::project-desktop-image{image-path="/work/monumenta/image-seven.png"}
+    ::::project-desktop-image{image-path="/work/parto/2243fs.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/monumenta/image-eight.png"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_029.jpg"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/monumenta/image-ten.png"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_019.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/monumenta/image-nine.png"}
+    ::::project-desktop-image{image-path="/work/parto/Parto_026.jpg"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/monumenta/image-eleven.png"}
+    ::::project-desktop-video{image-path="/work/parto/Parto_Yapci_Ramos__V1-0003.mp4"}
+    ::::
+
+    ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
     ::::
   :::
 
 #section-two-mobile
-  :::project-mobile-custom-image{image-path="/images/section-two-image-one.png"}
+  :::project-mobile-custom-image{image-path="/work/parto/9c24ca8c-aada-42c6-b91e-e2434e719bee.JPG"}
   :::
 
-  :::project-mobile-custom-image{image-path="/images/section-two-image-two.png"}
+  :::project-mobile-custom-image{image-path="/work/parto/1d8c27ec-e640-400f-8da5-b61ff3c2e394.JPG"}
   :::
 
-  :::project-mobile-custom-image{image-path="/images/section-two-image-two.png"}
+  :::project-mobile-custom-image{image-path="/work/parto/6MDeulofeu_Yapci_extras.jpg"}
   :::
 
   :::project-mobile-custom-image
   ---
   height: 40%
-  image-path: /images/section-two-image-four.png
+  image-path: /work/parto/4MDeulofeu_Yapci_extras.jpg
   ---
   :::
 
   :::project-mobile-custom-image
   ---
   height: 60%
-  image-path: /images/section-two-image-five.png
+  image-path: /work/parto/A_IMG_3724_AunLado.JPG
   ---
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/IMG_1031.JPG"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/IMG_7886 copia.jpg"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/Parto01.jpg"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/YAPCI_01.jpg"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/YAPCI_24.jpg"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/1.png"}
+  :::
+
+  :::project-mobile-custom-image{image-path="/work/parto/YapciRamos_Poses_1.png"}
   :::
 
 #section-three-mobile
-  :::project-mobile-custom-image{image-path="/images/section-three-image-one.png"}
+  :::project-mobile-custom-image{image-path="/work/parto/acting.png"}
   :::
 
-  :::project-mobile-custom-image{image-path="/images/section-three-image-two.png"}
-  :::
-
-  :::project-mobile-custom-image
-  ---
-  image-path: /images/section-three-image-three.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/parto/Acting.jpg"}
   :::
 
   :::project-mobile-custom-image
   ---
-  image-path: /images/section-three-image-four.png
+  image-path: /work/parto/Captura de Pantalla 2023-05-24 a las 22.34.40 1.png
   ---
   :::
 
   :::project-mobile-custom-image
   ---
-  image-path: /images/section-three-image-five.png
+  image-path: /work/parto/IMG_9242 1.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/386f5170-8871-4f72-934c-5d0c12b2fda4 1.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/Codices_Paturientas 1.png
   ---
   :::
 ::
