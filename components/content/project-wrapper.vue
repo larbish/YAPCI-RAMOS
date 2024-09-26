@@ -81,11 +81,6 @@
 </template>
 
 <script setup>
-import SectionOne from '@/components/monumenta/section-one.vue';
-import SectionTwo from '~/components/monumenta/section-two.vue';
-import SectionThree from '~/components/monumenta/section-three.vue';
-
-import SectionOneMobile from '~/components/monumenta/section-one-mobile.vue';
 
 const firstSectionActive = ref(true);
 const secondSectionActive = ref(false);
