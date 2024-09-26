@@ -358,7 +358,7 @@
     ::::project-desktop-image{image-path="/work/parto/Parto_026.jpg"}
     ::::
   
-    ::::project-desktop-video{image-path="/work/parto/Parto_Yapci_Ramos__V1-0003.mp4"}
+    ::::project-desktop-video{video-path="/work/parto/Parto_Yapci_Ramos__V1-0003.mp4"}
     ::::
 
     ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
