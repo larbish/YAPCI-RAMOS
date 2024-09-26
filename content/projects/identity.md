@@ -208,58 +208,6 @@
     ::::
   :::
 
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 74.2%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/YAPCI_01.jpg"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 64.6%
-  paddingLeft: 10%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/YAPCI_24.jpg"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  childWidth: 100%
-  image-path: /work/parto/1.png
-  justify-content: flex-end
-  paddingLeft: 10%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    childWidth: 100%
-    image-path: /work/parto/1.png
-    justify-content: flex-end
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 52%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/YapciRamos_Poses_1.png
-    justify-content: flex-end
-    ---
-    ::::
-  :::
-
 #section-three
   :::project-desktop-variant
   ---
