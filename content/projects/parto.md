@@ -237,13 +237,27 @@
 #section-three
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 75.9%
+  justify-content: center
+  left-width-percent: 40.8%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-one.png
+    image-path: /work/parto/acting.png
+    marginRight: 10%
+    ---
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-start
+  left-width-percent: 83.4%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/parto/Acting.jpg
     ---
     ::::
   :::
@@ -251,26 +265,12 @@
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 49.6%
+  left-width-percent: 93.9%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-two.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 43.2%
-  right-width-percent: 49.6%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-three.png
+    image-path: /work/parto/Captura de Pantalla 2023-05-24 a las 22.34.40 1.png
     ---
     ::::
   :::
