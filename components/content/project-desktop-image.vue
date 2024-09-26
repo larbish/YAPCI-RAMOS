@@ -1,7 +1,7 @@
 <template>
     <div v-if="props.hasText === 'true'" :style="style">
         <img class="w-full" :src="props.imagePath" :alt="props.imageAlt">
-        <p class="uppercase">{{ props.textContent }}</p>
+        <p class="uppercase p-1">{{ props.textContent }}</p>
     </div>
 
     <div v-else :style="noTextStyle" >

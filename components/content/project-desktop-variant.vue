@@ -14,6 +14,10 @@
 const props = defineProps({
     leftWidthPercent: String,
     rightWidthPercent: String,
+    marginTop: {
+        type: String,
+        default: '0'
+    },
     justifyContent: {
         type: String,
         default: 'flex-start', // Default value if none provided
@@ -32,6 +36,7 @@ const containerStyle = computed(() => ({
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
-    paddingLeft: props.paddingLeft
+    paddingLeft: props.paddingLeft,
+    marginTop: props.marginTop
 }))
 </script>

@@ -1,6 +1,6 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/parto/cover-video.mp4"}
+  :::project-section-one-video{video-src="/work/identity/cover-video.mp4"}
   :::
 
   :::project-desktop-text-wrapper
@@ -18,24 +18,24 @@
 
   :::project-desktop-variant
   ---
-  justify-content: space-between
-  leftWidthPercent: 39.27%
-  rightWidthPercent: 60.73%
+  justify-content: start
+  leftWidthPercent: 53.96%
+  rightWidthPercent: 41.98%
   ---
   #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/A_TioManolito2.jpg
+    margin-left: 8px
+    ---
+    ::::
+  
+  #content-two
     ::::project-desktop-image
     ---
     has-text: 'true'
-    image-path: /work/parto/Parto_008.jpg
-    margin-left: 8px
-    text-content: ARTS SANTA MÒNICA
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/1MDeulofeu_YRamos-mi jueves 2.jpg
+    text-content: CENTRO ATLÁNTICO DE ARTE MODERNO
+    image-path: /work/identity/YapciRamos_KnowUs_2.jpg
     ---
     ::::
   :::
@@ -43,49 +43,61 @@
   :::project-desktop-variant
   ---
   justify-content: space-between
-  leftWidthPercent: 70.05%
-  rightWidthPercent: 29.95%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/2243fs.png"}
-    ::::
-  
-  #content-two
-    ::::project-desktop-image{image-path="/work/parto/Parto_029.jpg"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  leftWidthPercent: 40.57%
-  right-width-percent: 59.79%
+  leftWidthPercent: 24.64%
+  rightWidthPercent: 75.36%
   ---
   #content-one
     ::::project-desktop-text-wrapper{width="69.98%"}
       :::::project-desktop-paragraph
       ---
-      content: The artistic processes involve a journey of germination, imagination, and birth to inaugurate a                         horizon, much like the body in the process of gestating ideas, questions, or life gives birth to                         an unexplored path. In this play of parallels and possibilities around the desire for creation                         or procreation, the piece ‘Parto’ is constructed.
+      content: Why are we the way we are? What weight does family have over an individual? Is there such a thing as a subconscious trans-generational legacy? 
       ---
       :::::
     
-      :::::project-desktop-paragraph{content="Nora Navarro / Cultural Writer"}
+      :::::project-desktop-paragraph{content="Yolanda Peralta"}
       :::::
     ::::
   
   #content-two
-    ::::project-desktop-image{image-path="/work/parto/Parto_019.png"}
+    ::::project-desktop-image{image-path="/work/identity/YapciRamos_KnowUs.jpg"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
+  leftWidthPercent: 56.25%
+  right-width-percent: 23.07%
+  justify-content: flex-start
   align-items: flex-end
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/identity/JMR-1080insta__O5A9554_240519.jpg"}
+    ::::
+  
+  #content-two
+   
+    ::::project-desktop-text-wrapper{width="100%"}
+      :::::project-desktop-paragraph
+      ---
+      content: Like an archaeologist, she is excavating the traces, genetic and otherwise, of her ancestors; unearthing “treasures” and boldly appropriating them for her own poiesis—her auto-poiesis. 
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph{content="Barbara Polla"}
+      :::::
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: center
   leftWidthPercent: 100%
+  marginTop: 14px
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/parto/Parto_026.jpg
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.08 1.png
     margin-left: 0px
     ---
     ::::
@@ -93,97 +105,108 @@
 
   :::project-desktop-variant
   ---
-  align-items: flex-start
-  leftWidthPercent: 60.59%
-  right-width-percent: 39.41%
+  justify-content: start
+  leftWidthPercent: 36.93%
+  marginTop: 14px
   ---
   #content-one
-    ::::project-desktop-video
+    ::::project-desktop-image
     ---
-    margin-left: 0px
-    video-path: /work/parto/Parto_Yapci_Ramos__V1-0003.mp4
+    image-path: /work/identity/IMG_9131 1.png
+    margin-left: 8px
     ---
     ::::
-  
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: start
+  leftWidthPercent: 36.93%
+  rightWidthPercent: 52.19%
+  ---
+  #content-one
+
+
   #content-two
-    ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/Screenshot 2024-09-24 at 17.09.00 1.png
+    ---
     ::::
   :::
 
 #section-two
   :::project-desktop-variant
   ---
-  left-width-percent: 25.75%
-  right-width-percent: 65.71%
+  justify-content: flex-end
+  left-width-percent: 38.97%
+  right-width-percent: 54.99%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/parto/9c24ca8c-aada-42c6-b91e-e2434e719bee.JPG
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/1d8c27ec-e640-400f-8da5-b61ff3c2e394.JPG
+    image-path: /work/identity/IMG_9390 1.png
     ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  left-width-percent: 50.4%
+  justify-content: flex-end
+  left-width-percent: 38.97%
+  right-width-percent: 54.99%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/6MDeulofeu_Yapci_extras.jpg"}
+
+  #content-two
+    ::::project-desktop-image{image-path="/work/identity/IMG_9400 1.png"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  left-width-percent: 50%
-  right-width-percent: 50%
+  justify-content: flex-end
+  left-width-percent: 38.97%
+  right-width-percent: 45.99%
   ---
   #content-one
+    ::::project-desktop-image{image-path="/work/identity/IMG_0832 1.png"}
+    ::::
+  #content-two
+ 
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 54.99%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/identity/IMG_0661 1.png"}
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  left-width-percent: 60.71%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/identity/IMG_0821 1.png"}
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 27.26%
+  right-width-percent: 63.77%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/identity/IMG_9400 1.png"}
+    ::::
   
   #content-two
-    ::::project-desktop-image{image-path="/work/parto/4MDeulofeu_Yapci_extras.jpg"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 66.67%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/A_IMG_3724_AunLado.JPG"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: end
-  left-width-percent: 49.5%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/IMG_1031.JPG"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 34.3%
-  right-width-percent: 43.2%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/IMG_7886 copia.jpg"}
-    ::::
-  
-  #content-two
-    ::::project-desktop-image{image-path="/work/parto/Parto01.jpg"}
+    ::::project-desktop-image{image-path="/work/identity/IMG_9400 2.png"}
     ::::
   :::
 
