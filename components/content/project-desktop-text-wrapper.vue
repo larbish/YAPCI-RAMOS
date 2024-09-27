@@ -1,5 +1,5 @@
 <template>
-    <div v-if="props.hasTitle == 'true'" class="w-full flex items-start">
+    <div v-if="props.hasTitle == 'true'" class="w-full flex items-start text-black">
         <div :style="`width: ${props.width}`" class="p-2 lg:p-3 leading-[1.1]">
             <h2 class=" uppercase font-medium">
                 {{ props.title }}
@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div v-else class="w-full p-1 lg:pl-2">
+    <div v-else class="w-full p-1 lg:pl-2 text-black">
         <div :style="`width: ${props.width}`" class="flex flex-col gap-y-3">
             <ContentSlot />
         </div>
