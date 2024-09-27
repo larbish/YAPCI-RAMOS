@@ -247,25 +247,25 @@
     content: 'In Guayec, I become a body: I seize it, I take it, I use it, I let it go. My emotions sprout, stripped of prejudices and reasoning: I am the one who decides, who proposes, who offers. The perception of the external gaze does not exist in me. It gives way to an experience that, without intending to, becomes immersive and sensory.'
     ---
     ::::
-
+  
     ::::project-desktop-paragraph
     ---
     content: 'In this work, I immerse myself in my identity to drink from an ancestral past that I carry with me, while confronting me with the complexities of our contemporary society. Guayec or wa-yec is the term with which the Guanche dialect of the island of Tenerife designates the act of “being” oneself. Wa is a panberber relative pronoun = «this» and yeg is the 1st person singular of the verb eg = eh = 1l · (to be): this is me, a phrase that, without being pronounced, is read in each movement.'
     ---
     ::::
-
+  
     ::::project-desktop-paragraph
     ---
     content: 'In Guayec, all the fragments that make up the identity dialogue: they seek their place of return. And in this cluster of ideas that converge, two polarities are inserted: destruction-creation form a single concept in itself. They are cause and consequence, they are an eternal cycle that generates energy and power.'
     ---
     ::::
-
+  
     ::::project-desktop-paragraph
     ---
     content: 'The eyes look defiant. Veiled, by that very Canarian mist that fills the environment. The calm ends and everything begins: the body becomes a place of enunciation from which I shout everything I yearn for while I get rid of everything I purge.'
     ---
     ::::
-
+  
     ::::project-desktop-paragraph
     ---
     content: The battles that change everything, are lived inside.
@@ -279,22 +279,20 @@
   
     ::::project-desktop-image{image-path="/work/guayec/Guayec_3.png"}
     ::::
-  
   :::
 
   :::project-mobile-text-wrapper
-
     ::::project-desktop-paragraph
     ---
-    content: Yapci Ramos’ liberated impulses explore a space of ambiguity and paradox, turning the frustration of a limit into a expresion of freedom. 
+    content: Yapci Ramos’ liberated impulses explore a space of ambiguity and paradox, turning the frustration of a limit into a expresion of freedom.
     ---
     ::::
-    :::::project-desktop-paragraph{content="Marina Ribot / Curator and researcher"}
-    :::::
+  
+    ::::project-desktop-paragraph{content="Marina Ribot / Curator and researcher"}
+    ::::
   :::
 
   :::project-mobile-gapped-container
-
     ::::project-desktop-image{image-path="/work/guayec/Guayec_1.png"}
     ::::
   
@@ -303,18 +301,13 @@
     image-path: /work/guayec/Screenshot 2024-09-24 at 17.29.34 1.png
     ---
     ::::
-  
   :::
 
 #section-two-mobile
-
-  :::project-custom-image{image-path="/work/guayec/Guayec_YapciRamos_Process1 1.png"}
-  :::
-  
-  :::project-desktop-video
-    ---
-    video-path: /work/guayec/IMG_4654.mp4
-    ---
+  :::project-custom-image
+  ---
+  image-path: /work/guayec/Guayec_YapciRamos_Process1 1.png
+  ---
   :::
 
   :::project-mobile-custom-image
@@ -334,12 +327,30 @@
   :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 1.png"}
   :::
 
-  :::project-desktop-video
-    ---
-    video-path: /work/guayec/IMG_4649.mp4
-    ---
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/guayec/WhatsApp Image 2021-11-17 at 19.04.55 (4) 1.png
+  ---
   :::
 
-  :::project-mobile-custom-image{image-path="/work/guayec/WhatsApp Image 2021-11-17 at 19.04.55 (4) 1.png"}
+#section-three-mobile
+  :::project-custom-image
+  ---
+  image-path: /work/guayec/ANTROPONIMOS CANARIOS-13 1.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  height: 40%
+  image-path: /work/guayec/CUSCOY_VIDAYCULTURA-257 3.png
+  ---
+  :::
+
+  :::project-mobile-custom-image
+  ---
+  height: 60%
+  image-path: /work/guayec/CUSCOY_VIDAYCULTURA-263 1.png
+  ---
   :::
 ::
