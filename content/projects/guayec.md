@@ -307,12 +307,7 @@
   :::
 
 #section-two-mobile
-  :::project-custom-image
-    ---
-    image-path: /work/guayec/Guayec_YapciRamos_Process2 (1) 1.png
-    ---
-  :::
-  
+
   :::project-custom-image{image-path="/work/guayec/Guayec_YapciRamos_Process1 1.png"}
   :::
   
