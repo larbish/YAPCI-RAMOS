@@ -50,9 +50,7 @@
   #content-two
     ::::project-desktop-image
     ---
-    has-text: 'true'
-    image-path: /work/identity/YapciRamos_KnowUs_2.jpg
-    text-content: CENTRO ATLÁNTICO DE ARTE MODERNO
+    image-path: /work/guayec/Guayec_2A 1.png
     ---
     ::::
   :::
@@ -60,23 +58,12 @@
   :::project-desktop-variant
   ---
   justify-content: start
-  leftWidthPercent: 53.96%
-  rightWidthPercent: 41.98%
+  leftWidthPercent: 100%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/identity/A_TioManolito2.jpg
-    margin-left: 8px
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    has-text: 'true'
-    image-path: /work/identity/YapciRamos_KnowUs_2.jpg
-    text-content: CENTRO ATLÁNTICO DE ARTE MODERNO
+    image-path: /work/guayec/Guayec_3.png
     ---
     ::::
   :::
@@ -84,95 +71,35 @@
   :::project-desktop-variant
   ---
   justify-content: space-between
-  leftWidthPercent: 24.64%
-  rightWidthPercent: 75.36%
+  leftWidthPercent: 20.36%
+  rightWidthPercent: 64.80%
   ---
   #content-one
     ::::project-desktop-text-wrapper{width="69.98%"}
       :::::project-desktop-paragraph
       ---
-      content: Why are we the way we are? What weight does family have over an individual? Is there such a thing as a subconscious trans-generational legacy?
+      content: Yapci Ramos’ liberated impulses explore a space of ambiguity and paradox, turning the frustration of a limit into a expresion of freedom. 
       ---
       :::::
     
-      :::::project-desktop-paragraph{content="Yolanda Peralta"}
+      :::::project-desktop-paragraph{content="Marina Ribot / Curator and researcher"}
       :::::
     ::::
   
   #content-two
-    ::::project-desktop-image{image-path="/work/identity/YapciRamos_KnowUs.jpg"}
+    ::::project-desktop-image{image-path="/work/guayec/Guayec_1.png"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  align-items: flex-end
-  justify-content: flex-start
-  leftWidthPercent: 56.25%
-  right-width-percent: 23.07%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/identity/JMR-1080insta__O5A9554_240519.jpg
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-text-wrapper{width="100%"}
-      :::::project-desktop-paragraph
-      ---
-      content: Like an archaeologist, she is excavating the traces, genetic and otherwise, of her ancestors; unearthing “treasures” and boldly appropriating them for her own poiesis—her auto-poiesis.
-      ---
-      :::::
-    
-      :::::project-desktop-paragraph{content="Barbara Polla"}
-      :::::
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: center
+  justify-content: start
   leftWidthPercent: 100%
-  marginTop: 14px
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.08 1.png
-    margin-left: 0px
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: start
-  leftWidthPercent: 36.93%
-  marginTop: 14px
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/identity/IMG_9131 1.png
-    margin-left: 8px
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: start
-  leftWidthPercent: 36.93%
-  rightWidthPercent: 52.19%
-  ---
-  #content-one
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/identity/Screenshot 2024-09-24 at 17.09.00 1.png
+    image-path: /work/guayec/Screenshot 2024-09-24 at 17.29.34 1.png
     ---
     ::::
   :::
@@ -180,36 +107,34 @@
 #section-two
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 38.97%
-  right-width-percent: 54.99%
+  justify-content: flex-start
+  left-width-percent: 68.51%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_9390 1.png"}
+    ::::project-desktop-image{image-path="/work/guayec/Guayec_YapciRamos_Process2 (1) 1.png"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 38.97%
-  right-width-percent: 54.99%
+  right-width-percent: 60.88%
   ---
   #content-one
   
   #content-two
-    ::::project-desktop-image{image-path="/work/identity/IMG_9400 1.png"}
+    ::::project-desktop-image{image-path="/work/guayec/Guayec_YapciRamos_Process1 1.png"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 38.97%
-  right-width-percent: 45.99%
+  left-width-percent: 23.68%
+  right-width-percent: 60.88%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_0832 1.png"}
+    ::::project-desktop-video{video-path="/work/guayec/IMG_4654.mp4"}
     ::::
   
   #content-two
@@ -217,35 +142,25 @@
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 54.99%
+  justify-content: flex-start
+  left-width-percent: 68.81%
+  right-width-percent: 15.6%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_0661 1.png"}
+    ::::project-desktop-image{image-path="/work/guayec/WhatsApp Image 2021-11-17 at 19.04.55 (2) 1.png"}
     ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  left-width-percent: 60.71%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_0821 1.png"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 27.26%
-  right-width-percent: 63.77%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_9400 1.png"}
-    ::::
-  
   #content-two
-    ::::project-desktop-image{image-path="/work/identity/IMG_9400 2.png"}
+    ::::project-desktop-video{video-path="/work/guayec/IMG_4649.mp4"}
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 77.38%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/guayec/WhatsApp Image 2021-11-17 at 19.04.55 (4) 1.png"}
     ::::
   :::
 
@@ -253,12 +168,12 @@
   :::project-desktop-variant
   ---
   justify-content: center
-  left-width-percent: 40.8%
+  left-width-percent: 42.44%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/parto/acting.png
+    image-path: /work/guayec/ANTROPONIMOS CANARIOS-13 1.png
     margin-right: 10%
     ---
     ::::
@@ -266,23 +181,27 @@
 
   :::project-desktop-variant
   ---
-  justify-content: flex-start
-  left-width-percent: 83.4%
+  justify-content: flex-end
+  left-width-percent: 52.36%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/Acting.jpg"}
+    ::::project-desktop-image{image-path="/work/guayec/CUSCOY_VIDAYCULTURA-257 3.png"}
+    ---
+    margin-right: 20%
+    ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 93.9%
+  justify-content: flex-start
+  left-width-percent: 51.51%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/parto/Captura de Pantalla 2023-05-24 a las 22.34.40 1.png
+    margin-left: 10%
+    image-path: /work/guayec/CUSCOY_VIDAYCULTURA-263 1.png
     ---
     ::::
   :::
@@ -290,58 +209,18 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 50.4%
-  right-width-percent: 26.0%
+  left-width-percent: 73.95%
+  right-width-percent: 21.85%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/IMG_9242 1.png"}
+    ::::project-desktop-image{image-path="/work/guayec/CUSCOY_VIDAYCULTURA-285 1.png"}
     ::::
   
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/parto/386f5170-8871-4f72-934c-5d0c12b2fda4 1.png
+    image-path: /work/guayec/RAMAGUA_CUSCOY_VIDAYCULTURA-280 1.png
     ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 50.4%
-  right-width-percent: 32.7%
-  ---
-  #content-one
-  
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 34.1%
-  right-width-percent: 49.5%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 100%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/Codices_Paturientas 1.png"}
     ::::
   :::
 
