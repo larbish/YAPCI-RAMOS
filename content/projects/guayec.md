@@ -304,7 +304,7 @@
   :::
 
 #section-two-mobile
-  :::project-custom-image
+  :::project-mobile-custom-image
   ---
   image-path: /work/guayec/Guayec_YapciRamos_Process1 1.png
   ---
@@ -334,7 +334,7 @@
   :::
 
 #section-three-mobile
-  :::project-custom-image
+  :::project-mobile-custom-image
   ---
   image-path: /work/guayec/ANTROPONIMOS CANARIOS-13 1.png
   ---
