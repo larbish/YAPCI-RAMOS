@@ -141,5 +141,53 @@
   :::
 
   :::project-mobile-gapped-container
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/YapciRamos_Red-Hot_3.png
+    ---
+    ::::
+  
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/YapciRamos_Red-Hot_1.png
+    ---
+    ::::
+  :::
+
+  :::project-mobile-text-wrapper
+    ::::project-desktop-paragraph
+    ---
+    content: For over two years, every month, Ramos took on this ritualistic action of creation and destruction. In producing Red-Hot, Ramos places herself front and center in conversations around female empowerment—as a woman, in control of her body, her voice, and her own destiny. Time is up. Ramos demands we read the writing on the wall.
+    ---
+    ::::
+  
+    ::::project-desktop-paragraph
+    ---
+    content: Justine Ludwig / Executive Director of Creative Time
+    ---
+    ::::
+  :::
+
+  :::project-mobile-gapped-container
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/Screenshot 2024-09-24 at 17.46.13 1.png
+    ---
+    ::::
+  
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/2018_YapciRamos_RedHot_2 1.png
+    ---
+    ::::
+  
+    ::::project-desktop-image{image-path="/work/i-don't-mind-two/TRUST_2 1.png"}
+    ::::
+  
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/YapciRamos_RedHot_1 1.png
+    ---
+    ::::
   :::
 ::
