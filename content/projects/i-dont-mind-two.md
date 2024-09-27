@@ -1,6 +1,9 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/i-don't-mind-two/03-Yapci-Lloro.mp4"}
+  :::project-section-one-video
+  ---
+  video-src: /work/i-don't-mind-two/03-Yapci-Lloro.mp4
+  ---
   :::
 
   :::project-desktop-text-wrapper
@@ -11,8 +14,7 @@
   ---
     ::::project-desktop-paragraph
     ---
-    content: “Go. Wake. Calm. Why. Now. Time. Be. Path. 39. I.” In Red-Hot, the intuitive action of collecting my menstrual blood and writing with it becomes a ritual of its own where the unspeakable is expressed. In each gesture lies an insurrection with which I build and destroy decisions and renunciations. The weakness of the naked body contrasts with the empowering of its actions because I am negotiating a place to occupy in society when the archetypal roles as a woman are not met. Blood becomes a means to, metaphorically, open up from the guts, the lust and materiality of a body that is all act. Likewise, the impulsiveness from which such an expression is born is secularized with the monthly repetition over two years, as a pulse, as a cycle, as an interrupted cry. That blood which is a symbol of the potential reproductive ability, is diluted violently with each stroke of water, just like someone destroying their own work. And it’s here where time becomes especially important due to the unacceptable helplessness it arouses. The project is dictated by the regularity of the menstrual cycle, through which we observe an internal dialogue that is altered until I reach a conclusion ‘I’. That pronoun brings us pain until we come to terms with it. 
-    
+    content: “Go. Wake. Calm. Why. Now. Time. Be. Path. 39. I.” In Red-Hot, the intuitive action of collecting my menstrual blood and writing with it becomes a ritual of its own where the unspeakable is expressed. In each gesture lies an insurrection with which I build and destroy decisions and renunciations. The weakness of the naked body contrasts with the empowering of its actions because I am negotiating a place to occupy in society when the archetypal roles as a woman are not met. Blood becomes a means to, metaphorically, open up from the guts, the lust and materiality of a body that is all act. Likewise, the impulsiveness from which such an expression is born is secularized with the monthly repetition over two years, as a pulse, as a cycle, as an interrupted cry. That blood which is a symbol of the potential reproductive ability, is diluted violently with each stroke of water, just like someone destroying their own work. And it’s here where time becomes especially important due to the unacceptable helplessness it arouses. The project is dictated by the regularity of the menstrual cycle, through which we observe an internal dialogue that is altered until I reach a conclusion ‘I’. That pronoun brings us pain until we come to terms with it.
     ---
     ::::
   :::
@@ -29,7 +31,6 @@
     image-path: /work/i-don't-mind-two/YapciRamos_Red-Hot_3.png
     ---
     ::::
-  
   :::
 
   :::project-desktop-variant
@@ -39,16 +40,16 @@
   rightWidthPercent: 76.74%
   ---
   #content-one
-  :::project-desktop-text-wrapper
-    ::::project-desktop-paragraph
-    ---
-    content: Installation view at TEA Tenerife Espacio de 
-    ---
+    ::::project-desktop-text-wrapper
+      :::::project-desktop-paragraph
+      ---
+      content: Installation view at TEA Tenerife Espacio de
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph{content="LAS ARTES, 2019."}
+      :::::
     ::::
-  
-    ::::project-desktop-paragraph{content="LAS ARTES, 2019."}
-    ::::
-  :::
   
   #content-two
     ::::project-desktop-image
@@ -56,9 +57,7 @@
     image-path: /work/i-don't-mind-two/YapciRamos_Red-Hot_1.png
     ---
     ::::
-  
   :::
-
 
   :::project-desktop-variant
   ---
@@ -67,10 +66,17 @@
   rightWidthPercent: 34.65%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/i-don't-mind-two/Screenshot 2024-09-24 at 17.46.13 1.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/Screenshot 2024-09-24 at 17.46.13 1.png
+    ---
     ::::
+  
   #content-two
-    ::::project-desktop-image{image-path="/work/i-don't-mind-two/2018_YapciRamos_RedHot_2 1.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/2018_YapciRamos_RedHot_2 1.png
+    ---
     ::::
   :::
 
@@ -80,7 +86,7 @@
   rightWidthPercent: 88.48%
   ---
   #content-one
-
+  
   #content-two
     ::::project-desktop-image{image-path="/work/i-don't-mind-two/TRUST_2 1.png"}
     ::::
@@ -92,21 +98,21 @@
   rightWidthPercent: 88.48%
   ---
   #content-one
-
-  #content-two
-    :::project-desktop-text-wrapper
-    ::::project-desktop-paragraph
-    ---
-    content: For over two years, every month, Ramos took on this ritualistic action of creation and destruction. In producing Red-Hot, Ramos places herself front and center in conversations around female empowerment—as a woman, in control of her body, her voice, and her own destiny. Time is up. Ramos demands we read the writing on the wall.
-    ---
-    ::::
   
-    ::::project-desktop-paragraph
-    ---
-    content: Justine Ludwig / Executive Director of Creative Time 
-    ---
+  #content-two
+    ::::project-desktop-text-wrapper
+      :::::project-desktop-paragraph
+      ---
+      content: For over two years, every month, Ramos took on this ritualistic action of creation and destruction. In producing Red-Hot, Ramos places herself front and center in conversations around female empowerment—as a woman, in control of her body, her voice, and her own destiny. Time is up. Ramos demands we read the writing on the wall.
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: Justine Ludwig / Executive Director of Creative Time
+      ---
+      :::::
     ::::
-  :::
   :::
 
   :::project-desktop-variant
@@ -117,10 +123,23 @@
   #content-one
   
   #content-two
-    ::::project-desktop-image
+  :::
+
+#section-one-mobile
+  :::project-mobile-video{video-path="/work/i-don't-mind-two/03-Yapci-Lloro.mp4"}
+  :::
+
+  :::project-mobile-text-wrapper
+    ::::project-desktop-paragraph
     ---
-    image-path: /work/i-don't-mind-two/YapciRamos_RedHot_1 1.png
+    content: ‘I don’t mind’ is an artwork to visit stripped down form prejudices–those sounds are talking to us about sex, self-pleasure. And, in that context, our relationship with sexuality is settled. After having put in crisis all the inherited constructs and apprehended symbologies, it is worth asking oneself about the immanence of the very own act of masturbating. In the capacity of one’s own production of pleasure lies the question of self-sufficiency and in it, the possibility, but also the condition, of solitude.
     ---
     ::::
+  
+    ::::project-desktop-paragraph{content="There is a confrontation."}
+    ::::
+  :::
+
+  :::project-mobile-gapped-container
   :::
 ::
