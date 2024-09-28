@@ -334,9 +334,6 @@
   :::project-mobile-video{video-path="/work/parto/cover-video.mp4"}
   :::
 
-
-
-
   :::project-mobile-text-wrapper{has-title="true" title="PARTO"}
     ::::project-desktop-paragraph
     ---
@@ -358,21 +355,33 @@
     ::::project-desktop-image{image-path="/work/parto/Parto_026.jpg"}
     ::::
   
-    ::::project-desktop-video{video-path="/work/parto/Parto_Yapci_Ramos__V1-0003.mp4"}
+    ::::project-desktop-video
+    ---
+    video-path: /work/parto/Parto_Yapci_Ramos__V1-0003.mp4
+    ---
     ::::
-
+  
     ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
     ::::
   :::
 
 #section-two-mobile
-  :::project-mobile-custom-image{image-path="/work/parto/9c24ca8c-aada-42c6-b91e-e2434e719bee.JPG"}
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/9c24ca8c-aada-42c6-b91e-e2434e719bee.JPG
+  ---
   :::
 
-  :::project-mobile-custom-image{image-path="/work/parto/1d8c27ec-e640-400f-8da5-b61ff3c2e394.JPG"}
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/1d8c27ec-e640-400f-8da5-b61ff3c2e394.JPG
+  ---
   :::
 
-  :::project-mobile-custom-image{image-path="/work/parto/6MDeulofeu_Yapci_extras.jpg"}
+  :::project-mobile-custom-image
+  ---
+  image-path: /work/parto/6MDeulofeu_Yapci_extras.jpg
+  ---
   :::
 
   :::project-mobile-custom-image
@@ -423,10 +432,7 @@
   ---
   :::
 
-  :::project-mobile-custom-image
-  ---
-  image-path: /work/parto/IMG_9242 1.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/parto/IMG_9242 1.png"}
   :::
 
   :::project-mobile-custom-image
@@ -445,5 +451,111 @@
   ---
   image-path: /work/parto/Codices_Paturientas 1.png
   ---
+  :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+    **Title.** Monumenta. Nine Guanche Incarnations
+    ::::
+  
+    ::::project-credit-item
+    **Artist.** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Assistance.** Marina Ribot, María Vila, and Iris Verge
+    ::::
+  
+    ::::project-credit-item
+    **Craftsmanship.** Taller Afoche (Pedro Benítez Reyes and Isabel Padrón Herrera) David Guijarro
+    ::::
+  
+    ::::project-credit-item
+    **Design and Sewing.** Gina Berenguer Barnils
+    ::::
+  
+    ::::project-credit-item
+    **Makeup and Hairstyling.** Bárbara Mattel
+    ::::
+  
+    ::::project-credit-item
+    **Studio Photography.** Enric Badrinas
+    ::::
+  
+    ::::project-credit-item
+    **Technical Support.** Simone Orso
+    ::::
+  
+    ::::project-credit-item
+    **Transportation.** Loyter
+    ::::
+  
+    ::::project-credit-item
+    **Exhibition Setup.** Alfonso Delgado and the MUNA
+    ::::
+  
+    ::::project-credit-item
+    **Texts.** Nora Navarro
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    **3D Scanning.** LABS3D
+    ::::
+  
+    ::::project-credit-item
+    **3D Digital Craftsmanship.** Daniela Bazzi and Maria Vilaseca
+    ::::
+  
+    ::::project-credit-item
+    **3D Digital Printing.** Manuel Román Camacho
+    ::::
+  
+    ::::project-credit-item
+    **Voice Accompaniment.** LAVOZDETARA
+    ::::
+  
+    ::::project-credit-item
+    **Voice and Sound.** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Sound Editing and Mastering.** Picnic Sound Studio
+    ::::
+  
+    ::::project-credit-item
+    **3D Simulation.** Adolf Alcañiz
+    ::::
+  
+    ::::project-credit-item
+    **Technical Support.** Simone Orso
+    ::::
+  
+    ::::project-credit-item
+    **Transportation.** Loyter
+    ::::
+  
+    ::::project-credit-item
+    **Exhibition Setup.** Alfonso Delgado and the MUNA
+    ::::
+  
+    ::::project-credit-item
+    **Texts.** Nora Navarro
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    CATALOGUE
+    ::::
+  
+    ::::project-credit-item
+    3D VIDEOS
+    ::::
+  
+    ::::project-credit-item
+    BROCHURE
+    ::::
   :::
 ::
