@@ -14,10 +14,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-[44.95%]">
-            <h2 class="font-medium">DOWNLOADS</h2>
-
-            <div class="mt-3 leading-[1.3]">
+        <div class="w-[44.95%] mt-3">
+            <div class="leading-[1.3]">
+                <h2 class="font-medium mt-3 ">DOWNLOADS</h2>
                 <slot name="downloads"></slot>
             </div>
         </div>
