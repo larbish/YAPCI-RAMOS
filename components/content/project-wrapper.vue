@@ -4,6 +4,7 @@
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
                     <slot name="section-one"></slot>
+                    <slot name="project-credits"></slot>
                     <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
 
                         ©2024 YAPCI RAMOS <br>
@@ -51,7 +52,8 @@
     <div class="lg:hidden bg-white min-h-[100dvh] h-[100dvh] overflow-y-auto relative">
         <section class="w-full h-screen max-h-screen bg-white" @click="activateFirstSection">
             <slot name="section-one-mobile"></slot>
-            <p class=" py-16 text-center">
+            <slot name="project-credits"></slot>
+            <p class=" py-16 text-center text-black">
                 ©2024 YAPCI RAMOS <br>
                 ALL RIGHTS RESERVED
             </p>
