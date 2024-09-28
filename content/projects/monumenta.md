@@ -569,4 +569,65 @@
   image-path: /images/section-three-image-five.png
   ---
   :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+    **Title.** Monumenta. Nine Guanche Incarnations
+    ::::
+  
+    ::::project-credit-item
+    **Artist.** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Assistance.** Marina Ribot, María Vila, and Iris Verge
+    ::::
+  
+    ::::project-credit-item
+    **Craftsmanship.** Taller Afoche (Pedro Benítez Reyes and Isabel Padrón Herrera) David Guijarro
+    ::::
+  
+    ::::project-credit-item
+    **Design and Sewing.** Gina Berenguer Barnils
+    ::::
+  
+    ::::project-credit-item
+    **Makeup and Hairstyling.** Bárbara Mattel
+    ::::
+  
+    ::::project-credit-item
+    **Studio Photography.** Enric Badrinas
+    ::::
+  
+    ::::project-credit-item
+    **Technical Support.** Simone Orso
+    ::::
+  
+    ::::project-credit-item
+    **Transportation.** Loyter
+    ::::
+  
+    ::::project-credit-item
+    **Exhibition Setup.** Alfonso Delgado and the MUNA
+    ::::
+  
+    ::::project-credit-item
+    **Texts.** Nora Navarro
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    CATALOGUE
+    ::::
+  
+    ::::project-credit-item
+    3D VIDEOS
+    ::::
+  
+    ::::project-credit-item
+    BROCHURE
+    ::::
+  :::
 ::
