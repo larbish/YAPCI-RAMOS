@@ -1,6 +1,7 @@
 <template>
-        <img :src="imagePath" class="h-full min-w-fit w-fit max-w-fit" :style="{ height: props.height }" alt="">
+    <img :src="imagePath" class="h-full w-full object-contain" :style="{ height: props.height }" alt="">
 </template>
+
 
 <script setup>
 const props = defineProps({

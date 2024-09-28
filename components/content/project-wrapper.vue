@@ -4,6 +4,11 @@
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
                     <slot name="section-one"></slot>
+                    <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+
+                        ©2024 YAPCI RAMOS <br>
+                        ALL RIGHTS RESERVED
+                    </p>
                 </div>
             </section>
 
@@ -46,6 +51,10 @@
     <div class="lg:hidden bg-white min-h-[100dvh] h-[100dvh] overflow-y-auto relative">
         <section class="w-full h-screen max-h-screen bg-white" @click="activateFirstSection">
             <slot name="section-one-mobile"></slot>
+            <p class=" py-16 text-center">
+                ©2024 YAPCI RAMOS <br>
+                ALL RIGHTS RESERVED
+            </p>
         </section>
 
         <section @click="activateSecondSection"
@@ -57,7 +66,7 @@
                     Process
                 </p>
                 <div class="flex w-full h-full max-h-full overflow-clip overflow-x-auto">
-                <slot name="section-two-mobile"></slot>
+                    <slot name="section-two-mobile"></slot>
                 </div>
             </div>
         </section>
