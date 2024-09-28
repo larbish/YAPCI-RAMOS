@@ -23,10 +23,10 @@
     </div>
 
 
-    <div class="mt-8 lg:hidden">
+    <div class="mt-8 lg:hidden text-black">
         <div class="w-full pl-2">
 
-            <div class="grid gap-x-2 uppercase leading-[1.3]">
+            <div class="grid gap-x-2 gap-y-4 uppercase leading-[1.3]">
                 <div>
                     <h2 class="font-medium">CREDITS</h2>
                     <slot name="credits"></slot>
