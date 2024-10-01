@@ -383,7 +383,7 @@
     ::::
   
     ::::project-credit-item
-     Art Omi, Nueva York, 2022
+    Art Omi, Nueva York, 2022
     ::::
   
     ::::project-credit-item
