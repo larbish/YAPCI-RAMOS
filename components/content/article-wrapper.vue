@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="space-y-4 px-1.5 lg:mt-4 2xl:mt-10 leading-[1.1]">
-                        <ContentSlot></ContentSlot>
+                        <ContentSlot name="paragraphs"></ContentSlot>
                     </div>
 
                     <div class="font-medium uppercase px-1.5 mt-6 pb-10">
@@ -68,7 +68,7 @@
             </div>
 
             <div class="space-y-3 px-2.5 mt-10 leading-[1.1]">
-               <ContentSlot></ContentSlot>
+               <ContentSlot name="paragraphs"></ContentSlot>
             </div>
 
             <div class="font-medium uppercase px-1.5 mt-6 pb-10">
