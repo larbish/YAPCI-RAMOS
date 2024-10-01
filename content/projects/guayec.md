@@ -353,4 +353,46 @@
   image-path: /work/guayec/CUSCOY_VIDAYCULTURA-263 1.png
   ---
   :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+    **Photography:** Paco Amate
+    ::::
+  
+    ::::project-credit-item
+     **Sound:** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+     **Sound and Video Edition:** Adolf Alcañiz
+    ::::
+  
+    ::::project-credit-item
+     **Sound and Video Edition:** Adolf Alcañiz
+    ::::
+  
+    ::::project-credit-item
+     **Master of Sound:** Ferran Conangla
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    FLUX festival de video d’autor Monographic Yapci Ramos, 2021
+    ::::
+  
+    ::::project-credit-item
+    Art Omi, Nueva York, 2022
+    ::::
+  
+    ::::project-credit-item
+    Centro de Arte la Regenta, Gran Canaria, 2024
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    DOSSIER
+    ::::
+  :::
 ::

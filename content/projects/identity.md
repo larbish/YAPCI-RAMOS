@@ -326,36 +326,36 @@
     ::::project-desktop-image{image-path="/work/identity/YapciRamos_KnowUs.jpg"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/identity/JMR-1080insta__O5A9554_240519.jpg"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/JMR-1080insta__O5A9554_240519.jpg
+    ---
     ::::
   
-    ::::project-desktop-image{image-path="/work/identity/Captura de pantalla 2024-09-18 a las 21.36.08 1.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.08 1.png
+    ---
     ::::
-
+  
     ::::project-desktop-image{image-path="/work/identity/IMG_9131 1.png"}
     ::::
-
-    ::::project-desktop-image{image-path="/work/identity/Screenshot 2024-09-24 at 17.09.00 1.png"}
+  
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/Screenshot 2024-09-24 at 17.09.00 1.png
+    ---
     ::::
   :::
 
 #section-two-mobile
-  :::project-mobile-custom-image
-  ---
-  image-path: /work/identity/IMG_9390 1.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/identity/IMG_9390 1.png"}
   :::
 
-  :::project-mobile-custom-image
-  ---
-  image-path: /work/identity/IMG_9400 1.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 1.png"}
   :::
 
-  :::project-mobile-custom-image
-  ---
-  image-path: /work/identity/IMG_0832 1.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/identity/IMG_0832 1.png"}
   :::
 
   :::project-mobile-custom-image
@@ -376,5 +376,55 @@
   :::
 
   :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 2.png"}
+  :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+    Installation comprising a horn, five pipes, a Polaroid EE44 camera, a 120 x 150 cm lenticular print, texts by Yapci Ramos and by Cayaya Ramos, a mural photograph, two window frames taken from Pensión Ramos. Year: 2015-2018 Location: Tenerife (Spain)
+    ::::
+  
+    ::::project-credit-item
+    **Year**: 2015-2018 
+    ::::
+  
+    ::::project-credit-item
+    **Location:** Tenerife (Spain)
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    Show Me, TEA Tenerife Espacio de las Artes, 2018
+    ::::
+  
+    ::::project-credit-item
+    Know Us, CAAM Centro Atlántico de Arte Moderno. 2019
+    ::::
+  
+    ::::project-credit-item
+    Art Brussels, 2020
+    ::::
+  
+    ::::project-credit-item
+    Family History. Delaware Contemporary, Delaware, 2021 
+    ::::
+  
+    ::::project-credit-item
+    'Leer la Colección', CAAM, Centro Atlántico do Arte Moderno, Las Palmas de Gran Canaria, November, 2020
+    ::::
+  
+    ::::project-credit-item
+    En diálogo con José  Martín, CAAM, Centro Atlántico do Arte Moderno, Las Palmas de Gran Canaria, 2021
+    ::::
+  
+    ::::project-credit-item
+    Aura Kunstraum, Biennale for Visual and Sonic Media, 2024
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    DOSSIER
+    ::::
   :::
 ::
