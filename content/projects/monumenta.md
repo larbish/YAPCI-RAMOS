@@ -1,6 +1,6 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/parto/cover-video.mp4"}
+  :::project-section-one-video{video-src="/work/monumenta/02-Yapci-monumenta.mp4"}
   :::
 
   :::project-desktop-variant
