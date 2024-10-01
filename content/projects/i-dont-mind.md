@@ -158,4 +158,54 @@
     ::::project-desktop-video{video-path="/work/i-dont-mind/conver-video-two.mp4"}
     ::::
   :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+    **Filming:** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Editing and Sound:** Adolf Alcañiz
+    ::::
+  
+    ::::project-credit-item
+    **Models:** Shawn Bishop, Coco Dolle, Nick Johnson, Lea Joly Sloan, Shinji Murakami, Kelsey S. Brener.
+    ::::
+  
+    ::::project-credit-item
+    **Acknowledgments:** Marina Ribot Pallicer With the support of Gran Canaria Espacio Digital (Spain)
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    I Dont Mind I, +F Post-conceptual artists in the Canary Islands 2000–2017
+    ::::
+  
+    ::::project-credit-item
+    San Martín Centro de Cultura Contemporánea, Las Palmas de Gran Canaria,  2017
+    ::::
+  
+    ::::project-credit-item
+    Gran Canaria Espacio Digital, Las Palmas de Gran Canaria, 2018
+    ::::
+  
+    ::::project-credit-item
+    Pelo, orgasmo y un jersey de cuello alto, Davis Museum, Barcelona, 2019–2020
+    ::::
+  
+    ::::project-credit-item
+    Flux Club, en el Antic Teatre de Barcelona, 2021
+    ::::
+  
+    ::::project-credit-item
+    FLUX festival de video d’autor Monographic Yapci Ramos, 2021
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    DOSSIER
+    ::::
+  :::
 ::
