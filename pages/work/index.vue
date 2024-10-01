@@ -54,36 +54,75 @@
 </template>
 
 
-<script setup lang="ts">
+<script setup>
 // Combined projects with media and patterns
 const projects = ref([
     {
         year: '2024',
-        title: 'MONUMENTA. NUEVE ENCARNACIONES GUANCHES',
+        title: 'PARTO',
         category: 'INSTALLATION',
-        link: '/work',
+        link: '/projects/parto',
         media: [
-            { type: 'video', src: '/images/Guayec_WorkPage.mp4', autoplay: true, playsinline: true, muted: true, loop: true, width: '60vw', height: '60vh', position: { right: '0vw', bottom: '0vh' } },
-            { type: 'img', src: '/images/GROUP-50.png', position: { left: '0px', top: '0px' } }
+            { type: 'img', src: '/work-list/image 7.png', position: { left: '10vw', bottom: '10pvw' } }
         ]
     },
     {
         year: '2023',
-        title: 'FREEDOM',
-        category: 'AUDIOVISUAL',
-        link: '/work',
+        title: 'MONUMENTA',
+        category: 'INSTALLATION',
+        link: '/projects/monumenta',
         media: [
-            { type: 'img', src: '/images/image7.png', position: { left: '10vw', bottom: '10vh' } }
+            { type: 'img', src: '/work-list/Group 50.png', position: { left: '0vw', top: '0vh' } },
+            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-23 a las 13.42.53 1.png', position: { right: '0vw', bottom: '0vh' } },
+        ]
+    },
+
+    {
+        year: '2021',
+        title: 'GUAYEC',
+        category: 'AUDIOVISUAL',
+        link: '/projects/guayec',
+        media: [
+            { type: 'img', src: '/work-list/image 18.png', position: { left: '10rem', bottom: '15vh' } },
+            { type: 'img', src: '/work-list/image 19.png', position: { right: '0vw', top: '0vh' } },
         ]
     },
     {
-        year: '2022',
-        title: 'PARTO',
-        link: '/work',
-        category: 'INSTALLATION',
+        year: '2019',
+        title: 'IDENTITY',
+        link: '/projects/identity',
+        category: 'PHOTOGRAPHY',
         media: [
-            { type: 'img', src: '/images/project-3.png', position: { left: '0vw', top: '0vh' } },
-            { type: 'img', src: '/images/project-3-2.png', position: { right: '10vw', bottom: '20vh' } }
+            { type: 'img', src: '/work-list/image 21.png', position: { left: '25vw', bottom: '25vh' } }
+        ]
+    },
+    {
+        year: '2018',
+        title: 'I DON’T MIND',
+        link: '/projects/i-dont-mind',
+        category: 'AUDIOVISUAL',
+        media: [
+            { type: 'video', src: '/work/i-dont-mind/conver-video-two.mp4', position: { left: '0vw', top: '0vh' }, height:"65vh" },
+            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-30 a las 13.59.39 1.png', position: { right: '10vw', bottom: '10vh' } }
+        ]
+    },
+    {
+        year: '2018',
+        title: 'RED-HOT',
+        link: '/work',
+        category: 'AUDIOVISUAL',
+        media: [
+            { type: 'img', src: '/work-list/image 22.png', position: { left: '20vw', bottom: '25vh' } },
+            { type: 'img', src: '/work-list/image 23.png', position: { right: '0vw', top: '10vh' } }
+        ]
+    },
+    {
+        year: '2015',
+        title: 'PERRAS Y PUTAS',
+        link: '/work',
+        category: 'PHOTOGRAPHY',
+        media: [
+            { type: 'img', src: '/work-list/image 24.png', position: { left: '0vw', bottom: '0vh' } },
         ]
     },
     // Add more projects with media as needed
@@ -91,8 +130,8 @@ const projects = ref([
 
 // State for sorting
 // State for sorting criterion and order
-const sortCriterion = ref<string>('year');
-const sortOrder = ref<string>('desc'); // 'asc' for ascending, 'desc' for descending
+const sortCriterion = ref('year');
+const sortOrder = ref('asc'); // 'asc' for ascending, 'desc' for descending
 
 // Function to sort projects
 const sortedProjects = computed(() => {
@@ -109,7 +148,7 @@ const sortedProjects = computed(() => {
     });
 });
 
-function toggleSort(criterion: string) {
+function toggleSort(criterion) {
     if (sortCriterion.value === criterion) {
         sortOrder.value = sortOrder.value === 'asc' ? 'desc' : 'asc';
     } else {
@@ -118,11 +157,11 @@ function toggleSort(criterion: string) {
     }
 }
 
-function getSortIconClass(criterion: string) {
+function getSortIconClass(criterion) {
     return sortCriterion.value === criterion ? (sortOrder.value === 'asc' ? 'rotate-180' : '') : '';
 }
 
-function getMediaStyle(position: any, width: string, height: string) {
+function getMediaStyle(position, width, height) {
     return {
         ...position,
         width,
@@ -132,5 +171,5 @@ function getMediaStyle(position: any, width: string, height: string) {
 }
 
 // Hover index tracking
-const hoverIndex = ref<number | null>(null)
+const hoverIndex = ref(null)
 </script>

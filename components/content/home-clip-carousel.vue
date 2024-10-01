@@ -1,7 +1,7 @@
 <template>
     <div class="h-[100dvh] lg:h-screen w-full">
         <canvas class="w-full h-full" id="canvas"></canvas>
-        <div class="bottom-5  absolute mix-blend-difference w-full flex justify-center text-center pointer-events-auto cursor-pointer"
+        <div class="bottom-5 absolute mix-blend-difference w-full flex justify-center text-center pointer-events-auto cursor-pointer"
             @mouseenter="hideCircle = false" @mouseleave="hideCircle = true">
             <NuxtLink :to="props.projectOneLink" v-if="currentVideoIndex === 0">
                 {{ props.projectOneTitle }}
@@ -18,13 +18,11 @@
             <NuxtLink :to="props.projectFourLink" v-if="currentVideoIndex === 3">
                 {{ props.projectFourTitle }}
             </NuxtLink>
-
         </div>
     </div>
 </template>
 
 <script setup>
-
 const props = defineProps({
     projectOneTitle: String,
     projectTwoTitle: String,
@@ -38,9 +36,11 @@ const props = defineProps({
     projectTwoVideo: String,
     projectThreeVideo: String,
     projectFourVideo: String
-})
+});
+
 const currentVideoIndex = ref(0);
 let hideCircle = useState('moveAnimationEnabled');
+
 onMounted(() => {
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
@@ -66,34 +66,23 @@ onMounted(() => {
         video.play();
     });
 
-
     let nextVideoIndex = 1;
     let mouseX = canvas.width / 2;
     let mouseY = canvas.height / 2;
     let radius = 80;
     let maxRadius = canvas.width;
 
-    /*     console.log(currentVideoIndex.value) */
-    /* 
-        const toggleButton = document.getElementById('toggleButton');
-        toggleButton.addEventListener('mouseenter', () => {
-            hideCircle.value = true;
-        });
-        toggleButton.addEventListener('mouseleave', () => {
-            hideCircle.value = false;
-        }); */
+    function drawFadingCircle(ctx, x, y, radius) {
+        const gradient = ctx.createRadialGradient(x, y, radius * 0.7, x, y, radius);
+        gradient.addColorStop(0, 'rgba(255, 255, 255, 1)');
+        gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
 
-
-    function drawBlurredCircle(ctx, x, y, radius, blurWidth) {
         ctx.save();
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
-        ctx.shadowBlur = blurWidth;
-        ctx.shadowColor = "rgba(128, 128, 128, 1)"; // Semi-transparent black blur
-        ctx.fillStyle = "rgba(0, 0, 0, 1)";
-        ctx.fill();
         ctx.clip();
-        ctx.shadowBlur = 0; // Reset shadowBlur for further drawings
+        ctx.fillStyle = gradient;
+        ctx.fill();
     }
 
     function draw() {
@@ -110,12 +99,14 @@ onMounted(() => {
             ctx.drawImage(backgroundVideo, x, y, backgroundVideo.videoWidth * scale, backgroundVideo.videoHeight * scale);
         }
 
-        // Draw the video with a blurred circular clip or full screen
+        // Draw the video with a fading circular clip
         const clipVideo = videos[nextVideoIndex];
         if (clipVideo.readyState >= clipVideo.HAVE_CURRENT_DATA && hideCircle.value) {
             if (radius < maxRadius) {
                 ctx.save();
-                drawBlurredCircle(ctx, mouseX, mouseY, radius, 100); // Apply blur effect (adjust the value for blur width)
+
+                // Draw the fading circle
+                drawFadingCircle(ctx, mouseX, mouseY, radius);
 
                 const scaleX = canvas.width / clipVideo.videoWidth;
                 const scaleY = canvas.height / clipVideo.videoHeight;
@@ -140,23 +131,17 @@ onMounted(() => {
         requestAnimationFrame(draw);
     }
 
-
-
-
-
     if (window.matchMedia("(max-width: 767px)").matches) {
-        // Apply mobile-specific behavior
         hideCircle.value = false;
         canvas.addEventListener('touchmove', (e) => {
             hideCircle.value = true;
             mouseX = e.touches[0].clientX;
             mouseY = e.touches[0].clientY;
-        })
+        });
 
         canvas.addEventListener('touchend', async (e) => {
-            //wait for the animation to finish
             hideCircle.value = false;
-        })
+        });
     } else {
         canvas.addEventListener('mousemove', (e) => {
             mouseX = e.clientX;
@@ -165,10 +150,10 @@ onMounted(() => {
     }
 
     canvas.addEventListener('click', () => {
-        const animationDuration = 200; // 0.5 second
+        const animationDuration = 200;
         const startTime = performance.now();
+
         if (window.matchMedia("(max-width: 767px)").matches) {
-            // Apply mobile-specific behavior
             hideCircle.value = true;
         }
 
@@ -183,12 +168,11 @@ onMounted(() => {
                 requestAnimationFrame(animate);
             } else {
                 if (window.matchMedia("(max-width: 767px)").matches) {
-                    // Apply mobile-specific behavior
                     hideCircle.value = false;
                 }
                 currentVideoIndex.value = nextVideoIndex;
                 nextVideoIndex = (nextVideoIndex + 1) % videos.length;
-                radius = 80; // Reset radius for the next video
+                radius = 80;
             }
         }
 
@@ -196,10 +180,8 @@ onMounted(() => {
     });
 
     draw();
-
-})
+});
 </script>
-
 
 <style>
 canvas {

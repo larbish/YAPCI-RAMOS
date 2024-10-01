@@ -6,7 +6,7 @@
                     <slot name="images-left"></slot>
 
                     <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black">
-                        {{ copyrightInfo }}
+                        ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
                     </p>
                 </div>
                 <div class="w-[33.5%]">
@@ -19,7 +19,7 @@
                     data-lenis-prevent>
                     <div
                         class="w-full flex flex-col items-center sticky lg:pt-36 2xl:pt-48 pb-8 top-0 bg-custom-gradient">
-                        <h3 class="uppercase font-medium">{{ articleSectionTitle }}</h3>
+                        <h3 class="uppercase font-medium">{{ props.articleSectionTitle }}</h3>
                         <div class="flex w-full px-2 justify-between items-center mt-1">
                             <div class="min-w-fit">
                                 <img src="@/assets/icons/chevron-left.svg" class="h-5" alt="">
@@ -27,9 +27,9 @@
                             <div class="w-full">
                                 <h2
                                     class="lg:text-xl 2xl:text-2xl font-serif font-light text-center uppercase !leading-none px-10 arizona-font">
-                                    {{ articleTitle }}
+                                    {{ props.articleTitle }}
                                 </h2>
-                                <p class="uppercase text-center">{{ authorInfo }}</p>
+                                <p class="uppercase text-center">{{ props.authorInfo }}</p>
                             </div>
                             <div class="min-w-fit">
                                 <img src="@/assets/icons/chevron-right.svg" class="h-5" alt="">

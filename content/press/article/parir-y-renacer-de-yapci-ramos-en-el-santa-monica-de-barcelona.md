@@ -26,4 +26,6 @@ Y es que, para la artista, Parto explora dudas y temores «queatraviesan a mucha
 **Referencias**
 
 Como sucede en el conjunto de la obra de Ramos, sus distintas piezas se interrelacionan e interpelan comoun juego de matrioskas que imprimen nuevas capas designificado a su microcosmos artístico. Por ejemplo, Parto alberga resonancias de la obra Red-Hot (2018), una videoinstalación artística que la artista inauguróen la Galería Catinca Tabacaru de Nueva York, en laque inscribe en la pared de mármol de su ducha unaserie depalabras y preguntas como un ritual escritocon la tinta de su sangre menstrual. Y poco más deun lustro después, Parto nace como un nuevo ejer-cicio de desnudez que nombra los tabúes femininos mediante unaformalización estética cruda, directa, y de una gran potencia visual y sanadora.
+
+Por tanto, esa naturaleza interrogante y al mismo tiempo visceral, que acontece en las coordenadas del territorio, el cuerpo y el deseo, con el predominio del color rojo sobre blanco, conecta ambas piezas a tra-vés del tiempo y el cuerpo de la artista.
 ::

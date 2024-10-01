@@ -1,6 +1,7 @@
 <template>
     <div ref="container"
-        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-75" :class="{ '!bg-opacity-95': darkVariant }">
+        class="w-full fixed top-0 min-h-screen backdrop-blur-3xl z-30 px-2 lg:px-4 bottom-0 overflow-y-auto bg-white text-black opacity-0 bg-opacity-75"
+        :class="{ '!bg-opacity-95': darkVariant }">
         <div class="w-full relative h-full xl:pb-20 overflow-y-auto">
             <div class="relative w-full lg:grid lg:grid-cols-8 ">
                 <div class="lg:col-span-5 pr-[5vw]">
@@ -8,57 +9,59 @@
                         <img src="@/assets/logo-black.svg" class="h-28 lg:h-24 2xl:h-28" alt="">
                     </section>
 
-                    <section class="uppercase leading-[1.2] font-normal">Yapci Ramos is a visual
-                        artist,
-                        video
-                        artist, and
-                        photographer. She lives and works between Tenerife,
-                        Barcelona, and New York. She trained in photography at Central Saint Martins College of Arts &
-                        Design in London and in creative documentary at Universitat Pompeu Fabra in Barcelona.</section>
+                    <section class="uppercase leading-[1.2] font-normal">Yapci Ramos (Tenerife, 1977). Artist who lives
+                        and works between the Canary Islands, Barcelona, and New York. Bachelor's Degree in Advertising
+                        and Public Relations at the Universidad Europea de Madrid (UEM), trained in photography at the
+                        Central Saint Martins College of Arts and Design in London (CSM) and Master's Degree in Creative
+                        Documentary at Universitat Pompeu Fabra in Barcelona (UPF). Her artistic expression focuses on
+                        exploring identity, sexuality, and territory through the creation of multimedia installations.
+                        Her work is emotional, physical, and introspective, in which she uses her own body to channel
+                        the taboos, rituals, and catharsis that construct the experience of the being.
+                    </section>
 
                     <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 font-normal mt-10">
                         <article class="lg:col-span-3">
                             <h2 class="font-medium">ABOUT</h2>
                             <p class=" mt-1 lg:mt-0 leading-[1.1]">
-                                She explores identity, sexuality, and territory by creating multimedia installation
-                                works.
-                                Her work is emotional, physical, and introspective, frequently using her own body to
-                                channel
-                                the taboos, rituals, and catharsis that constructs the experience of being. Ramos’s
-                                projects
-                                challenge the border of comfort between the body and society while engaging the
-                                intricate
-                                workings of both internal psychology and external expressions of identity.
+                                Ramos’s work has been exhibited in international biennials in the Caribbean, Latin
+                                America, and Africa: 8ème Rencontres Africaines de la Photographie in Bamako, 2nd
+                                Triennial of Luanda, 1st Biennial Encounter of Contemporary Caribbean Art in Aruba, 7th
+                                Biennial of São Tomé and Príncipe, 5th Biennial of Honduras in Tegucigalpa, IX Biennial
+                                of Visual Arts of the Central American Isthmus (BAVIC, its acronym in Spanish) of
+                                Guatemala; or Biennale for Visual and Sonic Media in Düsseldorf. In 2024 she was an
+                                invited artist to the 15th Havana Biennial and was selected to be part of the 5th Bienal
+                                MAV.
                             </p>
                         </article>
 
                         <article class="lg:col-span-6 mt-6 lg:mt-0">
                             <h2 class="font-medium">SELECTED EXHIBITIONS</h2>
                             <p class=" mt-1 lg:mt-0 leading-[1.1] ">
-                                It is remarkable her admission at The Watermill Center, Nueva York; The Fountainhead
-                                Residency, Miami; Art Omi, Nueva York; as well as the selection as resident artist in
-                                Residency Unlimited 2024, New York. Ramos’s work has been exhibited in international
-                                biennials, museums and galleries, such as Arts Santa Mònica, Barcelona; The Delaware
-                                Contemporary, Delaware; Catinca Tabacaru Gallery, Nueva York; TEA Tenerife Espacio de
-                                las
-                                Artes, Tenerife; CAAM Centro Atlántico de Arte Moderno, Las Palmas de Gran Canaria;
-                                Mario
-                                Mauroner Gallery, Viena; EAC Espacio de Arte Contemporáneo, Montevideo; Galerie Magda
-                                Danysz, Paris; Casa África, Las Palmas de Gran Canaria; CCET Centro Cultural de España,
-                                Tegucigalpa; Rencontres Africaines de la Photographie, Bamako; Triennal de Angola,
-                                Luanda y
-                                Bienal de Honduras, Tegucigalpa, among others.
-                            <span class="mt-4 block">
-                                Reviews of her work have appeared in El País, Forbes, Paper Magazine, Wall Street
-                                International Magazine, Cools, La Vanguardia, and Observer.
-                            </span>
+                                Yapci Ramos (Tenerife, 1977). Artist who lives and works between the Canary Islands,
+                                Barcelona, and New York. Bachelor's Degree in Advertising and Public Relations at the
+                                Universidad Europea de Madrid (UEM), trained in photography at the Central Saint Martins
+                                College of Arts and Design in London (CSM) and Master's Degree in Creative Documentary
+                                at Universitat Pompeu Fabra in Barcelona (UPF). Her artistic expression focuses on
+                                exploring identity, sexuality, and territory through the creation of multimedia
+                                installations. Her work is emotional, physical, and introspective, in which she uses her
+                                own body to channel the taboos, rituals, and catharsis that construct the experience of
+                                the being.
+
+                                <span class="mt-4 block">
+                                    Her work can be found in permanent collections such as CAAM Centro Atlántico de Arte
+                                    Moderno, Gran Canaria; TEA Tenerife Espacio de las Artes, Tenerife; Casa África,
+                                    Gran Canaria; or Museos de Tenerife, Tenerife. Reviews on her work have been
+                                    published in The Observer, El País, Forbes, Paper Magazine, Wall Street
+                                    International Magazine, Cools, La Vanguardia, among others.
+                                </span>
                             </p>
                         </article>
                     </section>
 
                     <section class="w-full lg:grid lg:grid-cols-9 gap-x-5 mt-10">
                         <div class="lg:col-span-3">
-                            <a href="mailto:info@yapciramos.com" class="font-medium uppercase flex">info<span class="-mt-[1px] inline-block">@</span>yapciramos.com</a>
+                            <a href="mailto:info@yapciramos.com" class="font-medium uppercase flex">info<span
+                                    class="-mt-[1px] inline-block">@</span>yapciramos.com</a>
                         </div>
                         <div class="lg:col-span-6 hidden lg:flex items-center gap-x-10 uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
@@ -176,7 +179,7 @@ const Submitted = ref(false);
 
 const handleSubmit = () => {
     Submitted.value = true;
-  /*   console.log(email.value); */
+    /*   console.log(email.value); */
     email.value = '';
 }
 onMounted(() => {
