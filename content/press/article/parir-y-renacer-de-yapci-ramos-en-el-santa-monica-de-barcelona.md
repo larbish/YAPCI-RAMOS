@@ -3,7 +3,7 @@ article-section-title: LA PROVINCIA
 article-title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA
 author-info: BY NORA NAVARRO
 date: 02 MAR 2024
-image-path: /press-content/01_La_Provincia/Preview_Pic.jpg
+image: /press-content/01_La_Provincia/Preview_Pic.jpg
 ---
 
 ::article-wrapper
