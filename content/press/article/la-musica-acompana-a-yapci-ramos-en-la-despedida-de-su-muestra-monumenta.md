@@ -52,5 +52,5 @@ A tamaño real, invitan al espectador a reflejarse en plena horizontalidad y est
   :::
 
 #download
-[DOWNLOAD ARTICLE](</press-content/02_Diario de Avisos/Páginas desdeYapciRamos_PressKitSelection.pdf>) :br [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/la-musica-acompana-a-yapci-ramos-en-la-despedida-de-su-muestra-monumenta/)
+[DOWNLOAD ARTICLE](/press-content/02_Diario%20de%20Avisos/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection.pdf) :br [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/la-musica-acompana-a-yapci-ramos-en-la-despedida-de-su-muestra-monumenta/)
 ::
