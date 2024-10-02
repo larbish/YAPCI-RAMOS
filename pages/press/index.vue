@@ -267,11 +267,11 @@ onMounted(async () => {
         return {
             title: item.title,
             description: item.description,
-            date: item.date || '',
+            date: item.date,
             text: item.text,
-            image: item.imagePath || '/images/grid-image-eight.png',
+            image: item.imagePath,
             visible: false,
-            link: item._path || '/press/article/one',
+            link: item._path,
             tappedOnce: false
         };
     })
