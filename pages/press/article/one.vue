@@ -139,7 +139,7 @@ onMounted(() => {
 
 // Function to be triggered when intersection happens
 function triggerFunction() {
-    console.log('Triggered!');
+    //.log('Triggered!');
     displayFlash.value = true;
     setTimeout(() => {
         displayFlash.value = false;

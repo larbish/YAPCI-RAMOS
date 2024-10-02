@@ -37,13 +37,13 @@
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 const contentQuery = await queryContent('press', 'article').find();
-console.log(contentQuery);
+//console.log(contentQuery);
 
 
 
 const router = useRouter();
 const items = ref(contentQuery.map((item) => {
-    console.log(item)
+    //console.log(item)
     return {
         title: item.title,
         description: item.description,

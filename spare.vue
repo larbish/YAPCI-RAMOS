@@ -76,7 +76,7 @@ onMounted(() => {
         const y = Math.round(clientY / window.innerHeight * 100)
 
         if (animateState.value == 0) {
-            console.log(x, y, animateState.value)
+            //console.log(x, y, animateState.value)
             gsap.to(overlay.value, {
                 duration: 0.3,
                 css: {
@@ -87,7 +87,7 @@ onMounted(() => {
         }
 
         if (animateState.value == 1) {
-            console.log(x, y, animateState.value)
+            //console.log(x, y, animateState.value)
             gsap.to(overlay2.value, {
                 duration: 0.3,
                 css: {
@@ -98,7 +98,7 @@ onMounted(() => {
         }
 
         if (animateState.value == 2) {
-            console.log(x, y, animateState.value)
+            //console.log(x, y, animateState.value)
             gsap.to(overlay3.value, {
                 duration: 0.3,
                 css: {
@@ -114,7 +114,7 @@ onMounted(() => {
 
 
 const handleClick = async () => {
-    console.log('clicked')
+    //console.log('clicked')
     if (animateState.value == 0) {
         animateState.value = 1
         await gsap.to(overlay.value, {

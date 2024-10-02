@@ -401,7 +401,7 @@ const toggleCategory = (category) => {
             : [...currentCategories, categoryLowerCase]; // Add if not selected
 
         // If no categories are selected, reset to "ALL"
-        console.log(updatedCategories)
+        //console.log(updatedCategories)
         if (updatedCategories.length === 0) {
             router.push({ path: '/downloads' });
         } else {
