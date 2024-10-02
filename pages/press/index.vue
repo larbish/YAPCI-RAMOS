@@ -264,12 +264,13 @@ onMounted(async () => {
     isMobile.value = /Mobi|Android/i.test(navigator.userAgent);
 
     items.value = contentQuery.map((item) => {
+        console.log(item)
         return {
             title: item.title,
             description: item.description,
             date: item.date,
             text: item.text,
-            image: item.imagePath,
+            image: item.image,
             visible: false,
             link: item._path,
             tappedOnce: false
