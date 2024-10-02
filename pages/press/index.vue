@@ -255,7 +255,14 @@ const items = ref([
     }
 ]);
 
-computed(() => contentQuery, () => {
+
+const isMobile = ref(false);
+const tappedItemIndex = ref(null);
+
+onMounted(async () => {
+    // Detect if the device is mobile
+    isMobile.value = /Mobi|Android/i.test(navigator.userAgent);
+
     items.value = contentQuery.map((item) => {
         return {
             title: item.title,
@@ -268,14 +275,7 @@ computed(() => contentQuery, () => {
             tappedOnce: false
         };
     })
-})
-
-const isMobile = ref(false);
-const tappedItemIndex = ref(null);
-
-onMounted(() => {
-    // Detect if the device is mobile
-    isMobile.value = /Mobi|Android/i.test(navigator.userAgent);
+    console.log(items.value);
 });
 
 const toggleImage = (index) => {

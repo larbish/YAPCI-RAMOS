@@ -1,13 +1,15 @@
 ---
-article-section-title: Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
-article-title: La artista canaria explora los deseos y presiones alrededor de la materni- dad en la obra instalativa ‘Parto’
-author-info: BY NORA NAVARRO - MARCH 2th, 2024
+article-section-title: LA PROVINCIA
+article-title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA
+author-info: BY NORA NAVARRO
+date:  02 MAR 2024
+image-path: /press-content/01_La_Provincia/Preview_Pic.jpg
 ---
 
 ::article-wrapper
 ---
-article-section-title: Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
-article-title: La artista canaria explora los deseos y presiones alrededor de la materni- dad en la obra instalativa ‘Parto’
+article-section-title: LA PROVINCIA
+article-title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA
 author-info: BY NORA NAVARRO - MARCH 2th, 2024
 ---
 #paragraphs
