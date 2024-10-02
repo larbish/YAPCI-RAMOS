@@ -44,4 +44,36 @@ Por tanto, esa naturaleza interrogante y al mismo tiempo visceral, que acontece 
   image-path: /press-content/01_La_Provincia/Parto_003B_1.jpg
   ---
   :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/01_La_Provincia/Parto_014.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/01_La_Provincia/Parto_025.jpg
+  ---
+  :::
+
+#images-right
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/01_La_Provincia/Parto_028.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/01_La_Provincia/Parto_049.jpg
+  ---
+  :::
+
+#download
+[DOWNLOAD ARTICLE](/press-content/01_La_Provincia/YapciRamos_LaProvincia_Parto.pdf) :br [GO TO LINK](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)
 ::
