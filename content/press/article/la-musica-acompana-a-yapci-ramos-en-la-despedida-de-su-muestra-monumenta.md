@@ -1,3 +1,10 @@
+---
+article-section-title: Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona
+article-title: La plaza del Adelantado, en la ciudad de La Laguna, albergó anoche un concierto, para clausurar una exposición que han visitado más de 9.000 personas
+author-info: CULTURA - NOVIEMBRE 10 2023
+image-path: /images/grid-image-eight.png
+---
+
 ::article-wrapper
 ---
 article-section-title: Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona

@@ -1,3 +1,9 @@
+---
+article-section-title: Un concierto cierra el jueves la exposición ‘Monumenta’, de la artista Yapci Ramos
+article-title: La música de Taller Canario, Percuteras de Garaldea y Fabiola Socas clausura una muestra que ha recibido más de 9.000 visitas en La Laguna desde su inauguración.
+author-info: CULTURA - NOVIEMBRE 8, 2023
+---
+
 ::article-wrapper
 ---
 article-section-title: Un concierto cierra el jueves la exposición ‘Monumenta’, de la artista Yapci Ramos

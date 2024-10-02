@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="font-medium uppercase px-1.5 mt-6 pb-10">
-                        <button>{{ downloadButtonText }}</button>
+                        <slot name="download"></slot>
                     </div>
                 </div>
             </div>
@@ -72,10 +72,10 @@
             </div>
 
             <div class="font-medium uppercase px-1.5 mt-6 pb-10">
-                <button>{{ downloadButtonText }}</button>
+                <slot name="download"></slot>
             </div>
             <div class="flex flex-col w-full mt-1">
-              <slot name="images-mobile"></slot>
+                <slot name="images-mobile"></slot>
             </div>
             <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6 leading-[1.1] text-black">
                 {{ copyrightInfo }}
@@ -99,7 +99,7 @@ const props = defineProps({
         type: String,
         default: '©2024 YAPCI RAMOS \n ALL RIGHTS RESERVED'
     },
-    downloadButtonText: String
+    downloadButtonText: String,
 })
 
 const articleSectionTitle = ref("La Provincia");

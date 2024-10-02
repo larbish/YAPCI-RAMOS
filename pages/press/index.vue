@@ -36,6 +36,10 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
+const contentQuery = await queryContent('press', 'article').find();
+console.log(contentQuery);
+
+
 
 const router = useRouter();
 const items = ref([
@@ -250,6 +254,22 @@ const items = ref([
         tappedOnce: false
     }
 ]);
+
+computed(() => contentQuery, () => {
+    items.value = contentQuery.map((item) => {
+        return {
+            title: item.title,
+            description: item.description,
+            date: item.date || '',
+            text: item.text,
+            image: item.imagePath || '/images/grid-image-eight.png',
+            visible: false,
+            link: item._path || '/press/article/one',
+            tappedOnce: false
+        };
+    })
+})
+
 const isMobile = ref(false);
 const tappedItemIndex = ref(null);
 

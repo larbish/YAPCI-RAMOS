@@ -1,3 +1,9 @@
+---
+article-section-title: Nueve ‘menceyas’ conquistan la ermita de San Miguel de manos de Yapci Ramos
+article-title: La artista tinerfeña inaugura Monumenta en la histórica capilla fundada por el Adelantado en 1506.
+author-info: ALMUDENA CRUZ - SEPTIEMBRE 8, 2023
+---
+
 ::article-wrapper
 ---
 article-section-title: Nueve ‘menceyas’ conquistan la ermita de San Miguel de manos de Yapci Ramos
