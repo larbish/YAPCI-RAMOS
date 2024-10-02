@@ -42,218 +42,19 @@ console.log(contentQuery);
 
 
 const router = useRouter();
-const items = ref([
-    {
-        title: 'STUDIO INTERNATIONAL',
-        description: 'Yapci Ramos: Show Me',
-        date: 'AUGUST, 2024',
-        text: 'TEXT BY LOREM IPSUM',
-        image: '/images/image-four.png',
+const items = ref(contentQuery.map((item) => {
+    console.log(item)
+    return {
+        title: item.title,
+        description: item.description,
+        date: item.date,
+        text: item.text,
+        image: item.image,
         visible: false,
-        link: '/press/article/one',
+        link: item._path,
         tappedOnce: false
-    },
-    {
-        title: 'GALLERY EXHIBIT',
-        description: 'Abstract Visions',
-        date: 'SEPTEMBER, 2024',
-        text: 'TEXT BY JOHN DOE',
-        image: '/images/image-nine.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'MODERN ART SHOWCASE',
-        description: 'Colors of Emotion',
-        date: 'JULY, 2024',
-        text: 'TEXT BY JANE SMITH',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'ARTISTIC EXPRESSIONS',
-        description: 'Shadows and Light',
-        date: 'OCTOBER, 2024',
-        text: 'TEXT BY ALICE BROWN',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'URBAN LANDSCAPES',
-        description: 'City Dreams',
-        date: 'NOVEMBER, 2024',
-        text: 'TEXT BY MARK JONES',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'CONTEMPORARY MASTERS',
-        description: 'The Human Form',
-        date: 'JUNE, 2024',
-        text: 'TEXT BY EMILY DAVIS',
-        image: '/images/image-eight.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'NATURE\'S PALETTE',
-        description: 'Green Reflections',
-        date: 'MAY, 2024',
-        text: 'TEXT BY WILLIAM TAYLOR',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'TIMELESS BEAUTY',
-        description: 'Classic Sculptures',
-        date: 'APRIL, 2024',
-        text: 'TEXT BY SARAH WILSON',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'CULTURAL JOURNEYS',
-        description: 'Global Inspirations',
-        date: 'MARCH, 2024',
-        text: 'TEXT BY MICHAEL MARTIN',
-        image: '/images/image-nine.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'HISTORICAL PERSPECTIVES',
-        description: 'Art Through Ages',
-        date: 'FEBRUARY, 2024',
-        text: 'TEXT BY LUCY MOORE',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'IMPRESSIONIST DELIGHTS',
-        description: 'Brushstrokes of Time',
-        date: 'JANUARY, 2024',
-        text: 'TEXT BY ANTHONY CLARK',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'CONTEMPORARY CULTURE',
-        description: 'Modern Myths',
-        date: 'DECEMBER, 2023',
-        text: 'TEXT BY SOPHIA LEE',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/contemporary-culture',
-        tappedOnce: false
-    },
-    {
-        title: 'ARCHITECTURAL WONDERS',
-        description: 'Structures of Future',
-        date: 'NOVEMBER, 2023',
-        text: 'TEXT BY DAVID HARRIS',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'PHOTOGRAPHY EXHIBIT',
-        description: 'Frozen Moments',
-        date: 'OCTOBER, 2023',
-        text: 'TEXT BY RACHEL WHITE',
-        image: '/images/image-eleven.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'SURREALISM UNVEILED',
-        description: 'Dreamscapes',
-        date: 'SEPTEMBER, 2023',
-        text: 'TEXT BY CHRIS WALKER',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'FINE ART RETROSPECTIVE',
-        description: 'Masterpieces Revisited',
-        date: 'AUGUST, 2023',
-        text: 'TEXT BY OLIVIA THOMPSON',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'ART AND IDENTITY',
-        description: 'Portraits of Self',
-        date: 'JULY, 2023',
-        text: 'TEXT BY BENJAMIN SCOTT',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'MYSTIC LANDSCAPES',
-        description: 'Scenes of Wonder',
-        date: 'JUNE, 2023',
-        text: 'TEXT BY AMY GREEN',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'THE ABSTRACT REALM',
-        description: 'Beyond the Ordinary',
-        date: 'MAY, 2023',
-        text: 'TEXT BY MATTHEW CARTER',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'ART OF THE FUTURE',
-        description: 'Visions Ahead',
-        date: 'APRIL, 2023',
-        text: 'TEXT BY ELIZA ADAMS',
-        image: '/images/image-five.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    },
-    {
-        title: 'PAINTING THE PAST',
-        description: 'Historical Narratives',
-        date: 'MARCH, 2023',
-        text: 'TEXT BY JASON ANDERSON',
-        image: '/images/image-four.png',
-        visible: false,
-        link: '/press/article/one',
-        tappedOnce: false
-    }
-]);
+    };
+}));
 
 
 const isMobile = ref(false);
@@ -262,21 +63,6 @@ const tappedItemIndex = ref(null);
 onMounted(async () => {
     // Detect if the device is mobile
     isMobile.value = /Mobi|Android/i.test(navigator.userAgent);
-
-    items.value = contentQuery.map((item) => {
-        console.log(item)
-        return {
-            title: item.title,
-            description: item.description,
-            date: item.date,
-            text: item.text,
-            image: item.image,
-            visible: false,
-            link: item._path,
-            tappedOnce: false
-        };
-    })
-    console.log(items.value);
 });
 
 const toggleImage = (index) => {
