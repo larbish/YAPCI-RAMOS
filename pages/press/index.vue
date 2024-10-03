@@ -42,19 +42,24 @@ const contentQuery = await queryContent('press', 'article').find();
 
 
 const router = useRouter();
-const items = ref(contentQuery.map((item) => {
-    //console.log(item)
-    return {
-        title: item.title,
-        description: item.description,
-        date: item.date,
-        text: item.text,
-        image: item.image,
-        visible: false,
-        link: item._path,
-        tappedOnce: false
-    };
-}));
+const items = ref(contentQuery
+    .map((item) => {
+        return {
+            title: item.title,
+            description: item.description,
+            date: item.date,
+            text: item.text,
+            image: item.image,
+            visible: false,
+            link: item._path,
+            tappedOnce: false
+        };
+    })
+    .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sorting right after mapping
+);
+
+console.log(items.value);
+
 
 
 const isMobile = ref(false);
