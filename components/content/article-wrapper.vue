@@ -2,10 +2,10 @@
     <div class="w-full bg-white min-h-screen">
         <article class="hidden lg:flex flex-col w-full">
             <div class="flex justify-between w-full">
-                <div class="w-[33.6%]">
+                <div class="w-[33.6%] pb-14 min-h-screen relative">
                     <slot name="images-left"></slot>
 
-                    <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black">
+                    <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black absolute bottom-0">
                         ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
                     </p>
                 </div>
