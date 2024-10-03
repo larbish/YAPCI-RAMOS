@@ -10,7 +10,7 @@
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
                             class="grid grid-cols-2 lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
                             <p class="lg:col-span-3 leading-[1.1]">{{ item.title }}</p>
-                            <p class="lg:col-span-2" leading-[1.1]>{{ item.author }}</p>
+                            <p class="lg:col-span-2 leading-[1.1]">{{ item.author }}</p>
                         </a>
                     </div>
                 </div>
