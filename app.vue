@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xs  lg:text-[10px] 2xl:text-xs text-white w-full relative">
+  <div class="text-xs  lg:text-[10px] 2xl:text-xs text-white w-full relative bg-white">
     <NuxtPage></NuxtPage>
     <Header></Header>
     <AppInfo v-if="infoState"></AppInfo>
