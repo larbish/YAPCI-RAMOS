@@ -75,7 +75,8 @@
                 <slot name="download"></slot>
             </div>
             <div class="flex flex-col w-full mt-1">
-                <slot name="images-mobile"></slot>
+                <slot name="images-left"></slot>
+                <slot name="images-right"></slot>
             </div>
             <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6 leading-[1.1] text-black">
                 {{ copyrightInfo }}
