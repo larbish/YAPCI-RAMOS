@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full text-black bg-white pt-40">
+    <div class="w-full text-black bg-white pt-40 min-h-screen pb-20 relative">
         <ul class="grid grid-cols-2 lg:grid-cols-9 2xl:grid-cols-10 px-2 gap-x-2 2xl:gap-y-4">
             <li v-for="(item, index) in items" :key="index" @mouseenter="toggleImage(index)" @click="handleClick(index)"
                 @touchstart="handleTouch(index)" class="relative uppercase h-60 max-h-fit overflow-clip tracking-[1.1]">
@@ -26,7 +26,7 @@
             </li>
         </ul>
 
-        <p class="mt-16 text-center lg:text-left lg:mt-10 pl-2 pb-1 leading-[1.1]">
+        <p class="mt-16 text-center lg:text-left lg:mt-10 pl-2 pb-1 leading-[1.1] absolute bottom-0">
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
         </p>
