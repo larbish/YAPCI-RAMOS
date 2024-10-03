@@ -49,7 +49,7 @@
 
         <article class="lg:hidden text-black">
             <div class="w-full flex flex-col items-center sticky pt-36 top-0 pb-10 bg-custom-gradient ">
-                <h3 class="uppercase font-medium">{{ articleSectionTitle }}</h3>
+                <h3 class="uppercase font-medium">{{ props.articleSectionTitle }}</h3>
                 <div class="flex w-full px-3 justify-between items-center mt-1.5">
                     <div @click="goToPreviousArticle" class="min-w-fit cursor-pointer">
                         <img src="@/assets/icons/chevron-left.svg" class="h-6 sm:h-10" alt="">
@@ -57,9 +57,9 @@
                     <div class="w-full px-2.5 mt-1">
                         <h2
                             class="text-2xl sm:text-3xl px-4 font-serif font-light text-center uppercase leading-[1] arizona-font">
-                            {{ articleTitle }}
+                            {{ props.articleTitle }}
                         </h2>
-                        <p class="uppercase lg:text-base 2xl:text-lg text-center mt-4">{{ authorInfo }}</p>
+                        <p class="uppercase lg:text-base 2xl:text-lg text-center mt-4">{{ props.authorInfo }}</p>
                     </div>
                     <div @click="goToNextArticle" class="min-w-fit cursor-pointer">
                         <img src="@/assets/icons/chevron-right.svg" class="h-6 sm:h-10" alt="">
