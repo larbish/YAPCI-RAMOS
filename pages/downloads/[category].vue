@@ -6,11 +6,13 @@
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right cursor-default">
                 <div class="flex flex-col">
                     <p class="font-medium mb-0.5">{{ section.title }}</p>
-                    <div class=" min-w-96 lg:min-w-fit grid gap-x-10 grid-rows-10 grid-flow-col lg:grid-flow-col whitespace-nowrap ">
-                        <div v-for="(item, idx) in section.items" :key="idx"
-                            class="grid uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
-                            <a target="_blank" download :href="item.path" class="col-span-2">{{ item.title }}</a>
-                        </div>
+                    <div
+                        class=" min-w-96 lg:min-w-fit grid gap-x-10 grid-rows-6 sm:grid-rows-10 grid-flow-col lg:grid-flow-col whitespace-nowrap ">
+                        <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
+                            class="grid grid-col-3 uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
+                            <span class="col-span-2">{{ item.title }}</span>
+                            <span class="col-span-1">{{ item.author }}</span>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -36,16 +38,17 @@
 
         <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center">
             <div class="relative h-fit max-w-60 lg:max-w-fit lg:w-fit">
-                <!-- <img src="@/assets/progress-indicator.svg" class="h-14" alt="progress indicator"> -->
                 <div
-                    class="flex items-center text-[0.15rem] leading-[1.1] sm:leading-[1.1] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1]">
-                    <ul v-for="(section, index) in filteredSections" :key="index">
+                    class="flex items-start text-[0.15rem] leading-[1.1] sm:leading-[1.1] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1] lg:gap-x-0.5">
+                    <ul v-for="(section, index) in filteredSections" :key="index" class="p-0 m-0">
+                        <!-- Added classes to remove padding and margin -->
                         <div class="flex flex-col">
-                            <p class="font-medium">{{ section.title }}</p>
-                            <div class=" min-w-fit lg:min-w-fit max-w-[fit] mt-[0.1rem]">
+                            <p class="font-medium m-0 p-0">{{ section.title }}</p> <!-- Remove margin and padding -->
+                            <div class="grid grid-rows-10 grid-flow-col gap-0 overflow-hidden"> <!-- Ensure gap is 0 -->
                                 <div v-for="(item, idx) in section.items" :key="idx"
-                                    class="grid uppercase gap-x-1">
-                                    <p class="">{{ item.title }}</p>
+                                    class="max-w-9 whitespace-break-spaces grid gap-0 max-h-fit w-9 min-w-9 lg:min-w-fit lg:w-fit lg:max-w-fit">
+                                    <p class="w-full leading-[1.1] h-min max-h-min m-0 p-0">{{ item.title }}</p>
+                                    <!-- Remove margin and padding -->
                                 </div>
                             </div>
                         </div>
