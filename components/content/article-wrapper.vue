@@ -40,7 +40,7 @@
                         <slot name="paragraphs"></slot>
                     </div>
 
-                    <div class="font-medium uppercase px-1.5 mt-6 pb-10">
+                    <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1]">
                         <slot name="download"></slot>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                 <slot name="paragraphs"></slot>
             </div>
 
-            <div class="font-medium uppercase px-1.5 mt-6 pb-10">
+            <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1]">
                 <slot name="download"></slot>
             </div>
             <div class="flex flex-col w-full mt-1">
