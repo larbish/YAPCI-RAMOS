@@ -4,13 +4,13 @@
             class="wrapper flex overflow-x-scroll lg:overflow-x-auto h-full flex-nowrap gap-x-10 bg-white leading-[1.4]">
             <section v-for="(section, index) in filteredSections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-8 lg:pl-8 flex-shrink-0 d-flex line-right  cursor-default">
-                <div class="flex flex-col">
+                <div class="flex flex-col leading-[1.1]">
                     <p class="font-medium">{{ section.title }}</p>
-                    <div class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col">
+                    <div class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
-                            class="grid grid-cols-2  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
-                            <p class="col-span-1">{{ item.title }}</p>
-                            <p class="col-span-1">{{ item.author }}</p>
+                            class="grid grid-cols-2 lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
+                            <p class="lg:col-span-3 leading-[1.1]">{{ item.title }}</p>
+                            <p class="lg:col-span-2" leading-[1.1]>{{ item.author }}</p>
                         </a>
                     </div>
                 </div>
