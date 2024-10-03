@@ -6,11 +6,12 @@
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-8 lg:pl-8 flex-shrink-0 d-flex line-right  cursor-default">
                 <div class="flex flex-col leading-[1.1]">
                     <p class="font-medium">{{ section.title }}</p>
-                    <div class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
+                    <div
+                        class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
                             class="grid grid-cols-2 lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
                             <p class="lg:col-span-3 leading-[1.1]">{{ item.title }}</p>
-                            <p class="lg:col-span-2 leading-[1.1]" >{{ item.author }}</p>
+                            <p class="lg:col-span-2 leading-[1.1]">{{ item.author }}</p>
                         </a>
                     </div>
                 </div>
@@ -151,47 +152,52 @@ const sections = ref([
         title: "PRESS",
         items: [
             {
+                title: "PRESS SELECTION",
+                author: "EXIBART",
+                path: "/download/PRESS/PRESS SELECTION.pdf",
+            },
+            {
                 title: "YAPCI RAMOS",
-                author: "PAPER MAGAZINE.pdf",
+                author: "PAPER MAGAZINE",
                 path: "/download/PRESS/YAPCI RAMOS. PAPER MAGAZINE.pdf",
             }, {
                 title: "YAPCI RAMOS REIVINDICA LA MUJER GUANCHE",
-                author: "LA VANGUARDIA.pdf",
+                author: "LA VANGUARDIA",
                 path: "/download/PRESS/YAPCI RAMOS REIVINDICA LA MUJER GUANCHE. LA VANGUARDIA.pdf",
             }, {
                 title: "TO THE GUTS OF YAPCI RAMOS",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/TO THE GUTS OF YAPCI RAMOS. LA PROVINCIA.pdf",
             }, {
                 title: "14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA. LA PROVINCIA.pdf",
             },
             {
                 title: "POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND",
-                author: "HYSTERIA.pdf",
+                author: "HYSTERIA",
                 path: "/download/PRESS/POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND. HYSTERIA.pdf",
             }, {
                 title: "YAPCI RAMOS, SHOW",
-                author: "EL CULTURAL DE CANARIAS.pdf",
+                author: "EL CULTURAL DE CANARIAS",
                 path: "/download/PRESS/YAPCI RAMOS, SHOW. EL CULTURAL DE CANARIAS.pdf",
             }, {
                 title: "YAPCI RAMOS MAKES ART USING HER OWN BLOOD",
-                author: "FORBES.pdf",
+                author: "FORBES",
                 path: "/download/PRESS/YAPCI RAMOS MAKES ART USING HER OWN BLOOD. FORBES.pdf",
             }, {
                 title: "LA MUJER AUSENTE EN EL ESPACIO PÚBLICO",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/LA MUJER AUSENTE EN EL ESPACIO PÚBLICO. LA PROVINCIA.pdf",
             },
             {
                 title: "'LLORO', LA ÚLTIMA CREACIÓN DE YAPCI RAMOS",
-                author: "RTVC.pdf",
+                author: "RTVC",
                 path: "/download/PRESS/'LLORO', LA ÚLTIMA CREACIÓN DE YAPCI RAMOS. RTVC.pdf",
             },
             {
                 title: "LA MÚSICA ACOMPAÑA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'",
-                author: "DIARIO DE AVISOS.pdf",
+                author: "DIARIO DE AVISOS",
                 path: "/download/PRESS/LA MÚSICA ACOMPAÑA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'. DIARIO DE AVISOS.pdf",
             },
             {
@@ -200,92 +206,88 @@ const sections = ref([
                 path: "/download/PRESS/YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART.pdf",
             }, {
                 title: "YAPCI RAMOS EXPONE 'MONUMENTA'",
-                author: "RTVC.pdf",
+                author: "RTVC",
                 path: "/download/PRESS/YAPCI RAMOS EXPONE 'MONUMENTA'. RTVC.pdf",
             }, {
                 title: "JANET BIGGS ET YAPCI RAMOS, DÉSASTRE, CADASTRE",
-                author: "DE L'ART HELVÉTIQUE CONTEMPORAIN.pdf",
+                author: "DE L'ART HELVÉTIQUE CONTEMPORAIN",
                 path: "/download/PRESS/JANET BIGGS ET YAPCI RAMOS, DÉSASTRE, CADASTRE. DE L'ART HELVÉTIQUE CONTEMPORAIN.pdf",
             },
             {
-                title: "PRESS SELECTION",
-                author: "pdf",
-                path: "/download/PRESS/PRESS SELECTION.pdf",
-            }, {
                 title: "YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICIÓN INDIVIDUAL",
-                author: "20 MINUTOS.pdf",
+                author: "20 MINUTOS",
                 path: "/download/PRESS/YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICIÓN INDIVIDUAL. 20 MINUTOS.pdf",
             },
             {
                 title: "YAPCI RAMOS EXHIBE 'WELCOME'",
-                author: "CANARIAS7.pdf",
+                author: "CANARIAS7",
                 path: "/download/PRESS/YAPCI RAMOS EXHIBE 'WELCOME'. CANARIAS7.pdf",
             }, {
                 title: "UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS",
-                author: "DIARIO DE AVISOS.pdf",
+                author: "DIARIO DE AVISOS",
                 path: "/download/PRESS/UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS. DIARIO DE AVISOS.pdf",
             },
             {
                 title: "LAS MEJORES EXPOSICIONES DEL 2021",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/LAS MEJORES EXPOSICIONES DEL 2021. LA PROVINCIA.pdf",
             }, {
                 title: "YAPCI RAMOS PARTICIPA EN FLUX 2021",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/YAPCI RAMOS PARTICIPA EN FLUX 2021. LA PROVINCIA.pdf",
             }, {
                 title: "NUEVE \"MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS",
-                author: "EL DIA.pdf",
+                author: "EL DIA",
                 path: "/download/PRESS/NUEVE \"MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS. EL DIA.pdf",
             },
             {
                 title: "EL LLANTO LIBRE DE YAPCI RAMOS",
-                author: "EL DIA.pdf",
+                author: "EL DIA",
                 path: "/download/PRESS/EL LLANTO LIBRE DE YAPCI RAMOS. EL DIA.pdf",
             }, {
                 title: "YAPCI RAMOS, SHOW ME",
-                author: "STUDIO INTERNATIONAL.pdf",
+                author: "STUDIO INTERNATIONAL",
                 path: "/download/PRESS/YAPCI RAMOS, SHOW ME. STUDIO INTERNATIONAL.pdf",
             }, {
                 title: "GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE",
-                author: "OBSERVER.pdf",
+                author: "OBSERVER",
                 path: "/download/PRESS/GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE. OBSERVER.pdf",
             },
             {
                 title: "YAPCI RAMOS",
-                author: "COOLS.pdf",
+                author: "COOLS",
                 path: "/download/PRESS/YAPCI RAMOS. COOLS.pdf",
             }, {
                 title: "EL PERPETUO MOVIMIENTO DE YAPCI RAMOS",
-                author: "EL PAÍS.pdf",
+                author: "EL PAÍS",
                 path: "/download/PRESS/EL PERPETUO MOVIMIENTO DE YAPCI RAMOS. EL PAÍS.pdf",
             },
             {
                 title: "PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA",
-                author: "LA PROVINCIA.pdf",
+                author: "LA PROVINCIA",
                 path: "/download/PRESS/PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA . LA PROVINCIA.pdf",
             },
             {
                 title: "ESCULTURA DEL MENCEY EN CARNE Y HUESO",
-                author: "EL DIA.pdf",
+                author: "EL DIA",
                 path: "/download/PRESS/ESCULTURA DEL MENCEY EN CARNE Y HUESO. EL DIA.pdf",
             }, {
                 title: "LES FEMMES CRÈVENT L'ÉCRAN À LA GALERIE DANYSZ",
-                author: "pdf",
+                author: "",
                 path: "/download/PRESS/LES FEMMES CRÈVENT L'ÉCRAN À LA GALERIE DANYSZ.pdf",
             },
             {
                 title: "PERRAS Y PUTAS",
-                author: "WALL STREET INTERNATIONAL MAGAZINE.pdf",
+                author: "WALL STREET INTERNATIONAL MAGAZINE",
                 path: "/download/PRESS/PERRAS Y PUTAS. WALL STREET INTERNATIONAL MAGAZINE.pdf",
             }, {
                 title: "LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS",
-                author: "pdf",
+                author: "",
                 path: "/download/PRESS/LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS.pdf",
             },
             {
                 title: "PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY",
-                author: "BLOUIN ARTINFO.pdf",
+                author: "BLOUIN ARTINFO",
                 path: "/download/PRESS/PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY. BLOUIN ARTINFO.pdf",
             }
         ]

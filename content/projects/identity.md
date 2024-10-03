@@ -93,16 +93,60 @@
   :::project-desktop-variant
   ---
   justify-content: center
-  leftWidthPercent: 100%
+  leftWidthPercent: 64.43%
   marginTop: 14px
   ---
   #content-one
-    ::::project-desktop-image
+    ::::project-slide-wrapper
+
+     :::::project-slide
+    ::::::project-desktop-image
     ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.08 1.png
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.13 1.png
     margin-left: 0px
     ---
+    ::::::
+    :::::
+
+     :::::project-slide
+    ::::::project-desktop-image
+    ---
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.19 1.png
+    margin-left: 0px
+    ---
+    ::::::
+    :::::
+
+    :::::project-slide
+    ::::::project-desktop-image
+    ---
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.25.png
+    margin-left: 0px
+    ---
+    ::::::
+    :::::
+
+      :::::project-slide
+    ::::::project-desktop-image
+    ---
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.37.png
+    margin-left: 0px
+    ---
+    ::::::
+    :::::
+
+      :::::project-slide
+    ::::::project-desktop-image
+    ---
+    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.44.png
+    margin-left: 0px
+    ---
+    ::::::
+    :::::
+
+
     ::::
+   
   :::
 
   :::project-desktop-variant

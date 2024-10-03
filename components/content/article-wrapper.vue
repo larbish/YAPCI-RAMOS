@@ -103,9 +103,6 @@ const props = defineProps({
     downloadButtonText: String,
 })
 
-const articleSectionTitle = ref("La Provincia");
-const articleTitle = ref("Parir y renacer de Yapci Ramos en el Santa Mònica de Barcelona");
-const authorInfo = ref("BY NORA NAVARRO. MARCH 2th, 2024");
 const copyrightInfo = ref("©2024 YAPCI RAMOS \n ALL RIGHTS RESERVED");
 
 

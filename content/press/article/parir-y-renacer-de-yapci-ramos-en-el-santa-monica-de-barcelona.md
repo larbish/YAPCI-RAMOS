@@ -2,7 +2,7 @@
 article-section-title: LA PROVINCIA
 article-title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA
 author-info: BY NORA NAVARRO
-date: 02 MAR 2024
+date: MAR 02, 2024
 image: /press-content/01_La_Provincia/Preview_Pic.jpg
 ---
 
@@ -76,5 +76,5 @@ Por tanto, esa naturaleza interrogante y al mismo tiempo visceral, que acontece 
 
 #download
 [DOWNLOAD ARTICLE](/press-content/01_La_Provincia/YapciRamos_LaProvincia_Parto.pdf) :br
- [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK]
+ [GO TO LINK](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)
 ::
