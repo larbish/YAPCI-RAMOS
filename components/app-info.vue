@@ -86,7 +86,7 @@
                             <section>
                                 <h3 class="font-medium">The triad</h3>
                                 <p>Instituto Cervantes, New York</p>
-                                <p>3.10 – 01.12.2024</p>
+                                <p>3.10 – 15.01.2025</p>
                             </section>
                             <section>
                                 <h3 class="font-medium">The prephotographic</h3>
@@ -106,10 +106,10 @@
                                 rel="noopener noreferrer">Instagram</a>
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Facebook</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Youtube</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">LINKEDIN</a>
+                            <a href="https://vimeo.com/yapciramos" target="_blank"
+                                rel="noopener noreferrer">Vimeo</a>
+                            <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
+                                rel="noopener noreferrer">Wikipedia</a>
 
                         </div>
 
@@ -118,7 +118,7 @@
                                 <h3 class="font-medium mb-1">Credits</h3>
                                 <p>WEB DESIGN: VERO SANTANA</p>
                                 <p>DEVELOPERS: THE ROSE STUDIO</p>
-                                <p>CODE: TEJA</p>
+                                <p>CODE: TEJA BHARATH</p>
                             </section>
                         </div>
 
