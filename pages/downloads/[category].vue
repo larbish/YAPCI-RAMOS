@@ -3,15 +3,14 @@
         <div ref="wrapper"
             class="wrapper flex overflow-x-scroll lg:overflow-x-auto h-full flex-nowrap gap-x-10 bg-white leading-[1.4]">
             <section v-for="(section, index) in filteredSections" :key="index"
-                class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-10 lg:pl-8 flex-shrink-0 d-flex line-right cursor-default">
+                class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-8 lg:pl-8 flex-shrink-0 d-flex line-right  cursor-default">
                 <div class="flex flex-col">
-                    <p class="font-medium mb-0.5">{{ section.title }}</p>
-                    <div
-                        class=" min-w-96 lg:min-w-fit grid gap-x-10 grid-rows-6 sm:grid-rows-10 grid-flow-col lg:grid-flow-col whitespace-nowrap ">
+                    <p class="font-medium">{{ section.title }}</p>
+                    <div class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col">
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
-                            class="grid grid-col-3 uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
-                            <span class="col-span-2">{{ item.title }}</span>
-                            <span class="col-span-1">{{ item.author }}</span>
+                            class="grid grid-cols-2  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
+                            <p class="col-span-1">{{ item.title }}</p>
+                            <p class="col-span-1">{{ item.author }}</p>
                         </a>
                     </div>
                 </div>
