@@ -49,5 +49,7 @@ Una visión que en “Monumenta” aparece como una “posibilidad de subversió
   :::
 
 #download
-[DOWNLOAD ARTICLE](</press-content/04_La Vanguardia/Páginas desdeYapciRamos_PressKitSelection-3.pdf>) :br [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://efe.com/canarias/2023-09-08/las-mujeres-guanches-conquistan-el-centro-de-aguere-a-traves-de-la-obra-de-yapci-ramos/)
+[DOWNLOAD ARTICLE](</press-content/04_La Vanguardia/Páginas desdeYapciRamos_PressKitSelection-3.pdf>) :br
+
+ [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://efe.com/canarias/2023-09-08/las-mujeres-guanches-conquistan-el-centro-de-aguere-a-traves-de-la-obra-de-yapci-ramos/)
 ::

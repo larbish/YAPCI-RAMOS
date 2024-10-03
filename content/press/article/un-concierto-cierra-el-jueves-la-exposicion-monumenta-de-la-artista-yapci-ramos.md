@@ -42,5 +42,7 @@ Ramos vive y trabaja entre Tenerife, Barcelona y Nueva York. Su práctica artís
   :::
 
 #download
-[DOWNLOAD ARTICLE](/press-content/03_Diario%20de%20Avisos/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-2.pdf) :br [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/exposicion-monumenta-concierto/)
+[DOWNLOAD ARTICLE](/press-content/03_Diario%20de%20Avisos/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-2.pdf) :br
+
+ [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/exposicion-monumenta-concierto/)
 ::

@@ -56,5 +56,7 @@ Con la reconstrucción del vacío, Ramos decide conectar con la visceralidad que
   :::
 
 #download
-[DOWNLOAD ARTICLE](/press-content/07_Exibart/Páginas%20desdeYapciRamos_PressKitSelection-6.pdf) :br [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://www.exibart.es/exposiciones/yapci-ramos-da-visibilidad-a-la-olvidada-mujer-guanche-a-traves-de-su-exposicion-monumenta/)
+[DOWNLOAD ARTICLE](/press-content/07_Exibart/Páginas%20desdeYapciRamos_PressKitSelection-6.pdf) :br
+
+ [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://www.exibart.es/exposiciones/yapci-ramos-da-visibilidad-a-la-olvidada-mujer-guanche-a-traves-de-su-exposicion-monumenta/)
 ::
