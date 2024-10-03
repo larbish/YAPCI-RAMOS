@@ -58,7 +58,7 @@ const items = ref(contentQuery
     .sort((a, b) => new Date(b.date) - new Date(a.date)) // Sorting right after mapping
 );
 
-console.log(items.value);
+//console.log(items.value);
 
 
 
