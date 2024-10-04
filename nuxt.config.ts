@@ -8,6 +8,11 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxt/content'
   ],
+  app: {
+    head: {
+      title: 'Yapci Ramos',
+    }
+  },
   components: {
     global: true,
     dirs: ['~/components', '~/components/content']
