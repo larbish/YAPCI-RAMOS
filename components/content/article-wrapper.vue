@@ -79,7 +79,7 @@
                 <slot name="images-right"></slot>
             </div>
             <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6 leading-[1.1] text-black">
-                {{ copyrightInfo }}
+                ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
             </p>
         </article>
         <div ref="triggerElement" class="h-0.5 absolute bottom-0 w-full"></div> <!-- Trigger element at the bottom -->
