@@ -80,70 +80,70 @@ const sections = ref([
         items: [
             {
                 title: "WHERE I COME FROM AND WHERE I BELONG",
-                author: "BARBARA POLLA.pdf",
+                author: "BARBARA POLLA",
                 path: "/download/READS//WHERE I COME FROM AND WHERE I BELONG. BARBARA POLLA.pdf",
             }, {
                 title: "EL SILBO DE ORO",
-                author: "DILLON COHEN.pdf",
+                author: "DILLON COHEN",
                 path: "/download/READS//EL SILBO DE ORO. DILLON COHEN.pdf",
             }, {
                 title: "CURIOSITÉS CONTEMPORAINES",
-                author: "LISA TOUBAS.pdf",
+                author: "LISA TOUBAS",
                 path: "/download/READS//CURIOSITÉS CONTEMPORAINES. LISA TOUBAS.pdf",
             },
             {
                 title: "TO THE GUTS OF YAPCI RAMOS",
-                author: "NORA NAVARRO.pdf",
+                author: "NORA NAVARRO",
                 path: "/download/READS//TO THE GUTS OF YAPCI RAMOS. NORA NAVARRO.pdf",
             }, {
                 title: "THE ROOTS OF FLIGHT",
-                author: "NORA NAVARRO.pdf",
+                author: "NORA NAVARRO",
                 path: "/download/READS//THE ROOTS OF FLIGHT. NORA NAVARRO.pdf",
             }, {
                 title: "YAPCI RAMOS, SHOW ME",
-                author: "LILLY WEI.pdf",
+                author: "LILLY WEI",
                 path: "/download/READS//YAPCI RAMOS, SHOW ME. LILLY WEI.pdf",
             }, {
                 title: "GLANCES, VOICE AND BLOOD",
-                author: "THE INSURRECTION OF THE BODY. IMMA PRIETO.pdf",
+                author: "THE INSURRECTION OF THE BODY. IMMA PRIETO",
                 path: "/download/READS//GLANCES, VOICE AND BLOOD. THE INSURRECTION OF THE BODY. IMMA PRIETO.pdf",
             },
             {
                 title: "NOTHING IS TRUE, EVERYTHING IS LIVING",
-                author: "CECILE BOURNE FARRELL.pdf",
+                author: "CECILE BOURNE FARRELL",
                 path: "/download/READS//NOTHING IS TRUE, EVERYTHING IS LIVING. CECILE BOURNE FARRELL.pdf",
             },
             {
                 title: "REBIRTHING RITUAL",
-                author: "NORA NAVARRO.pdf",
+                author: "NORA NAVARRO",
                 path: "/download/READS//REBIRTHING RITUAL. NORA NAVARRO.pdf",
             }, {
                 title: "GUAYEC",
-                author: "MARINA RIBOT.pdf",
+                author: "MARINA RIBOT",
                 path: "/download/READS//GUAYEC. MARINA RIBOT.pdf",
             }, {
                 title: "YAPCI RAMOS",
-                author: "ELYSSA GOODMAN.pdf",
+                author: "ELYSSA GOODMAN",
                 path: "/download/READS//YAPCI RAMOS. ELYSSA GOODMAN.pdf",
             }, {
                 title: "YAPCI RAMOS",
-                author: "SETH CLUETT.pdf",
+                author: "SETH CLUETT",
                 path: "/download/READS//YAPCI RAMOS. SETH CLUETT.pdf",
             }, {
                 title: "JOURNES OF THE SELF TOWARDS OTHERS",
-                author: "NORA NAVARRO.pdf",
+                author: "NORA NAVARRO",
                 path: "/download/READS//JOURNES OF THE SELF TOWARDS OTHERS. NORA NAVARRO.pdf",
             }, {
                 title: "AGENCY AND ACTION",
-                author: "JUSTINE LUDWIG.pdf",
+                author: "JUSTINE LUDWIG",
                 path: "/download/READS//AGENCY AND ACTION. JUSTINE LUDWIG.pdf",
             }, {
                 title: "PULSIONES, PREGUNTAS Y MIRADAS",
-                author: "YOLANDA PERALTA.pdf",
+                author: "YOLANDA PERALTA",
                 path: "/download/READS//PULSIONES, PREGUNTAS Y MIRADAS. YOLANDA PERALTA.pdf",
             }, {
                 title: "DOBLE JEU",
-                author: "LES AUTRES. JE. CATHARSIS. SIMON NJAMI.pdf",
+                author: "LES AUTRES. JE. CATHARSIS. SIMON NJAMI",
                 path: "/download/READS//DOBLE JEU. LES AUTRES. JE. CATHARSIS. SIMON NJAMI.pdf",
             }
         ]
@@ -297,7 +297,7 @@ const sections = ref([
         items: [
             {
                 title: "YAPCI RAMOS CV",
-                author: "BLOUIN ARTINFO.pdf",
+                author: "BLOUIN ARTINFO",
                 path: "/download/OTHERS",
             }
 
@@ -312,8 +312,8 @@ const sections = ref([
                 path: "https://www.amazon.es/Yapci-Ramos-Show-Know-Welcome/dp/8417434100",
             },
             {
-                title: "CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA CARLOS GARRIDO & BRUNO LEITAO",
-                author: "",
+                title: "CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA ",
+                author: "CARLOS GARRIDO & BRUNO LEITAO",
                 path: "https://press.uchicago.edu/ucp/books/book/distributed/C/bo185830710.html",
             },
             {
@@ -322,13 +322,13 @@ const sections = ref([
                 path: "http://www.puvill.com/book/el-iris-de-lucy/297360",
             },
             {
-                title: "ARTISTAS POST-CONCEPTUALES EN CANARIAS, 2000-2017 CAAM",
-                author: "",
+                title: "ARTISTAS POST-CONCEPTUALES EN CANARIAS, ",
+                author: "2000-2017 CAAM",
                 path: "https://caam.net/publicacion/f-artistas-post-conceptuales-en-canarias-2000-2017/",
             },
             {
-                title: "PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE 2011-2012 ARUBA",
-                author: "",
+                title: "PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE ",
+                author: "2011-2012 ARUBA",
                 path: "https://lmpublishers.nl/product/encuentro-arte-contemporaneo-di-caribe/",
             },
         ]
