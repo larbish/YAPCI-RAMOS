@@ -146,7 +146,7 @@ const goToNextArticle = () => {
 };
 
 
-onMounted(() => {
+/* onMounted(() => {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
@@ -164,13 +164,13 @@ onMounted(() => {
             observer.unobserve(triggerElement.value);
         }
     });
-});
+}); */
 
 // Function to be triggered when intersection happens
-function triggerFunction() {
+/* function triggerFunction() {
     displayFlash.value = true;
     setTimeout(() => {
         displayFlash.value = false;
     }, 100);
-}
+} */
 </script>
