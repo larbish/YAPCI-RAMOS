@@ -84,7 +84,18 @@ const projects = ref([
         link: '/projects/guayec',
         media: [
             { type: 'img', src: '/work-list/image 18.png', position: { left: '10rem', bottom: '15vh' } },
-            { type: 'img', src: '/work-list/image 19.png', position: { right: '0vw', top: '0vh' } },
+            { type: 'video', src: '/work/guayec/guayec_-_excerpt.mp4', position: { right: '0vw', top: '0vh' } ,height:"50vh" },
+        ]
+    },
+
+     {
+        year: '2021',
+        title: 'LLORO',
+        category: 'INSTALLATION',
+        link: '/projects/lloro',
+        media: [
+            { type: 'img', src: '/work/lloro/image 20.png', position: { left: '10rem', top: '5vh' } },
+            { type: 'video', src: '/work/lloro/03-Yapci-Lloro.mp4', position: { right: '5vw', bottom: '15vh' },height:"50vh" },
         ]
     },
     {
@@ -103,7 +114,7 @@ const projects = ref([
         category: 'AUDIOVISUAL',
         media: [
             { type: 'video', src: '/work/i-dont-mind/conver-video-two.mp4', position: { left: '0vw', top: '0vh' }, height:"65vh" },
-            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-30 a las 13.59.39 1.png', position: { right: '10vw', bottom: '10vh' } }
+            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-30 a las 13.59.39 1.png', position: { right: '10vw', bottom: '10vh' }, width:"50vw" }
         ]
     },
     {
