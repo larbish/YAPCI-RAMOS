@@ -88,7 +88,7 @@
                                 <p>Instituto Cervantes, New York</p>
                                 <p>3.10 – 15.01.2025</p>
                             </section>
-                            
+
                             <section>
                                 <h3 class="font-medium">HORIZONTES COMPARTIDOS</h3>
                                 <p>LA HABANA</p>
@@ -141,7 +141,7 @@
                                 <h3 class="font-medium mb-1">Credits</h3>
                                 <p>WEB DESIGN: VERO SANTANA</p>
                                 <p>DEVELOPERS: THE ROSE STUDIO</p>
-                                <p>CODE: TEJA</p>
+                                <p>CODE: TEJA BHARATH</p>
                             </section>
                         </div>
 
