@@ -1,6 +1,6 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/monumenta/02-Yapci-monumenta.mp4"}
+  :::project-section-one-video{video-src="/work/parto/cover-video.mp4"}
   :::
 
   :::project-desktop-variant
@@ -628,6 +628,13 @@
   
     ::::project-credit-item
     BROCHURE
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    MUNA - Museo de Naturaleza y Arqueología (OAMC - Cabildo de Tenerife)
+    
+    Ermita de San Miguel; San Cristóbal de La Laguna, 2023
     ::::
   :::
 ::
