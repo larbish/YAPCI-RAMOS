@@ -457,92 +457,48 @@
   :::project-credits
   #credits
     ::::project-credit-item
-    **Title.** Monumenta. Nine Guanche Incarnations
+    **Architecture.** Miguel García
     ::::
   
     ::::project-credit-item
-    **Artist.** Yapci Ramos
+    **Assembly.** Carpintería Tempo
     ::::
   
     ::::project-credit-item
-    **Assistance.** Marina Ribot, María Vila, and Iris Verge
+    **Photography.** Mireia Deulofeu
     ::::
   
     ::::project-credit-item
-    **Craftsmanship.** Taller Afoche (Pedro Benítez Reyes and Isabel Padrón Herrera) David Guijarro
+    **Body Art.** Catalina Sartor
     ::::
   
     ::::project-credit-item
-    **Design and Sewing.** Gina Berenguer Barnils
+    **Photo Printing and Assembly.** Laboratoris Color EGM
     ::::
   
     ::::project-credit-item
-    **Makeup and Hairstyling.** Bárbara Mattel
+    **Mirror.** Vidres Castellà
     ::::
   
     ::::project-credit-item
-    **Studio Photography.** Enric Badrinas
+    **SounD.** Damien Bazin
     ::::
   
     ::::project-credit-item
-    **Technical Support.** Simone Orso
+    **Text, Voice, and Performance.** Yapci Ramos
     ::::
   
     ::::project-credit-item
-    **Transportation.** Loyter
+    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez
     ::::
   
     ::::project-credit-item
-    **Exhibition Setup.** Alfonso Delgado and the MUNA
-    ::::
-  
-    ::::project-credit-item
-    **Texts.** Nora Navarro
+    To all the women who have accompanied me through the process of expulsion and release
     ::::
   
   #presented-at
     ::::project-credit-item
-    **3D Scanning.** LABS3D
-    ::::
-  
-    ::::project-credit-item
-    **3D Digital Craftsmanship.** Daniela Bazzi and Maria Vilaseca
-    ::::
-  
-    ::::project-credit-item
-    **3D Digital Printing.** Manuel Román Camacho
-    ::::
-  
-    ::::project-credit-item
-    **Voice Accompaniment.** LAVOZDETARA
-    ::::
-  
-    ::::project-credit-item
-    **Voice and Sound.** Yapci Ramos
-    ::::
-  
-    ::::project-credit-item
-    **Sound Editing and Mastering.** Picnic Sound Studio
-    ::::
-  
-    ::::project-credit-item
-    **3D Simulation.** Adolf Alcañiz
-    ::::
-  
-    ::::project-credit-item
-    **Technical Support.** Simone Orso
-    ::::
-  
-    ::::project-credit-item
-    **Transportation.** Loyter
-    ::::
-  
-    ::::project-credit-item
-    **Exhibition Setup.** Alfonso Delgado and the MUNA
-    ::::
-  
-    ::::project-credit-item
-    **Texts.** Nora Navarro
+    Santa Mónica, Barcelona, 2024
     ::::
   
   #downloads
