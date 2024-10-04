@@ -317,15 +317,6 @@
   ---
   :::
 
-  :::project-mobile-custom-image
-  ---
-  height: 60%
-  image-path: /work/identity/IMG_0821 1.png
-  ---
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 1.png"}
-  :::
 
   :::project-mobile-custom-image
   ---
