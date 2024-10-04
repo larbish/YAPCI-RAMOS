@@ -177,7 +177,6 @@
   
     ::::project-desktop-image{image-path="/work/lloro/Group 143.png"}
     ::::
-  
   :::
 
 #section-two-mobile
@@ -193,10 +192,7 @@
   ---
   :::
 
-  :::project-mobile-custom-image
-  ---
-  image-path: /work/lloro/IMG_9335 1.png
-  ---
+  :::project-mobile-custom-image{image-path="/work/lloro/IMG_9335 1.png"}
   :::
 
   :::project-mobile-custom-image
@@ -213,26 +209,6 @@
   ---
   :::
 
-  :::project-mobile-custom-image{image-path="/work/parto/IMG_1031.JPG"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/IMG_7886 copia.jpg"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/Parto01.jpg"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/YAPCI_01.jpg"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/YAPCI_24.jpg"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/1.png"}
-  :::
-
-  :::project-mobile-custom-image{image-path="/work/parto/YapciRamos_Poses_1.png"}
-  :::
 
 #project-credits
   :::project-credits
