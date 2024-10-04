@@ -93,9 +93,12 @@ onMounted(() => {
     
     // Draw the gradient for the inner fade effect
     const gradient = ctx.createRadialGradient(x, y, radius * 0.8, x, y, radius);
-    gradient.addColorStop(0, 'rgba(0, 0, 0, 0)'); // Fully transparent at the center
-    gradient.addColorStop(0.7, 'rgba(0, 0, 0, 0.6)'); // Semi-transparent just before the edge
-    gradient.addColorStop(1, 'rgba(0, 0, 0, 0.8)'); // Fully black at the very edge
+    gradient.addColorStop(0, 'rgba(0, 0, 0, 0)');     // Fully transparent at the center
+    gradient.addColorStop(0.3, 'rgba(0, 0, 0, 0.1)'); // Very light black
+    gradient.addColorStop(0.5, 'rgba(0, 0, 0, 0.3)'); // Lightly visible black
+    gradient.addColorStop(0.7, 'rgba(0, 0, 0, 0.5)'); // Semi-transparent black
+    gradient.addColorStop(0.85, 'rgba(0, 0, 0, 0.6)'); // More visible black
+    gradient.addColorStop(1, 'rgba(0, 0, 0, 0.8)');   // Almost fully black at the edge
 
     // Fill the circle with the inner gradient
     ctx.fillStyle = gradient;
