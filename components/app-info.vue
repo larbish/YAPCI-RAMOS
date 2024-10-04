@@ -84,15 +84,17 @@
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6 mt-1">
                             <section>
-                                <h3 class="font-medium">HORIZONTES COMPARTIDOS</h3>
-                                <p>LA HABANA</p>
-                                <p>15.11 - 18.02.2025</p>
-                            </section>
-                            <section>
                                 <h3 class="font-medium">The triad</h3>
                                 <p>Instituto Cervantes, New York</p>
                                 <p>3.10 – 15.01.2025</p>
                             </section>
+                            
+                            <section>
+                                <h3 class="font-medium">HORIZONTES COMPARTIDOS</h3>
+                                <p>LA HABANA</p>
+                                <p>15.11 - 18.02.2025</p>
+                            </section>
+                         
                          
                         </div>
 
