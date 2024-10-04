@@ -98,55 +98,51 @@
   ---
   #content-one
     ::::project-slide-wrapper
-
-     :::::project-slide
-    ::::::project-desktop-image
-    ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.13 1.png
-    margin-left: 0px
-    ---
-    ::::::
-    :::::
-
-     :::::project-slide
-    ::::::project-desktop-image
-    ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.19 1.png
-    margin-left: 0px
-    ---
-    ::::::
-    :::::
-
-    :::::project-slide
-    ::::::project-desktop-image
-    ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.25.png
-    margin-left: 0px
-    ---
-    ::::::
-    :::::
-
       :::::project-slide
-    ::::::project-desktop-image
-    ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.37.png
-    margin-left: 0px
-    ---
-    ::::::
-    :::::
-
+        ::::::project-desktop-image
+        ---
+        image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.13 1.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
       :::::project-slide
-    ::::::project-desktop-image
-    ---
-    image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.44.png
-    margin-left: 0px
-    ---
-    ::::::
-    :::::
-
-
+        ::::::project-desktop-image
+        ---
+        image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.19 1.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.25.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.37.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/identity/Captura de pantalla 2024-09-18 a las 21.36.44.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
     ::::
-   
   :::
 
   :::project-desktop-variant
@@ -352,7 +348,7 @@
   :::project-mobile-video{video-path="/work/identity/cover-video.mp4"}
   :::
 
-  :::project-mobile-text-wrapper{has-title="true" title="PARTO"}
+  :::project-mobile-text-wrapper{has-title="true" title="IDENTITY. PHOTOGRAPHY"}
     ::::project-desktop-paragraph
     ---
     content: The curiosity aroused by one’s own origins there is an exercise of performative expression materializing shared transcendental concerns. Through mimesis, in ‘Identity’ an ancestral cosmology is represented that reminds us that we are those who were others. The lenticular photography makes the gaze get lost in the duality of these subjects, to become one. Different genders and ages are transited to carry out a performative transmutation. And in this return, we find that the experiences of the former relatives appear to be fully traversed by the social and political circumstances of an era. In this way, not only an individualized past is shown, but also capsules of history silenced in each face are spoken of. The past takes on importance to the extent that it still remains inscribed in the memory of our body. A whole and a nothing, a we defined by the eyes of others that are no longer external but our own. Identity is a path of return looking for answers that have their own name. Those people deserve to be mentioned since they define us, determine us, shape us.
@@ -396,9 +392,6 @@
   :::project-mobile-custom-image{image-path="/work/identity/IMG_9390 1.png"}
   :::
 
-  :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 1.png"}
-  :::
-
   :::project-mobile-custom-image{image-path="/work/identity/IMG_0832 1.png"}
   :::
 
@@ -419,18 +412,16 @@
   :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 1.png"}
   :::
 
-  :::project-mobile-custom-image{image-path="/work/identity/IMG_9400 2.png"}
-  :::
 
 #project-credits
   :::project-credits
   #credits
     ::::project-credit-item
-    Installation comprising a horn, five pipes, a Polaroid EE44 camera, a 120 x 150 cm lenticular print, texts by Yapci Ramos and by Cayaya Ramos, a mural photograph, two window frames taken from Pensión Ramos. Year: 2015-2018 Location: Tenerife (Spain)
+    Installation comprising a horn, five pipes, a Polaroid EE44 camera, a 120 x 150 cm lenticular print, texts by Yapci Ramos and by Cayaya Ramos, a mural photograph, two window frames taken from Pensión Ramos.Year: 2015-2018Location: Tenerife (Spain)
     ::::
   
     ::::project-credit-item
-    **Year**: 2015-2018 
+    **Year**: 2015-2018
     ::::
   
     ::::project-credit-item
@@ -451,7 +442,7 @@
     ::::
   
     ::::project-credit-item
-    Family History. Delaware Contemporary, Delaware, 2021 
+    Family History. Delaware Contemporary, Delaware, 2021
     ::::
   
     ::::project-credit-item
