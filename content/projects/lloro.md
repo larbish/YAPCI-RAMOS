@@ -40,10 +40,7 @@
     ::::
   
   #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/lloro/Lloro@AdolfAlcañiz_2 1.png
-    ---
+    ::::project-desktop-image{image-path="/work/lloro/Lloro@AdolfAlcañiz_2 1.png"}
     ::::
   :::
 
@@ -91,9 +88,9 @@
   #content-one
     ::::project-desktop-image
     ---
+    child-width: 80%
     image-path: /work/lloro/WMC_AIR_YapciRamos_MariaBaranova_020 1.png
     justify-content: flex-end
-    child-width: 80%
     ---
     ::::
   :::
@@ -117,7 +114,10 @@
   left-width-percent: 65.6%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/lloro/Screenshot 2024-09-24 at 18.08.10.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/lloro/Screenshot 2024-09-24 at 18.08.10.png
+    ---
     ::::
   :::
 
@@ -127,10 +127,12 @@
   left-width-percent: 65.6%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/lloro/Screenshot 2024-09-24 at 18.08.34.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/lloro/Screenshot 2024-09-24 at 18.08.34.png
+    ---
     ::::
   :::
-
 
   :::project-desktop-variant
   ---
@@ -164,58 +166,50 @@
   :::
 
   :::project-mobile-gapped-container
-    ::::project-desktop-image{image-path="/work/parto/2243fs.png"}
+    ::::project-desktop-image{image-path="/work/lloro/Lloro@AdolfAlcañiz 1.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/parto/Parto_029.jpg"}
+    ::::project-desktop-image{image-path="/work/lloro/Lloro@AdolfAlcañiz_2 1.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/parto/Parto_019.png"}
+    ::::project-desktop-image{image-path="/work/lloro/lloro_yapciramos_3 1.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/parto/Parto_026.jpg"}
+    ::::project-desktop-image{image-path="/work/lloro/Group 143.png"}
     ::::
   
-    ::::project-desktop-video
-    ---
-    video-path: /work/parto/Parto_Yapci_Ramos__V1-0003.mp4
-    ---
-    ::::
-  
-    ::::project-desktop-image{image-path="/work/parto/Parto_057.jpg"}
-    ::::
   :::
 
 #section-two-mobile
   :::project-mobile-custom-image
   ---
-  image-path: /work/parto/9c24ca8c-aada-42c6-b91e-e2434e719bee.JPG
+  image-path: /work/lloro/WMC_AIR_YapciRamos_MariaBaranova_024 1.png
   ---
   :::
 
   :::project-mobile-custom-image
   ---
-  image-path: /work/parto/1d8c27ec-e640-400f-8da5-b61ff3c2e394.JPG
+  image-path: /work/lloro/WMC_AIR_YapciRamos_MariaBaranova_020 1.png
   ---
   :::
 
   :::project-mobile-custom-image
   ---
-  image-path: /work/parto/6MDeulofeu_Yapci_extras.jpg
+  image-path: /work/lloro/IMG_9335 1.png
   ---
   :::
 
   :::project-mobile-custom-image
   ---
   height: 40%
-  image-path: /work/parto/4MDeulofeu_Yapci_extras.jpg
+  image-path: /work/lloro/Screenshot 2024-09-24 at 18.08.10.png
   ---
   :::
 
   :::project-mobile-custom-image
   ---
   height: 60%
-  image-path: /work/parto/A_IMG_3724_AunLado.JPG
+  image-path: /work/lloro/Screenshot 2024-09-24 at 18.08.34.png
   ---
   :::
 
@@ -258,12 +252,12 @@
     ::::project-credit-item
     **Participants:** Alexandra Genevieve Carter, Sean Boyd, Chenae Bullock, Deborah Marshall, Jun Zhou, Brian O’Mahoney, Dina Lombardi, Clarisse Khalsa, Sarah Jane Halsey, Peter Sabbeth.
     
-     Lloro was created at The Watermill Center - a laboratory for performance, New York (2020).
+    Lloro was created at The Watermill Center - a laboratory for performance, New York (2020).
     ::::
   
   #presented-at
     ::::project-credit-item
-    Lloro, Espacio Cultural el Tanque, Santa Cruz de Tenerife, Spain, 2021 Flux Club, en el Antic Teatre de Barcelona, 2021 Corps en immersion . Talk. FIAV Festival International d’art Vid o de Casablanca, Morocco. Faculté des Lettres et des Sciences Humaines Ben M’sik. 2021 FLUX festival de video d’autor Monographic Yapci Ramos 2021
+    Lloro, Espacio Cultural el Tanque, Santa Cruz de Tenerife, Spain, 2021Flux Club, en el Antic Teatre de Barcelona, 2021Corps en immersion . Talk. FIAV Festival International d’art Vid o de Casablanca, Morocco. Faculté des Lettres et des Sciences Humaines Ben M’sik. 2021FLUX festival de video d’autor Monographic Yapci Ramos 2021
     ::::
   
   #downloads
