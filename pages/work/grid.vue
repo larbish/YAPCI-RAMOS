@@ -90,48 +90,48 @@
         <div class="w-full  lg:hidden">
             <div class="w-full flex mt-14">
                 <section class="grid grid-cols-2 items-start w-full gap-y-10 leading-[1.1]">
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/parto" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-one.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">PARTO. 2024. INSTALLATION</p>
                     </NuxtLink>
 
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/identity" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-two.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">FREEDOM. 2022. AUDIOVISUAL</p>
+                        <p class="pl-2.5">IDENTITY. 2019. AUDIOVISUAL</p>
                     </NuxtLink>
 
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/monumenta" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-three.png"
                             class="w-full max-w-full min-w-full pr-[1px]" alt="">
-                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">>MONUMENTA. 2023. INSTALLATION</p>
                     </NuxtLink>
 
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/red-hot" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-four.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">RED-HOT. 2018. AUDIOVISUAL</p>
                     </NuxtLink>
 
-                    <NuxtLink
+                    <NuxtLink to="/projects/lloro"
                         class="flex flex-col cursor-pointer w-full col-span-2 hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-five.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">LLORO. 2021. AUDIOVISUAL - INSTALLATION</p>
                     </NuxtLink>
 
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/i-dont-mind" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-six.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">I DON’T MIND. 2018. AUDIOVISUAL</p>
                     </NuxtLink>
 
 
-                    <NuxtLink class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
+                    <NuxtLink to="/projects/guayec" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-seven.png"
                             class="w-full max-w-full min-w-full pr-[1px]" alt="">
-                        <p class="pl-2.5">PARTO. 2022. INSTALLATION</p>
+                        <p class="pl-2.5">GUAYEC. 2021. AUDIOVISUAL</p>
                     </NuxtLink>
                 </section>
 
