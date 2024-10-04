@@ -337,15 +337,15 @@ const sections = ref([
         title: "DOSSIERS",
         items: [
             {
-                title: "YapciRamos_Guayec_Dossier",
+                title: "Guayec",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf",
             }, {
-                title: "YapciRamos_Monumenta_Dossier",
+                title: "Monumenta",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf",
             }, {
-                title: "YapciRamos_Parto_Dossier",
+                title: "Parto",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf",
             }

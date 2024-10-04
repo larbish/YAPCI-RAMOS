@@ -307,8 +307,8 @@ const sections = ref([
                 path: "https://www.amazon.es/Yapci-Ramos-Show-Know-Welcome/dp/8417434100",
             },
             {
-                title: "CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA CARLOS GARRIDO & BRUNO LEITAO",
-                author: "",
+                title: "CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA ",
+                author: "CARLOS GARRIDO & BRUNO LEITAO",
                 path: "https://press.uchicago.edu/ucp/books/book/distributed/C/bo185830710.html",
             },
             {
@@ -317,13 +317,13 @@ const sections = ref([
                 path: "http://www.puvill.com/book/el-iris-de-lucy/297360",
             },
             {
-                title: "ARTISTAS POST-CONCEPTUALES EN CANARIAS",
+                title: "ARTISTAS POST-CONCEPTUALES EN CANARIAS, ",
                 author: "2000-2017 CAAM",
                 path: "https://caam.net/publicacion/f-artistas-post-conceptuales-en-canarias-2000-2017/",
             },
             {
-                title: "PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE 2011-2012 ARUBA",
-                author: "",
+                title: "PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE ",
+                author: "2011-2012 ARUBA",
                 path: "https://lmpublishers.nl/product/encuentro-arte-contemporaneo-di-caribe/",
             },
         ]
@@ -332,15 +332,15 @@ const sections = ref([
         title: "DOSSIERS",
         items: [
             {
-                title: "YapciRamos_Guayec_Dossier",
+                title: "Guayec",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf",
             }, {
-                title: "YapciRamos_Monumenta_Dossier",
+                title: "Monumenta",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf",
             }, {
-                title: "YapciRamos_Parto_Dossier",
+                title: "Parto",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf",
             }
