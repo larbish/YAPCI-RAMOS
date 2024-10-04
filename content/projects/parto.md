@@ -315,7 +315,7 @@
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
+    image-path: /work/parto/Codices_Parturientas_4 1.png
     ---
     ::::
   :::
