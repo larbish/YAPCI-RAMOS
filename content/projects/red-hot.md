@@ -112,6 +112,12 @@
       content: Justine Ludwig / Executive Director of Creative Time
       ---
       :::::
+    
+      :::::project-desktop-paragraph
+      ---
+      content: Justine Ludwig / Executive Director of Creative Time
+      ---
+      :::::
     ::::
   :::
 
