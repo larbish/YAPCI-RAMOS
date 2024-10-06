@@ -195,13 +195,49 @@
   :::project-credits
   #credits
     ::::project-credit-item
-      :::::project-credit-item
-      **Filming:** Yapci Ramos
-      :::::
-    
-      :::::project-credit-item
-      **Editing and sound:** Adolf Alcañiz
-      :::::
+    **Filming:** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Editing and sound:** Adolf Alcañiz
+    ::::
+  
+  #presented-at
+    ::::project-credit-item
+    Red-Hot, Catinca Tabacaru, New York, US, 2018
+    ::::
+  
+    ::::project-credit-item
+    Show Me, TEA Tenerife Espacio de las Artes, 2018
+    ::::
+  
+    ::::project-credit-item
+    Know Us, CAAM Centro Atlántico de Arte Moderno. 2019
+    ::::
+  
+    ::::project-credit-item
+    MERDELAMERDELAMERDELAMERDELAMERDELAMER, Mario Mauroner Gallery, Vienna, 2019
+    ::::
+  
+    ::::project-credit-item
+    Bloody fall/s, Mus e d’Histoire la Medecine, Paris, 2018
+    ::::
+  
+    ::::project-credit-item
+    Connections, EAC Espacio de Arte Contemporáneo de Uruguay, Montevideo, 2019
+    ::::
+  
+    ::::project-credit-item
+    Flux Club, en el Antic Teatre de Barcelona, 2021
+    ::::
+  
+    ::::project-credit-item
+    FLUX festival de video d’autor Monographic Yapci Ramos 2021
+    ::::
+  
+  #downloads
+    ::::project-credit-item
+    DOSSIER
     ::::
   :::
 ::
