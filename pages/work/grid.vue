@@ -26,7 +26,7 @@
                         class="flex flex-col cursor-pointer w-[30.26%] min-w-[30.26%] hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-three.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
-                        <p class="pl-2.5">MONUMENTA. 2023. INSTALLATION</p>
+                        <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
                     </NuxtLink>
                 </section>
             </div>

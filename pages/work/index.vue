@@ -67,7 +67,7 @@ const projects = ref([
         ]
     },
     {
-        year: '2023',
+        year: '2022',
         title: 'MONUMENTA',
         category: 'INSTALLATION',
         link: '/projects/monumenta',

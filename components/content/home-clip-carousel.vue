@@ -47,6 +47,11 @@ onMounted(() => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+    window.addEventListener('resize', e => {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    })
+
     const videos = [
         document.createElement('video'),
         document.createElement('video'),
