@@ -489,11 +489,7 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez
-    ::::
-  
-    ::::project-credit-item
-    To all the women who have accompanied me through the process of expulsion and release
+    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez To all the women who have accompanied me through the process of expulsion and release
     ::::
   
   #presented-at
