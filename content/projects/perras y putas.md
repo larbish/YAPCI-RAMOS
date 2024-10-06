@@ -1,6 +1,6 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/lloro/03-Yapci-Lloro.mp4"}
+  :::project-desktop-image{image-path="/work/lloro/Group 143.png"}
   :::
 
   :::project-desktop-text-wrapper
@@ -84,16 +84,47 @@
   ---
   justify-content: start
   leftWidthPercent: 45.5%
-  margin-top: 20px
+  margin-top: 10px
   right-width-percent: 46.5%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/lloro/Group 143.png
-    margin-left: 0px
-    ---
+  
+  #content-two
+    ::::project-desktop-image{image-path="/work/lloro/Group 143.png"}
     ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: end
+  leftWidthPercent: 47.2%
+  right-width-percent: 51.5%
+  ---
+  #content-one
+    ::::project-desktop-image{image-path="/work/lloro/Group 143.png"}
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ::::
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: end
+  leftWidthPercent: 47.2%
+  right-width-percent: 51.5%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ::::
+  
+  #content-two
+    ::::project-desktop-image{image-path="/work/lloro/Group 143.png"}
+    ::::
+  :::
+
+  :::project-section-one-video{video-src="/work/lloro/03-Yapci-Lloro.mp4"}
   :::
 
 #section-one-mobile
@@ -126,34 +157,57 @@
   :::project-credits
   #credits
     ::::project-credit-item
-      :::::project-desktop-image
-      :::::
+    **Photographs and video.** Yapci Ramos
+    ::::
+  
+    ::::project-credit-item
+    **Editing.** Adolf Alcañiz
+    ::::
+  
+    ::::project-credit-item
+    **Acknowledgements.** Orlando Britto Jinorio and  Jody-Alice Leanez.
+    ::::
+  
+    ::::project-credit-item
+    :br
     
-    **Video edition:** Adolf Alcañiz
-    ::::
-  
-    ::::project-credit-item
-    **Sound edition:** Ferran Conangla
-    ::::
-  
-    ::::project-credit-item
-    **Exhibition setting:** Audiovisuales Alonso\&Alonso
-    ::::
-  
-    ::::project-credit-item
-    **Participants:** Alexandra Genevieve Carter, Sean Boyd, Chenae Bullock, Deborah Marshall, Jun Zhou, Brian O’Mahoney, Dina Lombardi, Clarisse Khalsa, Sarah Jane Halsey, Peter Sabbeth.
+    :br
     
-    Lloro was created at The Watermill Center - a laboratory for performance, New York (2020).
+    With the support of Canarias Crea (Spain) and Foundation Insight for the Arts-Aruba.
     ::::
   
   #presented-at
     ::::project-credit-item
-    Lloro, Espacio Cultural el Tanque, Santa Cruz de Tenerife, Spain, 2021Flux Club, en el Antic Teatre de Barcelona, 2021Corps en immersion . Talk. FIAV Festival International d’art Vid o de Casablanca, Morocco. Faculté des Lettres et des Sciences Humaines Ben M’sik. 2021FLUX festival de video d’autor Monographic Yapci Ramos 2021
+    Perras y Putas, Catinca Tabacaru, New York, US, 2015 - (solo show)
+    ::::
+  
+    ::::project-credit-item
+    Art Toronto, International Contemporary and Modern Art Fair, Toronto, 2015
+    ::::
+  
+    ::::project-credit-item
+    El iris de Lucy, CAAM Centro Atlántico de Arte Moderno. 2017
+    ::::
+  
+    ::::project-credit-item
+    Show Me, TEA Tenerife Espacio de las Artes, 2018
+    ::::
+  
+    ::::project-credit-item
+    Connections, EAC Espacio de Arte Contempor neo de Uruguay, Montevideo, 2019
+    ::::
+  
+    ::::project-credit-item
+    En diálogo con José  Martín, CAAM, Centro Atlántico do Arte Moderno, Las Palmas de Gran Canaria. 2021 
     ::::
   
   #downloads
     ::::project-credit-item
     DOSSIER
+    ::::
+  
+    ::::project-credit-item
+    EXHIBITION AUDIO
     ::::
   :::
 ::
