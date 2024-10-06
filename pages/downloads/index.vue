@@ -7,9 +7,9 @@
                 <div class="flex flex-col leading-[1.1]">
                     <p class="font-medium">{{ section.title }}</p>
                     <div
-                        class=" min-w-min lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
+                        class=" min-w-fit lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
-                            class="grid grid-cols-2 lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
+                            class="grid grid-cols-2 min-w-[150vw] lg:min-w-fit lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
                             <p class="lg:col-span-3 leading-[1.1]">{{ item.title }}</p>
                             <p class="lg:col-span-2 leading-[1.1]">{{ item.author }}</p>
                         </a>
