@@ -12,5 +12,8 @@ project-three-video: /home/videos/IDontMind_30s.mp4
 project-two-link: /projects/lloro
 project-two-title: LLORO. 2021. INSTALLATION
 project-two-video: /home/videos/Lloro_30s.mp4
+project-five-video: /work/monumenta/02-Yapci-monumenta_30sec.mp4
+project-five-title: MONUMENTA. 2022. INSTALLATION
+project-five-link: /projects/monumenta
 ---
 ::
