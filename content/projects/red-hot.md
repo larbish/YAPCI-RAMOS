@@ -2,7 +2,7 @@
 #section-one
   :::project-section-one-video
   ---
-  video-src: /work/i-don't-mind-two/03-Yapci-Lloro.mp4
+  video-src: /videos/04-Yapci-Red-Hot-compressed.mp4
   ---
   :::
 
@@ -132,7 +132,7 @@
   :::
 
 #section-one-mobile
-  :::project-mobile-video{video-path="/work/i-don't-mind-two/03-Yapci-Lloro.mp4"}
+  :::project-mobile-video{video-path="/videos/04-Yapci-Red-Hot-compressed.mp4"}
   :::
 
   :::project-mobile-text-wrapper
