@@ -1,6 +1,6 @@
 ::project-wrapper
 #section-one
-  :::project-section-one-video{video-src="/work/parto/cover-video.mp4"}
+  :::project-section-one-video{video-src="/work/monumenta/02-Yapci-monumenta.mp4}
   :::
 
   :::project-desktop-variant
@@ -458,7 +458,7 @@
   :::
 
 #section-one-mobile
-  :::project-mobile-video{video-path="/work/monumenta/Guayec_WorkPage.mp4"}
+  :::project-mobile-video{video-path="/work/monumenta/02-Yapci-monumenta.mp4"}
   :::
 
   :::project-mobile-text-wrapper{has-title="true" title="MONUMENTA"}
