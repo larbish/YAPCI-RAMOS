@@ -190,4 +190,18 @@
     ---
     ::::
   :::
+
+#project-credits
+  :::project-credits
+  #credits
+    ::::project-credit-item
+      :::::project-credit-item
+      **Filming:** Yapci Ramos
+      :::::
+    
+      :::::project-credit-item
+      **Editing and sound:** Adolf Alcañiz
+      :::::
+    ::::
+  :::
 ::
