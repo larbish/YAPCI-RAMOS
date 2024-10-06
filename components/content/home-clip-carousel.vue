@@ -18,10 +18,6 @@
             <NuxtLink :to="props.projectFourLink" v-if="currentVideoIndex === 3">
                 {{ props.projectFourTitle }}
             </NuxtLink>
-
-            <NuxtLink :to="props.projectFiveLink" v-if="currentVideoIndex === 4">
-                {{ props.projectFiveTitle }}
-            </NuxtLink>
         </div>
     </div>
 </template>
@@ -42,7 +38,6 @@ const props = defineProps({
     projectTwoVideo: String,
     projectThreeVideo: String,
     projectFourVideo: String,
-    projectFiveVideo: String
 });
 
 const currentVideoIndex = ref(0);
@@ -70,7 +65,6 @@ onMounted(() => {
     videos[1].src = props.projectTwoVideo;
     videos[2].src = props.projectThreeVideo;
     videos[3].src = props.projectFourVideo;
-    videos[4].src = props.projectFiveVideo;
 
     videos.forEach(video => {
         video.muted = true;
