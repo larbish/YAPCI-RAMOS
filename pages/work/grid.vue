@@ -33,7 +33,7 @@
 
             <div class="w-full flex mt-10">
                 <section class="flex items-start w-full">
-                    <NuxtLink to="/projects/redhot"
+                    <NuxtLink to="/projects/red-hot"
                         class="flex flex-col cursor-pointer w-[24.6%] min-w-[24.6%] hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-four.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">

@@ -120,7 +120,7 @@ const projects = ref([
     {
         year: '2018',
         title: 'RED-HOT',
-        link: '/work',
+        link: '/projects/red-hot',
         category: 'AUDIOVISUAL',
         media: [
             { type: 'img', src: '/work-list/image 22.png', position: { left: '20vw', bottom: '25vh' } },
