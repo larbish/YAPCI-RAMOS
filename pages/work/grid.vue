@@ -10,7 +10,7 @@
                 <section class="flex items-start w-full leading-[1.1]">
                     <NuxtLink to="/projects/parto"
                         class="flex flex-col cursor-pointer w-[40.31%] min-w-[40.31%] hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-one.png" class="w-full max-w-full min-w-full pr-[1px]"
+                        <img src="/work/parto/Parto_019.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
                         <p class="pl-2.5">PARTO. 2024. INSTALLATION</p>
                     </NuxtLink>
@@ -91,7 +91,7 @@
             <div class="w-full flex mt-14">
                 <section class="grid grid-cols-2 items-start w-full gap-y-10 leading-[1.1]">
                     <NuxtLink to="/projects/parto" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-res-one.png" class="w-full max-w-full min-w-full pr-[1px]"
+                        <img src="@/assets/images/grid-image-res-three.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
                         <p class="pl-2.5">PARTO. 2024. INSTALLATION</p>
                     </NuxtLink>
@@ -103,9 +103,9 @@
                     </NuxtLink>
 
                     <NuxtLink to="/projects/monumenta" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-res-three.png"
+                        <img src="@/assets/images/grid-image-res-one.png"
                             class="w-full max-w-full min-w-full pr-[1px]" alt="">
-                        <p class="pl-2.5">>MONUMENTA. 2023. INSTALLATION</p>
+                        <p class="pl-2.5">MONUMENTA. 2023. INSTALLATION</p>
                     </NuxtLink>
 
                     <NuxtLink to="/projects/red-hot" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
