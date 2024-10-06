@@ -317,7 +317,6 @@
   ---
   :::
 
-
   :::project-mobile-custom-image
   ---
   image-path: /work/guayec/WhatsApp Image 2021-11-17 at 19.04.55 (4) 1.png
@@ -353,19 +352,15 @@
     ::::
   
     ::::project-credit-item
-     **Sound:** Yapci Ramos
+    **Sound:** Yapci Ramos
     ::::
   
     ::::project-credit-item
-     **Sound and Video Edition:** Adolf Alcañiz
+    **Sound and Video Edition:** Adolf Alcañiz
     ::::
   
     ::::project-credit-item
-     **Sound and Video Edition:** Adolf Alcañiz
-    ::::
-  
-    ::::project-credit-item
-     **Master of Sound:** Ferran Conangla
+    **Master of Sound:** Ferran Conangla
     ::::
   
   #presented-at
