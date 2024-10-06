@@ -112,23 +112,23 @@
       content: Justine Ludwig / Executive Director of Creative Time
       ---
       :::::
-    
-      :::::project-desktop-paragraph
-      ---
-      content: Justine Ludwig / Executive Director of Creative Time
-      ---
-      :::::
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  leftWidthPercent: 11.80%
+  justify-content: flex-start
+  left-width-percent: 11.5%
   rightWidthPercent: 61.51%
   ---
   #content-one
   
   #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/i-don't-mind-two/YapciRamos_RedHot_1 1.png
+    ---
+    ::::
   :::
 
 #section-one-mobile
