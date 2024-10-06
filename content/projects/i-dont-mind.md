@@ -175,7 +175,7 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgments:** Marina Ribot Pallicer With the support of Gran Canaria Espacio Digital (Spain)
+    **Acknowledgments:** Marina Ribot PallicerWith the support of Gran Canaria Espacio Digital (Spain)
     ::::
   
   #presented-at
