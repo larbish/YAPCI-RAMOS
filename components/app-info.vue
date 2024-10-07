@@ -66,12 +66,10 @@
                         <div class="lg:col-span-6 hidden lg:flex items-center gap-x-10 uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Instagram</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Facebook</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Youtube</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">LINKEDIN</a>
+                            <a href="https://vimeo.com/yapciramos" target="_blank"
+                                rel="noopener noreferrer">Vimeo</a>
+                            <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
+                                rel="noopener noreferrer">Wikipedia</a>
 
                         </div>
                     </section>
@@ -101,8 +99,6 @@
                         <div class="flex flex-col gap-y-3 mt-8 lg:hidden uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Instagram</a>
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Facebook</a>
                             <a href="https://vimeo.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Vimeo</a>
                             <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
