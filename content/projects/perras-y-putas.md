@@ -128,7 +128,7 @@
   :::
 
 #section-one-mobile
-  :::project-mobile-video{video-path="/work/lloro/03-Yapci-Lloro.mp4"}
+  :::project-mobile-hero-image{video-path="/work/perras-y-putas/YapciRamos_Perra_1.png"}
   :::
 
   :::project-mobile-text-wrapper{has-title="true" title="LLORO. AUDIOVISUAL"}
