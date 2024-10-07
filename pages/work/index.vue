@@ -130,7 +130,7 @@ const projects = ref([
     {
         year: '2015',
         title: 'PERRAS Y PUTAS',
-        link: '/projects/perras-y-putas.md',
+        link: '/projects/perras-y-putas',
         category: 'PHOTOGRAPHY',
         media: [
             { type: 'img', src: '/work-list/image 24.png', position: { left: '0vw', bottom: '0vh' } },
