@@ -337,18 +337,26 @@ const sections = ref([
         title: "DOSSIERS",
         items: [
             {
-                title: "Guayec",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf",
-            }, {
-                title: "Monumenta",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf",
-            }, {
                 title: "Parto",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf",
             },
+            {
+                title: "Monumenta",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf",
+            },
+            {
+                title: "Guayec",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf",
+            },
+            {
+                title: "Identity",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Identity_Dossier.pdf",
+            },
+
             {
                 title: "Lloro",
                 author: "",
@@ -363,6 +371,11 @@ const sections = ref([
                 title: "Red Hot",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf",
+            },
+            {
+                title: "Perras Y Putas",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Perras-Putas_Dossier.pdf",
             },
             {
                 title: "Projects",
