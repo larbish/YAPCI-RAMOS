@@ -5,7 +5,8 @@
                 <div class="w-[33.6%] pb-14 min-h-screen relative">
                     <slot name="images-left"></slot>
 
-                    <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black absolute bottom-0">
+                    <p
+                        class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1] text-black absolute bottom-0">
                         ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
                     </p>
                 </div>
@@ -40,7 +41,7 @@
                         <slot name="paragraphs"></slot>
                     </div>
 
-                    <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1]">
+                    <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1] downloads-new-tab">
                         <slot name="download"></slot>
                     </div>
                 </div>
@@ -71,7 +72,7 @@
                 <slot name="paragraphs"></slot>
             </div>
 
-            <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1]">
+            <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.1] downloads-new-tab">
                 <slot name="download"></slot>
             </div>
             <div class="flex flex-col w-full mt-1">
@@ -122,6 +123,18 @@ const mappedContent = contentQuery.map((item) => {
         tappedOnce: false
     };
 });
+
+
+onMounted(() => {
+    // Select all anchor tags that are descendants of a specific class
+    const links = document.querySelectorAll('.downloads-new-tab a');
+
+    // Loop through each anchor tag and add the target attribute
+    links.forEach(link => {
+        link.setAttribute('target', '_blank');
+    });
+
+})
 
 // Find current index based on route path
 const currentIndex = mappedContent.findIndex(item => item.link === route.path);

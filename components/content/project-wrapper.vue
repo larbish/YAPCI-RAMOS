@@ -2,7 +2,7 @@
     <div class="hidden lg:block w-full overflow-x-clip bg-white">
         <div class="w-full h-full relative overflow-clip leading-[1.1]">
             <section class="w-full h-screen max-h-screen">
-                <div class=" h-full w-full overflow-y-auto text-black" data-lenis-prevent>
+                <div class=" h-full w-full overflow-y-auto downloads-new-tab text-black" data-lenis-prevent>
                     <slot name="section-one"></slot>
                     <slot name="project-credits"></slot>
                     <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
@@ -50,7 +50,7 @@
     </div>
 
     <div class="lg:hidden bg-white min-h-[100dvh] h-[100dvh] overflow-y-auto relative">
-        <section class="w-full h-screen max-h-screen bg-white" @click="activateFirstSection">
+        <section class="w-full h-screen max-h-screen bg-white downloads-new-tab" @click="activateFirstSection">
             <slot name="section-one-mobile"></slot>
             <slot name="project-credits"></slot>
             <p class=" py-16 text-center text-black">
@@ -114,6 +114,18 @@ const activateThirdSection = () => {
     secondSectionActive.value = true; // Ensure second section is inactive
     thirdSectionActive.value = true;
 };
+
+
+onMounted(() => {
+    // Select all anchor tags that are descendants of a specific class
+    const links = document.querySelectorAll('.downloads-new-tab a');
+
+    // Loop through each anchor tag and add the target attribute
+    links.forEach(link => {
+        link.setAttribute('target', '_blank');
+    });
+
+})
 </script>
 
 
