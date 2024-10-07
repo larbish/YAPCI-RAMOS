@@ -343,7 +343,27 @@ const sections = ref([
                 title: "Parto",
                 author: "",
                 path: "/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf",
-            }
+            },
+            {
+                title: "Lloro",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf",
+            },
+            {
+                title: "I Don't Mind",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_IDontMind_Dossier.pdf",
+            },
+            {
+                title: "Red Hot",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf",
+            },
+            {
+                title: "Projects",
+                author: "",
+                path: "/download/DOSSIERS/YapciRamos_Projects.pdf",
+            },
         ]
     }
 ]);
