@@ -78,11 +78,69 @@
   margin-top: 20px
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/perras-y-putas/perras_yapciramos_1 1.png
-    margin-left: 0px
-    ---
+    ::::project-slide-wrapper
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_2.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_3.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_4.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_5.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+    
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_6.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_8.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/perras-y-putas/perras_yapciramos_9.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
     ::::
   :::
 
@@ -137,7 +195,7 @@
   :::
 
 #section-one-mobile
-  :::project-mobile-hero-image{video-path="/work/perras-y-putas/YapciRamos_Perra_1.png"}
+  :::project-mobile-hero-image{image-path="/work/perras-y-putas/YapciRamos_Perra_1.png"}
   :::
 
   :::project-mobile-text-wrapper{has-title="true" title="PERRAS Y PUTAS. PHOTOGRAPHY"}
