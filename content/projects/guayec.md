@@ -378,7 +378,7 @@
   
   #downloads
     ::::project-credit-item
-    DOSSIER
+    [DOSSIER](/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf)
     ::::
   :::
 ::
