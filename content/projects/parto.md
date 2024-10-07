@@ -499,15 +499,7 @@
   
   #downloads
     ::::project-credit-item
-    CATALOGUE
-    ::::
-  
-    ::::project-credit-item
-    3D VIDEOS
-    ::::
-  
-    ::::project-credit-item
-    BROCHURE
+    [DOSSIER](/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf)
     ::::
   :::
 ::

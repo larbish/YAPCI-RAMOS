@@ -617,17 +617,9 @@
     **Texts.** Nora Navarro
     ::::
   
-  #downloads
+  #downloads  
     ::::project-credit-item
-    CATALOGUE
-    ::::
-  
-    ::::project-credit-item
-    3D VIDEOS
-    ::::
-  
-    ::::project-credit-item
-    BROCHURE
+    [DOSSIER](/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf)
     ::::
   
   #presented-at

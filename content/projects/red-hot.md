@@ -243,7 +243,7 @@
   
   #downloads
     ::::project-credit-item
-    DOSSIER
+    [DOSSIER](/download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf)
     ::::
   :::
 ::

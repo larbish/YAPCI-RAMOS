@@ -237,7 +237,7 @@
   
   #downloads
     ::::project-credit-item
-    DOSSIER
+    [DOSSIER](/download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf)
     ::::
   :::
 ::
