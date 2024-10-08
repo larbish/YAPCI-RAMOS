@@ -123,7 +123,7 @@
         ---
         ::::::
       :::::
-
+    
       :::::project-slide
         ::::::project-desktop-image
         ---
@@ -132,7 +132,7 @@
         ---
         ::::::
       :::::
-
+    
       :::::project-slide
         ::::::project-desktop-image
         ---
@@ -195,10 +195,17 @@
   :::
 
 #section-one-mobile
-  :::project-mobile-hero-image{image-path="/work/perras-y-putas/YapciRamos_Perra_1.png"}
+  :::project-mobile-hero-image
+  ---
+  image-path: /work/perras-y-putas/YapciRamos_Perra_1.png
+  ---
   :::
 
-  :::project-mobile-text-wrapper{has-title="true" title="PERRAS Y PUTAS. PHOTOGRAPHY"}
+  :::project-mobile-text-wrapper
+  ---
+  has-title: 'true'
+  title: PERRAS Y PUTAS. PHOTOGRAPHY
+  ---
     ::::project-desktop-paragraph
     ---
     content: The look is raw and direct, like the focus of that car and the cold of the night. Nocturnal and stray dogs await us through a radical substitution–this project confronts prostitution by giving entity to the sordidness of loneliness and the street. In Aruba there is an overpopulation of abandoned female dogs. Many of them survive in marginality, watching over a home that is on the outside. Behind any idealization, they look at us with the seriousness of those who fight for something. From the margin they tell us that we could be them. A new dialectical game that affects the cracks of a system that lives by perpetuating structural inequalities that leave women who work in the street in complete legal unprotection. It points to the bestiality of the heteropatriarchy itself, which dominates and subjugates everything around it for its own benefit. Through this initiative, the reality of women in different times and places has been mapped, with different but connected results and practices. From those women of Tenerife who sing their sorrows while vindicating them, to those women of Zimbabwe who subvert the external gaze. They are all faces of the same diverse and complex reality of prostitution.
@@ -210,22 +217,31 @@
     ::::project-desktop-image{image-path="/work/perras-y-putas/_L7O2996_ok.png"}
     ::::
   
-    ::::project-desktop-image{image-path="/work/perras-y-putas/Instalacion_Catinca.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/perras-y-putas/Instalacion_Catinca.png
+    ---
     ::::
   
-    ::::project-desktop-image{image-path="/work/perras-y-putas/perras_yapciramos_1 1.png"}
+    ::::project-desktop-image
+    ---
+    image-path: /work/perras-y-putas/perras_yapciramos_1 1.png
+    ---
     ::::
   
     ::::project-desktop-image{image-path="/work/perras-y-putas/perras_CAAM 1.png"}
     ::::
-
+  
     ::::project-desktop-image{image-path="/work/perras-y-putas/Kadi 1.png"}
     ::::
-
+  
     ::::project-desktop-image{image-path="/work/perras-y-putas/Stella 1.png"}
     ::::
-
-    ::::project-section-one-video{video-src="/work/perras-y-putas/Yapci Ramos_ Perras (sin créditos).mp4"}
+  
+    ::::project-section-one-video
+    ---
+    video-src: /work/perras-y-putas/Yapci Ramos_ Perras (sin créditos).mp4
+    ---
     ::::
   :::
 

@@ -14,7 +14,7 @@
   ---
     ::::project-desktop-paragraph
     ---
-    content: “Go. Wake. Calm. Why. Now. Time. Be. Path. 39. I.” In Red-Hot, the intuitive action of collecting my menstrual blood and writing with it becomes a ritual of its own where the unspeakable is expressed. In each gesture lies an insurrection with which I build and destroy decisions and renunciations. The weakness of the naked body contrasts with the empowering of its actions because I am negotiating a place to occupy in society when the archetypal roles as a woman are not met. Blood becomes a means to, metaphorically, open up from the guts, the lust and materiality of a body that is all act. Likewise, the impulsiveness from which such an expression is born is secularized with the monthly repetition over two years, as a pulse, as a cycle, as an interrupted cry. That blood which is a symbol of the potential reproductive ability, is diluted violently with each stroke of water, just like someone destroying their own work. And it’s here where time becomes especially important due to the unacceptable helplessness it arouses. The project is dictated by the regularity of the menstrual cycle, through which we observe an internal dialogue that is altered until I reach a conclusion ‘I’. That pronoun brings us pain until we come to terms with it.
+    content: '“Go. Wake. Calm. Why. Now. Time. Be. Path. 39. I.” In Red-Hot, the intuitive action of collecting my menstrual blood and writing with it becomes a ritual of its own where the unspeakable is expressed. In each gesture lies an insurrection with which I build and destroy decisions and renunciations. The weakness of the naked body contrasts with the empowering of its actions because I am negotiating a place to occupy in society when the archetypal roles as a woman are not met. Blood becomes a means to, metaphorically, open up from the guts, the lust and materiality of a body that is all act. Likewise, the impulsiveness from which such an expression is born is secularized with the monthly repetition over two years, as a pulse, as a cycle, as an interrupted cry. That blood which is a symbol of the potential reproductive ability, is diluted violently with each stroke of water, just like someone destroying their own work. And it’s here where time becomes especially important due to the unacceptable helplessness it arouses. The project is dictated by the regularity of the menstrual cycle, through which we observe an internal dialogue that is altered until I reach a conclusion: ‘I’. That pronoun brings us pain until we come to terms with it.'
     ---
     ::::
   :::
@@ -135,14 +135,11 @@
   :::project-mobile-video{video-path="/videos/04-Yapci-Red-Hot-compressed.mp4"}
   :::
 
-  :::project-mobile-text-wrapper
+  :::project-mobile-text-wrapper{has-title="true" title="RED-HOT. INSTALLATION"}
     ::::project-desktop-paragraph
     ---
-    content: ‘I don’t mind’ is an artwork to visit stripped down form prejudices–those sounds are talking to us about sex, self-pleasure. And, in that context, our relationship with sexuality is settled. After having put in crisis all the inherited constructs and apprehended symbologies, it is worth asking oneself about the immanence of the very own act of masturbating. In the capacity of one’s own production of pleasure lies the question of self-sufficiency and in it, the possibility, but also the condition, of solitude.
+    content: '“Go. Wake. Calm. Why. Now. Time. Be. Path. 39. I.” In Red-Hot, the intuitive action of collecting my menstrual blood and writing with it becomes a ritual of its own where the unspeakable is expressed. In each gesture lies an insurrection with which I build and destroy decisions and renunciations. The weakness of the naked body contrasts with the empowering of its actions because I am negotiating a place to occupy in society when the archetypal roles as a woman are not met. Blood becomes a means to, metaphorically, open up from the guts, the lust and materiality of a body that is all act. Likewise, the impulsiveness from which such an expression is born is secularized with the monthly repetition over two years, as a pulse, as a cycle, as an interrupted cry. That blood which is a symbol of the potential reproductive ability, is diluted violently with each stroke of water, just like someone destroying their own work. And it’s here where time becomes especially important due to the unacceptable helplessness it arouses. The project is dictated by the regularity of the menstrual cycle, through which we observe an internal dialogue that is altered until I reach a conclusion: ‘I’. That pronoun brings us pain until we come to terms with it.'
     ---
-    ::::
-  
-    ::::project-desktop-paragraph{content="There is a confrontation."}
     ::::
   :::
 
