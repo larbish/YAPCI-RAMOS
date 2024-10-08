@@ -436,7 +436,7 @@
   :::downloads-list-wrapper
     ::::downloads-list-item
     ---
-    author: null
+    author: '2024'
     link: /download/DOSSIERS/YapciRamos_Parto_Dossier.pdf
     title: Parto
     ---
@@ -444,7 +444,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: '2022'
     link: /download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf
     title: Monumenta
     ---
@@ -452,7 +452,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: 2021
     link: /download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf
     title: Guayec
     ---
@@ -460,7 +460,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: '2019'
     link: /download/DOSSIERS/YapciRamos_Identity_Dossier.pdf
     title: Identity
     ---
@@ -484,7 +484,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: 2018
     link: /download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf
     title: Red Hot
     ---
@@ -492,7 +492,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: 2015
     link: /download/DOSSIERS/YapciRamos_Perras-Putas_Dossier.pdf
     title: Perras Y Putas
     ---
