@@ -274,20 +274,18 @@
   
     ::::downloads-list-item
     ---
-    
     author: LA PROVINCIA
     link: /download/PRESS/LAS MEJORES EXPOSICIONES DEL 2021. LA PROVINCIA.pdf
     title: LAS MEJORES EXPOSICIONES DEL 2021
-    ----------------------------------------
+    ---
     ::::
   
     ::::downloads-list-item
     ---
-    
     author: LA PROVINCIA
     link: /download/PRESS/YAPCI RAMOS PARTICIPA EN FLUX 2021. LA PROVINCIA.pdf
     title: YAPCI RAMOS PARTICIPA EN FLUX 2021
-    -----------------------------------------
+    ---
     ::::
   
     ::::downloads-list-item
