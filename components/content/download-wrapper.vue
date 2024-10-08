@@ -209,8 +209,9 @@ onMounted(async () => {
 
 
 <style>
-::selection {
-    color: white;
-    background-color: red;
+
+/* hide scroll bar */
+.wrapper::-webkit-scrollbar {
+    display: none;
 }
 </style>

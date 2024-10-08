@@ -72,4 +72,9 @@ html.lenis body {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
+
+::selection {
+    color: white;
+    background-color: red;
+}
 </style>
