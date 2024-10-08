@@ -226,9 +226,9 @@
 
     ::::downloads-list-item
     ---
-      author: pdf
+      author: EXIBART
       link: /download/PRESS/YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART.pdf
-      title: YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART
+      title: YAPCI RAMOS PRESENTA 'MONUMENTA' 
     ---
     ::::
 
