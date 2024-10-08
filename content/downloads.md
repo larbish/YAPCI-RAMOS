@@ -51,9 +51,9 @@
   
     ::::downloads-list-item
     ---
-    author: THE INSURRECTION OF THE BODY. IMMA PRIETO
+    author: IMMA PRIETO
     link: /download/READS//GLANCES, VOICE AND BLOOD. THE INSURRECTION OF THE BODY. IMMA PRIETO.pdf
-    title: GLANCES, VOICE AND BLOOD
+    title: GLANCES, VOICE AND BLOOD. THE INSURRECTION OF THE BODY.
     ---
     ::::
   
