@@ -468,7 +468,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: '2021'
     link: /download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf
     title: Lloro
     ---
@@ -476,7 +476,7 @@
   
     ::::downloads-list-item
     ---
-    author: null
+    author: 2018
     link: /download/DOSSIERS/YapciRamos_IDontMind_Dossier.pdf
     title: I Don't Mind
     ---
