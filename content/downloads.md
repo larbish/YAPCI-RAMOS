@@ -125,9 +125,9 @@
   
     ::::downloads-list-item
     ---
-    author: SIMON NJAMI 
+    author: SIMON NJAMI
     link: /download/READS//DOBLE JEU. LES AUTRES. JE. CATHARSIS. SIMON NJAMI.pdf
-    title: DOBLE JEU. LES AUTRES. JE. CATHARSIS 
+    title: DOBLE JEU. LES AUTRES. JE. CATHARSIS
     ---
     ::::
   :::
@@ -214,86 +214,87 @@
     ---
     ::::
   :::
+
+  :::downloads-list-wrapper
+    ::::downloads-list-item
+    ---
+    author: DIARIO DE AVISOS
+    link: /download/PRESS/LA MUSICA ACOMPANA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'. DIARIO DE AVISOS.pdf
+    title: LA MUSICA ACOMPANA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'
+    ---
+    ::::
   
-  :::downloads-list-wrapper
     ::::downloads-list-item
     ---
-      author: DIARIO DE AVISOS
-      link: /download/PRESS/LA MUSICA ACOMPANA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'. DIARIO DE AVISOS.pdf
-      title: LA MUSICA ACOMPANA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'
+    author: EXIBART
+    link: /download/PRESS/YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART.pdf
+    title: YAPCI RAMOS PRESENTA 'MONUMENTA'
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: EXIBART
-      link: /download/PRESS/YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART.pdf
-      title: YAPCI RAMOS PRESENTA 'MONUMENTA' 
+    author: RTVC
+    link: /download/PRESS/YAPCI RAMOS EXPONE 'MONUMENTA'. RTVC.pdf
+    title: YAPCI RAMOS EXPONE 'MONUMENTA'
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: RTVC
-      link: /download/PRESS/YAPCI RAMOS EXPONE 'MONUMENTA'. RTVC.pdf
-      title: YAPCI RAMOS EXPONE 'MONUMENTA'
+    author: DE L'ART HELVETIQUE CONTEMPORAIN
+    link: /download/PRESS/JANET BIGGS ET YAPCI RAMOS, DESASTRE, CADASTRE. DE L'ART HELVETIQUE CONTEMPORAIN.pdf
+    title: JANET BIGGS ET YAPCI RAMOS, DESASTRE, CADASTRE
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: DE L'ART HELVETIQUE CONTEMPORAIN
-      link: /download/PRESS/JANET BIGGS ET YAPCI RAMOS, DESASTRE, CADASTRE. DE L'ART HELVETIQUE CONTEMPORAIN.pdf
-      title: JANET BIGGS ET YAPCI RAMOS, DESASTRE, CADASTRE
+    author: 20 MINUTOS
+    link: /download/PRESS/YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICION INDIVIDUAL. 20 MINUTOS.pdf
+    title: YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICION INDIVIDUAL
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 20 MINUTOS
-      link: /download/PRESS/YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICION INDIVIDUAL. 20 MINUTOS.pdf
-      title: YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICION INDIVIDUAL
+    author: CANARIAS7
+    link: /download/PRESS/YAPCI RAMOS EXHIBE 'WELCOME'. CANARIAS7.pdf
+    title: YAPCI RAMOS EXHIBE 'WELCOME'
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: CANARIAS7
-      link: /download/PRESS/YAPCI RAMOS EXHIBE 'WELCOME'. CANARIAS7.pdf
-      title: YAPCI RAMOS EXHIBE 'WELCOME'
+    author: DIARIO DE AVISOS
+    link: /download/PRESS/UN CONCIERTO CIERRA EL JUEVES LA EXPOSICION 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS. DIARIO DE AVISOS.pdf
+    title: UN CONCIERTO CIERRA EL JUEVES LA EXPOSICION 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: DIARIO DE AVISOS
-      link: /download/PRESS/UN CONCIERTO CIERRA EL JUEVES LA EXPOSICION 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS. DIARIO DE AVISOS.pdf
-      title: UN CONCIERTO CIERRA EL JUEVES LA EXPOSICION 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS
-    ---
+    
+    author: LA PROVINCIA
+    link: /download/PRESS/LAS MEJORES EXPOSICIONES DEL 2021. LA PROVINCIA.pdf
+    title: LAS MEJORES EXPOSICIONES DEL 2021
+    ----------------------------------------
     ::::
-
-        ::::downloads-list-item
-    ---
-      author: LA PROVINCIA
-      link: /download/PRESS/LAS MEJORES EXPOSICIONES DEL 2021. LA PROVINCIA.pdf
-      title: LAS MEJORES EXPOSICIONES DEL 2021
-    ---
-    ::::
-
-        ::::downloads-list-item
-    ---
-      author: LA PROVINCIA
-      link: /download/PRESS/YAPCI RAMOS PARTICIPA EN FLUX 2021. LA PROVINCIA.pdf
-      title: YAPCI RAMOS PARTICIPA EN FLUX 2021
-    ---
-    ::::
-
-
+  
     ::::downloads-list-item
     ---
-      author: EL DIA
-      link: /download/PRESS/NUEVE "MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS. EL DIA.pdf
-      title: NUEVE "MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS
+    
+    author: LA PROVINCIA
+    link: /download/PRESS/YAPCI RAMOS PARTICIPA EN FLUX 2021. LA PROVINCIA.pdf
+    title: YAPCI RAMOS PARTICIPA EN FLUX 2021
+    -----------------------------------------
+    ::::
+  
+    ::::downloads-list-item
+    ---
+    author: EL DIA
+    link: /download/PRESS/NUEVE "MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS. EL DIA.pdf
+    title: NUEVE "MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS
     ---
     ::::
   :::
@@ -301,84 +302,81 @@
   :::downloads-list-wrapper
     ::::downloads-list-item
     ---
-      author: EL DIA
-      link: /download/PRESS/EL LLANTO LIBRE DE YAPCI RAMOS. EL DIA.pdf
-      title: EL LLANTO LIBRE DE YAPCI RAMOS
+    author: EL DIA
+    link: /download/PRESS/EL LLANTO LIBRE DE YAPCI RAMOS. EL DIA.pdf
+    title: EL LLANTO LIBRE DE YAPCI RAMOS
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: STUDIO INTERNATIONAL
-      link: /download/PRESS/YAPCI RAMOS, SHOW ME. STUDIO INTERNATIONAL.pdf
-      title: YAPCI RAMOS, SHOW ME
+    author: STUDIO INTERNATIONAL
+    link: /download/PRESS/YAPCI RAMOS, SHOW ME. STUDIO INTERNATIONAL.pdf
+    title: YAPCI RAMOS, SHOW ME
     ---
     ::::
-
-
+  
     ::::downloads-list-item
     ---
-      author: OBSERVER
-      link: /download/PRESS/GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE. OBSERVER.pdf
-      title: GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE
+    author: OBSERVER
+    link: /download/PRESS/GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE. OBSERVER.pdf
+    title: GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: COOLS
-      link: /download/PRESS/YAPCI RAMOS. COOLS.pdf
-      title: YAPCI RAMOS
+    author: COOLS
+    link: /download/PRESS/YAPCI RAMOS. COOLS.pdf
+    title: YAPCI RAMOS
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: EL PAIS
-      link: /download/PRESS/EL PERPETUO MOVIMIENTO DE YAPCI RAMOS. EL PAIS.pdf
-      title: EL PERPETUO MOVIMIENTO DE YAPCI RAMOS
+    author: EL PAIS
+    link: /download/PRESS/EL PERPETUO MOVIMIENTO DE YAPCI RAMOS. EL PAIS.pdf
+    title: EL PERPETUO MOVIMIENTO DE YAPCI RAMOS
     ---
     ::::
-
-
+  
     ::::downloads-list-item
     ---
-      author: LA PROVINCIA
-      link: /download/PRESS/PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MONICA DE BARCELONA . LA PROVINCIA.pdf
-      title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MONICA DE BARCELONA
+    author: LA PROVINCIA
+    link: /download/PRESS/PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MONICA DE BARCELONA . LA PROVINCIA.pdf
+    title: PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MONICA DE BARCELONA
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: EL DIA
-      link: /download/PRESS/ESCULTURA DEL MENCEY EN CARNE Y HUESO. EL DIA.pdf
-      title: ESCULTURA DEL MENCEY EN CARNE Y HUESO
+    author: EL DIA
+    link: /download/PRESS/ESCULTURA DEL MENCEY EN CARNE Y HUESO. EL DIA.pdf
+    title: ESCULTURA DEL MENCEY EN CARNE Y HUESO
     ---
     ::::
-
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/PRESS/LES FEMMES CREVENT L'ECRAN A LA GALERIE DANYSZ.pdf
-      title: LES FEMMES CREVENT L'ECRAN A LA GALERIE DANYSZ
+    author: null
+    link: /download/PRESS/LES FEMMES CREVENT L'ECRAN A LA GALERIE DANYSZ.pdf
+    title: LES FEMMES CREVENT L'ECRAN A LA GALERIE DANYSZ
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: WALL STREET INTERNATIONAL MAGAZINE
-      link: /download/PRESS/PERRAS Y PUTAS. WALL STREET INTERNATIONAL MAGAZINE.pdf
-      title: PERRAS Y PUTAS
+    author: WALL STREET INTERNATIONAL MAGAZINE
+    link: /download/PRESS/PERRAS Y PUTAS. WALL STREET INTERNATIONAL MAGAZINE.pdf
+    title: PERRAS Y PUTAS
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/PRESS/LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVES DE LA OBRA DE YAPCI RAMOS.pdf
-      title: LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVES DE LA OBRA DE YAPCI RAMOS
+    author: null
+    link: /download/PRESS/LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVES DE LA OBRA DE YAPCI RAMOS.pdf
+    title: LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVES DE LA OBRA DE YAPCI RAMOS
     ---
     ::::
   :::
@@ -386,135 +384,128 @@
   :::downloads-list-wrapper
     ::::downloads-list-item
     ---
-      author: BLOUIN ARTINFO
-      link: /download/PRESS/PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY. BLOUIN ARTINFO.pdf
-      title: PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY
+    author: BLOUIN ARTINFO
+    link: /download/PRESS/PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY. BLOUIN ARTINFO.pdf
+    title: PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY
     ---
     ::::
-
   :::
-
 
 #catalogues
   :::downloads-list-wrapper
- ::::downloads-list-item
----
-author: CAAM
-link: https://www.amazon.es/Yapci-Ramos-Show-Know-Welcome/dp/8417434100
-title:  SHOW ME, KNOW US, WELCOME HER
----
-::::
-
-
     ::::downloads-list-item
     ---
-      author: CARLOS GARRIDO & BRUNO LEITAO
-      link: https://press.uchicago.edu/ucp/books/book/distributed/C/bo185830710.html
-      title: CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA
+    author: CAAM
+    link: https://www.amazon.es/Yapci-Ramos-Show-Know-Welcome/dp/8417434100
+    title: SHOW ME, KNOW US, WELCOME HER
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: CAAM
-      link: http://www.puvill.com/book/el-iris-de-lucy/297360
-      title: EL IRIS DE LUCY
+    author: CARLOS GARRIDO & BRUNO LEITAO
+    link: https://press.uchicago.edu/ucp/books/book/distributed/C/bo185830710.html
+    title: CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: CAAM
-      link: https://caam.net/publicacion/f-artistas-post-conceptuales-en-canarias-2000-2017/
-      title: +F ARTISTAS POST-CONCEPTUALES EN CANARIAS, 2000-2017
+    author: CAAM
+    link: http://www.puvill.com/book/el-iris-de-lucy/297360
+    title: EL IRIS DE LUCY
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: ARUBA
-      link: https://lmpublishers.nl/product/encuentro-arte-contemporaneo-di-caribe/
-      title: PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE 2011-2012
+    author: CAAM
+    link: https://caam.net/publicacion/f-artistas-post-conceptuales-en-canarias-2000-2017/
+    title: +F ARTISTAS POST-CONCEPTUALES EN CANARIAS, 2000-2017
     ---
     ::::
-
+  
+    ::::downloads-list-item
+    ---
+    author: ARUBA
+    link: https://lmpublishers.nl/product/encuentro-arte-contemporaneo-di-caribe/
+    title: PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE 2011-2012
+    ---
+    ::::
   :::
-
 
 #dossiers
   :::downloads-list-wrapper
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Parto_Dossier.pdf
-      title: Parto
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Parto_Dossier.pdf
+    title: Parto
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf
-      title: Monumenta
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf
+    title: Monumenta
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf
-      title: Guayec
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf
+    title: Guayec
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Identity_Dossier.pdf
-      title: Identity
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Identity_Dossier.pdf
+    title: Identity
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf
-      title: Lloro
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf
+    title: Lloro
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_IDontMind_Dossier.pdf
-      title: I Don't Mind
+    author: null
+    link: /download/DOSSIERS/YapciRamos_IDontMind_Dossier.pdf
+    title: I Don't Mind
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf
-      title: Red Hot
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf
+    title: Red Hot
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Perras-Putas_Dossier.pdf
-      title: Perras Y Putas
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Perras-Putas_Dossier.pdf
+    title: Perras Y Putas
     ---
     ::::
-
+  
     ::::downloads-list-item
     ---
-      author: 
-      link: /download/DOSSIERS/YapciRamos_Projects.pdf
-      title: Projects
+    author: null
+    link: /download/DOSSIERS/YapciRamos_Projects.pdf
+    title: Projects Selection
     ---
     ::::
-
   :::
-
 ::
