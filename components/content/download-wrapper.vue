@@ -6,7 +6,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">READS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="reads"></slot>
                     </div>
                 </div>
@@ -15,7 +15,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">PRESS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="press"></slot>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">CATALOGUES</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="catalogues"></slot>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">DOSSIERS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="dossiers"></slot>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
                         <div class="flex flex-col ">
                             <p class="font-medium">READS</p>
-                            <div class="flex mt-0.5 items-starts min-w-fit uppercase  lg:gap-x-0.5">
+                            <div class="flex mt-1 items-starts min-w-fit uppercase  lg:gap-x-0.5">
                                 <slot name="reads"></slot>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
                         <div class="flex flex-col ">
                             <p class="font-medium">PRESS</p>
-                            <div class="flex mt-0.5  items-starts min-w-fit uppercase ">
+                            <div class="flex mt-1  items-starts min-w-fit uppercase ">
                                 <slot name="press"></slot>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
                         <div class="flex flex-col ">
                             <p class="font-medium">CATALOGUES</p>
-                            <div class="flex mt-0.5  items-starts min-w-fit uppercase ">
+                            <div class="flex mt-1  items-starts min-w-fit uppercase ">
                                 <slot name="catalogues"></slot>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
                         <div class="flex flex-col ">
                             <p class="font-medium">DOSSIERS</p>
-                            <div class="flex mt-0.5 items-starts min-w-fit uppercase ">
+                            <div class="flex mt-1 items-starts min-w-fit uppercase ">
                                 <slot name="dossiers"></slot>
                             </div>
                         </div>
