@@ -97,7 +97,7 @@
 
 
 
-  <!--       <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+  <!--       <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

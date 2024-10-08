@@ -1,7 +1,7 @@
 ---
 article-section-title: DIARIO DE AVISOS
 article-title: UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN ‘MONUMENTA’, DE LA ARTISTA YAPCI RAMOS
-author-info: BY
+author-info: 
 date: NOV 08, 2023
 image: /press-content/03_Diario de Avisos/Preview_Pic.jpg
 ---

@@ -10,7 +10,7 @@
         </div>
 
         <div class="w-full flex items-start">
-            <div class="w-[82%] p-3 leading-[1.1]">
+            <div class="w-[82%] p-3 leading-[1.3]">
                 <h2 class=" uppercase font-medium">
                     Parto. INSTALLATION
                 </h2>
@@ -52,7 +52,7 @@
 
         <div class="flex items-start p-3">
             <div class="w-[40.57%] ">
-                <div class="w-[69.98%] leading-[1.1]">
+                <div class="w-[69.98%] leading-[1.3]">
 
                     <p class="mt-3">
                         The artistic processes involve a journey of germination, imagination, and birth to inaugurate a
@@ -166,7 +166,7 @@
             </div>
         </div>
 
-        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

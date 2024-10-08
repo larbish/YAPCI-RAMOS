@@ -1,13 +1,13 @@
 <template>
     <div class="text-black w-full pt-44 bg-white">
-        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 sticky top-44 text-white mix-blend-difference leading-[1.1]">
+        <div class="px-2 lg:px-40 flex uppercase tracking-wide items-center gap-x-3 sticky top-44 text-white mix-blend-difference leading-[1.3]">
             <NuxtLink to="/work">List</NuxtLink>
             <NuxtLink to="/work/grid" class="border-b border-spacing-0  border-white">Grid</NuxtLink>
         </div>
 
         <div class="w-full hidden lg:block">
             <div class="w-full flex mt-14">
-                <section class="flex items-start w-full leading-[1.1]">
+                <section class="flex items-start w-full">
                     <NuxtLink to="/projects/parto"
                         class="flex flex-col cursor-pointer w-[40.31%] min-w-[40.31%] hover:text-gray-400 transition-colors duration-300">
                         <img src="/work/parto/Parto_019.png" class="w-full max-w-full min-w-full pr-[1px]"
@@ -24,7 +24,7 @@
 
                     <NuxtLink to="/projects/monumenta"
                         class="flex flex-col cursor-pointer w-[30.26%] min-w-[30.26%] hover:text-gray-400 transition-colors duration-300">
-                        <img src="@/assets/images/grid-image-three.png" class="w-full max-w-full min-w-full pr-[1px]"
+                        <img src="@/assets/images/grid-image-one.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
                         <p class="pl-2.5">MONUMENTA. 2022. INSTALLATION</p>
                     </NuxtLink>
@@ -89,7 +89,7 @@
 
         <div class="w-full  lg:hidden">
             <div class="w-full flex mt-14">
-                <section class="grid grid-cols-2 items-start w-full gap-y-10 leading-[1.1]">
+                <section class="grid grid-cols-2 items-start w-full gap-y-10 leading-[1.3]">
                     <NuxtLink to="/projects/parto" class="flex flex-col cursor-pointer w-full hover:text-gray-400 transition-colors duration-300">
                         <img src="@/assets/images/grid-image-res-three.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
@@ -141,7 +141,7 @@
 
 
 
-        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

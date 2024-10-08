@@ -4,7 +4,7 @@
             <video @click="toggleFullScreen" @touchend="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4" class="h-full pointer-events-auto w-full object-cover"
                 muted loop autoplay playsinline></video>
         </div>
-        <div class="p-2 flex gap-x-2 leading-[1.1]">
+        <div class="p-2 flex gap-x-2 leading-[1.3]">
             <h2 class=" uppercase font-medium">
                 MONUMENTA
             </h2>
@@ -39,7 +39,7 @@
         </div>
 
 
-        <div class="p-2 flex gap-x-2 leading-[1.1] mt-5">
+        <div class="p-2 flex gap-x-2 leading-[1.3] mt-5">
             <h2 class=" uppercase font-medium">
                 MONUMENTA
             </h2>

@@ -1,7 +1,7 @@
 ---
 article-section-title: LA VANGUARDIA
 article-title: LAS MUJERES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS
-author-info: BY
+author-info: 
 date: SEP 08, 2023
 image: /press-content/04_La Vanguardia/Preview_Pic.png
 ---

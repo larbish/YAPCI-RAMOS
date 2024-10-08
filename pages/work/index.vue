@@ -16,7 +16,7 @@
         </div>
 
         <div
-            class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.1] text-white mix-blend-difference">
+            class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.3] text-white mix-blend-difference">
             <NuxtLink to="/work" class="border-b border-spacing-0  border-white">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
@@ -38,7 +38,7 @@
         <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-2 z-10 text-white mix-blend-difference"
             v-auto-animate>
             <NuxtLink v-for="(project, index) in sortedProjects" :key="index" @mouseenter="hoverIndex = index"
-                :to="project.link" @mouseleave="hoverIndex = null"
+                :to="project.link" @mouseleave="hoverIndex = null" class="hover:opacity-65"
                 :class="['w-full flex hover:text-[#D9D9D9] hover:cursor-pointer']" v-auto-animate>
                 <h2 class="w-14 lg:w-64">{{ project.year }}</h2>
                 <h2 class="w-[45vw] min-w-[45vw] lg:w-[30vw] lg:min-w-[30vw]">{{ project.title }}</h2>
@@ -46,7 +46,7 @@
             </NuxtLink>
         </div>
 
-        <p class=" mt-16 text-center w-full lg:text-left absolute bottom-0 lg:mt-64 pl-2 pb-1 lg:pb-1 leading-[1.1]">
+        <p class=" mt-16 text-center w-full lg:text-left absolute bottom-0 lg:mt-64 pl-2 pb-1 lg:pb-1 leading-[1.3]">
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
         </p>

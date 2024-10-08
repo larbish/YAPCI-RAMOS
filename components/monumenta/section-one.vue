@@ -13,7 +13,7 @@
                 <img src="@/assets/images/image-four.png" class="w-full" alt="">
             </div>
 
-            <div class="w-[28.33%] p-3 leading-[1.1]">
+            <div class="w-[28.33%] p-3 leading-[1.3]">
                 <h2 class=" uppercase font-medium">
                     MONUMENTA. nueve encarnaciones guanches
                 </h2>
@@ -58,7 +58,7 @@
 
         <div class="flex items-start">
             <div class="w-[40.57%] p-3">
-                <div class="w-[69.98%] leading-[1.1]">
+                <div class="w-[69.98%] leading-[1.3]">
                     <h2 class="font-medium uppercase">MONUMENTA. nueve encarnaciones  guanches</h2>
 
                     <p class="mt-3">
@@ -160,7 +160,7 @@
             </div>
         </div>
 
-        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.1]">
+        <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

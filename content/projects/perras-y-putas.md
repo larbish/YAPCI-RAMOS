@@ -257,14 +257,11 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgements.** Orlando Britto Jinorio and  Jody-Alice Leanez.
+    **Acknowledgements.** Orlando Britto Jinorio and Jody-Alice Leanez.
     ::::
   
     ::::project-credit-item
     :br
-    
-    :br
-    
     With the support of Canarias Crea (Spain) and Foundation Insight for the Arts-Aruba.
     ::::
   
@@ -290,7 +287,7 @@
     ::::
   
     ::::project-credit-item
-    En diálogo con José  Martín, CAAM, Centro Atlántico do Arte Moderno, Las Palmas de Gran Canaria. 2021 
+    En diálogo con José  Martín, CAAM, Centro Atlántico do Arte Moderno, Las Palmas de Gran Canaria. 2021
     ::::
   
   #downloads

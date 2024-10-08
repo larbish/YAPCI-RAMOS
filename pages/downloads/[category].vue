@@ -4,14 +4,14 @@
             class="wrapper flex overflow-x-scroll lg:overflow-x-auto h-full flex-nowrap gap-x-10 bg-white leading-[1.4]">
             <section v-for="(section, index) in filteredSections" :key="index"
                 class="download-scroll-section w-fit h-full pt-56 first:pl-4 lg:first:pl-64 gap-x-10 lg:gap-x-8 lg:pl-8 flex-shrink-0 d-flex line-right  cursor-default">
-                <div class="flex flex-col leading-[1.1]">
+                <div class="flex flex-col leading-[1.3]">
                     <p class="font-medium">{{ section.title }}</p>
                     <div
-                        class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.1]">
+                        class=" min-w-max lg:min-w-max mt-0.5 grid grid-flow-col grid-rows-8 gap-x-10 lg:grid-rows-10 lg:grid-flow-col leading-[1.3]">
                         <a v-for="(item, idx) in section.items" target="_blank" download :href="item.path" :key="idx"
                             class="grid grid-cols-2 lg:grid-cols-5  uppercase hover:text-neutral-400 gap-x-4 cursor-pointer">
-                            <p class="lg:col-span-3 leading-[1.1]">{{ item.title }}</p>
-                            <p class="lg:col-span-2 leading-[1.1]">{{ item.author }}</p>
+                            <p class="lg:col-span-3 leading-[1.3]">{{ item.title }}</p>
+                            <p class="lg:col-span-2 leading-[1.3]">{{ item.author }}</p>
                         </a>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
         <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center">
             <div class="relative h-fit max-w-60 lg:max-w-fit lg:w-fit">
                 <div
-                    class="flex items-start text-[0.15rem] leading-[1.1] sm:leading-[1.1] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1] lg:gap-x-0.5">
+                    class="flex items-start text-[0.15rem] leading-[1.3] sm:leading-[1.3] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.3] lg:gap-x-0.5">
                     <ul v-for="(section, index) in filteredSections" :key="index" class="p-0 m-0">
                         <!-- Added classes to remove padding and margin -->
                         <div class="flex flex-col">
@@ -47,7 +47,7 @@
                             <div class="grid grid-rows-10 grid-flow-col gap-0 overflow-hidden"> <!-- Ensure gap is 0 -->
                                 <div v-for="(item, idx) in section.items" :key="idx"
                                     class="max-w-9 whitespace-break-spaces grid gap-0 max-h-fit w-9 min-w-9 lg:min-w-fit lg:w-fit lg:max-w-fit">
-                                    <p class="w-full leading-[1.1] h-min max-h-min m-0 p-0">{{ item.title }}</p>
+                                    <p class="w-full leading-[1.3] h-min max-h-min m-0 p-0">{{ item.title }}</p>
                                     <!-- Remove margin and padding -->
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                 <div ref="progressIndicator" class="h-[140%] absolute top-[-20%] bg-black w-[1px] left-[0%]"></div>
             </div>
         </div>
-        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 leading-[1.1]">
+        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 leading-[1.3]">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

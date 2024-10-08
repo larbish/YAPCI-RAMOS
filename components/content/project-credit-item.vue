@@ -13,4 +13,8 @@
 strong {
     font-weight: 500;
 }
+
+a:hover {
+    opacity: 0.65;
+}
 </style>
