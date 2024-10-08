@@ -57,20 +57,44 @@
         <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center">
             <div class="relative h-fit max-w-[90vw] lg:max-w-fit lg:w-fit">
                 <div
-                    class="flex items-start text-[0.15rem] leading-[1.1] sm:leading-[1.1] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1] lg:gap-x-0.5">
-                    <ul v-for="(section, index) in sections" :key="index" class="p-0 m-0">
-                        <!-- Added classes to remove padding and margin -->
-                        <div class="flex flex-col">
-                            <p class="font-medium m-0 p-0">{{ section.title }}</p> <!-- Remove margin and padding -->
-                            <div class="grid grid-rows-10 grid-flow-col gap-0 overflow-hidden"> <!-- Ensure gap is 0 -->
-                                <div v-for="(item, idx) in section.items" :key="idx"
-                                    class="max-w-9 whitespace-break-spaces grid gap-0 max-h-fit w-9 min-w-9 lg:min-w-fit lg:w-fit lg:max-w-fit">
-                                    <p class="w-full leading-[1.1] h-min max-h-min m-0 p-0">{{ item.title }}</p>
-                                    <!-- Remove margin and padding -->
-                                </div>
+                    class="flex items-start text-[0.1rem] leading-[1] sm:leading-[1.1] mini-map sm:text-[0.12rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1] lg:gap-x-0.5">
+
+
+                    <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
+                        <div class="flex flex-col leading-[1.1]">
+                            <p class="font-medium">READS</p>
+                            <div class="flex mt-0.5 items-starts min-w-fit uppercase leading-[1.1] lg:gap-x-0.5">
+                                <slot name="reads"></slot>
                             </div>
                         </div>
-                    </ul>
+                    </section>
+
+                    <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
+                        <div class="flex flex-col leading-[1.1]">
+                            <p class="font-medium">PRESS</p>
+                            <div class="flex mt-0.5  items-starts min-w-fit uppercase leading-[1.1]">
+                                <slot name="press"></slot>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
+                        <div class="flex flex-col leading-[1.1]">
+                            <p class="font-medium">CATALOGUES</p>
+                            <div class="flex mt-0.5  items-starts min-w-fit uppercase leading-[1.1]">
+                                <slot name="catalogues"></slot>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
+                        <div class="flex flex-col leading-[1.1]">
+                            <p class="font-medium">DOSSIERS</p>
+                            <div class="flex mt-0.5 items-starts min-w-fit uppercase leading-[1.1]">
+                                <slot name="dossiers"></slot>
+                            </div>
+                        </div>
+                    </section>
                 </div>
 
 
@@ -92,317 +116,6 @@ import gsap from "gsap";
 import Draggable from "gsap/Draggable";
 const progressIndicator = ref(null);
 
-const sections = ref([
-    {
-        title: "READS",
-        items: [
-            {
-                title: "WHERE I COME FROM AND WHERE I BELONG",
-                author: "BARBARA POLLA",
-                path: "/download/READS//WHERE I COME FROM AND WHERE I BELONG. BARBARA POLLA.pdf",
-            }, {
-                title: "EL SILBO DE ORO",
-                author: "DILLON COHEN",
-                path: "/download/READS//EL SILBO DE ORO. DILLON COHEN.pdf",
-            }, {
-                title: "CURIOSITÉS CONTEMPORAINES",
-                author: "LISA TOUBAS",
-                path: "/download/READS//CURIOSITÉS CONTEMPORAINES. LISA TOUBAS.pdf",
-            },
-            {
-                title: "TO THE GUTS OF YAPCI RAMOS",
-                author: "NORA NAVARRO",
-                path: "/download/READS//TO THE GUTS OF YAPCI RAMOS. NORA NAVARRO.pdf",
-            }, {
-                title: "THE ROOTS OF FLIGHT",
-                author: "NORA NAVARRO",
-                path: "/download/READS//THE ROOTS OF FLIGHT. NORA NAVARRO.pdf",
-            }, {
-                title: "YAPCI RAMOS, SHOW ME",
-                author: "LILLY WEI",
-                path: "/download/READS//YAPCI RAMOS, SHOW ME. LILLY WEI.pdf",
-            }, {
-                title: "GLANCES, VOICE AND BLOOD",
-                author: "THE INSURRECTION OF THE BODY. IMMA PRIETO",
-                path: "/download/READS//GLANCES, VOICE AND BLOOD. THE INSURRECTION OF THE BODY. IMMA PRIETO.pdf",
-            },
-            {
-                title: "NOTHING IS TRUE, EVERYTHING IS LIVING",
-                author: "CECILE BOURNE FARRELL",
-                path: "/download/READS//NOTHING IS TRUE, EVERYTHING IS LIVING. CECILE BOURNE FARRELL.pdf",
-            },
-            {
-                title: "REBIRTHING RITUAL",
-                author: "NORA NAVARRO",
-                path: "/download/READS//REBIRTHING RITUAL. NORA NAVARRO.pdf",
-            }, {
-                title: "GUAYEC",
-                author: "MARINA RIBOT",
-                path: "/download/READS//GUAYEC. MARINA RIBOT.pdf",
-            }, {
-                title: "YAPCI RAMOS",
-                author: "ELYSSA GOODMAN",
-                path: "/download/READS//YAPCI RAMOS. ELYSSA GOODMAN.pdf",
-            }, {
-                title: "YAPCI RAMOS",
-                author: "SETH CLUETT",
-                path: "/download/READS//YAPCI RAMOS. SETH CLUETT.pdf",
-            }, {
-                title: "JOURNES OF THE SELF TOWARDS OTHERS",
-                author: "NORA NAVARRO",
-                path: "/download/READS//JOURNES OF THE SELF TOWARDS OTHERS. NORA NAVARRO.pdf",
-            }, {
-                title: "AGENCY AND ACTION",
-                author: "JUSTINE LUDWIG",
-                path: "/download/READS//AGENCY AND ACTION. JUSTINE LUDWIG.pdf",
-            }, {
-                title: "PULSIONES, PREGUNTAS Y MIRADAS",
-                author: "YOLANDA PERALTA",
-                path: "/download/READS//PULSIONES, PREGUNTAS Y MIRADAS. YOLANDA PERALTA.pdf",
-            }, {
-                title: "DOBLE JEU",
-                author: "LES AUTRES. JE. CATHARSIS. SIMON NJAMI",
-                path: "/download/READS//DOBLE JEU. LES AUTRES. JE. CATHARSIS. SIMON NJAMI.pdf",
-            }
-        ]
-    },
-    {
-        title: "PRESS",
-        items: [
-            {
-                title: "PRESS SELECTION",
-                author: "EXIBART",
-                path: "/download/PRESS/PRESS SELECTION.pdf",
-            },
-            {
-                title: "YAPCI RAMOS",
-                author: "PAPER MAGAZINE",
-                path: "/download/PRESS/YAPCI RAMOS. PAPER MAGAZINE.pdf",
-            }, {
-                title: "YAPCI RAMOS REIVINDICA LA MUJER GUANCHE",
-                author: "LA VANGUARDIA",
-                path: "/download/PRESS/YAPCI RAMOS REIVINDICA LA MUJER GUANCHE. LA VANGUARDIA.pdf",
-            }, {
-                title: "TO THE GUTS OF YAPCI RAMOS",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/TO THE GUTS OF YAPCI RAMOS. LA PROVINCIA.pdf",
-            }, {
-                title: "14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA. LA PROVINCIA.pdf",
-            },
-            {
-                title: "POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND",
-                author: "HYSTERIA",
-                path: "/download/PRESS/POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND. HYSTERIA.pdf",
-            }, {
-                title: "YAPCI RAMOS, SHOW",
-                author: "EL CULTURAL DE CANARIAS",
-                path: "/download/PRESS/YAPCI RAMOS, SHOW. EL CULTURAL DE CANARIAS.pdf",
-            }, {
-                title: "YAPCI RAMOS MAKES ART USING HER OWN BLOOD",
-                author: "FORBES",
-                path: "/download/PRESS/YAPCI RAMOS MAKES ART USING HER OWN BLOOD. FORBES.pdf",
-            }, {
-                title: "LA MUJER AUSENTE EN EL ESPACIO PÚBLICO",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/LA MUJER AUSENTE EN EL ESPACIO PÚBLICO. LA PROVINCIA.pdf",
-            },
-            {
-                title: "'LLORO', LA ÚLTIMA CREACIÓN DE YAPCI RAMOS",
-                author: "RTVC",
-                path: "/download/PRESS/'LLORO', LA ÚLTIMA CREACIÓN DE YAPCI RAMOS. RTVC.pdf",
-            },
-            {
-                title: "LA MÚSICA ACOMPAÑA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'",
-                author: "DIARIO DE AVISOS",
-                path: "/download/PRESS/LA MÚSICA ACOMPAÑA A YAPCI RAMOS EN LA DESPEDIDA DE MUESTRA 'MONUMENTA'. DIARIO DE AVISOS.pdf",
-            },
-            {
-                title: "YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART",
-                author: "pdf",
-                path: "/download/PRESS/YAPCI RAMOS PRESENTA 'MONUMENTA' EXIBART.pdf",
-            }, {
-                title: "YAPCI RAMOS EXPONE 'MONUMENTA'",
-                author: "RTVC",
-                path: "/download/PRESS/YAPCI RAMOS EXPONE 'MONUMENTA'. RTVC.pdf",
-            }, {
-                title: "JANET BIGGS ET YAPCI RAMOS, DÉSASTRE, CADASTRE",
-                author: "DE L'ART HELVÉTIQUE CONTEMPORAIN",
-                path: "/download/PRESS/JANET BIGGS ET YAPCI RAMOS, DÉSASTRE, CADASTRE. DE L'ART HELVÉTIQUE CONTEMPORAIN.pdf",
-            },
-            {
-                title: "YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICIÓN INDIVIDUAL",
-                author: "20 MINUTOS",
-                path: "/download/PRESS/YAPCI RAMOS PRESENTA EN TEA 'SHOW ME', SU PRIMERA EXPOSICIÓN INDIVIDUAL. 20 MINUTOS.pdf",
-            },
-            {
-                title: "YAPCI RAMOS EXHIBE 'WELCOME'",
-                author: "CANARIAS7",
-                path: "/download/PRESS/YAPCI RAMOS EXHIBE 'WELCOME'. CANARIAS7.pdf",
-            }, {
-                title: "UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS",
-                author: "DIARIO DE AVISOS",
-                path: "/download/PRESS/UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN 'MONUMENTA', DE LA ARTISTA YAPCI RAMOS. DIARIO DE AVISOS.pdf",
-            },
-            {
-                title: "LAS MEJORES EXPOSICIONES DEL 2021",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/LAS MEJORES EXPOSICIONES DEL 2021. LA PROVINCIA.pdf",
-            }, {
-                title: "YAPCI RAMOS PARTICIPA EN FLUX 2021",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/YAPCI RAMOS PARTICIPA EN FLUX 2021. LA PROVINCIA.pdf",
-            }, {
-                title: "NUEVE \"MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS",
-                author: "EL DIA",
-                path: "/download/PRESS/NUEVE \"MENCEYAS' CONQUISTAN LA ERMITA DE SAN MIGUEL DE MANOS DE YAPCI RAMOS. EL DIA.pdf",
-            },
-            {
-                title: "EL LLANTO LIBRE DE YAPCI RAMOS",
-                author: "EL DIA",
-                path: "/download/PRESS/EL LLANTO LIBRE DE YAPCI RAMOS. EL DIA.pdf",
-            }, {
-                title: "YAPCI RAMOS, SHOW ME",
-                author: "STUDIO INTERNATIONAL",
-                path: "/download/PRESS/YAPCI RAMOS, SHOW ME. STUDIO INTERNATIONAL.pdf",
-            }, {
-                title: "GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE",
-                author: "OBSERVER",
-                path: "/download/PRESS/GALLERIES GET IT RIGHT, NYC'S NOT-TO-MISS SPRING EXHIBITIONS ARE ALL FEMALE. OBSERVER.pdf",
-            },
-            {
-                title: "YAPCI RAMOS",
-                author: "COOLS",
-                path: "/download/PRESS/YAPCI RAMOS. COOLS.pdf",
-            }, {
-                title: "EL PERPETUO MOVIMIENTO DE YAPCI RAMOS",
-                author: "EL PAÍS",
-                path: "/download/PRESS/EL PERPETUO MOVIMIENTO DE YAPCI RAMOS. EL PAÍS.pdf",
-            },
-            {
-                title: "PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA",
-                author: "LA PROVINCIA",
-                path: "/download/PRESS/PARIR Y RENACER DE YAPCI RAMOS EN EL SANTA MÒNICA DE BARCELONA . LA PROVINCIA.pdf",
-            },
-            {
-                title: "ESCULTURA DEL MENCEY EN CARNE Y HUESO",
-                author: "EL DIA",
-                path: "/download/PRESS/ESCULTURA DEL MENCEY EN CARNE Y HUESO. EL DIA.pdf",
-            }, {
-                title: "LES FEMMES CRÈVENT L'ÉCRAN À LA GALERIE DANYSZ",
-                author: "",
-                path: "/download/PRESS/LES FEMMES CRÈVENT L'ÉCRAN À LA GALERIE DANYSZ.pdf",
-            },
-            {
-                title: "PERRAS Y PUTAS",
-                author: "WALL STREET INTERNATIONAL MAGAZINE",
-                path: "/download/PRESS/PERRAS Y PUTAS. WALL STREET INTERNATIONAL MAGAZINE.pdf",
-            }, {
-                title: "LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS",
-                author: "",
-                path: "/download/PRESS/LAS MUJERES GUANCHES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS.pdf",
-            },
-            {
-                title: "PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY",
-                author: "BLOUIN ARTINFO",
-                path: "/download/PRESS/PHOTOGRAPHER YAPCI RAMOS FOCUSES ON SEX WORKERS AND STRAY. BLOUIN ARTINFO.pdf",
-            }
-        ]
-    },
-    {
-        title: "OTHERS",
-        items: [
-            {
-                title: "YAPCI RAMOS CV",
-                author: "BLOUIN ARTINFO",
-                path: "/download/OTHERS",
-            }
-
-        ]
-    },
-    {
-        title: "CATALOGUES",
-        items: [
-            {
-                title: "YAPCI RAMOS: SHOW ME, KNOW US, WELCOME HER",
-                author: "",
-                path: "https://www.amazon.es/Yapci-Ramos-Show-Know-Welcome/dp/8417434100",
-            },
-            {
-                title: "CURATING AND THE LEGACIES OF COLONIALISM IN CONTEMPORARY IBERIA ",
-                author: "CARLOS GARRIDO & BRUNO LEITAO",
-                path: "https://press.uchicago.edu/ucp/books/book/distributed/C/bo185830710.html",
-            },
-            {
-                title: "EL IRIS DE LUCY CAAM",
-                author: "",
-                path: "http://www.puvill.com/book/el-iris-de-lucy/297360",
-            },
-            {
-                title: "ARTISTAS POST-CONCEPTUALES EN CANARIAS, ",
-                author: "2000-2017 CAAM",
-                path: "https://caam.net/publicacion/f-artistas-post-conceptuales-en-canarias-2000-2017/",
-            },
-            {
-                title: "PROME ENCUENTRO ARTE CONTEMPORANEO DI CARIBE ",
-                author: "2011-2012 ARUBA",
-                path: "https://lmpublishers.nl/product/encuentro-arte-contemporaneo-di-caribe/",
-            },
-        ]
-    },
-    {
-        title: "DOSSIERS",
-        items: [
-            {
-                title: "Parto",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Parto_Dossier.pdf",
-            },
-            {
-                title: "Monumenta",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf",
-            },
-            {
-                title: "Guayec",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Guayec_Dossier.pdf",
-            },
-            {
-                title: "Identity",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Identity_Dossier.pdf",
-            },
-
-            {
-                title: "Lloro",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf",
-            },
-            {
-                title: "I Don't Mind",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_IDontMind_Dossier.pdf",
-            },
-            {
-                title: "Red Hot",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Red-Hot_Dossier.pdf",
-            },
-            {
-                title: "Perras Y Putas",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Perras-Putas_Dossier.pdf",
-            },
-            {
-                title: "Projects",
-                author: "",
-                path: "/download/DOSSIERS/YapciRamos_Projects.pdf",
-            },
-        ]
-    }
-]);
 
 const navLinks = ["ALL", "READS", "PRESS", "CATALOGUES", "DOSSIERS"];
 const wrapper = ref(null);

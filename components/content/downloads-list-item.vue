@@ -1,6 +1,6 @@
 <template>
     <a target="_blank" :href="link"
-        class="w-[90vw] sm:w-[40vw] 2xl:w-[30vw] gap-x-4 grid grid-cols-3 !leading-[1.1]">
+        class="w-[90vw] sm:w-[40vw] 2xl:w-[30vw] gap-x-4 grid grid-cols-3 !leading-[1.1] downloads-list-item">
         <p class="col-span-2 leading-[1.1]">{{ props.title }}</p>
         <p>{{ props.author }}</p>
     </a>
@@ -13,3 +13,21 @@ const props = defineProps({
     link: String
 })
 </script>
+
+
+
+<style>
+.mini-map .downloads-list-item {
+    width: 45px !important;
+    column-gap: 0.5px;
+}
+
+@media (min-width: 1024px) {
+    .mini-map .downloads-list-item {
+        width: 5vw !important;
+        column-gap: 0.5px;
+    }
+}
+
+
+</style>
