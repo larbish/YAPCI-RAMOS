@@ -133,4 +133,87 @@
   :::
 
 #press
+ :::downloads-list-wrapper
+    ::::downloads-list-item
+    ---
+      author: EXIBART
+      link: /download/PRESS/PRESS SELECTION.pdf
+      title: PRESS SELECTION
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: PAPER MAGAZINE
+      link: /download/PRESS/YAPCI RAMOS. PAPER MAGAZINE.pdf
+      title: YAPCI RAMOS
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: LA VANGUARDIA
+      link: /download/PRESS/YAPCI RAMOS REIVINDICA LA MUJER GUANCHE. LA VANGUARDIA.pdf
+      title: YAPCI RAMOS REIVINDICA LA MUJER GUANCHE
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: LA PROVINCIA
+      link: /download/PRESS/TO THE GUTS OF YAPCI RAMOS. LA PROVINCIA.pdf
+      title: TO THE GUTS OF YAPCI RAMOS
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: LA PROVINCIA
+      link: /download/PRESS/14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA. LA PROVINCIA.pdf
+      title: 14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: HYSTERIA
+      link: /download/PRESS/POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND. HYSTERIA.pdf
+      title: POST-CONCEPTUAL ARTISTS IN THE CANARY ISLAND
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: EL CULTURAL DE CANARIAS
+      link: /download/PRESS/YAPCI RAMOS, SHOW. EL CULTURAL DE CANARIAS.pdf
+      title: YAPCI RAMOS, SHOW
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: FORBES
+      link: /download/PRESS/YAPCI RAMOS MAKES ART USING HER OWN BLOOD. FORBES.pdf
+      title: YAPCI RAMOS MAKES ART USING HER OWN BLOOD
+    ---
+    ::::
+
+    ::::downloads-list-item
+    ---
+      author: LA PROVINCIA
+      link: /download/PRESS/LA MUJER AUSENTE EN EL ESPACIO PÚBLICO. LA PROVINCIA.pdf
+      title: LA MUJER AUSENTE EN EL ESPACIO PÚBLICO
+    ---
+    ::::
+    
+::::downloads-list-item
+---
+author: RTVC
+link: /download/PRESS/LLORO, LA ULTIMA CREACION DE YAPCI RAMOS RTVC.pdf
+title: LLORO, LA ULTIMA CREACION DE YAPCI RAMOS
+---
+::::
+
+    
+ :::
 ::
