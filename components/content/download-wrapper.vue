@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black">
+    <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black downloads-main-wrapper">
         <div ref="wrapper"
             class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-14 bg-white leading-[1.2]">
 
@@ -208,10 +208,13 @@ onMounted(async () => {
 
 
 
-<style>
+<style scoped>
 
-/* hide scroll bar */
-.wrapper::-webkit-scrollbar {
+/* hide scroll bar  to all the child components of wrapper*/
+
+::-webkit-scrollbar {
     display: none;
+    opacity: 0px;
 }
+
 </style>
