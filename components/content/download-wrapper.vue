@@ -4,36 +4,36 @@
             class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-14 bg-white leading-[1.2]">
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.1]">
+                <div class="flex flex-col ">
                     <p class="font-medium">READS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.1]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="reads"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.1]">
+                <div class="flex flex-col ">
                     <p class="font-medium">PRESS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.1]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="press"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.1]">
+                <div class="flex flex-col ">
                     <p class="font-medium">CATALOGUES</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.1]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="catalogues"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.1]">
+                <div class="flex flex-col ">
                     <p class="font-medium">DOSSIERS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.1]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="dossiers"></slot>
                     </div>
                 </div>
@@ -54,43 +54,43 @@
             </NuxtLink>
         </div>
 
-        <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center">
+        <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center leading-[1.1]">
             <div class="relative h-fit max-w-[90vw] lg:max-w-fit lg:w-fit">
                 <div
-                    class="flex items-start text-[0.1rem] leading-[1] sm:leading-[1.1] mini-map sm:text-[0.12rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.1] lg:gap-x-0.5">
+                    class="flex items-start text-[0.1rem] leading-[1] sm: mini-map sm:text-[0.12rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl: lg:gap-x-0.5">
 
 
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
-                        <div class="flex flex-col leading-[1.1]">
+                        <div class="flex flex-col ">
                             <p class="font-medium">READS</p>
-                            <div class="flex mt-0.5 items-starts min-w-fit uppercase leading-[1.1] lg:gap-x-0.5">
+                            <div class="flex mt-0.5 items-starts min-w-fit uppercase  lg:gap-x-0.5">
                                 <slot name="reads"></slot>
                             </div>
                         </div>
                     </section>
 
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
-                        <div class="flex flex-col leading-[1.1]">
+                        <div class="flex flex-col ">
                             <p class="font-medium">PRESS</p>
-                            <div class="flex mt-0.5  items-starts min-w-fit uppercase leading-[1.1]">
+                            <div class="flex mt-0.5  items-starts min-w-fit uppercase ">
                                 <slot name="press"></slot>
                             </div>
                         </div>
                     </section>
 
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
-                        <div class="flex flex-col leading-[1.1]">
+                        <div class="flex flex-col ">
                             <p class="font-medium">CATALOGUES</p>
-                            <div class="flex mt-0.5  items-starts min-w-fit uppercase leading-[1.1]">
+                            <div class="flex mt-0.5  items-starts min-w-fit uppercase ">
                                 <slot name="catalogues"></slot>
                             </div>
                         </div>
                     </section>
 
                     <section class="w-fit h-fit max-w-fit min-w-fit cursor-default">
-                        <div class="flex flex-col leading-[1.1]">
+                        <div class="flex flex-col ">
                             <p class="font-medium">DOSSIERS</p>
-                            <div class="flex mt-0.5 items-starts min-w-fit uppercase leading-[1.1]">
+                            <div class="flex mt-0.5 items-starts min-w-fit uppercase ">
                                 <slot name="dossiers"></slot>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                 <div ref="progressIndicator" class="h-[140%] absolute top-[-20%] bg-black w-[1px] left-[0%]"></div>
             </div>
         </div>
-        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 leading-[1.1]">
+        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 ">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
