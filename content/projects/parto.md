@@ -313,10 +313,7 @@
   right-width-percent: 49.5%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Codices_Parturientas_4 1.png
-    ---
+    ::::project-desktop-image{image-path="/work/parto/Codices_Parturientas_4 1.png"}
     ::::
   :::
 
@@ -489,7 +486,9 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez To all the women who have accompanied me through the process of expulsion and release
+    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez
+    
+    To all the women who have accompanied me through the process of expulsion and release
     ::::
   
   #presented-at
