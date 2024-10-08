@@ -34,15 +34,6 @@
 
   :::project-desktop-variant
   ---
-  leftWidthPercent: 84.38%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
   justify-content: space-between
   leftWidthPercent: 23.54%
   rightWidthPercent: 59.53%
@@ -617,7 +608,7 @@
     **Texts.** Nora Navarro
     ::::
   
-  #downloads  
+  #downloads
     ::::project-credit-item
     [DOSSIER](/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf)
     ::::
