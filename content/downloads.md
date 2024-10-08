@@ -127,7 +127,7 @@
     ---
     author: SIMON NJAMI 
     link: /download/READS//DOBLE JEU. LES AUTRES. JE. CATHARSIS. SIMON NJAMI.pdf
-    title: DOBLE JEU. LES AUTRES. JE. CATHARSIS (title)
+    title: DOBLE JEU. LES AUTRES. JE. CATHARSIS 
     ---
     ::::
   :::
