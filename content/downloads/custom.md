@@ -457,20 +457,20 @@
     title: Guayec
     ---
     ::::
+
+    ::::downloads-list-item
+    ---
+    author: '2021'
+    link: /download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf
+    title: Lloro
+    ---
+    ::::
   
     ::::downloads-list-item
     ---
     author: '2019'
     link: /download/DOSSIERS/YapciRamos_Identity_Dossier.pdf
     title: Identity
-    ---
-    ::::
-  
-    ::::downloads-list-item
-    ---
-    author: '2021'
-    link: /download/DOSSIERS/YapciRamos_Lloro_Dossier.pdf
-    title: Lloro
     ---
     ::::
   

@@ -1,7 +1,7 @@
 <template>
     <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black downloads-main-wrapper">
         <div ref="wrapper"
-            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-20 !cursor-default bg-white leading-[1.3]">
+            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-[6vw] !cursor-default bg-white leading-[1.3]">
 
             <section v-if="isSelected('reads')" class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
