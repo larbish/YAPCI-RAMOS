@@ -187,3 +187,10 @@ const goToNextArticle = () => {
     }, 100);
 } */
 </script>
+
+
+<style>
+a:hover{
+    opacity: 0.65 !important;
+}
+</style>
