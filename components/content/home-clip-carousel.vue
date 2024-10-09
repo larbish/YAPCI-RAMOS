@@ -45,8 +45,6 @@ const props = defineProps({
     projectFiveVideo: String
 });
 
-console.log(props)
-
 const currentVideoIndex = ref(0);
 let hideCircle = useState('moveAnimationEnabled');
 
@@ -66,7 +64,7 @@ onMounted(() => {
         document.createElement('video'),
         document.createElement('video'),
         document.createElement('video'),
-        document.createElement('video'),
+        document.createElement('video')
     ];
 
     videos[0].src = props.projectOneVideo;
@@ -88,63 +86,18 @@ onMounted(() => {
     let radius = 80;
     let maxRadius = canvas.width;
 
-    function drawFadingCircle(ctx, x, y, radius, video) {
-    // Draw the video image within the circle
-    const scaleX = canvas.width / video.videoWidth;
-    const scaleY = canvas.height / video.videoHeight;
-    const scale = Math.max(scaleX, scaleY);
-    const videoX = (canvas.width / 2) - (video.videoWidth * scale / 2);
-    const videoY = (canvas.height / 2) - (video.videoHeight * scale / 2);
+    function drawFadingCircle(ctx, x, y, radius) {
+        const gradient = ctx.createRadialGradient(x, y, radius * 0.7, x, y, radius);
+        gradient.addColorStop(0, 'rgba(255, 255, 255, 1)');
+        gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
 
-    ctx.save();
-
-    // Create a circular clipping path
-    ctx.beginPath();
-    ctx.arc(x, y, radius, 0, Math.PI * 2);
-    ctx.closePath();
-    ctx.clip();
-
-    // Draw the video
-    ctx.drawImage(video, videoX, videoY, video.videoWidth * scale, video.videoHeight * scale);
-    
-    // Draw the gradient for the inner fade effect
-    const gradient = ctx.createRadialGradient(x, y, radius * 0.8, x, y, radius);
-    gradient.addColorStop(0, 'rgba(0, 0, 0, 0)');     // Fully transparent at the center
-    gradient.addColorStop(0.3, 'rgba(0, 0, 0, 0.1)'); // Very light black
-    gradient.addColorStop(0.5, 'rgba(0, 0, 0, 0.3)'); // Lightly visible black
-    gradient.addColorStop(0.7, 'rgba(0, 0, 0, 0.5)'); // Semi-transparent black
-    gradient.addColorStop(0.85, 'rgba(0, 0, 0, 0.6)'); // More visible black
-    gradient.addColorStop(1, 'rgba(0, 0, 0, 0.8)');   // Almost fully black at the edge
-
-    // Fill the circle with the inner gradient
-    ctx.fillStyle = gradient;
-    ctx.beginPath();
-    ctx.arc(x, y, radius, 0, Math.PI * 2);
-    ctx.fill(); // Fill the circle with the gradient
-
-    // Draw outer blur effect
-    ctx.restore(); // Restore to allow drawing the blur effect
-
-    // Apply a blur filter before drawing the outer gradient
-    ctx.filter = 'blur(30px)'; // Adjust the blur radius as needed
-    ctx.globalAlpha = 0.8; // Set a global alpha for the blur effect
-
-    // Draw a larger circle for the outer blur effect
-    ctx.beginPath();
-    ctx.arc(x, y, radius * 1.5, 0, Math.PI * 2); // Change multiplier for larger/smaller blur effect
-    ctx.fillStyle = 'black'; // Fill color for the blur
-    ctx.fill();
-
-    // Reset the filter and globalAlpha
-    ctx.filter = 'none';
-    ctx.globalAlpha = 1;
-
-    ctx.restore(); // Restore to the original state
-}
-
-
-
-
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.clip();
+        ctx.fillStyle = gradient;
+        ctx.fill();
+    }
 
     function draw() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -164,8 +117,19 @@ onMounted(() => {
         const clipVideo = videos[nextVideoIndex];
         if (clipVideo.readyState >= clipVideo.HAVE_CURRENT_DATA && hideCircle.value) {
             if (radius < maxRadius) {
-                // Draw the fading circle with the video included
-                drawFadingCircle(ctx, mouseX, mouseY, radius, clipVideo);
+                ctx.save();
+
+                // Draw the fading circle
+                drawFadingCircle(ctx, mouseX, mouseY, radius);
+
+                const scaleX = canvas.width / clipVideo.videoWidth;
+                const scaleY = canvas.height / clipVideo.videoHeight;
+                const scale = Math.max(scaleX, scaleY);
+                const x = (canvas.width / 2) - (clipVideo.videoWidth * scale / 2);
+                const y = (canvas.height / 2) - (clipVideo.videoHeight * scale / 2);
+
+                ctx.drawImage(clipVideo, x, y, clipVideo.videoWidth * scale, clipVideo.videoHeight * scale);
+                ctx.restore();
             } else {
                 // Draw clipVideo full screen after radius reaches max width
                 const scaleX = canvas.width / clipVideo.videoWidth;
@@ -180,7 +144,6 @@ onMounted(() => {
 
         requestAnimationFrame(draw);
     }
-
 
     if (window.matchMedia("(max-width: 767px)").matches) {
         hideCircle.value = false;
