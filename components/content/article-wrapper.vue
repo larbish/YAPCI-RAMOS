@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white min-h-screen">
+    <div class="w-full bg-white min-h-screen article-wrapper">
         <article class="hidden lg:flex flex-col w-full">
             <div class="flex justify-between w-full">
                 <div class="w-[33.6%] pb-14 min-h-screen relative">
@@ -190,7 +190,7 @@ const goToNextArticle = () => {
 
 
 <style>
-a:hover{
+.article-wrapper a:hover{
     opacity: 0.65 !important;
 }
 </style>
