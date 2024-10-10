@@ -188,10 +188,11 @@
     ::::
   :::
 
-  :::project-section-one-video
+  :::project-watch-video
   ---
   video-src: /work/perras-y-putas/Yapci Ramos_ Perras (sin créditos).mp4
   ---
+  WATCH VIDEO
   :::
 
 #section-one-mobile
