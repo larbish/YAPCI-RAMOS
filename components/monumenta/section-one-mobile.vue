@@ -4,7 +4,7 @@
             <video @click="toggleFullScreen" @touchend="toggleFullScreen" src="@/assets/images/Guayec_WorkPage.mp4" class="h-full pointer-events-auto w-full object-cover"
                 muted loop autoplay playsinline></video>
         </div>
-        <div class="p-2 flex gap-x-2 leading-[1.3]">
+        <div class="p-2 flex gap-x-2 ">
             <h2 class=" uppercase font-medium">
                 MONUMENTA
             </h2>
@@ -39,7 +39,7 @@
         </div>
 
 
-        <div class="p-2 flex gap-x-2 leading-[1.3] mt-5">
+        <div class="p-2 flex gap-x-2  mt-5">
             <h2 class=" uppercase font-medium">
                 MONUMENTA
             </h2>
@@ -78,7 +78,7 @@
         <div class="mt-8">
             <div class="w-full pl-2">
                 <h2 class="font-medium">CREDITS</h2>
-                <div class="grid gap-x-2 uppercase leading-[1.3]">
+                <div class="grid gap-x-2 uppercase ">
                     <div>
                         <p class="hover:text-gray-500 transition-colors duration-300"><span
                                 class="font-medium">Title.</span> Monumenta. Nine Guanche Incarnations</p>
@@ -134,7 +134,7 @@
             <div class="w-full pl-2 mt-4">
                 <h2 class="font-medium">DOWNLOADS</h2>
 
-                <div class=" leading-[1.3]">
+                <div class=" ">
                     <p class="hover:text-gray-500 transition-colors duration-300">CATALOGUE</p>
                     <p class="hover:text-gray-500 transition-colors duration-300">3D VIDEOS</p>
                     <p class="hover:text-gray-500 transition-colors duration-300">BROCHURE</p>

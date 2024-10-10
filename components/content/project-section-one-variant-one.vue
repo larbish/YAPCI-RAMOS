@@ -4,7 +4,7 @@
             <img :src="props.imgPath" class="w-full" alt="">
         </div>
 
-        <div class="w-[28.33%] p-3 leading-[1.3]">
+        <div class="w-[28.33%] p-3 ">
             <h2 class=" uppercase font-medium">
                 {{ props.title }}
             </h2>

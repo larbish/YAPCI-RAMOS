@@ -6,7 +6,7 @@
                     <slot name="images-left"></slot>
 
                     <p
-                        class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3] text-black absolute bottom-0">
+                        class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1  text-black absolute bottom-0">
                         ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
                     </p>
                 </div>
@@ -37,11 +37,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="space-y-4 px-1.5 lg:mt-4 2xl:mt-10 leading-[1.3]">
+                    <div class="space-y-4 px-1.5 lg:mt-4 2xl:mt-10 ">
                         <slot name="paragraphs"></slot>
                     </div>
 
-                    <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.3] downloads-new-tab">
+                    <div class="font-medium uppercase px-1.5 mt-6 pb-10  downloads-new-tab">
                         <slot name="download"></slot>
                     </div>
                 </div>
@@ -68,18 +68,18 @@
                 </div>
             </div>
 
-            <div class="space-y-3 px-2.5 mt-10 leading-[1.3]">
+            <div class="space-y-3 px-2.5 mt-10 ">
                 <slot name="paragraphs"></slot>
             </div>
 
-            <div class="font-medium uppercase px-1.5 mt-6 pb-10 leading-[1.3] downloads-new-tab">
+            <div class="font-medium uppercase px-1.5 mt-6 pb-10  downloads-new-tab">
                 <slot name="download"></slot>
             </div>
             <div class="flex flex-col w-full mt-1">
                 <slot name="images-left"></slot>
                 <slot name="images-right"></slot>
             </div>
-            <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6 leading-[1.3] text-black">
+            <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6  text-black">
                 ©2024 YAPCI RAMOS <br> ALL RIGHTS RESERVED
             </p>
         </article>
@@ -189,7 +189,7 @@ const goToNextArticle = () => {
 </script>
 
 
-<style>
+<style scoped>
 .article-wrapper a:hover{
     opacity: 0.65 !important;
 }

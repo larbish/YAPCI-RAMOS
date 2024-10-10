@@ -1,7 +1,7 @@
 <template>
     <div class="h-[100dvh] lg:h-screen w-full">
         <canvas class="w-full h-full" id="canvas"></canvas>
-        <div class="bottom-5 absolute mix-blend-difference w-full flex justify-center text-center pointer-events-auto cursor-pointer"
+        <div class="bottom-5 absolute mix-blend-difference w-full flex justify-center text-center pointer-events-auto font-medium cursor-pointer"
             @mouseenter="hideCircle = false" @mouseleave="hideCircle = true">
             <NuxtLink :to="props.projectOneLink" v-if="currentVideoIndex === 0">
                 {{ props.projectOneTitle }}

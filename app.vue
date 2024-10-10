@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xs  lg:text-[10px] 2xl:text-xs text-white w-full relative bg-white">
+  <div class="text-xs  lg:text-[10px] 2xl:text-xs text-white w-full relative bg-white leading-[121.43%]">
     <NuxtPage></NuxtPage>
     <Header></Header>
     <AppInfo v-if="infoState"></AppInfo>
@@ -74,7 +74,11 @@ html.lenis body {
 }
 
 ::selection {
-    color: white;
-    background-color: red;
+  color: white;
+  background-color: red;
+}
+
+strong {
+  font-weight: 500;
 }
 </style>

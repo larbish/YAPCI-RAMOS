@@ -7,7 +7,7 @@
                     <img src="@/assets/images/press-image-two.png" class="w-full object-cover" alt="">
                     <img src="@/assets/images/press-image-three.png" class="w-full object-cover" alt="">
 
-                    <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3] text-black">
+                    <p class="mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1  text-black">
                         ©2024 YAPCI RAMOS <br>
                         ALL RIGHTS RESERVED
                     </p>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="space-y-4 px-1.5 lg:mt-4 2xl:mt-10 leading-[1.3]">
+                    <div class="space-y-4 px-1.5 lg:mt-4 2xl:mt-10 ">
                         <p v-for="(paragraph, index) in textContent" :key="index">
                             {{ paragraph }}
                         </p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <div class="space-y-3 px-2.5 mt-10 leading-[1.3]">
+            <div class="space-y-3 px-2.5 mt-10 ">
                 <p v-for="(paragraph, index) in textContent" :key="index">
                     {{ paragraph }}
                 </p>
@@ -90,7 +90,7 @@
                 <img src="@/assets/images/press-image-four.png" class="w-full object-cover" alt="">
                 <img src="@/assets/images/press-image-five.png" class="w-full object-cover" alt="">
             </div>
-            <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6 leading-[1.3] text-black">
+            <p class="mt-8 text-center lg:text-left lg:mt-64 pl-2 pb-6  text-black">
                 ©2024 YAPCI RAMOS <br>
                 ALL RIGHTS RESERVED
             </p>

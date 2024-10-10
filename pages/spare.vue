@@ -4,36 +4,36 @@
             class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto  gap-x-10 lg:gap-x-14 bg-white leading-[1.2]">
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.3]">
+                <div class="flex flex-col ">
                     <p class="font-medium">READS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.3]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="reads"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.3]">
+                <div class="flex flex-col ">
                     <p class="font-medium">PRESS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.3]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="press"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.3]">
+                <div class="flex flex-col ">
                     <p class="font-medium">CATALOGUES</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.3]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="catalogues"></slot>
                     </div>
                 </div>
             </section>
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
-                <div class="flex flex-col leading-[1.3]">
+                <div class="flex flex-col ">
                     <p class="font-medium">DOSSIERS</p>
-                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase leading-[1.3]">
+                    <div class="flex mt-0.5 gap-x-10 items-starts min-w-fit uppercase ">
                         <slot name="dossiers"></slot>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
         <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center">
             <div class="relative h-fit max-w-[90vw] lg:max-w-fit lg:w-fit">
                 <div
-                    class="flex items-start text-[0.15rem] leading-[1.3] sm:leading-[1.3] sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl:leading-[1.3] lg:gap-x-0.5">
+                    class="flex items-start text-[0.15rem]  sm: sm:text-[0.14rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl: lg:gap-x-0.5">
                     <ul v-for="(section, index) in sections" :key="index" class="p-0 m-0">
                         <!-- Added classes to remove padding and margin -->
                         <div class="flex flex-col">
@@ -65,7 +65,7 @@
                             <div class="grid grid-rows-10 grid-flow-col gap-0 overflow-hidden"> <!-- Ensure gap is 0 -->
                                 <div v-for="(item, idx) in section.items" :key="idx"
                                     class="max-w-9 whitespace-break-spaces grid gap-0 max-h-fit w-9 min-w-9 lg:min-w-fit lg:w-fit lg:max-w-fit">
-                                    <p class="w-full leading-[1.3] h-min max-h-min m-0 p-0">{{ item.title }}</p>
+                                    <p class="w-full  h-min max-h-min m-0 p-0">{{ item.title }}</p>
                                     <!-- Remove margin and padding -->
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
                 <div ref="progressIndicator" class="h-[140%] absolute top-[-20%] bg-black w-[1px] left-[0%]"></div>
             </div>
         </div>
-        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 leading-[1.3]">
+        <p class=" fixed bottom-2 text-center w-full lg:text-left left-2 ">
 
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED

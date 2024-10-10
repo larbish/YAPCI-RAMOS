@@ -1,7 +1,7 @@
 <template>
     <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black downloads-main-wrapper">
         <div ref="wrapper"
-            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-[6vw] !cursor-default bg-white leading-[1.3]">
+            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-[6vw] !cursor-default bg-white ">
 
             <section v-if="isSelected('reads')" class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
@@ -59,7 +59,7 @@
             </NuxtLink>
         </div>
 
-        <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center leading-[1.3]">
+        <div class="fixed bottom-[10vh] lg:bottom-[20vh] w-full flex items-center justify-center ">
             <div class="relative h-fit max-w-[90vw] lg:max-w-fit lg:w-fit">
                 <div
                     class="flex items-start text-[0.1rem] leading-[1] sm: mini-map sm:text-[0.12rem] 2xl:text-[0.2rem] sm:gap-x-0 2xl: lg:gap-x-0.5">

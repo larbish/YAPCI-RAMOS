@@ -9,10 +9,7 @@
 </script>
 
 
-<style>
-strong {
-    font-weight: 500;
-}
+<style scoped>
 
 a:hover {
     opacity: 0.65;

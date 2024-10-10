@@ -1,11 +1,11 @@
 <template>
     <div class="hidden lg:block w-full overflow-x-clip bg-white">
-        <div class="w-full h-full relative overflow-clip leading-[1.3]">
+        <div class="w-full h-full relative overflow-clip ">
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto downloads-new-tab text-black" data-lenis-prevent>
                     <slot name="section-one"></slot>
                     <slot name="project-credits"></slot>
-                    <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 leading-[1.3]">
+                    <p class=" mt-16 text-center lg:text-left lg:mt-64 pl-2 pb-1 ">
 
                         ©2024 YAPCI RAMOS <br>
                         ALL RIGHTS RESERVED

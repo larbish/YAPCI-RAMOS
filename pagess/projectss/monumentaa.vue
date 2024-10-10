@@ -1,6 +1,6 @@
 <template>
     <div class="hidden lg:block w-full overflow-x-clip bg-white">
-        <div class="w-full h-full relative overflow-clip leading-[1.3]">
+        <div class="w-full h-full relative overflow-clip ">
             <section class="w-full h-screen max-h-screen">
                 <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
                     <SectionOne />

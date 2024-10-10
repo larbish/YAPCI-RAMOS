@@ -16,7 +16,7 @@
         </div>
 
         <div
-            class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3 leading-[1.3] text-white mix-blend-difference">
+            class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3  text-white mix-blend-difference">
             <NuxtLink to="/work" class="border-b border-spacing-0  border-white">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
@@ -46,7 +46,7 @@
             </NuxtLink>
         </div>
 
-        <p class=" mt-16 text-center w-full lg:text-left absolute bottom-0 lg:mt-64 pl-2 pb-1 lg:pb-1 leading-[1.3]">
+        <p class=" mt-16 text-center w-full lg:text-left absolute bottom-0 lg:mt-64 pl-2 pb-1 lg:pb-1 ">
             ©2024 YAPCI RAMOS <br>
             ALL RIGHTS RESERVED
         </p>
