@@ -66,8 +66,7 @@
                         <div class="lg:col-span-6 hidden lg:flex items-center gap-x-10 uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Instagram</a>
-                            <a href="https://vimeo.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Vimeo</a>
+                            <a href="https://vimeo.com/yapciramos" target="_blank" rel="noopener noreferrer">Vimeo</a>
                             <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
                                 rel="noopener noreferrer">Wikipedia</a>
 
@@ -92,15 +91,14 @@
                                 <p>LA HABANA</p>
                                 <p>15.11 - 18.02.2025</p>
                             </section>
-                         
-                         
+
+
                         </div>
 
                         <div class="flex flex-col gap-y-3 mt-8 lg:hidden uppercase font-medium">
                             <a href="http://www.instagram.com/yapciramos" target="_blank"
                                 rel="noopener noreferrer">Instagram</a>
-                            <a href="https://vimeo.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Vimeo</a>
+                            <a href="https://vimeo.com/yapciramos" target="_blank" rel="noopener noreferrer">Vimeo</a>
                             <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
                                 rel="noopener noreferrer">Wikipedia</a>
 
@@ -170,9 +168,13 @@ const container = ref(null)
 const email = ref(null);
 const Submitted = ref(false);
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
     Submitted.value = true;
     /*   console.log(email.value); */
+    //send a GET request and use query to the server api.dunceco.online/send-email
+
+    const response = await $fetch(`https://api.dunceco.online/send-email?email=${email.value}`)
+    console.log(response);
     email.value = '';
 }
 onMounted(() => {

@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   modules: [
     '@formkit/auto-animate/nuxt',
     '@nuxthq/studio',
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxt/image'
   ],
   app: {
     head: {
