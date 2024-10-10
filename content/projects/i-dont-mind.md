@@ -1,4 +1,4 @@
-::project-wrapper
+::project-wrapper-simple
 #section-one
   :::project-section-one-video{video-src="/work/i-dont-mind/cover-video.mp4"}
   :::

@@ -24,7 +24,7 @@
                     </div>
 
                     <p @click="activateThirdSection"
-                        class="absolute top-9 -left-[1.5%]  rotate-90 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
+                        class="absolute top-9 -left-[1%]  rotate-90 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                         Process
                     </p>
                 </div>

@@ -1,4 +1,4 @@
-::project-wrapper
+::project-wrapper-simple
 #section-one
   :::project-desktop-image
   ---
