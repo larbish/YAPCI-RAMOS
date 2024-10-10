@@ -631,7 +631,18 @@
     ::::project-credit-item
     **Texts.** Nora Navarro
     ::::
-  
+    :br
+    ::::project-credit-item
+    **Contributions and support.** Ayuda para la investigación, creación y producción artísticas en el campo de las artes visuales, del Ministerio de Cultura y Deporte, Gobierno de España, 2020. 
+    ::::
+    :br
+    ::::project-credit-item
+    Ayuda del Gobierno de Canarias en la Selección, Promoción y Difusión de proyectos en régimen de concurrencia competitiva, en el marco del Patrimonio Cultural (CulturaPopular), 2021.
+    ::::
+    :br
+    ::::project-credit-item
+    Subvención para la selección, impulso, ejecución y difusión de proyectos culturales entre profesionales, empresas y entidades culturales sin ánimo de lucro del Gobierno de Canarias, 2020.
+    ::::
   #downloads
     ::::project-credit-item
     [DOSSIER](/download/DOSSIERS/YapciRamos_Monumenta_Dossier.pdf)

@@ -41,6 +41,7 @@
   justify-content: space-between
   leftWidthPercent: 70.05%
   rightWidthPercent: 29.95%
+  margin-top: 28px
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/2243fs.png"}
@@ -55,6 +56,7 @@
   ---
   leftWidthPercent: 40.57%
   right-width-percent: 59.79%
+  margin-top: 20px
   ---
   #content-one
     ::::project-desktop-text-wrapper{width="95.98%"}
