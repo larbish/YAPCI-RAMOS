@@ -1,4 +1,4 @@
-::project-wrapper
+::project-wrapper-no-inspiration
 #section-one
   :::project-section-one-video{video-src="/work/identity/cover-video.mp4"}
   :::
