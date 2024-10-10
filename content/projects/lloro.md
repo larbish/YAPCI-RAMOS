@@ -3,7 +3,7 @@
   :::project-section-one-video{video-src="/work/lloro/03-Yapci-Lloro.mp4"}
   :::
 
-  :::project-desktop-text-wrapper{has-title="true" title="LLORO. AUDIOVISUAL"}
+  :::project-desktop-text-wrapper{has-title="true" title="LLORO. AUDIOVISUAL" width="80.94%"}
     ::::project-desktop-paragraph
     ---
     content: We cry because of our suffering, but also as an allegory for a time of global uncertainty. That is how permission to feel, be saddened and reconsider the expression of feelings is allowed. Faces speak about identity, loneliness, individualism, and isolation. An act of liberation is captured and that experience is recreated for the viewer. As a form of catharsis, this project has the potential to become an act of healing and euphoria. Lloro invites the audience to stop and reconnect with their humanity in order to carry on.

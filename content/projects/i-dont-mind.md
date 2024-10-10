@@ -40,7 +40,7 @@
     ::::
   :::
 
-  :::project-desktop-text-wrapper{:title="null" has-title="true" width="80%"}
+  :::project-desktop-text-wrapper{:title="null" has-title="true" width="50.10%"}
     ::::project-desktop-paragraph
     ---
     content: The artistic processes involve a journey of germination, imagination, and birth to inaugurate a horizon, much like the body in the process of gestating ideas, questions, or life gives birth to an unexplored path. In this play of parallels and possibilities around the desire for creation or procreation, the piece ‘Parto’ is constructed.

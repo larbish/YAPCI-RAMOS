@@ -41,14 +41,12 @@
   ---
   #content-one
     ::::project-desktop-text-wrapper
-      :::::project-desktop-paragraph
-      ---
-      content: Installation view at TEA Tenerife Espacio de
-      ---
-      :::::
     
-      :::::project-desktop-paragraph{content="LAS ARTES, 2019."}
+      :::::project-credit-item
+        INSTALLATION VIEW AT TEA TENERIFE ESPACIO DE :br
+        LAS ARTES, 2019.
       :::::
+ 
     ::::
   
   #content-two
@@ -100,7 +98,7 @@
   #content-one
   
   #content-two
-    ::::project-desktop-text-wrapper
+    ::::project-desktop-text-wrapper{width="50.10%"}
       :::::project-desktop-paragraph
       ---
       content: For over two years, every month, Ramos took on this ritualistic action of creation and destruction. In producing Red-Hot, Ramos places herself front and center in conversations around female empowerment—as a woman, in control of her body, her voice, and her own destiny. Time is up. Ramos demands we read the writing on the wall.

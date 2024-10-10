@@ -259,9 +259,8 @@
     ::::project-credit-item
     **Acknowledgements.** Orlando Britto Jinorio and Jody-Alice Leanez.
     ::::
-  
-    ::::project-credit-item
     :br
+    ::::project-credit-item
     With the support of Canarias Crea (Spain) and Foundation Insight for the Arts-Aruba.
     ::::
   
