@@ -29,5 +29,12 @@ const props = defineProps({
     }
 }
 
+@media (min-width: 1280px) {
+    .mini-map .downloads-list-item {
+        width: 8.5vw !important;
+        column-gap: 0.5px;
+    }
+}
+
 
 </style>
