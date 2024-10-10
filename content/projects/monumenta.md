@@ -5,12 +5,9 @@
 
   :::project-desktop-variant
   ---
-  leftWidthPercent: 40.31%
-  rightWidthPercent: 28.33%
+  leftWidthPercent: 0%
+  rightWidthPercent: 85.33%
   ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/monumenta/image-four.png"}
-    ::::
   
   #content-two
     ::::project-desktop-text-wrapper
@@ -35,21 +32,48 @@
   :::project-desktop-variant
   ---
   justify-content: space-between
-  leftWidthPercent: 23.54%
-  rightWidthPercent: 59.53%
+  leftWidthPercent: 84.38%
   ---
   #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/image-seven.png
-    margin-left: 8px
-    ---
+    ::::project-desktop-image{image-path="/work/monumenta/image-five.png"}
+    ::::
+
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: space-between
+  leftWidthPercent: 23.54%
+  rightWidthPercent: 59.53%
+  padding-left: 8px
+  ---
+  #content-one
+    ::::project-slide-wrapper
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/monumenta/image-seven.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
+
+      :::::project-slide
+        ::::::project-desktop-image
+        ---
+        image-path: /work/monumenta/image-two.png
+        margin-left: 0px
+        ---
+        ::::::
+      :::::
     ::::
   
   #content-two
     ::::project-desktop-image{image-path="/work/monumenta/image-six.png"}
     ::::
   :::
+
+
 
   :::project-desktop-variant
   ---

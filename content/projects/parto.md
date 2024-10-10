@@ -6,6 +6,7 @@
   :::project-desktop-text-wrapper{has-title="true" title="Parto. INSTALLATION"}
     ::::project-desktop-paragraph
     ---
+    width: 82.97%
     content: In Parto, I create an allegory that explores the process of questioning,  shedding, and liberating oneself from the societal ideologies surrounding motherhood to pave the way                     for alternative perspectives. This concept is materialized through the construction of a symbolic                     and immersive corridor that gradually narrows, leading to “the other side.” It reflects three stages                     marked by sexual desire, the yearning for motherhood, and the pursuit of freedom, covering the age                     range of 35 to 46. This installation delves into topics that are increasingly prominent in social                     and feminist discourse, resonating with many women of my generation. These issues are                     recontextualized within a historical moment undergoing a paradigm shift regarding perceptions of                     motherhood and fertility. The work acknowledges the widespread decline in the willingness to commit,                     influenced by growing individualism, coupled with the challenges posed by neoliberalism and the                     absence of supportive policies for work-life balance.
     ---
     ::::
@@ -56,7 +57,7 @@
   right-width-percent: 59.79%
   ---
   #content-one
-    ::::project-desktop-text-wrapper{width="69.98%"}
+    ::::project-desktop-text-wrapper{width="95.98%"}
       :::::project-desktop-paragraph
       ---
       content: The artistic processes involve a journey of germination, imagination, and birth to inaugurate a                         horizon, much like the body in the process of gestating ideas, questions, or life gives birth to                         an unexplored path. In this play of parallels and possibilities around the desire for creation                         or procreation, the piece ‘Parto’ is constructed.
@@ -76,6 +77,7 @@
   ---
   align-items: flex-end
   leftWidthPercent: 100%
+  padding-left: 10px
   ---
   #content-one
     ::::project-desktop-image
@@ -91,6 +93,8 @@
   align-items: flex-start
   leftWidthPercent: 60.59%
   right-width-percent: 39.41%
+  margin-top: 14px
+  padding-left: 10px
   ---
   #content-one
     ::::project-desktop-video
@@ -486,7 +490,9 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez
+    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez 
+    
+    :br
     
     To all the women who have accompanied me through the process of expulsion and release
     ::::
