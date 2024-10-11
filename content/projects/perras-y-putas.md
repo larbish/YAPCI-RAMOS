@@ -34,8 +34,10 @@
     ::::
   
     ::::project-desktop-text-wrapper
+      :br
       :::::project-desktop-paragraph
       ---
+      width: 50%
       content: 'But Yapci Ramos’work has something singular: it is not just about Putas but about Perras y Putas. Dogs, like whores, in the heat of the night. “Irreplaceable” individuals, solitary and in groups, ugly and splendid in their darkness, they speak to us of the “naked life”.'
       ---
       :::::
@@ -75,7 +77,7 @@
   ---
   justify-content: start
   leftWidthPercent: 45.5%
-  margin-top: 20px
+  margin-top: 25px
   ---
   #content-one
     ::::project-slide-wrapper
