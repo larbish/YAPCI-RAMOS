@@ -2,11 +2,12 @@
 #section-one
   :::project-section-one-video{video-src="/work/parto/cover-video.mp4"}
   :::
-
+  :br
   :::project-desktop-text-wrapper{has-title="true" title="Parto. INSTALLATION"}
     ::::project-desktop-paragraph
     ---
     width: 82.97%
+    margin-top: -6px
     content: In Parto, I create an allegory that explores the process of questioning,  shedding, and liberating oneself from the societal ideologies surrounding motherhood to pave the way                     for alternative perspectives. This concept is materialized through the construction of a symbolic                     and immersive corridor that gradually narrows, leading to “the other side.” It reflects three stages                     marked by sexual desire, the yearning for motherhood, and the pursuit of freedom, covering the age                     range of 35 to 46. This installation delves into topics that are increasingly prominent in social                     and feminist discourse, resonating with many women of my generation. These issues are                     recontextualized within a historical moment undergoing a paradigm shift regarding perceptions of                     motherhood and fertility. The work acknowledges the widespread decline in the willingness to commit,                     influenced by growing individualism, coupled with the challenges posed by neoliberalism and the                     absence of supportive policies for work-life balance.
     ---
     ::::
@@ -116,6 +117,7 @@
   ---
   left-width-percent: 25.75%
   right-width-percent: 65.71%
+  padding-left: 10%
   ---
   #content-one
     ::::project-desktop-image
@@ -134,7 +136,7 @@
 
   :::project-desktop-variant
   ---
-  left-width-percent: 50.4%
+  left-width-percent: 45.4%
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/6MDeulofeu_Yapci_extras.jpg"}
@@ -145,6 +147,7 @@
   ---
   left-width-percent: 50%
   right-width-percent: 50%
+  margin-top: -10vh
   ---
   #content-one
   
@@ -157,6 +160,7 @@
   ---
   justify-content: flex-start
   left-width-percent: 66.67%
+  margin-top: 14px
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/A_IMG_3724_AunLado.JPG"}
@@ -167,6 +171,7 @@
   ---
   justify-content: end
   left-width-percent: 49.5%
+  margin-top: 16px
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/IMG_1031.JPG"}
@@ -190,8 +195,9 @@
 
   :::project-desktop-variant
   ---
-  justify-content: flex-start
+  justify-content: flex-end
   left-width-percent: 74.2%
+  margin-top: 16px
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/YAPCI_01.jpg"}
@@ -492,11 +498,11 @@
     ::::
   
     ::::project-credit-item
-    **Acknowledgments.** Adolf Alcañiz, Alejandro García Schnetzer y América Sánchez 
+    **Acknowledgments.** Adolf Alcañiz, Alejandro García :br Schnetzer y América Sánchez 
     
     :br
     
-    To all the women who have accompanied me through the process of expulsion and release
+    To all the women who have accompanied me :br through the process of expulsion and release
     ::::
   
   #presented-at

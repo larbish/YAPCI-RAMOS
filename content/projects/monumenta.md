@@ -147,6 +147,7 @@
   ---
   left-width-percent: 25.75%
   right-width-percent: 65.71%
+  padding-left: 10vw
   ---
   #content-one
     ::::project-desktop-image
@@ -179,6 +180,7 @@
     ::::project-desktop-text-wrapper
       :::::project-desktop-paragraph
       ---
+      margin-top: 10px
       content: In 'Monumenta. Nine Guanche Incarnations', I aim to give visibility to the forgotten Guanche woman and question the ways in which the pre-colonial past is represented from a contemporary perspective. Through the observation of various monuments, I undertake a historical analysis to resolve the enigmas underlying the underrepresentation of these subaltern identities.
       ---
       :::::

@@ -35,7 +35,7 @@
         </div>
 
         <!-- Project list -->
-        <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-2 z-10 text-white mix-blend-difference"
+        <div class="lg:px-40 flex font-normal w-full flex-col mt-5 lg:mt-5 z-10 text-white mix-blend-difference"
             v-auto-animate>
             <NuxtLink v-for="(project, index) in sortedProjects" :key="index" @mouseenter="hoverIndex = index"
                 :to="project.link" @mouseleave="hoverIndex = null" class="hover:opacity-65"

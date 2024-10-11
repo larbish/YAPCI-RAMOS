@@ -2,7 +2,7 @@
 #section-one
   :::project-section-one-video{video-src="/work/i-dont-mind/cover-video.mp4"}
   :::
-
+  :br
   :::project-desktop-text-wrapper
   ---
   has-title: 'true'
@@ -18,6 +18,8 @@
     ::::project-desktop-paragraph{content="There is a confrontation."}
     ::::
   :::
+  :br
+  :br
 
   :::project-desktop-variant
   ---
@@ -50,6 +52,8 @@
     ::::project-desktop-paragraph{content="Nora Navarro / Cultural Writer"}
     ::::
   :::
+
+  :br
 
   :::project-desktop-variant
   ---
@@ -180,11 +184,7 @@
   
   #presented-at
     ::::project-credit-item
-    I Dont Mind I, +F Post-conceptual artists in the Canary Islands 2000–2017
-    ::::
-  
-    ::::project-credit-item
-    San Martín Centro de Cultura Contemporánea, Las Palmas de Gran Canaria,  2017
+    I Dont Mind I, +F Post-conceptual artists in the Canary Islands 2000–2017, San Martín Centro de Cultura Contemporánea, Las Palmas de Gran Canaria,  2017
     ::::
   
     ::::project-credit-item

@@ -50,6 +50,7 @@
     ::::project-desktop-text-wrapper{width="69.98%"}
       :::::project-desktop-paragraph
       ---
+      margin-top: 20px
       content: Why are we the way we are? What weight does family have over an individual? Is there such a thing as a subconscious trans-generational legacy?
       ---
       :::::
@@ -69,6 +70,7 @@
   justify-content: flex-start
   leftWidthPercent: 56.25%
   right-width-percent: 23.07%
+  padding-left: 10px
   ---
   #content-one
     ::::project-desktop-image
@@ -240,11 +242,9 @@
   right-width-percent: 63.77%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/identity/IMG_9400 1.png"}
-    ::::
   
   #content-two
-    ::::project-desktop-image{image-path="/work/identity/IMG_9400 2.png"}
+    ::::project-desktop-image{image-path="/work/identity/IMG_9394 1.png"}
     ::::
   :::
 
@@ -340,7 +340,7 @@
   left-width-percent: 100%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/Codices_Paturientas 1.png"}
+    ::::project-desktop-image{image-path="/work/identity/IMG_9394 1.png"}
     ::::
   :::
 
@@ -417,7 +417,7 @@
   :::project-credits
   #credits
     ::::project-credit-item
-    Installation comprising a horn, five pipes, a Polaroid EE44 camera, a 120 x 150 cm lenticular print, texts by Yapci Ramos and by Cayaya Ramos, a mural photograph, two window frames taken from Pensión Ramos.Year: 2015-2018Location: Tenerife (Spain)
+    Installation comprising a horn, five pipes, a Polaroid EE44 camera, a 120 x 150 cm lenticular print, texts by Yapci Ramos and by Cayaya Ramos, a mural photograph, two window frames taken from Pensión Ramos.
     ::::
   
     ::::project-credit-item

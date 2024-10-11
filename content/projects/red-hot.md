@@ -55,6 +55,13 @@
     image-path: /work/i-don't-mind-two/YapciRamos_Red-Hot_1.png
     ---
     ::::
+    ::::project-desktop-paragraph
+    ---
+    content: INSTALLATION VIEW AT CATINCA TABACARU, NEW YORK, 2019.
+    margin-top: 4px
+    ---
+    ::::
+    :br
   :::
 
   :::project-desktop-variant

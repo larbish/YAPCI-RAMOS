@@ -26,8 +26,10 @@
     ::::
   
     ::::project-desktop-text-wrapper
+      :br
       :::::project-desktop-paragraph
       ---
+      width: 50%
       content: Few emotions elicit as much violence and empathy as crying. Lloro, an altar that elevates our fragility to the antipodes of the social taboo that still weighs on the different manifestations of the intimate.
       ---
       :::::
@@ -226,13 +228,22 @@
   
     ::::project-credit-item
     **Participants:** Alexandra Genevieve Carter, Sean Boyd, Chenae Bullock, Deborah Marshall, Jun Zhou, Brian O’Mahoney, Dina Lombardi, Clarisse Khalsa, Sarah Jane Halsey, Peter Sabbeth.
-    
+    :br
     Lloro was created at The Watermill Center - a laboratory for performance, New York (2020).
     ::::
   
   #presented-at
     ::::project-credit-item
-    Lloro, Espacio Cultural el Tanque, Santa Cruz de Tenerife, Spain, 2021Flux Club, en el Antic Teatre de Barcelona, 2021Corps en immersion . Talk. FIAV Festival International d’art Vid o de Casablanca, Morocco. Faculté des Lettres et des Sciences Humaines Ben M’sik. 2021FLUX festival de video d’autor Monographic Yapci Ramos 2021
+    Lloro, Espacio Cultural el Tanque, Santa Cruz de Tenerife, Spain, 2021
+    ::::
+    ::::project-credit-item
+    Flux Club, en el Antic Teatre de Barcelona, 2021
+    ::::
+    ::::project-credit-item
+    Corps en immersion . Talk. FIAV Festival International d’art Vid o de Casablanca, Morocco. Faculté des Lettres et des Sciences Humaines Ben M’sik. 2021
+    ::::
+    ::::project-credit-item
+    FLUX festival de video d’autor Monographic Yapci Ramos 2021
     ::::
   
   #downloads

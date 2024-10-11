@@ -67,6 +67,7 @@
   justify-content: space-between
   leftWidthPercent: 20.36%
   rightWidthPercent: 64.80%
+  margin-top: 14px
   ---
   #content-one
     ::::project-desktop-text-wrapper{width="69.98%"}
@@ -89,6 +90,7 @@
   ---
   justify-content: start
   leftWidthPercent: 100%
+  margin-top: 14px
   ---
   #content-one
     ::::project-desktop-image
@@ -192,6 +194,7 @@
   ---
   justify-content: flex-end
   left-width-percent: 52.36%
+  margin-top: 14px
   ---
   #content-one
     ::::project-desktop-image
@@ -219,7 +222,7 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 73.95%
+  left-width-percent: 60.95%
   right-width-percent: 21.85%
   ---
   #content-one
