@@ -59,7 +59,7 @@ Después de dos años de una exhaustiva investigación antropológica, arqueoló
   :::
 
 #download
-[DOWNLOAD ARTICLE](press-content/08_La%20provincia/La_Provincia_02.pdf) :br
+[DOWNLOAD ARTICLE](/press-content/08_La%20provincia/La_Provincia_02.pdf) :br
 
 [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://www.laprovincia.es/sociedad/2022/06/12/mujer-ausente-espacio-publico-67178053.html)
 ::
