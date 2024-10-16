@@ -3,7 +3,7 @@ article-section-title: EXIBART
 article-title: YAPCI RAMOS PRESENTA ‘MONUMENTA’
 author-info: BY IRIS VERGE
 date: JUN 26, 2022
-image: /press-content/07_Exibart/Preview_Pic.jpg
+image: /press-content/Preview_Pic_2.jpg
 ---
 
 ::article-wrapper
