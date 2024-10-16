@@ -80,6 +80,7 @@
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6 mt-1">
+
                             <section>
                                 <h3 class="font-medium">The triad</h3>
                                 <p>Instituto Cervantes, New York</p>
@@ -92,7 +93,11 @@
                                 <p>15.11 - 18.02.2025</p>
                             </section>
 
-
+                            <section>
+                                <h3 class="font-medium">KINEMA IKON</h3>
+                                <p>ARAD PHILARMONIC, ROMANIA</p>
+                                <p>18.11 - 19.11.2025</p>
+                            </section>
                         </div>
 
                         <div class="flex flex-col gap-y-3 mt-8 lg:hidden uppercase font-medium">
