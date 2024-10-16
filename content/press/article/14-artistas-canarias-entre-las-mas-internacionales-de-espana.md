@@ -1,5 +1,5 @@
 ---
-article-section-title: PROVINCIA
+article-section-title: LA PROVINCIA
 article-title: 14 ARTISTAS CANARIAS ENTRE LAS MÁS INTERNACIONALES DE ESPAÑA
 author-info: BY NORA NAVARRO
 date: AUG 04, 2023
@@ -79,7 +79,7 @@ El acto de presentación de _En manos de mujeres_ tendrá lugar el próximo 28 d
   :::
 
 #download
-[DOWNLOAD ARTICLE](/press-content/06_La%20Provincia/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-5.pdf) :br 
+[DOWNLOAD ARTICLE](/press-content/06_La%20Provincia/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-5.pdf) :br
 
 [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://www.laprovincia.es/cultura/2023/08/04/instituto-arte-contemporaneo-iac-destaca-90656392.html)
 ::
