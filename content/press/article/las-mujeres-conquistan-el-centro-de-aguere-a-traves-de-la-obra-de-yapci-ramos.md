@@ -1,9 +1,9 @@
 ---
 article-section-title: LA VANGUARDIA
 article-title: LAS MUJERES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA DE YAPCI RAMOS
-author-info: 
+author-info: null
 date: SEP 08, 2023
-image: /press-content/04_La Vanguardia/Preview_Pic.png
+image: /press-content/04_La Vanguardia/Preview_Pic_02.png
 ---
 
 ::article-wrapper
@@ -49,7 +49,7 @@ Una visión que en “Monumenta” aparece como una “posibilidad de subversió
   :::
 
 #download
-[DOWNLOAD ARTICLE](</press-content/04_La Vanguardia/Páginas desdeYapciRamos_PressKitSelection-3.pdf>) :br
+[DOWNLOAD ARTICLE](/press-content/04_La%20Vanguardia/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-3.pdf) :br
 
- [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://efe.com/canarias/2023-09-08/las-mujeres-guanches-conquistan-el-centro-de-aguere-a-traves-de-la-obra-de-yapci-ramos/)
+[](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://efe.com/canarias/2023-09-08/las-mujeres-guanches-conquistan-el-centro-de-aguere-a-traves-de-la-obra-de-yapci-ramos/)
 ::
