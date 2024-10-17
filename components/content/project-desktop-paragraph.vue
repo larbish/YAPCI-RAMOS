@@ -1,5 +1,5 @@
 <template>
-    <div :style="`width: ${props.width}; margin-top: ${props.marginTop}`" class="w-full text-black">
+    <div :style="`width: ${props.width}; margin-top: ${props.marginTop}; margin-left: ${props.marginLeft};`" class="w-full text-black">
         {{ props.content }}
     </div>
 </template>
@@ -8,6 +8,10 @@
 const props = defineProps({
     content: String,
     marginTop: {
+        type: String,
+        default: '0px'
+    },
+    marginLeft: {
         type: String,
         default: '0px'
     },

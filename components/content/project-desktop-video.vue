@@ -18,6 +18,10 @@ const props = defineProps({
     textContent: String,
     marginLeft: String,
     flexDirection: String,
+    marginTop:{
+        type: String,
+        default: '0px'
+    },
     childWidth: {
         type: String,
         default: '100%'
@@ -39,6 +43,7 @@ const props = defineProps({
 const style = computed(() => ({
     marginLeft: props.marginLeft,
     width: props.width,
+    marginTop: props.marginTop,
 }))
 
 const noTextStyle = computed(() => ({
@@ -46,5 +51,6 @@ const noTextStyle = computed(() => ({
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
+    marginTop: props.marginTop
 }))
 </script>

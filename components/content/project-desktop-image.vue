@@ -18,7 +18,11 @@ const props = defineProps({
     textContent: String,
     marginLeft: {
         type: String,
-        default: '0'
+        default: '0px'
+    },
+    marginTop: {
+        type: String,
+        default: '0px'
     },
     marginRight: {
         type: String,
@@ -45,6 +49,7 @@ const props = defineProps({
 
 const style = computed(() => ({
     marginLeft: props.marginLeft,
+    marginTop: props.marginTop,
 }))
 
 const noTextStyle = computed(() => ({
@@ -53,5 +58,6 @@ const noTextStyle = computed(() => ({
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
+    marginTop: props.marginTop
 }))
 </script>

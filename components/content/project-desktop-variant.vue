@@ -18,6 +18,10 @@ const props = defineProps({
         type: String,
         default: '0'
     },
+    marginLeft: {
+        type: String,
+        default: '0px'
+    },
     justifyContent: {
         type: String,
         default: 'flex-start', // Default value if none provided
