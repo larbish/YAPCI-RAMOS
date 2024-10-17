@@ -71,9 +71,9 @@
   rightWidthPercent: 34.65%
   ---
   #content-one
-    ::::project-desktop-image
+    ::::project-desktop-video
     ---
-    image-path: /work/i-don't-mind-two/Screenshot 2024-09-24 at 17.46.13 1.png
+    video-path: /work/i-don't-mind-two/Video_09.mp4
     ---
     ::::
   
@@ -101,6 +101,7 @@
   ---
   justify-content: flex-end
   rightWidthPercent: 88.48%
+  margin-top: 20px
   ---
   #content-one
   
@@ -125,6 +126,7 @@
   justify-content: flex-start
   left-width-percent: 11.5%
   rightWidthPercent: 61.51%
+  margin-top: 20px
   ---
   #content-one
   

@@ -58,44 +58,12 @@
       :::::project-desktop-paragraph{content="Yolanda Peralta"}
       :::::
     ::::
-  
-  #content-two
-    ::::project-desktop-image{image-path="/work/identity/YapciRamos_KnowUs.jpg"}
-    ::::
   :::
 
   :::project-desktop-variant
   ---
-  align-items: flex-end
-  justify-content: flex-start
   leftWidthPercent: 56.25%
-  right-width-percent: 23.07%
   padding-left: 10px
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/identity/JMR-1080insta__O5A9554_240519.jpg
-    ---
-    ::::
-  
-  #content-two
-    ::::project-desktop-text-wrapper{width="100%"}
-      :::::project-desktop-paragraph
-      ---
-      content: Like an archaeologist, she is excavating the traces, genetic and otherwise, of her ancestors; unearthing “treasures” and boldly appropriating them for her own poiesis—her auto-poiesis.
-      ---
-      :::::
-    
-      :::::project-desktop-paragraph{content="Barbara Polla"}
-      :::::
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: center
-  leftWidthPercent: 64.43%
   marginTop: 14px
   ---
   #content-one
@@ -149,22 +117,57 @@
 
   :::project-desktop-variant
   ---
-  justify-content: start
+  justify-content: end
   leftWidthPercent: 36.93%
-  marginTop: 14px
+  rightWidthPercent: 52.19%
   ---
   #content-one
-    ::::project-desktop-image
+  
+  #content-two
+    ::::project-desktop-video
     ---
-    image-path: /work/identity/IMG_9131 1.png
-    margin-left: 8px
+    video-path: /work/identity/Video_10.mp4
     ---
+    ::::
+       ::::project-desktop-text-wrapper{width="100%"}
+      :::::project-desktop-paragraph
+      ---
+      width: 50%
+      content: Like an archaeologist, she is excavating the traces, genetic and otherwise, of her ancestors; unearthing “treasures” and boldly appropriating them for her own poiesis—her auto-poiesis.
+      ---
+      :::::
+    
+      :::::project-desktop-paragraph{content="Barbara Polla"}
+      :::::
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: start
+  justify-content: end
+  leftWidthPercent: 47.81%
+  rightWidthPercent: 52.19%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/identity/JMR-1080insta__O5A9549_240519 1.png
+    ---
+    ::::
+    ::::project-desktop-text-wrapper{width="100%"}
+      :::::project-desktop-paragraph
+      ---
+      width: 50%
+      content: AURA KUNSTRAUM, GERMANY
+      ---
+      :::::
+    ::::
+  
+  :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: end
   leftWidthPercent: 36.93%
   rightWidthPercent: 52.19%
   ---
@@ -173,7 +176,7 @@
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/identity/Screenshot 2024-09-24 at 17.09.00 1.png
+    image-path: /work/identity/JMR-1080insta__O5A9557_240519 1.png
     ---
     ::::
   :::
