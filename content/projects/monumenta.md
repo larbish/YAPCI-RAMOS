@@ -621,116 +621,114 @@
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 24.8%
-  right-width-percent: 76.2%
+  left-width-percent: 40.18%
+  right-width-percent: 59.82%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-four.png
+    image-path: /work/monumenta/IMG_7571 1.png
+    justify-content: center
+    child-width: 60%
     ---
     ::::
+  :::
+
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-end
+  left-width-percent: 40.18%
+  right-width-percent: 59.82%
+  ---
 
   #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-five.png
+    image-path: /work/monumenta/Ramagua_Anzuelos_2 2.png
+    child-width: 70%
     ---
     ::::
   :::
 
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 50.1%
-  right-width-percent: 49.9%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-six.png
-    ---
-    ::::
-
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-seven.png
-    ---
-    ::::
-  :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 34.1%
-  right-width-percent: 49.9%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-eight.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 34.1%
-  right-width-percent: 49.9%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-nine.png
-    ---
-    ::::
-
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-ten.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
+  justify-content: center
   left-width-percent: 100%
   ---
+
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-eleven.png
+    image-path: /work/monumenta/Cathaysa_Paisaje 2.png
+    child-width: 40%
+    justify-content: center
+    ---
+    ::::
+  :::
+
+
+  :::project-desktop-variant
+  ---
+  left-width-percent: 23.06%
+  padding-left: 5vw
+  margin-top: 5rem
+  ---
+
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/CHAXIRAXI 2.png
+    ---
+    ::::
+  :::
+
+
+  :::project-desktop-variant
+  ---
+  left-width-percent: 23.06%
+  right-width-percent: 20.65%
+  padding-left: 5vw
+  margin-top: 5rem
+  ---
+
+  #content-two
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/CATHAYSA 2.png
     ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 50.7%
+  left-width-percent: 26.06%
+  right-width-percent: 73.04%
+  padding-left: 5vw
+  margin-top: 5rem
   ---
-  #content-one
+
+  #content-two
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-twelve.png
+    image-path: /work/monumenta/CUSCOY_VIDAYCULTURA-270 2.png
+    child-width: 70%
     ---
     ::::
   :::
 
+
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 49.1%
-  right-width-percent: 50.7%
+  left-width-percent: 100%
+  margin-top: 5rem
   ---
+
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-thirteen.png
+    image-path: /work/monumenta/ICOD-AMARCA 3.png
     ---
     ::::
   :::
