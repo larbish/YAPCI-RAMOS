@@ -1,12 +1,12 @@
 <template>
     <div class="h-[100dvh] w-full overflow-x-clip bg-white relative text-black downloads-main-wrapper">
         <div ref="wrapper"
-            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-10 lg:gap-x-[6vw] !cursor-default bg-white ">
+            class="wrapper flex h-full flex-nowrap overflow-x-scroll lg:overflow-x-auto gap-x-5 lg:gap-x-2 !cursor-default bg-white ">
 
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">READS</p>
-                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-2 items-starts min-w-fit uppercase ">
                         <slot name="reads"></slot>
                     </div>
                 </div>
@@ -15,7 +15,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">PRESS</p>
-                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-2 items-starts min-w-fit uppercase ">
                         <slot name="press"></slot>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">CATALOGUES</p>
-                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-2 items-starts min-w-fit uppercase ">
                         <slot name="catalogues"></slot>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
             <section class="download-scroll-section w-fit h-fit pt-56 first:pl-4 lg:first:pl-64 cursor-default">
                 <div class="flex flex-col ">
                     <p class="font-medium">DOSSIERS</p>
-                    <div class="flex mt-1 gap-x-10 items-starts min-w-fit uppercase ">
+                    <div class="flex mt-1 gap-x-2 items-starts min-w-fit uppercase ">
                         <slot name="dossiers"></slot>
                     </div>
                 </div>

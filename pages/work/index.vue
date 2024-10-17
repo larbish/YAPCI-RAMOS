@@ -15,8 +15,7 @@
             </div>
         </div>
 
-        <div
-            class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3  text-white mix-blend-difference">
+        <div class="lg:px-40 flex uppercase tracking-wide items-center gap-x-3  text-white mix-blend-difference">
             <NuxtLink to="/work" class="border-b border-spacing-0  border-white">List</NuxtLink>
             <NuxtLink to="/work/grid">Grid</NuxtLink>
         </div>
@@ -84,18 +83,18 @@ const projects = ref([
         link: '/projects/guayec',
         media: [
             { type: 'img', src: '/work-list/image 18.png', position: { left: '10rem', bottom: '15vh' } },
-            { type: 'video', src: '/work/guayec/guayec_-_excerpt.mp4', position: { right: '0vw', top: '0vh' } ,height:"50vh" },
+            { type: 'video', src: '/work/guayec/guayec_-_excerpt.mp4', position: { right: '0vw', top: '0vh' }, height: "50vh" },
         ]
     },
 
-     {
+    {
         year: '2021',
         title: 'LLORO',
         category: 'INSTALLATION',
         link: '/projects/lloro',
         media: [
             { type: 'img', src: '/work/lloro/image 20.png', position: { left: '10rem', top: '5vh' } },
-            { type: 'video', src: '/work/lloro/03-Yapci-Lloro.mp4', position: { right: '5vw', bottom: '15vh' },height:"50vh" },
+            { type: 'video', src: '/work/lloro/03-Yapci-Lloro.mp4', position: { right: '5vw', bottom: '15vh' }, height: "50vh" },
         ]
     },
     {
@@ -113,8 +112,8 @@ const projects = ref([
         link: '/projects/i-dont-mind',
         category: 'AUDIOVISUAL',
         media: [
-            { type: 'video', src: '/work/i-dont-mind/conver-video-two.mp4', position: { left: '0vw', top: '0vh' }, height:"65vh" },
-            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-30 a las 13.59.39 1.png', position: { right: '10vw', bottom: '10vh' }, width:"50vw" }
+            { type: 'video', src: '/work/i-dont-mind/conver-video-two.mp4', position: { left: '0vw', top: '0vh' }, width: "20vw" },
+            { type: 'img', src: '/work-list/Captura de pantalla 2024-07-30 a las 13.59.39 1.png', position: { right: '10vw', bottom: '10vh' }, width: "30vw" }
         ]
     },
     {
@@ -134,6 +133,7 @@ const projects = ref([
         category: 'PHOTOGRAPHY',
         media: [
             { type: 'img', src: '/work-list/image 24.png', position: { left: '0vw', bottom: '0vh' } },
+            { type: 'img', src: '/work/perras-y-putas/perras_yapciramos_3.png', position: { right: '35vw', bottom: '40vh' }, width: "20vw" },
         ]
     },
     // Add more projects with media as needed
