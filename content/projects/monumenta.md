@@ -404,6 +404,7 @@
   ---
   left-width-percent: 50%
   right-width-percent: 50%
+  padding-left: 5vw
   ---
   #content-one
     ::::project-desktop-image
@@ -415,9 +416,9 @@
   #content-two
     ::::project-desktop-image
     ---
-    child-width: 50%
-    margin-left: 10%
-    margin-top: 20vh
+    child-width: 55%
+    margin-top: 5rem
+    padding-left: 20%
     image-path: /work/monumenta/AMARCA(1) 2.png
     ---
     ::::
@@ -428,7 +429,7 @@
   ---
   left-width-percent: 50%
   right-width-percent: 50%
-  margin-top: -5rem
+  margin-top: -2rem
   ---
   #content-one
     ::::project-desktop-image
@@ -477,40 +478,32 @@
     ::::
   :::
 
+
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 49.31%
+  left-width-percent: 27.27%
+  justify-content: flex-start
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-five.png
+    child-width: 60%
+    justify-content: flex-end
+    image-path: /work/monumenta/_G1A5970 copia3.png
     ---
     ::::
   :::
 
-  :::project-desktop-variant
-  ---
-  left-width-percent: 66.67%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-two-image-six.png
-    ---
-    ::::
-  :::
 
   :::project-desktop-variant
   ---
   justify-content: flex-end
-  left-width-percent: 49.59%
+  left-width-percent: 72.73%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-seven.png
+    image-path: /work/monumenta/_G1A5970 copia2.png
     ---
     ::::
   :::
@@ -518,116 +511,112 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 34.62%
+  left-width-percent: 47.35%
+  padding-left: 5vw
+  margin-top: 5rem
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-two-image-eight.png
+    image-path: /work/monumenta/_G1A5970 copia.png
     ---
     ::::
   :::
 
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 65.32%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-two-image-nine.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 34.62%
-  right-width-percent: 65.32%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    childWidth: 75.0%
-    image-path: /work/monumenta/section-two-image-ten.png
-    justify-content: flex-end
-    ---
-    ::::
-
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-two-image-eleven.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 34.3%
-  right-width-percent: 65.6%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-two-image-twelve.png
-    justify-content: flex-end
-    ---
-    ::::
-
-  #content-two
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-two-image-thirteen.png
-    ---
-    ::::
-  :::
 
 #section-three
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 75.9%
+  justify-content: center
+  margin-top: 10rem
+  left-width-percent: 36.15%
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-one.png
+    image-path: /work/monumenta/Group 150.png
     ---
     ::::
   :::
 
   :::project-desktop-variant
   ---
-  justify-content: flex-end
-  left-width-percent: 49.6%
+  justify-content: flex-start
+  left-width-percent: 36.15%
+  right-width-percent: 36.15%
+  padding-left: 5vw
+  margin-top: 5rem
   ---
   #content-one
     ::::project-desktop-image
     ---
-    image-path: /work/monumenta/section-three-image-two.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 43.2%
-  right-width-percent: 49.6%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/monumenta/section-three-image-three.png
+    child-width: 70%
+    image-path: /work/monumenta/CUSCOY_VIDAYCULTURA-245 2.png
     ---
     ::::
 
   #content-two
+    ::::project-desktop-image
+    ---
+    margin-top: 6rem
+    image-path: /work/monumenta/ISORA_CUSCOY_VIDAYCULTURA-269 1.png
+    ---
+    ::::
   :::
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-start
+  left-width-percent: 25%
+  right-width-percent: 75%
+  padding-left: 5vw
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    image-path: /work/monumenta/CUSCOY_VIDAYCULTURA-285 2.png
+    ---
+    ::::
+
+  #content-two
+    ::::project-desktop-image
+    ---
+    child-width: 50%
+    justify-content: center
+    margin-top: 20%
+    image-path: /work/monumenta/Cueva donde aparece la Virgen de la Candelaria_1 2.png
+    ---
+    ::::
+  :::
+
+
+  :::project-desktop-variant
+  ---
+  justify-content: flex-start
+  left-width-percent: 47%
+  right-width-percent: 50%
+  margin-top: -5%
+  ---
+  #content-one
+    ::::project-desktop-image
+    ---
+    child-width: 50%
+    justify-content: center
+    image-path: /work/monumenta/Captura de pantalla 2021-01-13 a las 16.45.33 2.png
+    ---
+    ::::
+
+  #content-two
+    ::::project-desktop-image
+    ---
+    child-width: 60%
+    margin-top: 20%
+    justify-content: start
+    image-path: /work/monumenta/IMG_7573 1.png
+    ---
+    ::::
+  :::
+
 
   :::project-desktop-variant
   ---

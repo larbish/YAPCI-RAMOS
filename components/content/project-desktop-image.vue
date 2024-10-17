@@ -20,6 +20,10 @@ const props = defineProps({
         type: String,
         default: '0px'
     },
+    paddingLeft: {
+        type: String,
+        default: '0px'
+    },
     marginTop: {
         type: String,
         default: '0px'
@@ -49,15 +53,15 @@ const props = defineProps({
 
 const style = computed(() => ({
     marginLeft: props.marginLeft,
-    marginTop: props.marginTop,
 }))
 
 const noTextStyle = computed(() => ({
     marginLeft: props.marginLeft,
+    marginTop: props.marginTop,
     marginRight: props.marginRight,
     display: 'flex',
     justifyContent: props.justifyContent,
     alignItems: props.alignItems,
-    marginTop: props.marginTop
+    paddingLeft: props.paddingLeft,
 }))
 </script>
