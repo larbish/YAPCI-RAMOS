@@ -16,14 +16,14 @@
 
             <section
                 class="w-full h-screen max-h-screen bg-white bg-opacity-90 translate-x-[calc(9.11%+1.56%)] border-l-[0.8px] transition-all duration-700 border-black backdrop-blur-3xl absolute top-0 left-0"
-                :class="{ '!translate-x-[calc(100%-1.56%)] cursor-pointer': !thirdSectionActive }"
+                :class="{ '!translate-x-[calc(100%-1.56%)] cursor-pointer !bg-transparent !backdrop-blur-none !border-none': !thirdSectionActive }"
                 @click="activateThirdSection">
                 <div class="h-full w-full relative">
-                    <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
+                    <div class=" h-full w-full overflow-y-auto" data-lenis-prevent :class="{ '!hidden': !thirdSectionActive }">
                         <slot name="section-three"></slot>
                     </div>
 
-                    <p @click="activateThirdSection"
+                    <p @click="activateThirdSection" :class="{ '!text-white !-left-[1.7%] ': !thirdSectionActive }"
                         class="absolute top-9 -left-[1.5%]  rotate-90 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                         Inspiration
                     </p>
