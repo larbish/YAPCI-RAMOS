@@ -264,39 +264,27 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 83.4%
+  left-width-percent: 38.24%
+  right-width-percent: 43.71%
+  padding-left: 5vw
   ---
   #content-one
     ::::project-desktop-image{image-path="/work/parto/Acting.jpg"}
     ::::
-  :::
 
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 93.9%
-  ---
-  #content-one
-    ::::project-desktop-image
-    ---
-    image-path: /work/parto/Captura de Pantalla 2023-05-24 a las 22.34.40 1.png
-    ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-start
-  left-width-percent: 50.4%
-  right-width-percent: 26.0%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/IMG_9242 1.png"}
-    ::::
-  
   #content-two
     ::::project-desktop-image
     ---
+    margin-left: 5vw
+    margin-top: 6rem
+    image-path: /work/parto/Captura de Pantalla 2023-05-24 a las 22.34.40 1.png
+    ---
+    ::::
+    ::::project-desktop-image
+    ---
+    margin-left: 5vw
+    margin-top: 6rem
+    child-width: 11.94vw
     image-path: /work/parto/386f5170-8871-4f72-934c-5d0c12b2fda4 1.png
     ---
     ::::
@@ -305,39 +293,57 @@
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 50.4%
-  right-width-percent: 32.7%
+  left-width-percent: 38.24%
+  margin-top: -2.5rem
+  padding-left: 5vw
   ---
   #content-one
-  
+    ::::project-desktop-image
+    ---
+    justify-content: flex-end
+    image-path: /work/parto/IMG_9242 1.png
+    child-width: 60%
+    ---
+    ::::
+
   #content-two
     ::::project-desktop-image
     ---
+    justify-content: center
+    margin-top: 20%
+    padding-left: 60%
     image-path: /work/parto/Captura de Pantalla 2024-04-22 a las 19.21.52 1.png
+    child-width: 100%
     ---
-    ::::
-  :::
-
-  :::project-desktop-variant
-  ---
-  justify-content: flex-end
-  left-width-percent: 34.1%
-  right-width-percent: 49.5%
-  ---
-  #content-one
-    ::::project-desktop-image{image-path="/work/parto/Codices_Parturientas_4 1.png"}
     ::::
   :::
 
   :::project-desktop-variant
   ---
   justify-content: flex-start
-  left-width-percent: 100%
+  padding-left: 5vw
+  left-width-percent: 38.30%
+  right-width-percent: 60%
   ---
   #content-one
-    ::::project-desktop-image{image-path="/work/parto/Codices_Paturientas 1.png"}
+    ::::project-desktop-image
+    ---
+    margin-top: 20%
+    image-path: /work/parto/Codices_Paturientas 1.png
+    ---
+    ::::
+  
+  #content-two
+    ::::project-desktop-image
+    ---
+    child-width: 30%
+    padding-left: 2%
+    margin-top: -10%
+    image-path: /work/parto/Codices_Parturientas_4 1.png
+    ---
     ::::
   :::
+
 
 #section-one-mobile
   :::project-mobile-video{video-path="/work/parto/cover-video.mp4"}
