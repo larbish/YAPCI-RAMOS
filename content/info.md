@@ -29,38 +29,39 @@ exploring identity, sexuality, and territory through the creation of multimedia
 installations. Her work is emotional, physical, and introspective, in which she uses her
 own body to channel the taboos, rituals, and catharsis that construct the experience of
 the being.
+
 :br
+
 Her work can be found in permanent collections such as CAAM Centro Atlántico de Arte
 Moderno, Gran Canaria; TEA Tenerife Espacio de las Artes, Tenerife; Casa África,
 Gran Canaria; or Museos de Tenerife, Tenerife. Reviews on her work have been
 published in The Observer, El País, Forbes, Paper Magazine, Wall Street
 International Magazine, Cools, La Vanguardia, among others.
 
-
 #upcoming
-:::info-schedule-item
----
-title: The triad
-location: Instituto Cervantes, New York
-date: 3.10 – 15.01.2025
----
-:::
+  :::info-schedule-item
+  ---
+  date: 3.10 – 15.01.2025
+  location: Instituto Cervantes, New York
+  title: The triad
+  ---
+  :::
 
-:::info-schedule-item
----
-title: HORIZONTES COMPARTIDOS
-location: LA HABANA
-date: 15.11 - 18.02.2025
----
-:::
+  :::info-schedule-item
+  ---
+  date: 15.11 - 18.02.2025
+  location: LA HABANA
+  title: HORIZONTES COMPARTIDOS
+  ---
+  :::
 
-:::info-schedule-item
----
-title: KINEMA IKON
-location: ARAD PHILARMONIC, ROMANIA
-date: 18.11 - 19.11.2025
----
-:::
+  :::info-schedule-item
+  ---
+  date: 18.11 - 19.11.2025
+  location: ARAD PHILARMONIC, ROMANIA
+  title: KINEMA IKON
+  ---
+  :::
 
 #credits
 WEB DESIGN: VERO SANTANA :br
@@ -68,25 +69,20 @@ DEVELOPERS: THE ROSE STUDIO :br
 CODE: TEJA BHARATH
 
 #socials
-:::info-social-item
----
-link: http://www.instagram.com/yapciramos
-title: Instagram
----
-:::
+  :::info-social-item
+  ---
+  link: http://www.instagram.com/yapciramos
+  title: Instagram
+  ---
+  :::
 
-:::info-social-item
----
-link: https://vimeo.com/yapciramos
-title: Vimeo
----
-:::
+  :::info-social-item{link="https://vimeo.com/yapciramos" title="Vimeo"}
+  :::
 
-:::info-social-item
----
-link: https://es.wikipedia.org/wiki/Yapci_Ramos
-title: Wikipedia
----
-:::
-
+  :::info-social-item
+  ---
+  link: https://es.wikipedia.org/wiki/Yapci_Ramos
+  title: Wikipedia
+  ---
+  :::
 ::
