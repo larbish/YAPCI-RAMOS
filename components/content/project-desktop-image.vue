@@ -5,7 +5,7 @@
     </div>
 
     <div v-else :style="noTextStyle">
-        <NuxtImg :style="`width: ${props.childWidth}`" :src="props.imagePath" :alt="props.imageAlt" placeholder format="webp" preload>
+        <NuxtImg :style="`width: ${props.childWidth}`" :src="props.imagePath" :alt="props.imageAlt" placeholder preload>
         </NuxtImg>
     </div>
 </template>
