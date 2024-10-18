@@ -35,12 +35,7 @@
                                     class="-mt-[1px] inline-block">@</span>yapciramos.com</a>
                         </div>
                         <div class="lg:col-span-6 hidden lg:flex items-center gap-x-10 uppercase font-medium">
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Instagram</a>
-                            <a href="https://vimeo.com/yapciramos" target="_blank" rel="noopener noreferrer">Vimeo</a>
-                            <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
-                                rel="noopener noreferrer">Wikipedia</a>
-
+                            <slot name="socials"></slot>
                         </div>
                     </section>
                 </div>
@@ -51,41 +46,18 @@
                     <div>
                         <h2 class="font-medium">UPCOMING</h2>
                         <div class="flex flex-col gap-y-6 mt-1">
-
-                            <section>
-                                <h3 class="font-medium">The triad</h3>
-                                <p>Instituto Cervantes, New York</p>
-                                <p>3.10 – 15.01.2025</p>
-                            </section>
-
-                            <section>
-                                <h3 class="font-medium">HORIZONTES COMPARTIDOS</h3>
-                                <p>LA HABANA</p>
-                                <p>15.11 - 18.02.2025</p>
-                            </section>
-
-                            <section>
-                                <h3 class="font-medium">KINEMA IKON</h3>
-                                <p>ARAD PHILARMONIC, ROMANIA</p>
-                                <p>18.11 - 19.11.2025</p>
-                            </section>
+                         <slot name="upcoming"></slot>
                         </div>
 
                         <div class="flex flex-col gap-y-3 mt-8 lg:hidden uppercase font-medium">
-                            <a href="http://www.instagram.com/yapciramos" target="_blank"
-                                rel="noopener noreferrer">Instagram</a>
-                            <a href="https://vimeo.com/yapciramos" target="_blank" rel="noopener noreferrer">Vimeo</a>
-                            <a href="https://es.wikipedia.org/wiki/Yapci_Ramos" target="_blank"
-                                rel="noopener noreferrer">Wikipedia</a>
+                           <slot name="socials"></slot>
 
                         </div>
 
                         <div class="mt-8 hidden lg:block">
                             <section>
                                 <h3 class="font-medium mb-1">Credits</h3>
-                                <p>WEB DESIGN: VERO SANTANA</p>
-                                <p>DEVELOPERS: THE ROSE STUDIO</p>
-                                <p>CODE: TEJA BHARATH</p>
+                                <slot name="credits"></slot>
                             </section>
                         </div>
 
@@ -109,9 +81,7 @@
                         <div class="mt-8 lg:hidden">
                             <section>
                                 <h3 class="font-medium mb-1">Credits</h3>
-                                <p>WEB DESIGN: VERO SANTANA</p>
-                                <p>DEVELOPERS: THE ROSE STUDIO</p>
-                                <p>CODE: TEJA BHARATH</p>
+                                <slot name="credits"></slot>
                             </section>
                         </div>
 
