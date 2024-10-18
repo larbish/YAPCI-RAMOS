@@ -69,6 +69,7 @@
   justify-content: flex-start
   leftWidthPercent: 65.34%
   rightWidthPercent: 34.65%
+  padding-left: 15px
   ---
   #content-one
     ::::project-desktop-video

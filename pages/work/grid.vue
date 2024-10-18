@@ -71,7 +71,7 @@
             <div class="w-full flex mt-10">
                 <section class="flex items-start w-full">
                     <NuxtLink to="/projects/perras-y-putas"
-                        class="flex flex-col cursor-pointer w-[40.3%] min-w-[40.3%] hover:text-gray-400 transition-colors duration-300">
+                        class="flex flex-col cursor-pointer w-[40.3%] min-w-[42.3%] hover:text-gray-400 transition-colors duration-300">
                         <img src="/work-list/image 24.png" class="w-full max-w-full min-w-full pr-[1px]"
                             alt="">
                         <p class="pl-2.5">PERRAS Y PUTAS. 2015. PHOTOGRAPHY</p>
