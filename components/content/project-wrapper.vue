@@ -15,14 +15,14 @@
 
             <section
                 class="w-full h-screen max-h-screen translate-x-[calc(9.11%)] bg-white bg-opacity-90 backdrop-blur-3xl border-l-[0.8px] transition-all duration-700 border-black absolute top-0 left-0"
-                :class="{ '!translate-x-[calc(100%-3.12%)] cursor-pointer': !secondSectionActive }"
+                :class="{ '!translate-x-[calc(100%-3.12%)] cursor-pointer !bg-transparent !backdrop-blur-none !border-none': !secondSectionActive }"
                 @click="activateSecondSection">
-                <div class="h-full w-full relative">
+                <div class="h-full w-full relative" :class="{ '!hidden': !secondSectionActive }">
                     <div class=" h-full w-full overflow-y-auto text-black pt-40" data-lenis-prevent>
                         <slot name="section-two"></slot>
                     </div>
                 </div>
-                <p @click="activateSecondSection"
+                <p @click="activateSecondSection"  :class="{ '!text-black': !secondSectionActive }"
                     class="absolute top-7 -left-[1%] rotate-90 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                     Process
                 </p>
@@ -30,14 +30,14 @@
 
             <section
                 class="w-full h-screen max-h-screen bg-white bg-opacity-90 translate-x-[calc(9.11%+1.56%)] border-l-[0.8px] transition-all duration-700 border-black backdrop-blur-3xl absolute top-0 left-0"
-                :class="{ '!translate-x-[calc(100%-1.56%)] cursor-pointer': !thirdSectionActive }"
+                :class="{ '!translate-x-[calc(100%-1.56%)] cursor-pointer !bg-transparent !backdrop-blur-none !border-none': !thirdSectionActive }"
                 @click="activateThirdSection">
                 <div class="h-full w-full relative">
                     <div class=" h-full w-full overflow-y-auto" data-lenis-prevent>
                         <slot name="section-three"></slot>
                     </div>
 
-                    <p @click="activateThirdSection"
+                    <p @click="activateThirdSection" :class="{ '!text-black !-left-[1.7%]': !thirdSectionActive }"
                         class="absolute top-9 -left-[1.5%]  rotate-90 text-white hover:text-gray-400 uppercase mix-blend-difference cursor-pointer">
                         Inspiration
                     </p>
