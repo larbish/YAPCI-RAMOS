@@ -1,11 +1,11 @@
 <template>
     <div v-if="props.hasText === 'true'" :style="style">
-        <NuxtImg class="w-full" :src="props.imagePath" :alt="props.imageAlt" placeholder format="webp" preload quality="80"></NuxtImg>
+        <NuxtImg class="w-full" :src="props.imagePath" :alt="props.imageAlt" placeholder format="webp" preload></NuxtImg>
         <p class="uppercase p-1">{{ props.textContent }}</p>
     </div>
 
     <div v-else :style="noTextStyle">
-        <NuxtImg :style="`width: ${props.childWidth}`" :src="props.imagePath" :alt="props.imageAlt" placeholder format="webp" quality="80" preload>
+        <NuxtImg :style="`width: ${props.childWidth}`" :src="props.imagePath" :alt="props.imageAlt" placeholder format="webp" preload>
         </NuxtImg>
     </div>
 </template>
