@@ -65,14 +65,12 @@ onMounted(() => {
         video.loop = true;
         video.playsInline = true;
 
-        // Set preload for the first two videos
         if (index === 0 || index === 1) {
-            video.preload = 'auto'; // Preload for the first two videos
+            video.preload = 'auto'; 
         } else {
-            video.preload = 'none'; // No preload for the others
+            video.preload = 'none'; 
         }
 
-        // Assign sources from props
         switch (index) {
             case 0:
                 video.src = props.projectOneVideo;
@@ -91,8 +89,8 @@ onMounted(() => {
                 break;
         }
 
-        video.load(); // Load the video after setting the source
-        video.play(); // Optionally start playing (you can comment this out if needed)
+        video.load(); 
+        video.play(); 
         return video;
     });
 
