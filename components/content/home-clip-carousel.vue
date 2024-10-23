@@ -59,26 +59,43 @@ onMounted(() => {
         canvas.height = window.innerHeight;
     })
 
-    const videos = [
-        document.createElement('video'),
-        document.createElement('video'),
-        document.createElement('video'),
-        document.createElement('video'),
-        document.createElement('video')
-    ];
-
-    videos[0].src = props.projectOneVideo;
-    videos[1].src = props.projectTwoVideo;
-    videos[2].src = props.projectThreeVideo;
-    videos[3].src = props.projectFourVideo;
-    videos[4].src = props.projectFiveVideo;
-
-    videos.forEach(video => {
+    const videos = [0, 1, 2, 3, 4].map((index) => {
+        const video = document.createElement('video');
         video.muted = true;
         video.loop = true;
         video.playsInline = true;
-        video.play();
+
+        // Set preload for the first two videos
+        if (index === 0 || index === 1) {
+            video.preload = 'auto'; // Preload for the first two videos
+        } else {
+            video.preload = 'none'; // No preload for the others
+        }
+
+        // Assign sources from props
+        switch (index) {
+            case 0:
+                video.src = props.projectOneVideo;
+                break;
+            case 1:
+                video.src = props.projectTwoVideo;
+                break;
+            case 2:
+                video.src = props.projectThreeVideo;
+                break;
+            case 3:
+                video.src = props.projectFourVideo;
+                break;
+            case 4:
+                video.src = props.projectFiveVideo;
+                break;
+        }
+
+        video.load(); // Load the video after setting the source
+        video.play(); // Optionally start playing (you can comment this out if needed)
+        return video;
     });
+
 
     let nextVideoIndex = 1;
     let mouseX = canvas.width / 2;
