@@ -9,7 +9,7 @@
 <script setup>
 const props = defineProps({
     title: String,
-    author: String,
+    author: String | Number,
     link: String
 })
 </script>

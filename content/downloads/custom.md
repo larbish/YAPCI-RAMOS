@@ -82,7 +82,7 @@
     ::::
   :::
 
-  :::download-list-wrapper
+  :::downloads-list-wrapper
     ::::downloads-list-item
     ---
     author: ELYSSA GOODMAN
