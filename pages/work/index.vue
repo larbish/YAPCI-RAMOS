@@ -62,7 +62,7 @@ const projects = ref([
         category: 'INSTALLATION',
         link: '/projects/parto',
         media: [
-            { type: 'img', src: '/work-list/Parto_021.jpg', position: { left: '15vw', bottom: '10vw' },height: '62.87vh' },
+            { type: 'img', src: '/work-list/Parto_021.jpg', position: { left: '15vw', bottom: '5vh' },height: '62.87vh' },
         ]
     },
     {
