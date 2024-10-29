@@ -26,28 +26,102 @@ La comisaria de _Welcome Her_ indicó que movimiento y mirada son los dos concep
 Yapci Ramos se formó en fotografía en el Central Saint Martins College of Arts & Design de Londres y en documental de creación en la Universitat Pompeu Fabra de Barcelona. Ha participado en exposiciones celebradas en galerías, centros de arte, ferias y bienales nacionales e internacionales. Vive y trabaja a caballo entre Barcelona, Tenerife y Nueva York, pasando temporadas en diferentes ciudades, muchas de ellas en el continente africano, en las que emprende gran parte de sus proyectos. Su obra ya se vinculó a la colaboración entre Casa África y el CAAM a través de la muestra _El iris de Lucy,_ expuesta en ambas instituciones y de la que formó parte, bajo la orientación del director del Centro Atlántico de Arte Moderno - CAAM, Orlando Britto.
 
 #images-left
+  :::article-image{image-path="/press-content/Casa-Africa/_D858704-manual.jpg"}
+  :::
+
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/13_ELPAIS/13_elpais_yr_01.png
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-2-05.jpg
   ---
   :::
 
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/13_ELPAIS/13_elpais_yr_02.png
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-09.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-20.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-12.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-28.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-2-01.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-11.jpg
   ---
   :::
 
 #images-right
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/13_ELPAIS/13_elpais_yr_03.png
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-2-04.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-2-03.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-27.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-01.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-23.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-13.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-14.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-04.jpg
   ---
   :::
 
 #download
-[DOWNLOAD ARTICLE](/press-content/13_ELPAIS/El-perpetuo-movimiento-de-yapci-ramos.pdf) :br([https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)\[GO](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html\)%5BGO) TO LINK]\(<https://elpais.com/elpais/2019/05/20/africa_no_es_un_pais/1558381779_651166.html>)
+[DOWNLOAD ARTICLE](/press-content/13_ELPAIS/El-perpetuo-movimiento-de-yapci-ramos.pdf) :br
+
+[\[GO TO LINK\]](https://elpais.com/elpais/2019/05/20/africa_no_es_un_pais/1558381779_651166.html)
 ::
