@@ -26,54 +26,59 @@ En este triplete, Ramos exhibe por primera vez su trabajo de forma individual en
 Ramos trabaja y reside entre Barcelona, Nueva York y Tenerife. Formada en Barcelona y en Londres en el ámbito del arte audiovisual, su trabajo se ha exhibido en el Centro de Cultura Contemporánea de Barcelona, en la Bienal de Bamako, en Expo Chicago o en la galería Catinca Tabacaru de Nueva York, entre otros lugares.
 
 #images-left
-  :::article-image
-  ---
-  image-alt: Lloro_Press_06
-  image-path: /press-content/LLORO_028.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-22.jpg"}
   :::
 
-  :::article-image
-  ---
-  image-alt: Lloro_Press06
-  image-path: /press-content/YapciRamos_Lloro_2_OK.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-21.jpg"}
   :::
 
-  :::article-image
-  ---
-  image-alt: Lloro_PRess08
-  image-path: /press-content/LLORO_029.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-19.jpg"}
   :::
 
-  :::article-image
-  ---
-  image-alt: Lloro_Press02
-  image-path: /press-content/lloro_yapciramos_3.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-43.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-24.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-40.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-31.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-30.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-20.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-42.jpg"}
   :::
 
 #images-right
-  :::article-image
-  ---
-  image-alt: Lloro_Press05
-  image-path: /press-content/LLORO_043.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-27.jpg"}
   :::
 
-  :::article-image
-  ---
-  image-alt: Lloro_PRess_04
-  image-path: /press-content/lloro_yapciramos_4.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-11.jpg"}
   :::
 
-  :::article-image
-  ---
-  image-alt: Lloro_Press03
-  image-path: /press-content/LLORO_001.jpg
-  ---
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-25.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-35.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-44.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-49.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-46.jpg"}
+  :::
+
+  :::article-image{image-path="/press-content/CAAM/yr-press-caam-web-36.jpg"}
   :::
 
 #download

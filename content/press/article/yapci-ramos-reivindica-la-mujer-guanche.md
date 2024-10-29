@@ -27,13 +27,6 @@ Esta exposición se convierte así en una plataforma abierta al diálogo en la q
   ---
     ::::article-image
     ---
-    image-alt: Monumenta_Press_01
-    image-path: /press-content/1dab730a-3388-4bfb-a1bb-d6b133884953_16-9-discover-aspect-ratio_default_0_x359y281.jpg
-    ---
-    ::::
-  
-    ::::article-image
-    ---
     image-alt: Monumenta_Press_02
     image-path: /press-content/MONUMENTA(1).jpg
     ---
@@ -42,15 +35,8 @@ Esta exposición se convierte así en una plataforma abierta al diálogo en la q
 
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/07_Exibart/6_r_1-1536x1025.jpg
-  ---
-  :::
-
-  :::article-image
-  ---
-  image-alt: Monumenta_Press05
-  image-path: /press-content/SAN4379.jpg
+  image-alt: Monumenta_Press_01
+  image-path: /press-content/1dab730a-3388-4bfb-a1bb-d6b133884953_16-9-discover-aspect-ratio_default_0_x359y281.jpg
   ---
   :::
 
@@ -59,20 +45,6 @@ Esta exposición se convierte así en una plataforma abierta al diálogo en la q
   ---
   image-alt: Parto_003B_1.jpg
   image-path: /press-content/07_Exibart/Yapci_Ramos_Monumenta_2022_1-1536x1025.jpg
-  ---
-  :::
-
-  :::article-image
-  ---
-  image-alt: Monumenta_Press03
-  image-path: /press-content/Portada-publicacion-web-1-6.jpg
-  ---
-  :::
-
-  :::article-image
-  ---
-  image-alt: Monumenta_Press04
-  image-path: /press-content/rss-efe92a4fa51c6bdc526d87b9be6aa169649f65fe67cwcopiaw.jpg
   ---
   :::
 

@@ -26,16 +26,26 @@ Deux projections multiples encore : l’une de **Lee Yanor** (Israël, une réc
 #images-left
   :::article-image
   ---
-  image-alt: Lloro_Press_06
-  image-path: /press-content/LLORO_028.jpg
+  image-path: /press-content/Art-Critique/yr-press-art-critique-web-01.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Art-Critique/yr-press-art-critique-web-03.png
   ---
   :::
 
 #images-right
   :::article-image
   ---
-  image-alt: Lloro_Press03
-  image-path: /press-content/LLORO_001.jpg
+  image-path: /press-content/Art-Critique/yr-press-art-critique-web-02.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Art-Critique/yr-press-art-critique-web-04.jpg
   ---
   :::
 
