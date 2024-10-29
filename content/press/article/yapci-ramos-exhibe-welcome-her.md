@@ -25,7 +25,14 @@ Todo esto se presenta en tres instalaciones que constituyen el proyecto _Welcome
   :::article-image
   ---
   image-alt: Lloro_Press_06
-  image-path: /press-content/LLORO_028.jpg
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-20.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Lloro_Press_06
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-20.jpg
   ---
   :::
 
@@ -33,7 +40,7 @@ Todo esto se presenta en tres instalaciones que constituyen el proyecto _Welcome
   :::article-image
   ---
   image-alt: Lloro_Press05
-  image-path: /press-content/LLORO_043.jpg
+  image-path: /press-content/Casa-Africa/yr-press-casa-africa-web-22.jpg
   ---
   :::
 

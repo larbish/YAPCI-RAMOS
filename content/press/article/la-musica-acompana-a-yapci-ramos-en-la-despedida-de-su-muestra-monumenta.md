@@ -24,30 +24,111 @@ A tamaño real, invitan al espectador a reflejarse en plena horizontalidad y est
 #images-left
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/02_Diario de Avisos/Pagina-50-Reportaje-Yapci-Ramos-1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-01.jpg
   ---
   :::
 
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/02_Diario de Avisos/Pagina-50-Reportaje-Yapci-Ramos-3.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-06.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-17.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-26.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-38.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-22.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-27.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-28.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-48.jpg
   ---
   :::
 
 #images-right
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/02_Diario de Avisos/Pagina-50-Reportaje-Yapci-Ramos-4.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-11.jpg
   ---
   :::
 
   :::article-image
   ---
   image-alt: Parto_003B_1.jpg
-  image-path: /press-content/01_La_Provincia/Parto_049.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-05.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-10.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-25.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-21.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-30.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-37.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-46.jpg
   ---
   :::
 
