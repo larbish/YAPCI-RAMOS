@@ -37,7 +37,7 @@ A su juicio, esta falta de promoción, unida a la desigualdad de género, «obli
 
 **Imagen de Yapci Ramos**
 
-La imagen que ilustra la publicación _En manos de mujeres. Estudio sobre la visibilidad internacional del arte español contemporáneo a través de las mujeres que lo generan_ pertenece al proyecto expositivo _Monumenta. Nueve encarnaciones guanches_, de la artista canaria Yapci Ramos, que se inauguró en julio de 2022 en el Museo de Naturaleza y Arqueología (Muna), en Santa Cruz de Tenerife. _Monumenta_ nace con vocación de cuestionar la falta de representaciones escultóricas de la mujer aborigen en el espacio público a través de nueve recreaciones de identidades femeninas diversas, como una invitación a reflexionar de forma colectiva sobre los procesos de creación y representación social del arte en el espacio público en Canarias. «La imagen es perfecta porque encarna todos los valores inherentes del arte», declara Mareta Espinosa.
+La imagen que ilustra la publicación _En manos de mujeres. Estudio sobre la visibilidad internacional del arte español contemporáneo a través de las mujeres que lo generan_ pertenece al proyecto expositivo _Monumenta. Nueve encarnaciones guanches_, de la artista canaria Yapci Ramos, que se inauguró en julio de 2022 en el Museo de Naturaleza y Arqueología (MUNA), en Santa Cruz de Tenerife. _Monumenta_ nace con vocación de cuestionar la falta de representaciones escultóricas de la mujer aborigen en el espacio público a través de nueve recreaciones de identidades femeninas diversas, como una invitación a reflexionar de forma colectiva sobre los procesos de creación y representación social del arte en el espacio público en Canarias. «La imagen es perfecta porque encarna todos los valores inherentes del arte», declara Mareta Espinosa.
 
 El acto de presentación de _En manos de mujeres_ tendrá lugar el próximo 28 de septiembre en el auditorio del Museo Nacional Thyssen Bornemisza de Madrid, con la participación de Mercedes Roldán, subdirectora General de Museos Estatales; Guillermo Solana, director del Thyssen Bornemisza; Manuel Segade, director del Museo Nacional Reina Sofía; y Gabriel Planella Doménech, director de Programación de Acción Cultural Española.
 
@@ -63,6 +63,12 @@ El acto de presentación de _En manos de mujeres_ tendrá lugar el próximo 28 d
   ---
   :::
 
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-09.jpg
+  ---
+  :::
+
 #images-right
   :::article-image
   ---
@@ -73,8 +79,19 @@ El acto de presentación de _En manos de mujeres_ tendrá lugar el próximo 28 d
 
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/06_La Provincia/Yapci_Ramos_Monumenta_2022_4.webp
+  image-path: press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-15.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-16.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-05.jpg
   ---
   :::
 
