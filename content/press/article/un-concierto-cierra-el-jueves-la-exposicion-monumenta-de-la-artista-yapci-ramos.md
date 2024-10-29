@@ -1,7 +1,7 @@
 ---
 article-section-title: DIARIO DE AVISOS
 article-title: UN CONCIERTO CIERRA EL JUEVES LA EXPOSICIÓN ‘MONUMENTA’, DE LA ARTISTA YAPCI RAMOS
-author-info: 
+author-info: null
 date: NOV 08, 2023
 image: /press-content/03_Diario de Avisos/Preview_Pic.jpg
 ---
@@ -29,20 +29,104 @@ Ramos vive y trabaja entre Tenerife, Barcelona y Nueva York. Su práctica artís
   :::article-image
   ---
   image-alt: Parto_003B_1.jpg
-  image-path: /press-content/03_Diario de Avisos/IMG_9643.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-45.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-47.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-alt: Parto_003B_1.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-48.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-39.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-35.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-19.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-08.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-06.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-32.jpg
   ---
   :::
 
 #images-right
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/03_Diario de Avisos/Pagina-50-Reportaje-Yapci-Ramos-4-1024x682.jpg
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-44.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-27.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-23.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-24.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-18.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-04.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Concierto-Monumenta/yr-press-concierto-momumenta-web-05.jpg
   ---
   :::
 
 #download
 [DOWNLOAD ARTICLE](/press-content/03_Diario%20de%20Avisos/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-2.pdf) :br
 
- [](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/exposicion-monumenta-concierto/)
+[](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html) [GO TO LINK](https://diariodeavisos.elespanol.com/2023/11/exposicion-monumenta-concierto/)
 ::
