@@ -119,5 +119,5 @@ _Monumenta_ ya ha llamado la atención en países y ciudades donde su creadora t
   :::
 
 #download
-[DOWNLOAD ARTICLE](/press-content/05_EL%20Dia/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-4.pdf) :br[](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)[GO TO LINK](https://www.eldia.es/cultura/2023/09/08/nueve-menceyas-conquistan-ermita-san-91870788.html)
+[DOWNLOAD ARTICLE](/press-content/05_EL%20Dia/P%C3%A1ginas%20desdeYapciRamos_PressKitSelection-4.pdf) :br([https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html)\[GO](https://www.eldia.es/cultura/2024/03/02/parir-renacer-yapci-ramos-santa-98938595.html\)%5BGO) TO LINK]\(<https://www.eldia.es/cultura/2023/09/08/nueve-menceyas-conquistan-ermita-san-91870788.html>)
 ::

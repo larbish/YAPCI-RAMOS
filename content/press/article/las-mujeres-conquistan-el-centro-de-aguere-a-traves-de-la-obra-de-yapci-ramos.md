@@ -13,7 +13,7 @@ article-title: LAS MUJERES CONQUISTAN EL CENTRO DE AGUERE A TRAVÉS DE LA OBRA D
 author-info: SEP 08, 2023
 ---
 #paragraphs
-La Laguna (Tenerife), 7 sept (EFE).- El municipio de La Laguna acoge desde este viernes la obra de la artista tinerfeña Yapci Ramos titulada “Monumenta: nueve encarnaciones guanches”, que replantea desde una visión contemporánea el papel que las mujeres aborígenes ocuparon en el devenir histórico del archipiélago antes y después de la conquista castellana y que fueron olvidadas e ignoradas por los cronistas. “Cómo serían? ¿Qué sentires las atravesaban? ¿Qué historias de vida contarían?”, son algunas de las preguntas que Ramos se plantea en esta exposición que estará disponible hasta el mes de noviembre en la Ermita de San Miguel en la Plaza del Adelantado en el municipio de La Laguna, más conocida como Aguere en los tiempos previos a la llegada de los conquistadores.
+El municipio de La Laguna acoge desde este viernes la obra de la artista tinerfeña Yapci Ramos titulada “Monumenta: nueve encarnaciones guanches”, que replantea desde una visión contemporánea el papel que las mujeres aborígenes ocuparon en el devenir histórico del archipiélago antes y después de la conquista castellana y que fueron olvidadas e ignoradas por los cronistas. “Cómo serían? ¿Qué sentires las atravesaban? ¿Qué historias de vida contarían?”, son algunas de las preguntas que Ramos se plantea en esta exposición que estará disponible hasta el mes de noviembre en la Ermita de San Miguel en la Plaza del Adelantado en el municipio de La Laguna, más conocida como Aguere en los tiempos previos a la llegada de los conquistadores.
 
 La isla de Tenerife, la última en dar su brazo a torcer después de casi un siglo de lucha ante el ataque constante de los castellanos y europeos durante el siglo XV, se repartía en ese entonces en nueve demarcaciones llamadas “menceyatos”, liderados cada uno por un rey aborigen, todos ellos hombres. A ellos, los “menceyes”, se rinde culto a día de hoy en numerosos rincones del archipiélago, pero sobre todo en la céntrica plaza de la localidad de Candelaria, con nueve esculturas representando a cada uno de los líderes nativos, una instalación única en las islas en el que no hay ninguna figura femenina.
 
@@ -28,23 +28,80 @@ Una visión que en “Monumenta” aparece como una “posibilidad de subversió
 #images-left
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/04_La Vanguardia/02.webp
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-04.jpg
   ---
   :::
 
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/04_La Vanguardia/62e147dd-c974-460d-8ddb-852f1485446f_16-9-discover-aspect-ratio_default_0.webp
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-08.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-05.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-10.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-12.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-15.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-18.jpg
   ---
   :::
 
 #images-right
   :::article-image
   ---
-  image-alt: Parto_003B_1.jpg
-  image-path: /press-content/04_La Vanguardia/d11b15b5-f163-4a3f-a63d-00b4ef2fa4ac_16-9-aspect-ratio_default_0.webp
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-06.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-09.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-10.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-11.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-14.jpg
+  ---
+  :::
+
+  :::article-image
+  ---
+  image-path: /press-content/Monumenta-Ermita/yr-press-monumenta-ermita-web-16.jpg
   ---
   :::
 
