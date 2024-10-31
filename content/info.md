@@ -1,13 +1,6 @@
 ::info-wrapper
 #main-description
-Yapci Ramos (Tenerife, 1977). Artist who lives
-and works between the Canary Islands, Barcelona, and New York. Bachelor's Degree in Advertising
-and Public Relations at the Universidad Europea de Madrid (UEM), trained in photography at the
-Central Saint Martins College of Arts and Design in London (CSM) and Master's Degree in Creative
-Documentary at Universitat Pompeu Fabra in Barcelona (UPF). Her artistic expression focuses on
-exploring identity, sexuality, and territory through the creation of multimedia installations.
-Her work is emotional, physical, and introspective, in which she uses her own body to channel
-the taboos, rituals, and catharsis that construct the experience of the being.
+Yapci Ramos (Tenerife, 1977). Artist who lives updated and works between the Canary Islands, Barcelona, and New York. Bachelor's Degree in Advertising and Public Relations at the Universidad Europea de Madrid (UEM), trained in photography at the Central Saint Martins College of Arts and Design in London (CSM) and Master's Degree in Creative Documentary at Universitat Pompeu Fabra in Barcelona (UPF). Her artistic expression focuses on exploring identity, sexuality, and territory through the creation of multimedia installations. Her work is emotional, physical, and introspective, in which she uses her own body to channel the taboos, rituals, and catharsis that construct the experience of the being.
 
 #about
 Ramos’s work has been exhibited in international biennials in the Caribbean, Latin
